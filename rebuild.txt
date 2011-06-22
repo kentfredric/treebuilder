@@ -116,4 +116,9 @@ dev-python/pygobject
 net-libs/webkit-gtk
 gnome-extra/yelp
 app-pda/gtkpod
+net-libs/webkit-gtk
+dev-perl/KinoSearch1
+dev-perl/Catalyst-Plugin-Session
+dev-perl/Catalyst-Authentication-Session-Store-DBIx-Class
+app-admin/system-config-printer-common
 
