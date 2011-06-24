@@ -23,6 +23,7 @@ dev-perl/Catalyst-Plugin-Session-Store-Delegate
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 dev-perl/Catalyst-Plugin-Session-Store-File
 dev-perl/CatalystX-SimpleLogin
+dev-perl/KinoSearch1
 dev-perl/MojoMojo
 dev-perl/pip
 dev-perl/Task-Catalyst
@@ -31,7 +32,9 @@ dev-perl/WebService-MusicBrainz
 dev-python/dbus-python
 dev-python/pygtk
 gnome-base/gnome-light
-kde-base/kdebase-data
+gnome-base/nautilus
+gnome-extra/yelp
+kde-base/kdeadmin-meta
 kde-base/kdebase-meta
 kde-base/kdebase-startkde
 kde-base/kdeplasma-addons
