@@ -11,6 +11,7 @@ dev-perl/Catalyst-Authentication-Store-DBIx-Class
 dev-perl/Catalyst-Controller-HTML-FormFu
 dev-perl/Catalyst-Controller-RequestToken
 dev-perl/Catalyst-Engine-HTTP-Prefork
+dev-perl/Catalyst-Engine-PSGI
 dev-perl/Catalyst-Model-KiokuDB
 dev-perl/Catalyst-Plugin-Authentication
 dev-perl/Catalyst-Plugin-ErrorCatcher
@@ -22,9 +23,11 @@ dev-perl/Catalyst-Plugin-Session-State-URI
 dev-perl/Catalyst-Plugin-Session-Store-BerkeleyDB
 dev-perl/Catalyst-Plugin-Session-Store-Cache
 dev-perl/Catalyst-Plugin-Session-Store-DBI
+dev-perl/Catalyst-Plugin-Session-Store-DBIC
 dev-perl/Catalyst-Plugin-Session-Store-Delegate
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 dev-perl/Catalyst-Plugin-Session-Store-File
+dev-perl/Catalyst-Plugin-Unicode
 dev-perl/CatalystX-SimpleLogin
 dev-perl/KinoSearch1
 dev-perl/MojoMojo
