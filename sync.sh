@@ -3,6 +3,7 @@
 ./rebuild_2_regex.sh
 ./generate_rebuilds.sh
 ./generate_brokens.sh
+diff broken.txt brokens.out
 echo "##"
 shuf -n 20 --random-source=/tmp/rand  rebuilds.out
 wc -l rebuilds.out 
