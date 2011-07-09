@@ -1,7 +1,6 @@
 app-office/karbon
 app-office/koffice-meta
 app-text/bibletime
-dev-lang/rakudo
 dev-perl/Audio-MPD
 dev-perl/Catalyst-ActionRole-ACL
 dev-perl/Catalyst-Authentication-Credential-HTTP
