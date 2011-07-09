@@ -232,3 +232,9 @@ x11-libs/gtkglext
 x11-themes/gtk-engines-candido
 x11-themes/gtk-engines-qtpixmap
 x11-themes/gtk-engines-rezlooks
+media-sound/mpd
+x11-libs/gtksourceview
+dev-libs/libunique
+net-zope/zope-interface
+dev-python/docutils
+dev-cpp/eigen
