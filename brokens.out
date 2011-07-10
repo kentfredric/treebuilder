@@ -4,7 +4,6 @@ app-pda/gtkpod
 app-shells/zsh
 app-text/bibletime
 app-text/sword
-dev-lang/ocaml
 dev-libs/libunique
 dev-perl/Alien-wxWidgets
 dev-perl/Audio-MPD
