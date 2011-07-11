@@ -39,7 +39,6 @@ dev-perl/Test-WWW-Mechanize-Catalyst
 dev-perl/WebService-MusicBrainz
 dev-python/twisted
 gnome-base/gnome-light
-gnome-extra/yelp
 media-gfx/digikam
 media-gfx/hugin
 media-gfx/pstoedit
