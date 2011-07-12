@@ -38,7 +38,6 @@ dev-perl/Task-Catalyst
 dev-perl/Test-WWW-Mechanize-Catalyst
 dev-perl/WebService-MusicBrainz
 dev-python/twisted
-gnome-base/gnome-light
 media-gfx/digikam
 media-libs/gst-plugins-good
 net-im/bitlbee
