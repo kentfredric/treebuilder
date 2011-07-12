@@ -40,10 +40,7 @@ dev-perl/WebService-MusicBrainz
 dev-python/twisted
 gnome-base/gnome-light
 media-gfx/digikam
-media-gfx/hugin
-media-gfx/pstoedit
 media-libs/gst-plugins-good
-media-plugins/kipi-plugins
 net-im/bitlbee
 net-zope/zope-fixers
 net-zope/zope-interface
