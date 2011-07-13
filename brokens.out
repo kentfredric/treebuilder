@@ -4,7 +4,6 @@ app-pda/gtkpod
 app-shells/zsh
 app-text/bibletime
 app-text/dictd
-app-text/sword
 dev-libs/libunique
 dev-perl/Audio-MPD
 dev-perl/Catalyst-ActionRole-ACL
@@ -41,7 +40,6 @@ dev-perl/WebService-MusicBrainz
 dev-vcs/git
 kde-base/kdebase-meta
 kde-base/kdeplasma-addons
-kde-base/marble
 media-gfx/digikam
 media-libs/gst-plugins-good
 media-libs/raptor
@@ -49,4 +47,3 @@ net-im/bitlbee
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve
 sys-devel/prelink
-x11-wm/i3
