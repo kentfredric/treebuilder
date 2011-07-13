@@ -5,7 +5,6 @@ app-shells/zsh
 app-text/bibletime
 app-text/sword
 dev-libs/libunique
-dev-perl/Alien-wxWidgets
 dev-perl/Audio-MPD
 dev-perl/Catalyst-ActionRole-ACL
 dev-perl/Catalyst-Authentication-Credential-HTTP
@@ -37,12 +36,9 @@ dev-perl/pip
 dev-perl/Task-Catalyst
 dev-perl/Test-WWW-Mechanize-Catalyst
 dev-perl/WebService-MusicBrainz
-dev-python/twisted
 media-gfx/digikam
 media-libs/gst-plugins-good
 net-im/bitlbee
-net-zope/zope-fixers
-net-zope/zope-interface
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve
 x11-wm/i3
