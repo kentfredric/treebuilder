@@ -128,3 +128,4 @@ sys-apps/paludis
 x11-themes/oxygen-gtk
 gnome-base/gnome-panel
 x11-wm/openbox
+dev-perl/XML-Feed
