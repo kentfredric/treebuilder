@@ -40,7 +40,6 @@ dev-perl/Catalyst-Plugin-Session-Store-File
 dev-perl/Catalyst-Plugin-Unicode
 dev-perl/CatalystX-SimpleLogin
 dev-perl/Cave-Wrapper
-dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL
 dev-perl/Dist-Zilla-PluginBundle-RJBS
 dev-perl/Dist-Zilla-Plugin-Git
 dev-perl/KinoSearch1
