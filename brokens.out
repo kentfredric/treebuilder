@@ -10,7 +10,6 @@ app-office/kspread
 app-office/kword
 app-shells/zsh
 app-text/dictd
-dev-lang/python
 dev-libs/libunique
 dev-perl/Audio-MPD
 dev-perl/Audio-Ofa-Util

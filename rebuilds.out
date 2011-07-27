@@ -38,6 +38,8 @@ app-text/gnome-doc-utils
 app-text/mftrace
 app-text/openjade
 app-text/poppler
+app-text/rarian
+app-text/scrollkeeper-dtd
 app-text/sword
 app-text/wgetpaste
 dev-db/mysql-init-scripts
@@ -54,7 +56,6 @@ dev-java/sun-javamail
 dev-java/swt
 dev-lang/ghc
 dev-lang/php
-dev-lang/python
 dev-lang/spidermonkey
 dev-lang/yasm
 dev-libs/boost
@@ -71,6 +72,7 @@ dev-libs/soprano
 dev-libs/syck
 dev-libs/xmlrpc-c
 dev-libs/zziplib
+dev-perl/Amazon-S3
 dev-perl/AnyEvent
 dev-perl/Any-Moose
 dev-perl/App-Nopaste
@@ -79,6 +81,7 @@ dev-perl/Array-Compare
 dev-perl/Audio-MPD
 dev-perl/Audio-MPD-Common
 dev-perl/Audio-Ofa-Util
+dev-perl/Authen-SASL
 dev-perl/autobox-Core
 dev-perl/autobox-dump
 dev-perl/autobox-List-Util
@@ -268,6 +271,9 @@ dev-perl/namespace-autoclean
 dev-perl/namespace-clean
 dev-perl/Net-Amazon-S3
 dev-perl/Net-API-RPX
+dev-perl/Net-DNS
+dev-perl/Net-OAuth
+dev-perl/Net-SNMP
 dev-perl/Net-Twitter
 dev-perl/Olson-Abbreviations
 dev-perl/Paludis-UseCleaner
@@ -326,7 +332,6 @@ dev-python/imaging
 dev-python/lxml
 dev-python/nose
 dev-python/notify-python
-dev-python/numpy
 dev-python/paramiko
 dev-python/pexpect
 dev-python/py
@@ -352,6 +357,7 @@ dev-util/anjuta
 dev-util/boost-build
 dev-util/cmake
 dev-util/d-feet
+dev-util/glade
 dev-util/gtest
 dev-util/gtk-doc
 dev-util/scons
@@ -359,6 +365,7 @@ dev-util/xdelta
 dev-vcs/git
 dev-vcs/subversion
 games-misc/openmsx
+gnome-base/gdm
 gnome-base/gnome-control-center
 gnome-base/gnome-desktop
 gnome-base/gnome-light
@@ -369,6 +376,8 @@ gnome-base/libgnome
 gnome-base/nautilus
 gnome-extra/libgda
 gnome-extra/libgsf
+gnome-extra/yelp
+gnome-extra/zenity
 kde-base/kopete
 kde-base/krosspython
 kde-base/lokalize
@@ -391,6 +400,7 @@ media-gfx/fontforge
 media-gfx/gimp
 media-gfx/graphviz
 media-gfx/imagemagick
+media-gfx/inkscape
 media-gfx/luminance-hdr
 media-gfx/uniconvertor
 media-libs/alsa-lib
@@ -460,6 +470,7 @@ sys-apps/file
 sys-apps/gnome-disk-utility
 sys-apps/paludis
 sys-apps/usbutils
+sys-block/gparted
 sys-boot/grub
 sys-devel/gcc
 sys-devel/gdb
@@ -495,6 +506,8 @@ x11-misc/notification-daemon
 x11-misc/obmenu
 x11-misc/redshift
 x11-misc/rss-glx
+x11-misc/xdg-utils
 x11-proto/xcb-proto
+x11-terms/gnome-terminal
 x11-wm/fluxbox
 x11-wm/openbox

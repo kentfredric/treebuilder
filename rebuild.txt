@@ -73,3 +73,12 @@ www-servers/nginx
 app-office/karbon
 gnome-base/nautilus
 net-libs/webkit
+app-text/scrollkeeper
+dev-lang/python
+dev-perl/Digest-HMAC
+dev-perl/File-MimeInfo
+sys-apps/portage
+dev-libs/libunique
+dev-python/numpy
+media-libs/raptor
+virtual/linux-sources
