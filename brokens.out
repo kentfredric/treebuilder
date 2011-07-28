@@ -56,8 +56,6 @@ media-gfx/inkscape
 media-libs/gst-plugins-good
 media-libs/raptor
 media-plugins/kipi-plugins
-net-im/bitlbee
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve
-sys-devel/gcc
 x11-wm/awesome
