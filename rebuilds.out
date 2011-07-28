@@ -64,9 +64,6 @@ dev-python/PyQt4
 dev-python/sip
 dev-python/twisted
 dev-util/d-feet
-gnome-base/gnome-light
-gnome-base/gnome-panel
-gnome-base/libgnome
 kde-base/kopete
 kde-base/lokalize
 kde-base/plasma-workspace
@@ -85,10 +82,8 @@ net-misc/aria2
 net-misc/wicd
 sys-apps/paludis
 sys-fs/udiskie
-sys-libs/tdb
 virtual/package-manager
 www-client/midori
 x11-misc/denu
 x11-misc/obmenu
 x11-misc/rss-glx
-x11-terms/gnome-terminal
