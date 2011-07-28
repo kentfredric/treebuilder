@@ -47,14 +47,12 @@ dev-perl/pip
 dev-perl/Task-Catalyst
 dev-perl/Test-WWW-Mechanize-Catalyst
 dev-perl/WebService-MusicBrainz
-dev-vcs/git
 kde-base/kopete
 media-gfx/digikam
 media-gfx/fbida
 media-gfx/imagemagick
 media-gfx/inkscape
 media-libs/gst-plugins-good
-media-libs/raptor
 media-plugins/kipi-plugins
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve
