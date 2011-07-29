@@ -1,13 +1,6 @@
 app-office/karbon
-app-office/kexi
-app-office/koffice-data
 app-office/koffice-libs
 app-office/koffice-meta
-app-office/kplato
-app-office/kpresenter
-app-office/krita
-app-office/kspread
-app-office/kword
 app-shells/zsh
 app-text/dictd
 dev-libs/libunique
@@ -53,7 +46,5 @@ media-gfx/fbida
 media-gfx/imagemagick
 media-gfx/inkscape
 media-libs/gst-plugins-good
-media-plugins/kipi-plugins
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve
-x11-wm/awesome

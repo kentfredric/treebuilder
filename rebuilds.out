@@ -3,7 +3,6 @@ app-office/koffice-libs
 app-office/koffice-meta
 app-pda/gtkpod
 app-portage/layman
-app-text/asciidoc
 app-text/sword
 dev-perl/Audio-MPD
 dev-perl/Audio-Ofa-Util
@@ -49,7 +48,6 @@ dev-perl/Dist-Zilla-Plugin-Git
 dev-perl/Gentoo-MetaEbuild-Spec-Base
 dev-perl/Gitalist
 dev-perl/MojoMojo
-dev-perl/Paludis-UseCleaner
 dev-perl/perl5i
 dev-perl/pip
 dev-perl/Task-Catalyst
@@ -77,13 +75,8 @@ media-gfx/fbida
 media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/inkscape
-media-libs/mlt
-net-misc/aria2
 net-misc/wicd
-sys-apps/paludis
 sys-fs/udiskie
-virtual/package-manager
 www-client/midori
 x11-misc/denu
 x11-misc/obmenu
-x11-misc/rss-glx
