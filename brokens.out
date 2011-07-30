@@ -73,7 +73,6 @@ dev-python/twisted
 dev-util/d-feet
 kde-base/kopete
 kde-base/lokalize
-kde-base/plasma-workspace
 kde-base/printer-applet
 kde-base/pykde4
 kde-base/superkaramba
