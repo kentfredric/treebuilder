@@ -1,2 +1,1 @@
-dev-perl/Catalyst-Runtime($|[[:space:]]|[^[:alpha:]]($|[[:space:][:digit:]]))
-dev-perl/Plack-Test-ExternalServer($|[[:space:]]|[^[:alpha:]]($|[[:space:][:digit:]]))
+dev-perl/Catalyst-Plugin-Authentication($|[[:space:]]|[^[:alpha:]]($|[[:space:][:digit:]]))

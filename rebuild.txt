@@ -1,2 +1,1 @@
-dev-perl/Plack-Test-ExternalServer
-dev-perl/Catalyst-Runtime
+dev-perl/Catalyst-Plugin-Authentication
