@@ -21,6 +21,7 @@ dev-perl/Catalyst-ActionRole-ACL
 dev-perl/Catalyst-Controller-HTML-FormFu
 dev-perl/Catalyst-Controller-RequestToken
 dev-perl/Catalyst-Engine-HTTP-Prefork
+dev-perl/Catalyst-Plugin-ErrorCatcher
 dev-perl/Catalyst-Plugin-I18N
 dev-perl/Catalyst-Plugin-Session
 dev-perl/Catalyst-Plugin-Session-State-Cookie
@@ -34,6 +35,7 @@ dev-perl/Catalyst-Plugin-Session-Store-Delegate
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 dev-perl/Catalyst-Plugin-Session-Store-File
 dev-perl/Catalyst-Plugin-Unicode
+dev-perl/CatalystX-SimpleLogin
 dev-perl/Cave-Wrapper
 dev-perl/CPAN-Inject
 dev-perl/Dist-Zilla-PluginBundle-RJBS

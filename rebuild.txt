@@ -1,1 +1,1 @@
-dev-perl/Catalyst-Plugin-Authentication
+dev-perl/Catalyst-Model-DBIC-Schema
