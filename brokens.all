@@ -19,7 +19,6 @@ dev-perl/Audio-MPD
 dev-perl/Audio-Ofa-Util
 dev-perl/Catalyst-ActionRole-ACL
 dev-perl/Catalyst-Authentication-Credential-HTTP
-dev-perl/Catalyst-Authentication-Store-DBIx-Class
 dev-perl/Catalyst-Authentication-Store-LDAP
 dev-perl/Catalyst-Controller-HTML-FormFu
 dev-perl/Catalyst-Controller-RequestToken
@@ -51,7 +50,6 @@ dev-perl/KinoSearch1
 dev-perl/MojoMojo
 dev-perl/perl5i
 dev-perl/pip
-dev-perl/Task-Catalyst
 dev-perl/Test-WWW-Mechanize-Catalyst
 dev-perl/WebService-MusicBrainz
 dev-python/lxml
