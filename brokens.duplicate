@@ -50,7 +50,6 @@ media-gfx/fbida
 media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/inkscape
-media-libs/gst-plugins-good
 media-plugins/kipi-plugins
 media-sound/lilypond
 net-libs/webkit-gtk

@@ -5,8 +5,6 @@ app-admin/python-updater
 app-admin/sudo
 app-arch/libarchive
 app-cdr/cdrkit
-app-editors/gvim
-app-editors/vim
 app-emulation/emul-linux-x86-opengl
 app-emulation/emul-linux-x86-xlibs
 app-emulation/virtualbox
@@ -40,9 +38,7 @@ app-text/recode
 app-text/scrollkeeper-dtd
 app-text/t1utils
 app-text/teckit
-app-text/texlive-core
 app-text/xdvipdfmx
-app-text/xmlto
 app-text/xpdf
 app-vim/closetag
 app-vim/colorschemes
@@ -63,7 +59,6 @@ app-vim/vimbuddy
 app-vim/vim-spell-en
 dev-cpp/ctemplate
 dev-db/pgadmin3
-dev-db/postgresql-base
 dev-db/postgresql-server
 dev-db/sqlite
 dev-db/virtuoso-server
@@ -75,7 +70,6 @@ dev-lang/parrot
 dev-lang/php
 dev-lang/python
 dev-lang/tk
-dev-libs/apr-util
 dev-libs/boost
 dev-libs/confuse
 dev-libs/cyrus-sasl
@@ -186,14 +180,12 @@ dev-python/pyxml
 dev-python/sip
 dev-python/twisted
 dev-tex/bibtexu
-dev-texlive/texlive-basic
 dev-texlive/texlive-documentation-base
 dev-texlive/texlive-fontsextra
 dev-texlive/texlive-fontsrecommended
 dev-texlive/texlive-fontutils
 dev-texlive/texlive-genericrecommended
 dev-texlive/texlive-langukenglish
-dev-texlive/texlive-latex
 dev-texlive/texlive-latexrecommended
 dev-texlive/texlive-metapost
 dev-texlive/texlive-texinfo
@@ -281,7 +273,6 @@ media-gfx/graphviz
 media-gfx/sane-backends
 media-libs/aalib
 media-libs/fontconfig
-media-libs/freetype
 media-libs/ftgl
 media-libs/gd
 media-libs/gegl
@@ -304,7 +295,6 @@ media-libs/libquicktime
 media-libs/libsdl
 media-libs/libwmf
 media-libs/mediastreamer
-media-libs/mesa
 media-libs/musicbrainz
 media-libs/netpbm
 media-libs/opencv
@@ -316,8 +306,6 @@ media-libs/t1lib
 media-libs/tunepimp
 media-libs/xine-lib
 media-plugins/gst-plugins-meta
-media-plugins/gst-plugins-v4l2
-media-plugins/gst-plugins-vp8
 media-plugins/gst-plugins-x
 media-sound/alsa-utils
 media-sound/amarok
@@ -328,7 +316,6 @@ media-sound/clementine
 media-sound/japa
 media-sound/kid3
 media-sound/moodbar
-media-video/ffmpeg
 media-video/mjpegtools
 media-video/mkvtoolnix
 media-video/mplayer
@@ -355,7 +342,6 @@ net-nds/openldap
 net-p2p/ktorrent
 net-proxy/dante
 net-wireless/bluedevil
-net-wireless/bluez
 net-wireless/broadcom-sta
 perl-core/CPAN
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
@@ -368,7 +354,6 @@ sys-apps/groff
 sys-apps/iproute2
 sys-apps/lm_sensors
 sys-apps/paludis
-sys-apps/portage
 sys-auth/consolekit
 sys-auth/polkit
 sys-block/gparted
@@ -424,7 +409,6 @@ x11-apps/xev
 x11-apps/xf86dga
 x11-apps/xgamma
 x11-apps/xhost
-x11-apps/xinit
 x11-apps/xinput
 x11-apps/xkbcomp
 x11-apps/xkbevd
@@ -436,7 +420,6 @@ x11-apps/xprop
 x11-apps/xrandr
 x11-apps/xrdb
 x11-apps/xrefresh
-x11-apps/xset
 x11-apps/xsetmode
 x11-apps/xsetroot
 x11-apps/xsm
@@ -449,7 +432,6 @@ x11-base/nouveau-drm
 x11-base/xorg-drivers
 x11-base/xorg-server
 x11-base/xorg-x11
-x11-drivers/nvidia-drivers
 x11-drivers/xf86-input-wacom
 x11-drivers/xf86-video-nouveau
 x11-libs/cairo
@@ -462,7 +444,6 @@ x11-libs/libSM
 x11-libs/libva
 x11-libs/libvdpau
 x11-libs/libwnck
-x11-libs/libX11
 x11-libs/libXaw
 x11-libs/libXaw3d
 x11-libs/libXcomposite
@@ -518,7 +499,6 @@ x11-misc/x2vnc
 x11-misc/xclip
 x11-misc/xdg-utils
 x11-misc/xkbd
-x11-misc/xkeyboard-config
 x11-misc/xrestop
 x11-misc/xscreensaver
 x11-misc/xsel
@@ -532,7 +512,6 @@ x11-proto/xextproto
 x11-proto/xproto
 x11-terms/gnome-terminal
 x11-terms/rxvt-unicode
-x11-terms/xterm
 x11-themes/oxygen-gtk
 x11-themes/xcursor-neutral
 x11-themes/xcursor-themes
