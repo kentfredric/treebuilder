@@ -1,6 +1,5 @@
 app-admin/apache-tools
 app-admin/eselect
-app-admin/haskell-updater
 app-admin/python-updater
 app-admin/sudo
 app-arch/libarchive
@@ -15,7 +14,6 @@ app-emulation/wine
 app-i18n/scim
 app-laptop/laptop-mode-tools
 app-laptop/tp_smapi
-app-misc/tmux
 app-mobilephone/obexd
 app-mobilephone/obex-data-server
 app-office/akonadi-server
@@ -30,7 +28,6 @@ app-office/kpresenter
 app-office/krita
 app-office/kspread
 app-office/kword
-app-office/libreoffice-bin
 app-pda/gtkpod
 app-portage/gentoolkit
 app-portage/gentoolkit-dev
@@ -83,10 +80,8 @@ dev-db/postgresql-server
 dev-db/sqlite
 dev-db/virtuoso-server
 dev-games/ggz-client-libs
-dev-haskell/cabal
 dev-java/sun-jdk
 dev-java/swt
-dev-lang/ghc
 dev-lang/ocaml
 dev-lang/parrot
 dev-lang/php
@@ -265,7 +260,6 @@ gnome-base/gnome-session
 gnome-base/gnome-settings-daemon
 gnome-base/gnome-vfs
 gnome-base/gvfs
-gnome-base/libbonobo
 gnome-base/libbonoboui
 gnome-base/libgnome
 gnome-base/librsvg
@@ -308,7 +302,6 @@ kde-base/kleopatra
 kde-base/kmail
 kde-base/knode
 kde-base/knotes
-kde-base/konsole
 kde-base/konsolekalendar
 kde-base/kontact
 kde-base/kopete
@@ -318,7 +311,6 @@ kde-base/kuser
 kde-base/kwin
 kde-base/libplasmaclock
 kde-base/lokalize
-kde-base/marble
 kde-base/nepomuk
 kde-base/okular
 kde-base/plasma-workspace
@@ -327,7 +319,6 @@ kde-base/pykde4
 kde-base/smoke
 kde-base/superkaramba
 kde-base/system-config-printer-kde
-kde-base/systemsettings
 kde-misc/fancytasks
 kde-misc/kgtk
 kde-misc/kim4
@@ -360,7 +351,6 @@ media-libs/glew
 media-libs/gst-plugins-base
 media-libs/gst-plugins-good
 media-libs/gst-plugins-ugly
-media-libs/imlib2
 media-libs/libafterimage
 media-libs/libass
 media-libs/libclxclient
@@ -368,13 +358,11 @@ media-libs/libcue
 media-libs/libggiwmh
 media-libs/libgii
 media-libs/libgphoto2
-media-libs/libkgeomap
 media-libs/libofa
 media-libs/libprojectm
 media-libs/libquicktime
 media-libs/libsdl
 media-libs/libwmf
-media-libs/mediastreamer
 media-libs/mesa
 media-libs/musicbrainz
 media-libs/netpbm
@@ -392,7 +380,6 @@ media-plugins/gst-plugins-vp8
 media-plugins/gst-plugins-x
 media-plugins/kipi-plugins
 media-sound/alsa-utils
-media-sound/amarok
 media-sound/audacity
 media-sound/aumix
 media-sound/baudline
@@ -401,6 +388,7 @@ media-sound/japa
 media-sound/kid3
 media-sound/lilypond
 media-sound/moodbar
+media-sound/mpd
 media-video/ffmpeg
 media-video/mjpegtools
 media-video/mkvtoolnix
@@ -425,13 +413,11 @@ net-libs/libpcap
 net-libs/neon
 net-libs/webkit-gtk
 net-libs/xulrunner
-net-misc/aria2
 net-misc/networkmanager
 net-misc/rdesktop
 net-misc/tightvnc
 net-nds/openldap
 net-p2p/ktorrent
-net-proxy/dante
 net-wireless/bluedevil
 net-wireless/bluez
 net-wireless/broadcom-sta
@@ -452,7 +438,6 @@ sci-mathematics/pari
 sys-apps/dbus
 sys-apps/gnome-disk-utility
 sys-apps/groff
-sys-apps/iproute2
 sys-apps/lm_sensors
 sys-apps/paludis
 sys-apps/portage
@@ -489,7 +474,6 @@ virtual/tex-base
 www-client/firefox
 www-client/links
 www-client/midori
-www-client/seamonkey
 www-client/w3m
 www-plugins/mozplugger
 www-servers/apache
@@ -627,8 +611,8 @@ x11-themes/xcursor-neutral
 x11-themes/xcursor-themes
 x11-wm/awesome
 x11-wm/fluxbox
-x11-wm/i3
 x11-wm/metacity
+x11-wm/openbox
 x11-wm/twm
 xfce-base/libxfcegui4
 xfce-extra/transd

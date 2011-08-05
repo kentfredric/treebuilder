@@ -155,3 +155,8 @@ kde-base/kdebase-meta
 net-libs/webkit-gtk
 x11-wm/i3
 x11-wm/openbox
+media-libs/imlib2
+media-libs/mediastreamer
+media-plugins/mediastreamer-ilbc
+media-plugins/mediastreamer-x264
+media-sound/mpg123
