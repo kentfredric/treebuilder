@@ -199,6 +199,7 @@ dev-perl/PPIx-EditorTools
 dev-perl/Sub-Curried
 dev-perl/Task-Catalyst
 dev-perl/Task-Kensho-Logging
+dev-perl/Test-Corpus-Audio-MPD
 dev-perl/Test-Deep
 dev-perl/Test-DistManifest
 dev-perl/Test-WWW-Mechanize-Catalyst
@@ -242,6 +243,7 @@ gnome-base/gvfs
 gnome-base/libbonoboui
 gnome-base/libgnome
 gnome-base/librsvg
+gnome-base/nautilus
 gnome-extra/libgda
 gnome-extra/libgsf
 gnome-extra/yelp
@@ -392,6 +394,7 @@ net-libs/webkit-gtk
 net-libs/xulrunner
 net-misc/networkmanager
 net-misc/rdesktop
+net-misc/remmina
 net-misc/tightvnc
 net-nds/openldap
 net-p2p/ktorrent
