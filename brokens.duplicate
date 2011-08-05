@@ -47,6 +47,7 @@ kde-base/kdebindings-perl
 kde-base/kdenetwork-meta
 kde-base/kdesdk-meta
 kde-base/kdeutils-meta
+kde-base/konsole
 kde-base/kopete
 kde-base/lokalize
 kde-base/printer-applet
