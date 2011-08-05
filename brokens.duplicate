@@ -2,6 +2,7 @@ app-office/karbon
 app-office/kexi
 app-office/koffice-data
 app-office/koffice-libs
+app-office/koffice-meta
 app-office/kplato
 app-office/kpresenter
 app-office/krita
@@ -40,11 +41,22 @@ dev-perl/Dist-Zilla-PluginBundle-RJBS
 dev-perl/MojoMojo
 dev-perl/Task-Catalyst
 dev-perl/Test-WWW-Mechanize-Catalyst
+kde-base/kdeadmin-meta
+kde-base/kdebase-meta
 kde-base/kdebindings-perl
+kde-base/kdenetwork-meta
+kde-base/kdesdk-meta
+kde-base/kdeutils-meta
 kde-base/konsole
 kde-base/kopete
+kde-base/lokalize
+kde-base/printer-applet
 kde-base/pykde4
 kde-base/smoke
+kde-base/superkaramba
+kde-base/system-config-printer-kde
+kde-misc/krcstat
+mail-client/claws-mail-fancy
 media-gfx/digikam
 media-gfx/fbida
 media-gfx/gimp
@@ -54,3 +66,4 @@ media-libs/gst-plugins-good
 media-plugins/kipi-plugins
 media-sound/lilypond
 net-libs/webkit-gtk
+www-client/midori
