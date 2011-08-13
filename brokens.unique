@@ -1,3 +1,5 @@
+app-emulation/virtualbox-modules
+app-laptop/tp_smapi
 app-office/akonadi-server
 app-office/karbon
 app-office/kexi
@@ -75,10 +77,15 @@ media-sound/lilypond
 net-libs/webkit-gtk
 net-misc/aria2
 net-p2p/ktorrent
+net-wireless/broadcom-sta
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve
 sys-apps/paludis
+sys-power/phc-intel
+virtual/linux-sources
 virtual/package-manager
+x11-base/nouveau-drm
+x11-drivers/nvidia-drivers
 x11-misc/rss-glx
 x11-wm/awesome
 x11-wm/i3

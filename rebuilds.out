@@ -1,0 +1,7 @@
+app-emulation/virtualbox-modules
+app-laptop/tp_smapi
+net-wireless/broadcom-sta
+sys-power/phc-intel
+virtual/linux-sources
+x11-base/nouveau-drm
+x11-drivers/nvidia-drivers
