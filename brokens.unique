@@ -2,29 +2,19 @@ app-admin/eselect-mesa
 app-admin/eselect-python
 app-admin/haskell-updater
 app-admin/python-updater
-app-admin/sudo
-app-admin/system-config-printer-common
 app-arch/cabextract
 app-arch/dpkg
 app-arch/p7zip
-app-cdr/k3b
 app-crypt/gpgme
 app-crypt/qca-gnupg
 app-doc/podbrowser
 app-editors/gvim
-app-editors/padre
 app-editors/vim
-app-emulation/virtualbox
-app-emulation/virtualbox-additions
-app-emulation/virtualbox-extpack-oracle
-app-emulation/virtualbox-modules
-app-emulation/wine
 app-laptop/laptop-mode-tools
 app-laptop/tp_smapi
 app-misc/strigi
 app-mobilephone/obexd
 app-mobilephone/obex-data-server
-app-office/dia
 app-office/koffice-l10n
 app-office/libreoffice-bin
 app-pda/gtkpod
@@ -198,7 +188,6 @@ dev-perl/DateTimeX-Easy
 dev-perl/Date-Tiny
 dev-perl/DBD-Pg
 dev-perl/DBICx-TestDatabase
-dev-perl/DBIx-Class
 dev-perl/DBIx-Class-Cursor-Cached
 dev-perl/DBIx-Class-DateTime-Epoch
 dev-perl/DBIx-Class-DigestColumns
@@ -276,7 +265,6 @@ dev-perl/Getopt-Lucid
 dev-perl/Gitalist
 dev-perl/Git-CPAN-Patch
 dev-perl/Git-Wrapper
-dev-perl/glib-perl
 dev-perl/Graph
 dev-perl/Graphics-ColorNames
 dev-perl/GraphViz
@@ -286,7 +274,6 @@ dev-perl/Gtk2-Ex-PrintDialog
 dev-perl/Gtk2-Ex-Simple-List
 dev-perl/gtk2-fu
 dev-perl/gtk2-gladexml
-dev-perl/gtk2-perl
 dev-perl/Gtk2-Sexy
 dev-perl/Handel
 dev-perl/Hash-FieldHash
@@ -359,7 +346,6 @@ dev-perl/MooseX-Singleton
 dev-perl/MooseX-Storage
 dev-perl/MooseX-StrictConstructor
 dev-perl/MooseX-Traits-Pluggable
-dev-perl/MooseX-Types
 dev-perl/MooseX-Types-Authen-Passphrase
 dev-perl/MooseX-Types-Common
 dev-perl/MooseX-Types-DateTime
@@ -378,7 +364,6 @@ dev-perl/MooseX-Workers
 dev-perl/MooseX-YAML
 dev-perl/Mouse
 dev-perl/namespace-autoclean
-dev-perl/namespace-clean
 dev-perl/Net-DBus
 dev-perl/Net-IRC
 dev-perl/Net-LibIDN
@@ -393,11 +378,8 @@ dev-perl/OLE-StorageLite
 dev-perl/ORLite
 dev-perl/Package-DeprecationManager
 dev-perl/Package-Pkg
-dev-perl/Package-Stash
-dev-perl/Package-Stash-XS
 dev-perl/Padre-Plugin-Autoformat
 dev-perl/Padre-Plugin-PerlTidy
-dev-perl/Pango
 dev-perl/Parallel-Iterator
 dev-perl/Parse-CPAN-Distributions
 dev-perl/Parse-CPAN-Packages
@@ -414,7 +396,6 @@ dev-perl/Pod-Coverage-TrustPod
 dev-perl/Pod-Elemental
 dev-perl/Pod-Elemental-Transformer-List
 dev-perl/Pod-Weaver
-dev-perl/POE
 dev-perl/POE-Component-Client-Keepalive
 dev-perl/POE-Component-Resolver
 dev-perl/PortageXS
@@ -449,7 +430,6 @@ dev-perl/String-Formatter
 dev-perl/String-RewritePrefix
 dev-perl/Sub-Exporter
 dev-perl/Sub-Exporter-GlobExporter
-dev-perl/Sub-Identify
 dev-perl/Sub-Install
 dev-perl/Sub-Uplevel
 dev-perl/Taint-Util
@@ -673,7 +653,6 @@ kde-base/kstartupconfig
 kde-base/kstyles
 kde-base/ksudoku
 kde-base/ksysguard
-kde-base/ksystemlog
 kde-base/ksystraycmd
 kde-base/ktimer
 kde-base/ktimezoned
@@ -730,7 +709,6 @@ kde-misc/kcheckgmail
 kde-misc/kcm_gtk
 kde-misc/kcm_touchpad
 kde-misc/kdesudo
-kde-misc/kdiff3
 kde-misc/kgtk
 kde-misc/kim4
 kde-misc/kio-sysinfo
@@ -757,7 +735,6 @@ media-gfx/sane-backends
 media-gfx/uniconvertor
 media-libs/aalib
 media-libs/gegl
-media-libs/lensfun
 media-libs/libgphoto2
 media-libs/libgpod
 media-libs/libkface
@@ -789,7 +766,6 @@ media-sound/alsa-utils
 media-sound/amarok
 media-sound/audacity
 media-sound/aumix
-media-sound/fluidsynth
 media-sound/gogglesmm
 media-sound/kid3
 media-sound/mpd
@@ -918,7 +894,6 @@ sys-devel/llvm-gcc
 sys-devel/prelink
 sys-fs/cryptsetup
 sys-fs/lvm2
-sys-fs/multipath-tools
 sys-fs/ntfsprogs
 sys-fs/sshfs-fuse
 sys-fs/udiskie
@@ -949,7 +924,6 @@ virtual/perl-Dumpvalue
 virtual/perl-ExtUtils-Command
 virtual/perl-ExtUtils-Constant
 virtual/perl-ExtUtils-Install
-virtual/perl-ExtUtils-ParseXS
 virtual/perl-File-Fetch
 virtual/perl-File-Spec
 virtual/perl-File-Temp
@@ -958,7 +932,6 @@ virtual/perl-i18n-langtags
 virtual/perl-if
 virtual/perl-IO
 virtual/perl-IO-Zlib
-virtual/perl-IPC-Cmd
 virtual/perl-IPC-SysV
 virtual/perl-libnet
 virtual/perl-locale-maketext
@@ -968,15 +941,12 @@ virtual/perl-Log-Message-Simple
 virtual/perl-Memoize
 virtual/perl-MIME-Base64
 virtual/perl-Module-Build
-virtual/perl-Module-CoreList
-virtual/perl-Module-Load
 virtual/perl-Module-Load-Conditional
 virtual/perl-Module-Loaded
 virtual/perl-Module-Metadata
 virtual/perl-Module-Pluggable
 virtual/perl-NEXT
 virtual/perl-Package-Constants
-virtual/perl-Params-Check
 virtual/perl-parent
 virtual/perl-Parse-CPAN-Meta
 virtual/perl-Perl-OSType
@@ -1051,6 +1021,5 @@ x11-themes/oxygen-gtk
 x11-themes/sound-theme-freedesktop
 x11-wm/i3
 x11-wm/metacity
-x11-wm/openbox
 xfce-base/libxfce4util
 xfce-base/libxfcegui4
