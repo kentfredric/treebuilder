@@ -227,3 +227,16 @@ media-plugins/kipi-plugins
 media-gfx/digikam
 kde-base/plasma-workspace
 x11-wm/openbox
+dev-python/nose
+perl-core/DB_File
+virtual/perl-DB_File
+perl-core/Module-Metadata
+virtual/perl-Module-Metadata
+kde-base/plasma-workspace
+dev-perl/Date-JD
+dev-perl/pip
+dev-perl/XML-Feed
+dev-perl/Date-JD
+app-office/karbon
+kde-base/plasma-workspace
+net-libs/webkit-gtk
