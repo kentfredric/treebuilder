@@ -47,8 +47,6 @@ app-text/docbook-xml-dtd
 app-text/docbook-xml-simple-dtd
 app-text/dvipdfmx
 app-text/ebook-tools
-app-text/enchant
-app-text/ghostscript-gpl
 app-text/gnome-doc-utils
 app-text/gocr
 app-text/gtkspell
@@ -56,7 +54,6 @@ app-text/gv
 app-text/libspectre
 app-text/libwpd
 app-text/po4a
-app-text/poppler
 app-text/rarian
 app-text/recode
 app-text/scrollkeeper-dtd
@@ -79,7 +76,6 @@ dev-java/sun-jdk
 dev-java/sun-jre-bin
 dev-java/swt
 dev-lang/ghc
-dev-lang/nasm
 dev-lang/ocaml
 dev-lang/perl
 dev-lang/php
@@ -92,20 +88,16 @@ dev-libs/dbus-glib
 dev-libs/DirectFB
 dev-libs/elfutils
 dev-libs/gdl
-dev-libs/glib
-dev-libs/gobject-introspection
 dev-libs/grantlee
 dev-libs/json-glib
 dev-libs/libconfig
 dev-libs/libcroco
 dev-libs/libdbusmenu-qt
 dev-libs/libgweather
-dev-libs/libIDL
 dev-libs/liboil
 dev-libs/libpcre
 dev-libs/libtasn1
 dev-libs/libunique
-dev-libs/libxslt
 dev-libs/mpc
 dev-libs/pslib
 dev-libs/rasqal
@@ -166,7 +158,6 @@ dev-python/notify-python
 dev-python/numpy
 dev-python/pycups
 dev-python/pygments
-dev-python/pygobject
 dev-python/pygtk
 dev-python/PyQt4
 dev-texlive/texlive-basic
@@ -182,10 +173,8 @@ dev-util/nvidia-cuda-toolkit
 dev-util/pkgconfig
 dev-util/strace
 dev-vcs/qgit
-dev-vcs/subversion
 games-misc/bsd-games
 games-misc/bsd-games-non-free
-gnome-base/gconf
 gnome-base/gdm
 gnome-base/gnome-control-center
 gnome-base/gnome-desktop
@@ -196,7 +185,6 @@ gnome-base/gnome-panel
 gnome-base/gnome-session
 gnome-base/gnome-settings-daemon
 gnome-base/gnome-vfs
-gnome-base/gsettings-desktop-schemas
 gnome-base/gvfs
 gnome-base/libbonobo
 gnome-base/libbonoboui
@@ -445,10 +433,8 @@ media-libs/giblib
 media-libs/giflib
 media-libs/glew
 media-libs/gst-plugins-bad
-media-libs/gst-plugins-base
 media-libs/gst-plugins-good
 media-libs/gst-plugins-ugly
-media-libs/gstreamer
 media-libs/imlib2
 media-libs/lensfun
 media-libs/libcanberra
@@ -535,7 +521,6 @@ media-sound/mpd
 media-sound/qjackctl
 media-sound/qmpdclient
 media-video/clive
-media-video/ffmpeg
 media-video/mjpegtools
 media-video/mkvtoolnix
 media-video/mplayer
@@ -545,10 +530,8 @@ media-video/vcdimager
 media-video/xine-ui
 net-analyzer/rrdtool
 net-analyzer/wireshark
-net-dns/avahi
 net-dns/bind-tools
 net-fs/fusesmb
-net-fs/samba
 net-im/bitlbee
 net-im/psi
 net-im/psimedia
@@ -567,14 +550,12 @@ net-libs/neon
 net-libs/webkit-gtk
 net-libs/xulrunner
 net-misc/aria2
-net-misc/modemmanager
 net-misc/networkmanager
 net-misc/rdesktop
 net-misc/remmina
 net-misc/tightvnc
 net-misc/wicd
 net-p2p/ktorrent
-net-print/cups
 net-proxy/dante
 net-wireless/bluedevil
 net-wireless/bluez
@@ -601,7 +582,6 @@ sys-apps/lm_sensors
 sys-apps/paludis
 sys-auth/consolekit
 sys-auth/nss-mdns
-sys-auth/polkit
 sys-auth/polkit-kde-agent
 sys-auth/polkit-qt
 sys-block/partitionmanager
@@ -610,7 +590,6 @@ sys-devel/autogen
 sys-devel/automake
 sys-devel/bc
 sys-devel/binutils
-sys-devel/gcc
 sys-devel/gettext
 sys-devel/libtool
 sys-devel/llvm
@@ -629,7 +608,6 @@ sys-libs/talloc
 sys-libs/zlib
 sys-power/iasl
 sys-power/nvclock
-sys-power/upower
 sys-process/at
 sys-process/latencytop
 virtual/ffmpeg
@@ -690,13 +668,11 @@ x11-drivers/xf86-input-evdev
 x11-drivers/xf86-input-wacom
 x11-libs/cairo
 x11-libs/fox
-x11-libs/gdk-pixbuf
 x11-libs/gksu
 x11-libs/gtk+
 x11-libs/gtkglext
 x11-libs/gtksourceview
 x11-libs/libgksu
-x11-libs/libnotify
 x11-libs/libsexy
 x11-libs/libva
 x11-libs/libvdpau
@@ -718,7 +694,6 @@ x11-libs/libxklavier
 x11-libs/libXmu
 x11-libs/libXp
 x11-libs/libXpm
-x11-libs/libXrandr
 x11-libs/libXrender
 x11-libs/libXres
 x11-libs/libXScrnSaver
@@ -736,7 +711,6 @@ x11-libs/qt-assistant
 x11-libs/qt-core
 x11-libs/qt-dbus
 x11-libs/qt-declarative
-x11-libs/qt-gui
 x11-libs/qt-multimedia
 x11-libs/qt-opengl
 x11-libs/qt-qt3support

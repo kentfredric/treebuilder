@@ -425,7 +425,6 @@ net-misc/aria2
 net-misc/memcached
 net-misc/wicd
 net-p2p/ktorrent
-net-print/cups
 net-wireless/bluez
 perl-core/Archive-Extract
 perl-core/CPAN
@@ -492,7 +491,6 @@ x11-base/xorg-x11
 x11-drivers/nvidia-drivers
 x11-drivers/xf86-video-vesa
 x11-libs/gtksourceview
-x11-libs/libnotify
 x11-libs/libva
 x11-libs/libwnck
 x11-libs/qt-core

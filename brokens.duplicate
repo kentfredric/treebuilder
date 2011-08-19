@@ -185,7 +185,6 @@ net-libs/xulrunner
 net-misc/aria2
 net-misc/wicd
 net-p2p/ktorrent
-net-print/cups
 net-wireless/bluez
 perl-gcpanp/WWW-Pastebin-Base-Retrieve
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create
@@ -203,7 +202,6 @@ www-client/seamonkey
 x11-apps/xpr
 x11-drivers/nvidia-drivers
 x11-libs/gtksourceview
-x11-libs/libnotify
 x11-libs/libva
 x11-libs/libwnck
 x11-libs/qt-core
