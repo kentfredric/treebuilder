@@ -20,6 +20,9 @@ app-editors/vim
 app-emulation/emul-linux-x86-opengl
 app-emulation/emul-linux-x86-xlibs
 app-emulation/virtualbox
+app-emulation/virtualbox-additions
+app-emulation/virtualbox-extpack-oracle
+app-emulation/virtualbox-modules
 app-emulation/wine
 app-i18n/scim
 app-misc/strigi
@@ -119,6 +122,8 @@ dev-libs/redland
 dev-libs/xmlrpc-c
 dev-libs/xmlrpc-epi
 dev-perl/Amazon-S3
+dev-perl/AnyEvent-I3
+dev-perl/App-Cmd
 dev-perl/Audio-Extract-PCM
 dev-perl/Audio-MPD
 dev-perl/Audio-Ofa-Util
@@ -126,6 +131,7 @@ dev-perl/BackPAN-Index
 dev-perl/B-Hooks-EndOfScope
 dev-perl/Cache-Cache
 dev-perl/Carp-REPL
+dev-perl/Catalyst-Action-REST
 dev-perl/Catalyst-ActionRole-ACL
 dev-perl/Catalyst-Authentication-Credential-HTTP
 dev-perl/Catalyst-Authentication-Credential-RPX
@@ -183,6 +189,7 @@ dev-perl/Crypt-OpenPGP
 dev-perl/crypt-primes
 dev-perl/Dancer
 dev-perl/data-buffer
+dev-perl/Data-FormValidator
 dev-perl/Data-Pond
 dev-perl/Data-Rx
 dev-perl/Data-Visitor
@@ -208,11 +215,14 @@ dev-perl/digest-md2
 dev-perl/Dist-CheckConflicts
 dev-perl/Dist-Zilla-App-Command-cover
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL
+dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL-Lite
 dev-perl/Dist-Zilla-PluginBundle-RJBS
+dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile
 dev-perl/Dist-Zilla-Plugin-PortabilityTests
 dev-perl/Dist-Zilla-Plugin-Twitter
 dev-perl/Email-MIME-Kit
 dev-perl/Email-Sender
+dev-perl/Email-Valid-Loose
 dev-perl/Event-RPC
 dev-perl/ExtUtils-AutoInstall
 dev-perl/extutils-pkgconfig
@@ -222,12 +232,15 @@ dev-perl/File-Copy-Recursive
 dev-perl/File-MMagic
 dev-perl/File-ShareDir-PathClass
 dev-perl/File-Type
+dev-perl/FormValidator-Simple
 dev-perl/GD-Barcode
 dev-perl/GD-Graph3d
+dev-perl/Gentoo-MetaEbuild-Spec-Base
 dev-perl/Gentoo-Overlay
 dev-perl/Gentoo-PerlMod-Version
 dev-perl/Getopt-ArgvFile
 dev-perl/Getopt-Lucid
+dev-perl/Gitalist
 dev-perl/Git-CPAN-Patch
 dev-perl/Git-Wrapper
 dev-perl/glib-perl
@@ -235,7 +248,9 @@ dev-perl/Graph
 dev-perl/GraphViz
 dev-perl/Gtk2-Ex-Simple-List
 dev-perl/gtk2-fu
+dev-perl/gtk2-gladexml
 dev-perl/Gtk2-Sexy
+dev-perl/Handel
 dev-perl/HTML-Form
 dev-perl/HTML-FormFu
 dev-perl/HTML-FormFu-Model-DBIC
@@ -280,6 +295,7 @@ dev-perl/MooseX-Traits-Pluggable
 dev-perl/MooseX-Types-DateTime
 dev-perl/MooseX-Types-DateTime-ButMaintained
 dev-perl/MooseX-Types-ISO8601
+dev-perl/MooseX-Types-JSON
 dev-perl/MooseX-Types-Path-Class
 dev-perl/MooseX-Types-Perl
 dev-perl/MooseX-Types-Structured
@@ -295,6 +311,7 @@ dev-perl/Net-Twitter
 dev-perl/Number-Tolerant
 dev-perl/Object-Signature
 dev-perl/OLE-StorageLite
+dev-perl/Paludis-UseCleaner
 dev-perl/Parallel-Iterator
 dev-perl/Parse-ErrorString-Perl
 dev-perl/Parse-Method-Signatures
@@ -333,6 +350,7 @@ dev-perl/Task-Catalyst
 dev-perl/Task-Kensho
 dev-perl/Task-Kensho-Async
 dev-perl/Task-Kensho-CLI
+dev-perl/Task-Kensho-Email
 dev-perl/Task-Kensho-WebDev
 dev-perl/Template-Provider-Encoding
 dev-perl/Test-Class
@@ -340,6 +358,7 @@ dev-perl/Test-Distribution
 dev-perl/Test-Fatal
 dev-perl/Test-TempDir
 dev-perl/Test-WWW-Mechanize
+dev-perl/Test-WWW-Mechanize-Catalyst
 dev-perl/Text-CharWidth
 dev-perl/text-template
 dev-perl/Text-WrapI18N
@@ -391,6 +410,7 @@ dev-util/gtk-doc
 dev-util/nvidia-cuda-toolkit
 dev-util/pkgconfig
 dev-util/strace
+dev-vcs/git
 dev-vcs/qgit
 games-misc/bsd-games
 games-misc/bsd-games-non-free
@@ -753,6 +773,7 @@ media-sound/qjackctl
 media-sound/qmpdclient
 media-sound/vorbis-tools
 media-video/clive
+media-video/dvdrip
 media-video/mjpegtools
 media-video/mkvtoolnix
 media-video/mplayer
@@ -825,9 +846,15 @@ perl-gcpanp/WWW-Pastebin-PhpfiCom-Retrieve
 perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve
 sci-astronomy/celestia
 sci-geosciences/googleearth
+sci-libs/amd
+sci-libs/blas-atlas
 sci-libs/blas-reference
 sci-libs/fftw
+sci-libs/hdf5
+sci-libs/lapack-atlas
 sci-libs/libqalculate
+sci-libs/mkl
+sci-libs/umfpack
 sci-mathematics/pari
 sci-visualization/gnuplot
 sys-apps/dbus
@@ -846,6 +873,7 @@ sys-auth/polkit-kde-agent
 sys-auth/polkit-qt
 sys-block/partitionmanager
 sys-boot/syslinux
+sys-cluster/openmpi
 sys-devel/autogen
 sys-devel/automake
 sys-devel/bc
@@ -867,6 +895,7 @@ sys-libs/libcap
 sys-libs/pam
 sys-libs/talloc
 sys-libs/zlib
+sys-power/cpufreqd
 sys-power/iasl
 sys-power/nvclock
 sys-process/at
@@ -900,11 +929,13 @@ virtual/perl-Test
 virtual/perl-Text-Balanced
 virtual/perl-Thread-Semaphore
 virtual/perl-Version-Requirements
+virtual/ttf-fonts
 virtual/yacc
 www-client/firefox
 www-client/lynx
 www-client/midori
 www-client/seamonkey
+www-plugins/adobe-flash
 www-plugins/mozplugger
 www-servers/lighttpd
 www-servers/nginx
@@ -1042,6 +1073,7 @@ x11-proto/xf86rushproto
 x11-terms/gnome-terminal
 x11-terms/rxvt-unicode
 x11-terms/xterm
+x11-themes/gtk-engines-qtcurve
 x11-themes/oxygen-gtk
 x11-themes/sound-theme-freedesktop
 x11-themes/xcursor-neutral
