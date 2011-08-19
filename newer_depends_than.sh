@@ -3,5 +3,4 @@ find -O3 \
 	    /var/db/pkg/ \
 	    -name "*DEPEND" \
 	    -not -newer /root/rebuilder/timestamp.x \
-	 | tee /dev/stderr \
     >| /root/rebuilder/newer_depends.txt
