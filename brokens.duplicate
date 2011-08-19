@@ -43,6 +43,7 @@ dev-perl/CatalystX-SimpleLogin
 dev-perl/Compress-Bzip2
 dev-perl/Config-MVP
 dev-perl/DateTime-TimeZone
+dev-perl/DateTime-TimeZone-SystemV
 dev-perl/DBIx-Class-Schema-Loader
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL
 dev-perl/HTML-FormFu
@@ -59,12 +60,12 @@ dev-perl/VCI
 dev-perl/WebService-MusicBrainz
 dev-python/dbus-python
 dev-python/numpy
+dev-python/pycrypto
 dev-python/pygments
 dev-python/pygtk
 dev-python/PyQt4
 dev-util/gtk-doc
 dev-util/nvidia-cuda-toolkit
-gnome-base/gnome-desktop
 gnome-base/gnome-keyring
 gnome-base/gnome-light
 gnome-base/gnome-panel
@@ -144,7 +145,6 @@ kde-base/kurifilter-plugins
 kde-base/kuser
 kde-base/kwallet
 kde-base/kwalletd
-kde-base/kwin
 kde-base/kwrite
 kde-base/libkcddb
 kde-base/libkdegames
@@ -181,7 +181,6 @@ kde-misc/smooth-tasks
 kde-misc/wacomtablet
 mail-client/claws-mail-fancy
 media-gfx/digikam
-media-gfx/feh
 media-gfx/graphviz
 media-gfx/imagemagick
 media-gfx/inkscape
@@ -205,6 +204,7 @@ net-im/bitlbee
 net-im/skype
 net-irc/irssi
 net-libs/libktorrent
+net-libs/libnfsidmap
 net-libs/libsoup
 net-libs/webkit-gtk
 net-libs/xulrunner
@@ -224,7 +224,6 @@ sys-auth/polkit-kde-agent
 sys-auth/polkit-qt
 sys-fs/udiskie
 virtual/ffmpeg
-www-client/firefox
 www-client/midori
 www-client/seamonkey
 x11-apps/xpr

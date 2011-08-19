@@ -16,7 +16,6 @@ app-pda/gtkpod
 app-portage/g-cpan
 app-portage/gentoolkit
 app-shells/bash-completion
-app-shells/zsh
 app-text/asciidoc
 app-text/dictd
 app-text/docbook2X
@@ -260,7 +259,6 @@ dev-util/d-feet
 dev-util/gtk-doc
 dev-util/nvidia-cuda-toolkit
 games-util/grfcodec
-gnome-base/gnome-desktop
 gnome-base/gnome-keyring
 gnome-base/gnome-light
 gnome-base/gnome-panel
@@ -341,7 +339,6 @@ kde-base/kurifilter-plugins
 kde-base/kuser
 kde-base/kwallet
 kde-base/kwalletd
-kde-base/kwin
 kde-base/kwrite
 kde-base/libkcddb
 kde-base/libkdegames
@@ -380,7 +377,6 @@ kde-misc/wacomtablet
 mail-client/claws-mail-fancy
 media-gfx/digikam
 media-gfx/enblend
-media-gfx/feh
 media-gfx/graphviz
 media-gfx/imagemagick
 media-gfx/inkscape
@@ -482,7 +478,6 @@ virtual/perl-Test
 virtual/perl-Text-Balanced
 virtual/perl-Thread-Semaphore
 virtual/perl-Version-Requirements
-www-client/firefox
 www-client/midori
 www-client/seamonkey
 x11-apps/xpr

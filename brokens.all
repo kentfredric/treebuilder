@@ -1,6 +1,6 @@
+app-admin/eselect
 app-admin/eselect-python
 app-admin/python-updater
-app-admin/sudo
 app-admin/system-config-printer-common
 app-arch/advancecomp
 app-arch/dpkg
@@ -9,8 +9,8 @@ app-arch/p7zip
 app-arch/pbzip2
 app-arch/unzip
 app-arch/zip
-app-cdr/k3b
 app-crypt/gnupg
+app-crypt/mit-krb5
 app-crypt/pinentry
 app-crypt/qca-gnupg
 app-doc/podbrowser
@@ -19,14 +19,8 @@ app-editors/padre
 app-editors/vim
 app-emulation/emul-linux-x86-opengl
 app-emulation/emul-linux-x86-xlibs
-app-emulation/virtualbox
-app-emulation/virtualbox-additions
-app-emulation/virtualbox-extpack-oracle
-app-emulation/virtualbox-modules
-app-emulation/wine
 app-i18n/scim
 app-misc/strigi
-app-misc/tmux
 app-mobilephone/obexd
 app-mobilephone/obex-data-server
 app-office/akonadi-server
@@ -46,12 +40,10 @@ app-office/libreoffice-bin
 app-pda/gtkpod
 app-pda/libimobiledevice
 app-pda/libplist
-app-portage/eix
 app-portage/g-cpan
 app-portage/gentoolkit
 app-portage/layman
 app-shells/bash-completion
-app-shells/zsh
 app-text/asciidoc
 app-text/bibletime
 app-text/dictd
@@ -85,7 +77,6 @@ dev-db/mysql-workbench
 dev-db/pgadmin3
 dev-db/postgresql-base
 dev-db/postgresql-server
-dev-db/virtuoso-server
 dev-java/icedtea6-bin
 dev-java/sun-jdk
 dev-java/sun-jre-bin
@@ -98,6 +89,7 @@ dev-lang/php
 dev-lang/python
 dev-lang/rakudo
 dev-lang/tk
+dev-libs/apr-util
 dev-libs/atk
 dev-libs/confuse
 dev-libs/cyrus-sasl
@@ -107,7 +99,6 @@ dev-libs/elfutils
 dev-libs/gdl
 dev-libs/grantlee
 dev-libs/json-glib
-dev-libs/libconfig
 dev-libs/libcroco
 dev-libs/libdbusmenu-qt
 dev-libs/libgweather
@@ -126,10 +117,12 @@ dev-perl/AnyEvent-I3
 dev-perl/App-Cmd
 dev-perl/Audio-Extract-PCM
 dev-perl/Audio-MPD
+dev-perl/Audio-Musepack
 dev-perl/Audio-Ofa-Util
 dev-perl/BackPAN-Index
 dev-perl/B-Hooks-EndOfScope
 dev-perl/Cache-Cache
+dev-perl/Cache-Memcached-Managed
 dev-perl/Carp-REPL
 dev-perl/Catalyst-Action-REST
 dev-perl/Catalyst-ActionRole-ACL
@@ -417,7 +410,6 @@ games-misc/bsd-games-non-free
 games-util/grfcodec
 gnome-base/gdm
 gnome-base/gnome-control-center
-gnome-base/gnome-desktop
 gnome-base/gnome-keyring
 gnome-base/gnome-light
 gnome-base/gnome-menus
@@ -433,11 +425,9 @@ gnome-base/libgnome
 gnome-base/libgnomecanvas
 gnome-base/libgnomekbd
 gnome-base/libgnome-keyring
-gnome-base/libgtop
 gnome-base/librsvg
 gnome-base/nautilus
 gnome-base/orbit
-gnome-extra/libgda
 gnome-extra/libgsf
 gnome-extra/yelp
 gnome-extra/zenity
@@ -588,7 +578,6 @@ kde-base/kurifilter-plugins
 kde-base/kuser
 kde-base/kwallet
 kde-base/kwalletd
-kde-base/kwin
 kde-base/kwrite
 kde-base/kwrited
 kde-base/libkcddb
@@ -657,7 +646,6 @@ media-gfx/digikam
 media-gfx/enblend
 media-gfx/exiv2
 media-gfx/fbida
-media-gfx/feh
 media-gfx/fontforge
 media-gfx/gimp
 media-gfx/gliv
@@ -670,7 +658,6 @@ media-gfx/pstoedit
 media-gfx/sane-backends
 media-gfx/uniconvertor
 media-libs/aalib
-media-libs/babl
 media-libs/flac
 media-libs/freetype
 media-libs/gegl
@@ -772,7 +759,6 @@ media-sound/mpd
 media-sound/qjackctl
 media-sound/qmpdclient
 media-sound/vorbis-tools
-media-video/clive
 media-video/dvdrip
 media-video/mjpegtools
 media-video/mkvtoolnix
@@ -810,8 +796,11 @@ net-libs/neon
 net-libs/webkit-gtk
 net-libs/xulrunner
 net-misc/aria2
+net-misc/curl
+net-misc/dhcp
 net-misc/memcached
 net-misc/networkmanager
+net-misc/openssh
 net-misc/rdesktop
 net-misc/remmina
 net-misc/tightvnc
@@ -867,6 +856,7 @@ sys-apps/keyutils
 sys-apps/lm_sensors
 sys-apps/paludis
 sys-apps/rescan-scsi-bus
+sys-apps/v86d
 sys-auth/consolekit
 sys-auth/nss-mdns
 sys-auth/polkit-kde-agent
@@ -883,6 +873,7 @@ sys-devel/libtool
 sys-devel/llvm
 sys-devel/llvm-gcc
 sys-devel/prelink
+sys-fs/dmraid
 sys-fs/mtools
 sys-fs/ntfsprogs
 sys-fs/sshfs-fuse
@@ -931,12 +922,12 @@ virtual/perl-Thread-Semaphore
 virtual/perl-Version-Requirements
 virtual/ttf-fonts
 virtual/yacc
-www-client/firefox
 www-client/lynx
 www-client/midori
 www-client/seamonkey
 www-plugins/adobe-flash
 www-plugins/mozplugger
+www-servers/apache
 www-servers/lighttpd
 www-servers/nginx
 x11-apps/appres

@@ -1,6 +1,6 @@
+app-admin/eselect
 app-admin/eselect-python
 app-admin/python-updater
-app-admin/sudo
 app-admin/system-config-printer-common
 app-arch/advancecomp
 app-arch/dpkg
@@ -9,21 +9,15 @@ app-arch/p7zip
 app-arch/pbzip2
 app-arch/unzip
 app-arch/zip
-app-cdr/k3b
 app-crypt/gnupg
+app-crypt/mit-krb5
 app-crypt/pinentry
 app-crypt/qca-gnupg
 app-editors/gvim
 app-editors/padre
 app-emulation/emul-linux-x86-opengl
 app-emulation/emul-linux-x86-xlibs
-app-emulation/virtualbox
-app-emulation/virtualbox-additions
-app-emulation/virtualbox-extpack-oracle
-app-emulation/virtualbox-modules
-app-emulation/wine
 app-i18n/scim
-app-misc/tmux
 app-mobilephone/obexd
 app-office/dia
 app-office/koffice-data
@@ -35,11 +29,9 @@ app-office/kword
 app-office/libreoffice-bin
 app-pda/libimobiledevice
 app-pda/libplist
-app-portage/eix
 app-portage/g-cpan
 app-portage/gentoolkit
 app-portage/layman
-app-shells/zsh
 app-text/bibletime
 app-text/dictd
 app-text/docbook-xml-dtd
@@ -66,7 +58,6 @@ dev-db/mysql
 dev-db/mysql-workbench
 dev-db/pgadmin3
 dev-db/postgresql-base
-dev-db/virtuoso-server
 dev-java/icedtea6-bin
 dev-java/sun-jdk
 dev-java/sun-jre-bin
@@ -76,6 +67,7 @@ dev-lang/perl
 dev-lang/python
 dev-lang/rakudo
 dev-lang/tk
+dev-libs/apr-util
 dev-libs/atk
 dev-libs/confuse
 dev-libs/cyrus-sasl
@@ -84,7 +76,6 @@ dev-libs/DirectFB
 dev-libs/gdl
 dev-libs/grantlee
 dev-libs/json-glib
-dev-libs/libconfig
 dev-libs/libcroco
 dev-libs/libdbusmenu-qt
 dev-libs/libgweather
@@ -101,10 +92,12 @@ dev-perl/AnyEvent-I3
 dev-perl/App-Cmd
 dev-perl/Audio-Extract-PCM
 dev-perl/Audio-MPD
+dev-perl/Audio-Musepack
 dev-perl/Audio-Ofa-Util
 dev-perl/BackPAN-Index
 dev-perl/B-Hooks-EndOfScope
 dev-perl/Cache-Cache
+dev-perl/Cache-Memcached-Managed
 dev-perl/Carp-REPL
 dev-perl/Catalyst-Action-REST
 dev-perl/Catalyst-ActionRole-ACL
@@ -154,7 +147,6 @@ dev-perl/DateManip
 dev-perl/DateTime-Format-Epoch
 dev-perl/DateTime-Format-SQLite
 dev-perl/DateTime-Format-Strptime
-dev-perl/DateTime-TimeZone-SystemV
 dev-perl/DateTime-TimeZone-Tzfile
 dev-perl/DBD-Pg
 dev-perl/DBICx-TestDatabase
@@ -326,7 +318,6 @@ dev-perl/XML-SAX
 dev-perl/XML-SAX-Writer
 dev-python/lxml
 dev-python/notify-python
-dev-python/pycrypto
 dev-python/pycups
 dev-texlive/texlive-basic
 dev-texlive/texlive-fontutils
@@ -359,9 +350,7 @@ gnome-base/libbonobo
 gnome-base/libgnome
 gnome-base/libgnomekbd
 gnome-base/libgnome-keyring
-gnome-base/libgtop
 gnome-base/orbit
-gnome-extra/libgda
 gnome-extra/libgsf
 gnome-extra/yelp
 gnome-extra/zenity
@@ -481,7 +470,6 @@ media-gfx/luminance-hdr
 media-gfx/pstoedit
 media-gfx/sane-backends
 media-gfx/uniconvertor
-media-libs/babl
 media-libs/flac
 media-libs/freetype
 media-libs/gegl
@@ -570,7 +558,6 @@ media-sound/mpd
 media-sound/qjackctl
 media-sound/qmpdclient
 media-sound/vorbis-tools
-media-video/clive
 media-video/dvdrip
 media-video/mjpegtools
 media-video/mkvtoolnix
@@ -593,14 +580,16 @@ net-im/psimedia
 net-im/qwit
 net-libs/glib-networking
 net-libs/libbluedevil
-net-libs/libnfsidmap
 net-libs/libpcap
 net-libs/libproxy
 net-libs/libsoup-gnome
 net-libs/loudmouth
 net-libs/neon
+net-misc/curl
+net-misc/dhcp
 net-misc/memcached
 net-misc/networkmanager
+net-misc/openssh
 net-misc/rdesktop
 net-misc/remmina
 net-misc/tightvnc
@@ -645,6 +634,7 @@ sys-apps/keyutils
 sys-apps/lm_sensors
 sys-apps/paludis
 sys-apps/rescan-scsi-bus
+sys-apps/v86d
 sys-auth/consolekit
 sys-auth/nss-mdns
 sys-block/partitionmanager
@@ -659,6 +649,7 @@ sys-devel/libtool
 sys-devel/llvm
 sys-devel/llvm-gcc
 sys-devel/prelink
+sys-fs/dmraid
 sys-fs/mtools
 sys-fs/ntfsprogs
 sys-fs/sshfs-fuse
@@ -708,6 +699,7 @@ virtual/yacc
 www-client/lynx
 www-plugins/adobe-flash
 www-plugins/mozplugger
+www-servers/apache
 www-servers/lighttpd
 www-servers/nginx
 x11-apps/appres
