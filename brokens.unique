@@ -587,7 +587,6 @@ net-libs/loudmouth
 net-libs/neon
 net-misc/curl
 net-misc/dhcp
-net-misc/memcached
 net-misc/networkmanager
 net-misc/openssh
 net-misc/rdesktop
@@ -831,7 +830,6 @@ x11-themes/xcursor-neutral
 x11-themes/xcursor-themes
 x11-wm/evilwm
 x11-wm/fluxbox
-x11-wm/openbox
 x11-wm/twm
 xfce-base/libxfcegui4
 xfce-extra/transd

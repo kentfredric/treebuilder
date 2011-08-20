@@ -220,7 +220,6 @@ gnome-base/gnome-control-center
 gnome-base/gnome-keyring
 gnome-base/gnome-light
 gnome-base/gnome-menus
-gnome-base/gnome-panel
 gnome-base/gnome-session
 gnome-base/gnome-settings-daemon
 gnome-base/gnome-vfs
@@ -409,7 +408,6 @@ kde-base/okular
 kde-base/phonon-kde
 kde-base/plasma-apps
 kde-base/plasma-runtime
-kde-base/plasma-workspace
 kde-base/powerdevil
 kde-base/printer-applet
 kde-base/pykde4
@@ -447,7 +445,6 @@ mail-client/claws-mail-fancy
 mail-client/claws-mail-notification
 mail-client/claws-mail-rssyl
 media-gfx/autopano-sift-C
-media-gfx/digikam
 media-gfx/exiv2
 media-gfx/fbida
 media-gfx/fontforge
@@ -540,7 +537,6 @@ media-plugins/gst-plugins-vp8
 media-plugins/gst-plugins-wavpack
 media-plugins/gst-plugins-x
 media-plugins/gst-plugins-xvideo
-media-plugins/kipi-plugins
 media-sound/alsa-utils
 media-sound/amarok
 media-sound/baudline
@@ -670,7 +666,6 @@ virtual/ttf-fonts
 virtual/yacc
 www-client/lynx
 www-client/midori
-www-client/seamonkey
 www-plugins/adobe-flash
 www-plugins/mozplugger
 www-servers/apache
@@ -814,7 +809,6 @@ x11-wm/evilwm
 x11-wm/fluxbox
 x11-wm/i3
 x11-wm/metacity
-x11-wm/openbox
 x11-wm/twm
 xfce-base/libxfce4util
 xfce-base/libxfcegui4

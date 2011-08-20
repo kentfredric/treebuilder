@@ -261,7 +261,6 @@ dev-util/nvidia-cuda-toolkit
 games-util/grfcodec
 gnome-base/gnome-keyring
 gnome-base/gnome-light
-gnome-base/gnome-panel
 gnome-base/gnome-settings-daemon
 gnome-base/libbonoboui
 gnome-base/libglade
@@ -353,7 +352,6 @@ kde-base/mplayerthumbs
 kde-base/nsplugins
 kde-base/okular
 kde-base/plasma-runtime
-kde-base/plasma-workspace
 kde-base/powerdevil
 kde-base/pykde4
 kde-base/qguiplatformplugin_kde
@@ -375,7 +373,6 @@ kde-misc/publictransport
 kde-misc/smooth-tasks
 kde-misc/wacomtablet
 mail-client/claws-mail-fancy
-media-gfx/digikam
 media-gfx/enblend
 media-gfx/graphviz
 media-gfx/imagemagick
@@ -397,7 +394,6 @@ media-plugins/gimp-greycstoration
 media-plugins/gimp-refocus
 media-plugins/gimp-resynthesizer
 media-plugins/gst-plugins-meta
-media-plugins/kipi-plugins
 media-sound/gogglesmm
 media-sound/kid3
 media-sound/lilypond
@@ -418,7 +414,6 @@ net-libs/libsoup
 net-libs/webkit-gtk
 net-libs/xulrunner
 net-misc/aria2
-net-misc/memcached
 net-misc/wicd
 net-p2p/ktorrent
 net-wireless/bluez
@@ -479,7 +474,6 @@ virtual/perl-Text-Balanced
 virtual/perl-Thread-Semaphore
 virtual/perl-Version-Requirements
 www-client/midori
-www-client/seamonkey
 x11-apps/xpr
 x11-base/nouveau-drm
 x11-base/xorg-x11
