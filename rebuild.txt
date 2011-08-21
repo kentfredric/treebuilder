@@ -119,3 +119,4 @@ x11-libs/gtksourceview
 net-libs/webkit-gtk
 gnome-base/gnome-panel
 x11-wm/openbox
+dev-libs/expat
