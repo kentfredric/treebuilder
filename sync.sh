@@ -1,3 +1,4 @@
+export LC_ALL=C
 ./newer_depends_than.sh
 ./broken_2_regex.sh
 ./rebuild_2_regex.sh

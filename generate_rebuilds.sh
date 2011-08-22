@@ -1,3 +1,4 @@
+export LC_ALL=C
 cat /root/rebuilder/newer_depends.txt \
 	| xargs \
 		grep -Elf /root/rebuilder/rebuild.regex \

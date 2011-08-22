@@ -1,3 +1,4 @@
+export LC_ALL=C
 sed -e 's|^.*pkg/||' \
 	-e 's|/[^/]*$||' \
 	| sort -u \

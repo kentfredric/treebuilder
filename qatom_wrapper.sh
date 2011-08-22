@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export LC_ALL=C
 if [[ "$@" == "" ]];
 then
   echo -n '';
