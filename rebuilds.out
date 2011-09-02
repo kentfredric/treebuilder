@@ -31,7 +31,6 @@ dev-perl/Catalyst-Plugin-Session-Store-File
 dev-perl/CatalystX-SimpleLogin
 dev-perl/MojoMojo
 dev-perl/Paludis-UseCleaner
-dev-perl/Task-Catalyst
 dev-perl/WebService-MusicBrainz
 dev-perl/pip
 gnome-base/gnome-control-center

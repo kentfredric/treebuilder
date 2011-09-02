@@ -24,7 +24,6 @@ dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 dev-perl/Catalyst-Plugin-Session-Store-File
 dev-perl/CatalystX-SimpleLogin
 dev-perl/MojoMojo
-dev-perl/Task-Catalyst
 dev-perl/WebService-MusicBrainz
 dev-perl/pip
 gnome-base/gnome-light
