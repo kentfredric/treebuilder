@@ -20,6 +20,7 @@ dev-perl/Audio-MPD
 dev-perl/Audio-Ofa-Util
 dev-perl/CPAN-Inject
 dev-perl/Catalyst-Authentication-Credential-HTTP
+dev-perl/Catalyst-Authentication-Store-DBIx-Class
 dev-perl/Catalyst-Authentication-Store-LDAP
 dev-perl/Catalyst-Controller-HTML-FormFu
 dev-perl/Catalyst-Controller-RequestToken
@@ -35,6 +36,7 @@ dev-perl/Catalyst-Plugin-Session-State-URI
 dev-perl/Catalyst-Plugin-Session-Store-BerkeleyDB
 dev-perl/Catalyst-Plugin-Session-Store-Cache
 dev-perl/Catalyst-Plugin-Session-Store-DBI
+dev-perl/Catalyst-Plugin-Session-Store-DBIC
 dev-perl/Catalyst-Plugin-Session-Store-Delegate
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 dev-perl/Catalyst-Plugin-Session-Store-File
@@ -42,6 +44,7 @@ dev-perl/CatalystX-SimpleLogin
 dev-perl/KinoSearch1
 dev-perl/MojoMojo
 dev-perl/Paludis-UseCleaner
+dev-perl/Task-Catalyst
 dev-perl/Task-Kensho
 dev-perl/Task-Kensho-WebDev
 dev-perl/WebService-MusicBrainz

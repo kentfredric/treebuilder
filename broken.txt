@@ -19,9 +19,8 @@ dev-libs/xmlrpc-epi
 dev-perl/Audio-MPD
 dev-perl/Audio-Ofa-Util
 dev-perl/CPAN-Inject
-dev-perl/Cache-Cache
-dev-perl/Carp-REPL
 dev-perl/Catalyst-Authentication-Credential-HTTP
+dev-perl/Catalyst-Authentication-Store-DBIx-Class
 dev-perl/Catalyst-Authentication-Store-LDAP
 dev-perl/Catalyst-Controller-HTML-FormFu
 dev-perl/Catalyst-Controller-RequestToken
@@ -37,16 +36,16 @@ dev-perl/Catalyst-Plugin-Session-State-URI
 dev-perl/Catalyst-Plugin-Session-Store-BerkeleyDB
 dev-perl/Catalyst-Plugin-Session-Store-Cache
 dev-perl/Catalyst-Plugin-Session-Store-DBI
+dev-perl/Catalyst-Plugin-Session-Store-DBIC
 dev-perl/Catalyst-Plugin-Session-Store-Delegate
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 dev-perl/Catalyst-Plugin-Session-Store-File
 dev-perl/CatalystX-SimpleLogin
-dev-perl/Devel-REPL
 dev-perl/KinoSearch1
 dev-perl/MojoMojo
 dev-perl/Paludis-UseCleaner
+dev-perl/Task-Catalyst
 dev-perl/Task-Kensho
-dev-perl/Task-Kensho-CLI
 dev-perl/Task-Kensho-WebDev
 dev-perl/WebService-MusicBrainz
 dev-perl/pip
@@ -104,7 +103,6 @@ media-gfx/inkscape
 media-gfx/pstoedit
 media-libs/libkgeomap
 media-libs/mlt
-media-sound/clementine
 media-sound/lilypond
 media-video/dvdrip
 net-libs/webkit-gtk
