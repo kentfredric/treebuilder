@@ -64,12 +64,9 @@ kde-base/kdebase-data
 kde-base/kdebase-meta
 kde-base/kdebase-startkde
 kde-base/kdebindings-perl
-kde-base/kdepim-common-libs
 kde-base/kdepim-kresources
-kde-base/kdepim-runtime
 kde-base/kdepim-strigi-analyzer
 kde-base/kdepim-wizards
-kde-base/kdepimlibs
 kde-base/kdeplasma-addons
 kde-base/kget
 kde-base/kgpg
@@ -79,12 +76,9 @@ kde-base/kmail
 kde-base/knode
 kde-base/knotes
 kde-base/konsolekalendar
-kde-base/kontact
 kde-base/kopete
-kde-base/korganizer
 kde-base/ktimetracker
 kde-base/kuser
-kde-base/libplasmaclock
 kde-base/lokalize
 kde-base/printer-applet
 kde-base/pykde4
