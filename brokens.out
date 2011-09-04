@@ -24,7 +24,6 @@ app-i18n/scim
 app-laptop/i8kutils
 app-laptop/laptop-mode-tools
 app-misc/note
-app-misc/strigi
 app-misc/tmux
 app-mobilephone/obex-data-server
 app-mobilephone/obexd
@@ -71,7 +70,6 @@ app-text/libwpd
 app-text/openjade
 app-text/opensp
 app-text/po4a
-app-text/poppler
 app-text/ps2pkm
 app-text/rarian
 app-text/recode
@@ -121,7 +119,6 @@ dev-libs/confuse
 dev-libs/dbus-glib
 dev-libs/elfutils
 dev-libs/gdl
-dev-libs/gobject-introspection
 dev-libs/json-glib
 dev-libs/kpathsea
 dev-libs/libIDL
@@ -220,7 +217,6 @@ dev-perl/Error
 dev-perl/Eval-Context
 dev-perl/Event-RPC
 dev-perl/Feed-Find
-dev-perl/File-MimeInfo
 dev-perl/File-Next
 dev-perl/GD
 dev-perl/GDGraph
@@ -406,7 +402,6 @@ dev-util/pkgconfig
 dev-util/scons
 dev-util/source-highlight
 dev-util/xdelta
-dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/qgit
 games-misc/bsd-games
@@ -465,7 +460,6 @@ kde-base/kcalc
 kde-base/kcharselect
 kde-base/kcheckpass
 kde-base/kcminit
-kde-base/kcmshell
 kde-base/kcolorchooser
 kde-base/kcontrol
 kde-base/kcron
@@ -608,7 +602,6 @@ kde-base/umbrello
 kde-misc/adjustableclock
 kde-misc/fancytasks
 kde-misc/kcheckgmail
-kde-misc/kcm_gtk
 kde-misc/kcm_touchpad
 kde-misc/kdesudo
 kde-misc/kdiff3
@@ -674,10 +667,8 @@ media-libs/giblib
 media-libs/giflib
 media-libs/glew
 media-libs/gst-plugins-bad
-media-libs/gst-plugins-base
 media-libs/gst-plugins-good
 media-libs/gst-plugins-ugly
-media-libs/gstreamer
 media-libs/imlib2
 media-libs/jasper
 media-libs/lensfun
@@ -803,7 +794,6 @@ net-analyzer/nmap
 net-analyzer/rrdtool
 net-analyzer/wireshark
 net-dialup/ppp
-net-dns/avahi
 net-dns/bind-tools
 net-dns/dnsmasq
 net-fs/nfs-utils
@@ -822,12 +812,9 @@ net-libs/libktorrent
 net-libs/libpcap
 net-libs/libproxy
 net-libs/librpcsecgss
-net-libs/libsoup
-net-libs/libsoup-gnome
 net-libs/libtirpc
 net-libs/loudmouth
 net-libs/webkit-gtk
-net-libs/xulrunner
 net-misc/aria2
 net-misc/dhcp
 net-misc/dhcpcd
@@ -888,7 +875,6 @@ sys-apps/usbmon
 sys-auth/nss-mdns
 sys-auth/pam_ssh
 sys-auth/pambase
-sys-auth/polkit
 sys-auth/polkit-qt
 sys-auth/thinkfinger
 sys-block/gparted
@@ -896,12 +882,10 @@ sys-block/partitionmanager
 sys-devel/autogen
 sys-devel/automake
 sys-devel/bc
-sys-devel/binutils
 sys-devel/gcc
 sys-devel/gdb
 sys-devel/gettext
 sys-devel/libtool
-sys-devel/llvm
 sys-devel/llvm-gcc
 sys-devel/prelink
 sys-fs/btrfs-progs
@@ -942,7 +926,6 @@ sys-process/iotop
 sys-process/latencytop
 virtual/glu
 virtual/init
-virtual/libffi
 virtual/libusb
 virtual/linux-sources
 virtual/mta
@@ -953,11 +936,9 @@ virtual/pam
 virtual/ssh
 virtual/tex-base
 www-client/arora
-www-client/firefox
 www-client/links
 www-client/lynx
 www-client/midori
-www-client/seamonkey
 www-client/w3m
 www-plugins/adobe-flash
 www-plugins/mozplugger
@@ -973,25 +954,21 @@ x11-drivers/nvidia-drivers
 x11-drivers/xf86-video-nouveau
 x11-libs/fltk
 x11-libs/fox
-x11-libs/gdk-pixbuf
 x11-libs/gksu
 x11-libs/gtkglext
 x11-libs/gtksourceview
 x11-libs/libXaw3d
 x11-libs/libXxf86misc
 x11-libs/libgksu
-x11-libs/libnotify
 x11-libs/libsexy
 x11-libs/libwnck
 x11-libs/libxklavier
 x11-libs/openmotif
-x11-libs/pango
 x11-libs/qt-core
 x11-libs/qt-dbus
 x11-libs/qt-gui
 x11-libs/qt-sql
 x11-libs/qt-webkit
-x11-libs/startup-notification
 x11-libs/vte
 x11-libs/wxGTK
 x11-misc/dclock
