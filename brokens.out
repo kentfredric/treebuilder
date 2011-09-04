@@ -1,5 +1,6 @@
 app-admin/eselect-fontconfig
 app-admin/metalog
+app-admin/python-updater
 app-admin/sudo
 app-admin/sysstat
 app-admin/system-config-printer-common
@@ -59,6 +60,7 @@ app-text/docbook-sgml-dtd
 app-text/docbook-xml-dtd
 app-text/docbook-xml-simple-dtd
 app-text/docbook2X
+app-text/dvipdfmx
 app-text/dvipng
 app-text/dvipsk
 app-text/ebook-tools
@@ -67,6 +69,7 @@ app-text/gocr
 app-text/gtkspell
 app-text/gv
 app-text/libwpd
+app-text/mftrace
 app-text/openjade
 app-text/opensp
 app-text/po4a
@@ -75,12 +78,14 @@ app-text/rarian
 app-text/recode
 app-text/sword
 app-text/t1utils
+app-text/texlive-core
 app-text/wgetpaste
 app-text/xdvipdfmx
 app-text/xpdf
 app-vim/fugitive
 app-vim/gitv
 dev-cpp/cairomm
+dev-cpp/clucene
 dev-cpp/glibmm
 dev-cpp/gtkmm
 dev-cpp/pangomm
@@ -112,6 +117,7 @@ dev-lang/perl
 dev-lang/php
 dev-lang/spidermonkey
 dev-lang/swig
+dev-lang/yasm
 dev-libs/DirectFB
 dev-libs/atk
 dev-libs/boost
@@ -119,6 +125,7 @@ dev-libs/confuse
 dev-libs/dbus-glib
 dev-libs/elfutils
 dev-libs/gdl
+dev-libs/glib
 dev-libs/json-glib
 dev-libs/kpathsea
 dev-libs/libIDL
@@ -128,6 +135,8 @@ dev-libs/libgweather
 dev-libs/liboil
 dev-libs/libpqxx
 dev-libs/libunique
+dev-libs/libxml2
+dev-libs/libxslt
 dev-libs/mpc
 dev-libs/openssl
 dev-libs/pslib
@@ -366,10 +375,12 @@ dev-python/pycairo
 dev-python/pycrypto
 dev-python/pycups
 dev-python/pygments
+dev-python/pygtk
 dev-python/pyopenssl
 dev-python/pytest
 dev-python/pyxdg
 dev-python/pyxml
+dev-python/setuptools
 dev-python/sip
 dev-python/twisted
 dev-python/urwid
@@ -397,13 +408,17 @@ dev-util/d-feet
 dev-util/dejagnu
 dev-util/desktop-file-utils
 dev-util/glade
+dev-util/gtest
+dev-util/gtk-doc
 dev-util/gtk-doc-am
+dev-util/nvidia-cuda-toolkit
 dev-util/pkgconfig
 dev-util/scons
 dev-util/source-highlight
 dev-util/xdelta
 dev-vcs/mercurial
 dev-vcs/qgit
+dev-vcs/subversion
 games-misc/bsd-games
 games-misc/bsd-games-non-free
 games-misc/openmsx
@@ -429,6 +444,7 @@ gnome-base/libgnome-keyring
 gnome-base/libgnomecanvas
 gnome-base/libgnomekbd
 gnome-base/libgtop
+gnome-base/librsvg
 gnome-base/nautilus
 gnome-extra/libgda
 gnome-extra/libgsf
@@ -488,6 +504,7 @@ kde-base/kdebindings-perl
 kde-base/kdebugdialog
 kde-base/kdegraphics-meta
 kde-base/kdegraphics-strigi-analyzer
+kde-base/kdelibs
 kde-base/kdemultimedia-kioslaves
 kde-base/kdenetwork-filesharing
 kde-base/kdenetwork-meta
@@ -495,6 +512,7 @@ kde-base/kdepasswd
 kde-base/kdepim-kresources
 kde-base/kdepim-l10n
 kde-base/kdepim-meta
+kde-base/kdepim-runtime
 kde-base/kdepim-strigi-analyzer
 kde-base/kdepim-wizards
 kde-base/kdeplasma-addons
@@ -580,6 +598,7 @@ kde-base/liboxygenstyle
 kde-base/lokalize
 kde-base/marble
 kde-base/mplayerthumbs
+kde-base/nepomuk
 kde-base/nsplugins
 kde-base/okteta
 kde-base/okular
@@ -649,7 +668,9 @@ media-gfx/enblend
 media-gfx/exiv2
 media-gfx/fbida
 media-gfx/feh
+media-gfx/fontforge
 media-gfx/gimp
+media-gfx/graphviz
 media-gfx/hugin
 media-gfx/imagemagick
 media-gfx/inkscape
@@ -660,6 +681,7 @@ media-gfx/pstoedit
 media-gfx/sane-backends
 media-gfx/uniconvertor
 media-libs/alsa-lib
+media-libs/babl
 media-libs/bio2jack
 media-libs/ftgl
 media-libs/gegl
@@ -671,9 +693,11 @@ media-libs/gst-plugins-good
 media-libs/gst-plugins-ugly
 media-libs/imlib2
 media-libs/jasper
+media-libs/lcms
 media-libs/lensfun
 media-libs/libass
 media-libs/libbs2b
+media-libs/libcanberra
 media-libs/libclxclient
 media-libs/libcue
 media-libs/libdc1394
@@ -699,6 +723,7 @@ media-libs/libshout
 media-libs/libvpx
 media-libs/libwmf
 media-libs/mediastreamer
+media-libs/mesa
 media-libs/mlt
 media-libs/musicbrainz
 media-libs/netpbm
@@ -820,6 +845,7 @@ net-misc/dhcp
 net-misc/dhcpcd
 net-misc/memcached
 net-misc/modemmanager
+net-misc/networkmanager
 net-misc/ntp
 net-misc/rdesktop
 net-misc/remmina
@@ -829,6 +855,7 @@ net-misc/youtube-dl
 net-nds/openldap
 net-p2p/ktorrent
 net-p2p/rtorrent
+net-print/cups
 net-proxy/dante
 net-wireless/bluez
 net-wireless/wpa_supplicant
@@ -859,7 +886,9 @@ sci-mathematics/pari
 sci-visualization/gnuplot
 sys-apps/baselayout
 sys-apps/coreutils
+sys-apps/dbus
 sys-apps/file
+sys-apps/gnome-disk-utility
 sys-apps/grep
 sys-apps/hwinfo
 sys-apps/iproute2
@@ -872,6 +901,8 @@ sys-apps/portage
 sys-apps/rescan-scsi-bus
 sys-apps/sdparm
 sys-apps/usbmon
+sys-apps/usbutils
+sys-auth/consolekit
 sys-auth/nss-mdns
 sys-auth/pam_ssh
 sys-auth/pambase
@@ -892,6 +923,7 @@ sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dmraid
 sys-fs/hfsutils
+sys-fs/lvm2
 sys-fs/mdadm
 sys-fs/mtools
 sys-fs/multipath-tools
@@ -902,6 +934,7 @@ sys-fs/shake
 sys-fs/sshfs-fuse
 sys-fs/udev
 sys-fs/udiskie
+sys-fs/udisks
 sys-fs/udisks-glue
 sys-fs/xfsdump
 sys-fs/xfsprogs
@@ -946,12 +979,16 @@ www-servers/lighttpd
 www-servers/nginx
 x11-apps/editres
 x11-apps/scripts
+x11-apps/xmessage
+x11-apps/xpr
+x11-apps/xsetmode
 x11-apps/xvidtune
 x11-base/nouveau-drm
 x11-base/xorg-drivers
 x11-base/xorg-x11
 x11-drivers/nvidia-drivers
 x11-drivers/xf86-video-nouveau
+x11-drivers/xf86-video-vesa
 x11-libs/fltk
 x11-libs/fox
 x11-libs/gksu
@@ -962,6 +999,7 @@ x11-libs/libXxf86misc
 x11-libs/libgksu
 x11-libs/libsexy
 x11-libs/libwnck
+x11-libs/libxcb
 x11-libs/libxklavier
 x11-libs/openmotif
 x11-libs/qt-core
@@ -975,6 +1013,7 @@ x11-misc/dclock
 x11-misc/denu
 x11-misc/dmenu
 x11-misc/dzen
+x11-misc/gccmakedep
 x11-misc/notification-daemon
 x11-misc/obmenu
 x11-misc/redshift
@@ -992,7 +1031,11 @@ x11-misc/xrestop
 x11-misc/xscreensaver
 x11-misc/xsel
 x11-plugins/docker
+x11-proto/trapproto
+x11-proto/xcb-proto
+x11-proto/xf86dgaproto
 x11-proto/xf86miscproto
+x11-proto/xf86rushproto
 x11-terms/gnome-terminal
 x11-terms/rxvt-unicode
 x11-terms/xterm
