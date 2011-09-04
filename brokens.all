@@ -784,7 +784,6 @@ media-sound/ogmtools
 media-sound/projectm-jack
 media-sound/qjackctl
 media-sound/sox
-media-sound/timidity++
 media-sound/tuxguitar
 media-sound/twolame
 media-sound/vorbis-tools
@@ -976,7 +975,6 @@ x11-libs/fltk
 x11-libs/fox
 x11-libs/gdk-pixbuf
 x11-libs/gksu
-x11-libs/gtk+
 x11-libs/gtkglext
 x11-libs/gtksourceview
 x11-libs/libXaw3d
