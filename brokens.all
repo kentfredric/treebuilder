@@ -1,4 +1,5 @@
 app-admin/eselect-fontconfig
+app-admin/eselect-python
 app-admin/haskell-updater
 app-admin/metalog
 app-admin/python-updater
@@ -83,6 +84,7 @@ dev-cpp/glibmm
 dev-cpp/gtkmm
 dev-cpp/pangomm
 dev-db/libiodbc
+dev-db/mysql
 dev-db/mysql-init-scripts
 dev-db/postgresql-server
 dev-db/sqlite
@@ -102,6 +104,7 @@ dev-java/sun-javamail
 dev-java/sun-jdk
 dev-java/sun-jre-bin
 dev-java/swt
+dev-lang/ghc
 dev-lang/lua
 dev-lang/ocaml
 dev-lang/parrot
@@ -791,6 +794,7 @@ kde-base/kopete
 kde-base/ktimetracker
 kde-base/kuser
 kde-base/lokalize
+kde-base/marble
 kde-base/nepomuk
 kde-base/oxygen-icons
 kde-base/plasma-runtime
@@ -852,6 +856,7 @@ media-gfx/gimp-texturize-plugin
 media-gfx/graphviz
 media-gfx/hugin
 media-gfx/imagemagick
+media-gfx/luminance-hdr
 media-gfx/nvidia-cg-toolkit
 media-gfx/sane-backends
 media-gfx/uniconvertor
@@ -1083,6 +1088,7 @@ sys-devel/gcc
 sys-devel/gdb
 sys-devel/gettext
 sys-devel/libtool
+sys-devel/llvm
 sys-devel/llvm-gcc
 sys-devel/prelink
 sys-fs/btrfs-progs
@@ -1133,6 +1139,7 @@ virtual/pam
 virtual/ssh
 virtual/tex-base
 www-client/dillo
+www-client/firefox
 www-client/lynx
 www-client/midori
 www-client/w3m
