@@ -4,7 +4,6 @@ app-admin/haskell-updater
 app-admin/metalog
 app-admin/python-updater
 app-admin/testdisk
-app-arch/libarchive
 app-arch/p7zip
 app-cdr/cdrdao
 app-cdr/cuecue
@@ -84,7 +83,6 @@ dev-cpp/pangomm
 dev-db/libiodbc
 dev-db/mysql
 dev-db/mysql-init-scripts
-dev-db/postgresql-server
 dev-db/sqlite
 dev-games/libggz
 dev-haskell/cabal
@@ -129,10 +127,8 @@ dev-libs/libunique
 dev-libs/libxml2
 dev-libs/libxslt
 dev-libs/mpc
-dev-libs/openssl
 dev-libs/ossp-uuid
 dev-libs/redland
-dev-libs/soprano
 dev-libs/syck
 dev-libs/xmlrpc-c
 dev-libs/xmlrpc-epi
@@ -726,7 +722,6 @@ kde-base/blogilo
 kde-base/kabcclient
 kde-base/kaddressbook
 kde-base/kalarm
-kde-base/kde-env
 kde-base/kdeaccounts-plugin
 kde-base/kdeadmin-meta
 kde-base/kdeartwork-meta
@@ -736,19 +731,15 @@ kde-base/kdebase-runtime-meta
 kde-base/kdebase-startkde
 kde-base/kdebindings-perl
 kde-base/kdegraphics-meta
-kde-base/kdelibs
 kde-base/kdemultimedia-meta
 kde-base/kdenetwork-meta
-kde-base/kdepim-common-libs
 kde-base/kdepim-kresources
 kde-base/kdepim-meta
-kde-base/kdepim-runtime
 kde-base/kdepim-strigi-analyzer
 kde-base/kdepim-wizards
 kde-base/kdeplasma-addons
 kde-base/kdesdk-meta
 kde-base/kdeutils-meta
-kde-base/kfmclient
 kde-base/kget
 kde-base/kgpg
 kde-base/kjots
@@ -762,9 +753,6 @@ kde-base/ktimetracker
 kde-base/kuser
 kde-base/lokalize
 kde-base/marble
-kde-base/nepomuk
-kde-base/oxygen-icons
-kde-base/plasma-runtime
 kde-base/plasma-workspace
 kde-base/printer-applet
 kde-base/pykde4
@@ -868,7 +856,6 @@ media-libs/sk1libs
 media-libs/t1lib
 media-libs/urt
 media-libs/vamp-plugin-sdk
-media-libs/x264
 media-libs/xine-lib
 media-libs/xvid
 media-plugins/gimp-greycstoration
@@ -1020,7 +1007,6 @@ sys-apps/lm_sensors
 sys-apps/man
 sys-apps/man-pages-posix
 sys-apps/pmount
-sys-apps/portage
 sys-apps/rescan-scsi-bus
 sys-apps/sdparm
 sys-apps/usbmon
@@ -1037,7 +1023,6 @@ sys-devel/autogen
 sys-devel/automake
 sys-devel/bc
 sys-devel/gdb
-sys-devel/gettext
 sys-devel/libtool
 sys-devel/llvm
 sys-devel/llvm-gcc
@@ -1046,7 +1031,6 @@ sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dmraid
 sys-fs/hfsutils
-sys-fs/lvm2
 sys-fs/mdadm
 sys-fs/multipath-tools
 sys-fs/ntfs3g
