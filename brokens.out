@@ -37,6 +37,7 @@ app-crypt/qca-ossl
 app-dicts/aspell-en
 app-doc/podbrowser
 app-editors/gvim
+app-editors/padre
 app-editors/vim
 app-editors/vim-core
 app-emulation/emul-linux-x86-opengl
@@ -117,6 +118,7 @@ app-text/xpdf
 app-vim/fugitive
 dev-cpp/cairomm
 dev-cpp/clucene
+dev-cpp/eigen
 dev-cpp/glibmm
 dev-cpp/gtkmm
 dev-cpp/pangomm
@@ -196,6 +198,7 @@ dev-perl/AnyEvent-I3
 dev-perl/Apache-Htpasswd
 dev-perl/App-Cache
 dev-perl/App-Cmd
+dev-perl/App-Nopaste
 dev-perl/App-cpanoutdated
 dev-perl/App-perlbrew
 dev-perl/Archive-Any
@@ -316,10 +319,12 @@ dev-perl/Config-JFDI
 dev-perl/Config-JSON
 dev-perl/Config-MVP
 dev-perl/Crypt-MySQL
+dev-perl/Crypt-OpenPGP
 dev-perl/Crypt-SSLeay
 dev-perl/Crypt-Skip32
 dev-perl/DBD-Pg
 dev-perl/DBD-SQLite
+dev-perl/DBICx-TestDatabase
 dev-perl/DBIx-Class
 dev-perl/DBIx-Class-Cursor-Cached
 dev-perl/DBIx-Class-DateTime-Epoch
@@ -339,16 +344,20 @@ dev-perl/Data-Dumper-Names
 dev-perl/Data-Entropy
 dev-perl/Data-FormValidator-Constraints-DateTime
 dev-perl/Data-GUID
+dev-perl/Data-Handle
 dev-perl/Data-OptList
 dev-perl/Data-Rx
 dev-perl/Data-Section
 dev-perl/Data-TreeDumper
+dev-perl/Date-ISO8601
 dev-perl/DateTime
 dev-perl/DateTime-Format-DB2
 dev-perl/DateTime-Format-DateManip
+dev-perl/DateTime-Format-Epoch
 dev-perl/DateTime-Format-MySQL
 dev-perl/DateTime-Format-Pg
 dev-perl/DateTime-Format-Strptime
+dev-perl/DateTime-TimeZone
 dev-perl/DateTimeX-Easy
 dev-perl/Debug-Client
 dev-perl/Debug-ShowStuff
@@ -505,6 +514,7 @@ dev-perl/MooseX-MethodAttributes
 dev-perl/MooseX-OneArgNew
 dev-perl/MooseX-Param
 dev-perl/MooseX-Params-Validate
+dev-perl/MooseX-RelatedClassRoles
 dev-perl/MooseX-Role-TraitConstructor
 dev-perl/MooseX-Role-WithOverloading
 dev-perl/MooseX-Singleton
@@ -555,6 +565,7 @@ dev-perl/Pango
 dev-perl/Parse-BACKPAN-Packages
 dev-perl/Parse-CPAN-Distributions
 dev-perl/Parse-CPAN-Packages
+dev-perl/Parse-ErrorString-Perl
 dev-perl/Parse-Method-Signatures
 dev-perl/Parse-RecDescent
 dev-perl/Path-Abstract
@@ -570,6 +581,7 @@ dev-perl/Pod-Elemental-PerlMunger
 dev-perl/Pod-Elemental-Transformer-List
 dev-perl/Pod-Elemental-Transformer-WikiDoc
 dev-perl/Pod-Eventual
+dev-perl/Pod-POM
 dev-perl/Pod-ProjectDocs
 dev-perl/Pod-PseudoPod
 dev-perl/Pod-Strip
@@ -666,6 +678,8 @@ dev-perl/TryCatch
 dev-perl/VCI
 dev-perl/Version-Next
 dev-perl/WWW-Facebook-API
+dev-perl/WWW-Mechanize
+dev-perl/WWW-Mechanize-TreeBuilder
 dev-perl/WebService-MusicBrainz
 dev-perl/XML-Atom
 dev-perl/XML-Feed
@@ -679,6 +693,7 @@ dev-perl/glib-perl
 dev-perl/gtk2-perl
 dev-perl/libwww-perl
 dev-perl/mocked
+dev-perl/namespace-clean
 dev-perl/perl-ldap
 dev-perl/perl5i
 dev-perl/pip
@@ -794,9 +809,11 @@ kde-base/kdebase-startkde
 kde-base/kdebindings-perl
 kde-base/kdegraphics-meta
 kde-base/kdegraphics-strigi-analyzer
+kde-base/kdelibs
 kde-base/kdemultimedia-kioslaves
 kde-base/kdemultimedia-meta
 kde-base/kdenetwork-meta
+kde-base/kdepim-common-libs
 kde-base/kdepim-kresources
 kde-base/kdepim-l10n
 kde-base/kdepim-meta
@@ -805,6 +822,7 @@ kde-base/kdeplasma-addons
 kde-base/kdesdk-meta
 kde-base/kdesdk-misc
 kde-base/kdm
+kde-base/kfmclient
 kde-base/kmail
 kde-base/knode
 kde-base/konq-plugins
@@ -830,7 +848,9 @@ kde-base/marble
 kde-base/nsplugins
 kde-base/okteta
 kde-base/okular
+kde-base/oxygen-icons
 kde-base/plasma-apps
+kde-base/plasma-runtime
 kde-base/plasma-workspace
 kde-base/smoke
 kde-base/systemsettings
@@ -959,6 +979,7 @@ media-libs/urt
 media-libs/vamp-plugin-sdk
 media-libs/xine-lib
 media-libs/xvid
+media-plugins/frei0r-plugins
 media-plugins/gimp-greycstoration
 media-plugins/gimp-refocus
 media-plugins/gimp-resynthesizer
@@ -1094,6 +1115,8 @@ perl-core/CPAN-Meta
 perl-core/CPANPLUS
 perl-core/DB_File
 perl-core/ExtUtils-MakeMaker
+perl-core/Math-BigInt-FastCalc
+perl-core/Math-BigRat
 perl-core/Module-Build
 perl-core/Version-Requirements
 perl-core/bignum
@@ -1176,6 +1199,7 @@ sys-fs/btrfs-progs
 sys-fs/dmraid
 sys-fs/e2fsprogs
 sys-fs/hfsutils
+sys-fs/lvm2
 sys-fs/mdadm
 sys-fs/multipath-tools
 sys-fs/ntfs3g
@@ -1233,6 +1257,7 @@ www-client/lynx
 www-client/midori
 www-client/w3m
 www-misc/htdig
+www-plugins/adobe-flash
 www-plugins/mozplugger
 www-servers/apache
 www-servers/lighttpd
