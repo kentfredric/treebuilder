@@ -1225,11 +1225,9 @@ sys-libs/slang
 sys-libs/talloc
 sys-libs/tdb
 sys-libs/tevent
-sys-power/acpid
 sys-power/iasl
 sys-power/pm-utils
 sys-power/powertop
-sys-power/upower
 sys-process/at
 sys-process/iotop
 sys-process/latencytop
@@ -1284,11 +1282,6 @@ x11-libs/libwnck
 x11-libs/libxcb
 x11-libs/libxklavier
 x11-libs/openmotif
-x11-libs/qt-core
-x11-libs/qt-dbus
-x11-libs/qt-gui
-x11-libs/qt-sql
-x11-libs/qt-webkit
 x11-libs/vte
 x11-libs/wxGTK
 x11-misc/dclock
@@ -1318,7 +1311,6 @@ x11-proto/xcb-proto
 x11-proto/xf86dgaproto
 x11-proto/xf86rushproto
 x11-terms/gnome-terminal
-x11-terms/xterm
 x11-themes/claws-mail-themes
 x11-themes/gnome-icon-theme
 x11-themes/gnome-themes
