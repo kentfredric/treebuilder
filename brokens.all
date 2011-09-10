@@ -1297,6 +1297,7 @@ virtual/opengl:0
 virtual/package-manager:0
 virtual/pam:0
 virtual/tex-base:0
+virtual/ttf-fonts:0
 www-client/dillo:0
 www-client/firefox:0
 www-client/links:2

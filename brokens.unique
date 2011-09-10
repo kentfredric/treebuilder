@@ -116,7 +116,9 @@ app-text/opensp:0
 app-text/po4a:0
 app-text/poppler:0
 app-text/ps2pkm:0
+app-text/rarian:0
 app-text/recode:0
+app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/texlive-core:0
@@ -763,6 +765,7 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
+dev-util/anjuta:0
 dev-util/boost-build:1.37
 dev-util/boost-build:1.39
 dev-util/boost-build:1.41
@@ -774,8 +777,11 @@ dev-util/d-feet:0
 dev-util/dejagnu:0
 dev-util/desktop-file-utils:0
 dev-util/dialog:0
+dev-util/glade:3
+dev-util/glade:3.10
 dev-util/gtest:0
 dev-util/gtk-doc-am:0
+dev-util/gtk-doc:0
 dev-util/intltool:0
 dev-util/kbuild:0
 dev-util/nvidia-cuda-toolkit:0
@@ -792,6 +798,8 @@ games-misc/bsd-games:0
 games-misc/openmsx:0
 games-util/grfcodec:0
 gnome-base/gconf:2
+gnome-base/gdm:0
+gnome-base/gnome-control-center:2
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3
 gnome-base/gnome-keyring:0
@@ -814,6 +822,8 @@ gnome-base/libgtop:2
 gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-extra/libgda:4
+gnome-extra/yelp:0
+gnome-extra/zenity:0
 kde-base/gwenview:4
 kde-base/kate:4
 kde-base/kcachegrind:4
@@ -1175,6 +1185,7 @@ sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/findutils:0
 sys-apps/gawk:0
+sys-apps/gnome-disk-utility:0
 sys-apps/grep:0
 sys-apps/help2man:0
 sys-apps/hwinfo:0
@@ -1200,6 +1211,7 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/thinkfinger:0
 sys-block/eject:0
+sys-block/gparted:0
 sys-block/partitionmanager:0
 sys-boot/syslinux:0
 sys-cluster/openmpi:0
@@ -1284,6 +1296,7 @@ virtual/opengl:0
 virtual/package-manager:0
 virtual/pam:0
 virtual/tex-base:0
+virtual/ttf-fonts:0
 www-client/dillo:0
 www-client/firefox:0
 www-client/links:2
@@ -1291,7 +1304,6 @@ www-client/lynx:0
 www-client/midori:0
 www-client/w3m:0
 www-misc/htdig:0
-www-plugins/adobe-flash:0
 www-plugins/mozplugger:0
 www-servers/apache:2
 www-servers/lighttpd:0
@@ -1349,6 +1361,7 @@ x11-proto/trapproto:0
 x11-proto/xcb-proto:0
 x11-proto/xf86dgaproto:0
 x11-proto/xf86rushproto:0
+x11-terms/gnome-terminal:0
 x11-themes/claws-mail-themes:0
 x11-themes/gnome-icon-theme:0
 x11-themes/gnome-themes:0

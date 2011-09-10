@@ -1,3 +1,5 @@
-app-text/scrollkeeper
-www-client/opera-next
+media-fonts/liberation-fonts:0
+app-emulation/emul-linux-x86-gtklibs
+www-plugins/nspluginwrapper
+www-plugins/adobe-flash
 media-sound/lilypond
