@@ -6,7 +6,7 @@ use warnings;
 # FILENAME: generate_rebuilds.pl
 # CREATED: 09/09/11 20:39:09 by Kent Fredric (kentnl) <kentfredric@gmail.com>
 # ABSTRACT: generate rebuild lists from rebuild sources
-
+use 5.14.1;
 use lib 'lib';
 use corex;
 use File::stat;
@@ -81,18 +81,21 @@ $core->old_dependency_files(
     my $package = $core->dep_file_to_pkgdir($file);
 
     open my $grepfile, '<', $file or die;
+
+    my $schema = sub {
+      return state $schemaval = $core->dep_file_to_cpv($file);
+    };
+
     INP: while ( my $sourceline = <$grepfile> ) {
       if ( not exists $rebuild_cache{$package} ) {
         foreach my $re (@regexen) {
 
           #      print ">~ $re\n";
           next unless $sourceline =~ $re;
-
-          my $schema = $core->dep_file_to_cpv($file); 
-          #print "+ rebuild\n";
-          $wfh->print( $schema . "\n" );
+          print "+ rebuild " . $schema->() . "\n";
+          $wfh->print( $schema->() . "\n" );
           $rebuild_cache{$package} = 1;
-          $all_cache{$schema}++;
+          $all_cache{$schema->()}++;
           #print "+ $file due to $re\n";
           last INP;
         }
@@ -101,18 +104,14 @@ $core->old_dependency_files(
     if ( not exists $broken_cache{$package} ) {
         foreach my $re (@brokenregexen) {
 
-          #      print ">~ $re\n";
           next unless $package =~ $re;
-          my $schema = $core->dep_file_to_cpv($file);
-
-          last if exists $broken_cache{$schema};
-          #print "+ broken\n";
-          $wbfh->print( $schema . "\n" );
+          last if exists $broken_cache{$schema->()};
+          print "+ broken " . $schema->() . "\n";
+          $wbfh->print( $schema->() . "\n" );
           $broken_cache{$package} = 1;
-          $broken_cache{$schema} = 1;
-          $all_cache{$schema}++;
+          $broken_cache{$schema->()} = 1;
+          $all_cache{$schema->()}++;
          
-          #print "- $file due to $re\n";
           last;
         }
       }
@@ -126,4 +125,4 @@ foreach my $p ( sort keys %all_cache ){
   } else {
     $dupfh->print("$p\n");
   }
-}
+r
