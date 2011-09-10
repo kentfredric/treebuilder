@@ -144,9 +144,10 @@ sub dep_file_to_cpv {
   }
 
   #print "<\n";
-  my $x = $self->pkgdir_strip_to_p( $dir, $hash{PVR} );    # . q{:} . $hash{SLOT};
-                                                           #print "$x\n";
-  return $x;                                               #. ':' . $hash{SLOT};
+  my $x = $self->pkgdir_strip_to_p( $dir, $hash{PVR} ) . q{:} . $hash{SLOT};
+
+  #print "$x\n";
+  return $x;    #. ':' . $hash{SLOT};
 }
 
 no Moose;
