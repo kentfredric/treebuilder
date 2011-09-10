@@ -1,1 +1,14 @@
-
+app-office/koffice-libs:2
+app-office/kword:2
+dev-perl/Catalyst-Plugin-Session:0
+kde-base/kdeartwork-styles:4
+kde-base/konqueror:4
+kde-base/konsole:4
+kde-base/kubrick:4
+kde-base/kwin:4
+kde-base/libkdegames:4
+kde-base/liboxygenstyle:4
+kde-base/nsplugins:4
+media-sound/lilypond:0
+media-sound/mpd:0
+sys-apps/paludis:0
