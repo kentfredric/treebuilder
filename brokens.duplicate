@@ -1,5 +1,6 @@
 app-text/asciidoc:0
 app-text/rarian:0
+app-text/scrollkeeper-dtd:1.0
 dev-util/anjuta:0
 dev-util/glade:3
 dev-util/glade:3.10
