@@ -65,15 +65,17 @@ my @brokenregexen;
 my $timestamp = stat( $core->rebuild_file('timestamp.x') )->mtime;
 
 #open my $fh,  '<', $core->rebuild_file('newer_depends.txt') or die;
-open my $wfh,  '>', $core->rebuild_file('rebuilds.out') or die;
-open my $wbfh, '>', $core->rebuild_file('brokens.out')  or die;
-open my $allfh , '>', $core->rebuild_file('brokens.all') or die;
-open my $uniquefh, '>', $core->rebuild_file('brokens.unique') or die;
-open my $dupfh, '>', $core->rebuild_file('brokens.duplicate') or die;
+open my $wfh,      '>', $core->rebuild_file('rebuilds.out')      or die;
+open my $wbfh,     '>', $core->rebuild_file('brokens.out')       or die;
+open my $allfh,    '>', $core->rebuild_file('brokens.all')       or die;
+open my $uniquefh, '>', $core->rebuild_file('brokens.unique')    or die;
+open my $dupfh,    '>', $core->rebuild_file('brokens.duplicate') or die;
 
 my %rebuild_cache;
 my %broken_cache;
 my %all_cache;
+
+my %rebuild, %broken;
 
 $core->old_dependency_files(
   sub {
@@ -86,43 +88,54 @@ $core->old_dependency_files(
       return state $schemaval = $core->dep_file_to_cpv($file);
     };
 
-    INP: while ( my $sourceline = <$grepfile> ) {
+  INP: while ( my $sourceline = <$grepfile> ) {
       if ( not exists $rebuild_cache{$package} ) {
         foreach my $re (@regexen) {
 
           #      print ">~ $re\n";
           next unless $sourceline =~ $re;
-          print "+ rebuild " . $schema->() . "\n";
-          $wfh->print( $schema->() . "\n" );
+          my $s = $schema->();
+          print "+ rebuild $s\n";
+          $wfh->print("$s\n");
           $rebuild_cache{$package} = 1;
-          $all_cache{$schema->()}++;
+          $rebuild{$s}++;
+          $all_cache{$s}++;
+
           #print "+ $file due to $re\n";
           last INP;
         }
       }
     }
     if ( not exists $broken_cache{$package} ) {
-        foreach my $re (@brokenregexen) {
+      foreach my $re (@brokenregexen) {
+        next unless $package =~ $re;
+        my $s = $schema->();
+        last if exists $broken_cache{$s};
+        print "+ broken $s\n";
 
-          next unless $package =~ $re;
-          last if exists $broken_cache{$schema->()};
-          print "+ broken " . $schema->() . "\n";
-          $wbfh->print( $schema->() . "\n" );
-          $broken_cache{$package} = 1;
-          $broken_cache{$schema->()} = 1;
-          $all_cache{$schema->()}++;
-         
-          last;
-        }
+        #$wbfh->print( "$s\n" );
+        $broken_cache{$package} = 1;
+        $broken_cache{$s}       = 1;
+        $all_cache{$s}++;
+        $broken{$s}++;
+        last;
       }
+    }
   },
   $timestamp
 );
-foreach my $p ( sort keys %all_cache ){
+foreach my $p ( sort keys %all_cache ) {
   $allfh->print("$p\n");
-  if( $all_cache{$p} == 1 ){
+  if ( $all_cache{$p} == 1 ) {
     $uniquefh->print("$p\n");
-  } else {
+  }
+  else {
     $dupfh->print("$p\n");
   }
+}
+foreach my $p ( sort keys %broken ) {
+  $wbfh->print("$p\n");
+}
+foreach my $p ( sort keys %rebuild ) {
+  $wfh->print("$p\n");
 }
