@@ -921,7 +921,6 @@ media-fonts/freefonts:0
 media-fonts/inconsolata:0
 media-fonts/lfpfonts-fix:0
 media-fonts/lfpfonts-var:0
-media-fonts/liberation-fonts:0
 media-fonts/libertine-ttf:0
 media-fonts/oldstandard:0
 media-fonts/proggy-fonts:0
@@ -1305,7 +1304,6 @@ www-client/lynx:0
 www-client/midori:0
 www-client/w3m:0
 www-misc/htdig:0
-www-plugins/adobe-flash:0
 www-plugins/mozplugger:0
 www-servers/apache:2
 www-servers/lighttpd:0
