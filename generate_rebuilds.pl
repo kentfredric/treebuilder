@@ -75,7 +75,7 @@ my %rebuild_cache;
 my %broken_cache;
 my %all_cache;
 
-my %rebuild, %broken;
+my (%rebuild, %broken);
 
 $core->old_dependency_files(
   sub {
