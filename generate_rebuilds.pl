@@ -125,4 +125,4 @@ foreach my $p ( sort keys %all_cache ){
   } else {
     $dupfh->print("$p\n");
   }
-r
+}

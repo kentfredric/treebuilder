@@ -105,8 +105,7 @@ sub dep_file_to_cpv {
     last
       if exists $hash{CATEGORY}
         and exists $hash{PN}
-
-        # and exists $hash{SLOT}
+        and exists $hash{SLOT}
         and exists $hash{PVR};
     if ( !exists $hash{CATEGORY} and $line =~ /^CATEGORY=(.*$)/ ) {
 
