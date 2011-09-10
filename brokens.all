@@ -825,6 +825,7 @@ gnome-base/nautilus:0
 gnome-extra/libgda:4
 gnome-extra/yelp:0
 gnome-extra/zenity:0
+kde-base/dolphin:4
 kde-base/gwenview:4
 kde-base/kate:4
 kde-base/kcachegrind:4
@@ -852,6 +853,7 @@ kde-base/kdeplasma-addons:4
 kde-base/kdesdk-meta:4
 kde-base/kdesdk-misc:4
 kde-base/kdm:4
+kde-base/keditfiletype:4
 kde-base/kfmclient:4
 kde-base/kmail:4
 kde-base/knode:4
@@ -875,6 +877,7 @@ kde-base/libkdegames:4
 kde-base/libksane:4
 kde-base/liboxygenstyle:4
 kde-base/marble:4
+kde-base/mplayerthumbs:4
 kde-base/nsplugins:4
 kde-base/okteta:4
 kde-base/okular:4
