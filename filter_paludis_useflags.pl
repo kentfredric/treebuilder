@@ -29,7 +29,7 @@ while ( defined ( my $line = <> ) ){
     }
     for my $key ( keys %sections ){
       my @ignored;
-      $sections{$key}->{flags} =~ s{(\([^)]+\))\s*}{
+      $sections{$key}->{flags} =~ s{(\([^)]+\)[+*-]?)\s*}{
         push @ignored, "$1";
         ""
       }gxe;
