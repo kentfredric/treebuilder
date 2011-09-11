@@ -9,6 +9,7 @@ app-admin/eselect-php:0
 app-admin/eselect-python:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
+app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/metalog:0
 app-admin/python-updater:0
@@ -55,6 +56,7 @@ app-office/kword:2
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0
 app-pda/libplist:0
+app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/genlop:0
 app-portage/gentoolkit-dev:0
