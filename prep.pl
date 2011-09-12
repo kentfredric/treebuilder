@@ -8,7 +8,7 @@ use warnings;
 # ABSTRACT: Prepare pre-selection merge info
 
 use List::Util qw( first );
-my ( $new, $append, $run, $nomerge );
+my ( $new, $append, $run, $nomerge, $lax );
 
 if ( first { $_ eq '--new' } @ARGV ) {
   $new = 1;
@@ -26,9 +26,13 @@ if ( first { $_ eq '--nomerge' } @ARGV ) {
   $nomerge = 1;
   @ARGV = grep { $_ ne '--nomerge' } @ARGV;
 }
+if ( first { $_ eq '--lax' } @ARGV ) {
+  $lax = 1;
+  @ARGV = grep { $_ ne '--lax' } @ARGV;
+}
 
 sub enote {
-  *STDERR->print("\e[32m ** ", join q{ }, @_ , "\e[0m\n");
+  *STDERR->print( "\e[32m ** ", join q{ }, @_, "\e[0m\n" );
 }
 
 if ($new) {
@@ -43,34 +47,65 @@ chomp for @builds;
 @builds = sort @builds;
 
 my @cmdbase = (
-  'resolve', '-1', '-c',
+  'resolve', '--preserve-world',
+  '--reinstall-scm' => 'daily',
+  '--follow-installed-build-dependencies',
+  '--suggestions'        => 'take',
+  '--recommendations'    => 'take',
   '--permit-old-version' => '*/*',
   '--permit-downgrade'   => '*/*',
-  '-H'                   => '>sys-block/parted-2.4',
-  '-km',
-  '-sa', '--continue-on-failure' => 'if-independent',
+
+  #'-H'                   => '>sys-block/parted-2.4',
+  '--keep'                => 'if-same-metadata',
+  '--target-slots'        => 'all',
+  '--slots'               => 'all',
+  '--continue-on-failure' => ( $lax ? 'if-satisfied' : 'if-independent' ),
+);
+
+my @preflags = (
+  @cmdbase, @builds,
+  '--keep-targets' => 'if-same-metadata',
+  @ARGV,
+);
+my @mainflags = (
+  @cmdbase, @builds,
+  '--keep-targets' => 'never',
+  '--execute', @ARGV,
 );
 
 if ( not $nomerge and not $run ) {
-  {
-    enote("Doing first pass to fix metadata");
-    open my $cave, '-|', 'sudo', '-i', 'cave', ( @cmdbase, @builds, '-Km', @ARGV ) or die;
-    while ( defined( my $line = <$cave> ) ) { next; }
-  }
-  {
-    enote("Computing changed depgraph");
-    open my $cave, '-|', 'sudo' , '-i', 'cave', ( @cmdbase, @builds, '-Km', @ARGV ) or die;
-    open my $caveout, '>', '/root/rebuilder/current.out' or die;
-    while ( defined( my $line = <$cave> ) ) {
-      $caveout->print($line);
-    }
-  }
+  enote("Doing first pass to fix metadata");
+  _meta_prepare();
+  enote("Computing changed depgraph");
+  _meta_collect();
 }
 if ( not $run ) {
-  {
-    my $mode = '>';
-    $mode = '>>' if $append;
-    enote("Updating rebuild file $mode");
+  my $mode = '>';
+  $mode = '>>' if $append;
+  enote("Updating rebuild file $mode");
+  _detect_big_rebuild();
+  enote("Finding interesting changes");
+  _show_interesting_changes();
+}
+else {
+  enote("Running build");
+  _do_buiild();
+}
+
+sub _meta_prepare {
+  open my $cave, '-|', 'sudo', '-i', 'cave', @preflags ) or die;
+  while ( defined( my $line = <$cave> ) ) { next; }
+}
+
+sub _meta_collect {
+    open my $cave, '-|', 'sudo', '-i', 'cave', @preflags ) or die;
+    open my $caveout, '>', '/root/rebuilder/current.out' or die;
+    while ( defined( my $line = <$cave> ) ) {
+        $caveout->print($line);
+    }
+}
+
+sub _detect_big_rebuild {
     open my $rebuildtxt, $mode, '/root/rebuilder/rebuild.txt' or die;
     open my $depper, '-|', $^X, '/root/rebuilder/paludis_deps.pl', '/root/rebuilder/current.out' or die;
 
@@ -78,14 +113,14 @@ if ( not $run ) {
     while ( defined( my $line = <$depper> ) ) {
       $rebuildtxt->print($line);
     }
-  }
-  {
-    enote("Finding interesting changes");
-    exec { $^X } 'filter_paludis_useflags', '/root/rebuilder/filter_paludis_useflags.pl',
-      '/root/rebuilder/current.out';
-  }
+
 }
-else {
-  enote("Running build");
-  exec {'sudo'} 'sudo', '-i', 'cave', @cmdbase, @builds, '-Kn', '-x', @ARGV;
+
+sub _show_interesting_changes {
+    exec {$^X} 'filter_paludis_useflags', '/root/rebuilder/filter_paludis_useflags.pl', '/root/rebuilder/current.out';
+}
+
+sub _do_build {
+    exec {'sudo'} 'sudo', '-i', 'cave', @mainflags;
+
 }
