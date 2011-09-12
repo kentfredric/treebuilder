@@ -9,7 +9,6 @@ app-admin/eselect-php:0
 app-admin/eselect-python:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
-app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/metalog:0
 app-admin/python-updater:0
@@ -48,7 +47,6 @@ app-office/koffice-data:2
 app-office/koffice-l10n:2
 app-office/koffice-libs:2
 app-office/koffice-meta:2
-app-office/kplato:2
 app-office/kpresenter:2
 app-office/krita:2
 app-office/kspread:2
@@ -59,7 +57,6 @@ app-pda/libplist:0
 app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/genlop:0
-app-portage/gentoolkit-dev:0
 app-portage/layman:0
 app-shells/bash-completion:0
 app-shells/bash:0
@@ -119,7 +116,6 @@ app-text/xpdf:0
 app-vim/fugitive:0
 dev-cpp/cairomm:0
 dev-cpp/eigen:2
-dev-cpp/eigen:3
 dev-cpp/glibmm:2
 dev-cpp/gtkmm:2.4
 dev-cpp/gtkmm:3.0
@@ -127,8 +123,6 @@ dev-cpp/pangomm:1.4
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/postgresql-base:9.0
-dev-db/sqlite:0
-dev-db/sqlite:3
 dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-games/ggz-client-libs:0
@@ -140,14 +134,12 @@ dev-java/bcmail:0
 dev-java/bcprov:0
 dev-java/icedtea6-bin:0
 dev-java/itext:0
-dev-java/java-config:2
 dev-java/javatoolkit:0
 dev-java/junit:0
 dev-java/sun-jaf:0
 dev-java/sun-javamail:0
 dev-java/swt:3.5
 dev-lang/ghc:0
-dev-lang/lua:0
 dev-lang/parrot:0
 dev-lang/perl:0
 dev-lang/php:5.3
@@ -174,7 +166,6 @@ dev-libs/gobject-introspection:0
 dev-libs/json-glib:0
 dev-libs/libIDL:0
 dev-libs/libcdio:0
-dev-libs/libcroco:0.6
 dev-libs/libgpg-error:0
 dev-libs/libgweather:2
 dev-libs/liboil:0.3
@@ -262,7 +253,6 @@ dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-Compress:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
 dev-perl/Catalyst-Plugin-Email:0
-dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FillInForm:0
 dev-perl/Catalyst-Plugin-FormValidator:0
 dev-perl/Catalyst-Plugin-I18N:0
@@ -359,7 +349,6 @@ dev-perl/DateTime-Format-Pg:0
 dev-perl/DateTime-Format-Strptime:0
 dev-perl/DateTime-TimeZone:0
 dev-perl/DateTime:0
-dev-perl/DateTimeX-Easy:0
 dev-perl/Debug-Client:0
 dev-perl/Debug-ShowStuff:0
 dev-perl/Devel-Cover:0
@@ -523,9 +512,7 @@ dev-perl/MooseX-Traits-Pluggable:0
 dev-perl/MooseX-Traits:0
 dev-perl/MooseX-Types-Authen-Passphrase:0
 dev-perl/MooseX-Types-Common:0
-dev-perl/MooseX-Types-DateTime-ButMaintained:0
 dev-perl/MooseX-Types-DateTime:0
-dev-perl/MooseX-Types-DateTimeX:0
 dev-perl/MooseX-Types-FakeHash:0
 dev-perl/MooseX-Types-ISO8601:0
 dev-perl/MooseX-Types-LoadableClass:0
@@ -536,7 +523,6 @@ dev-perl/MooseX-Types-URI:0
 dev-perl/MooseX-YAML:0
 dev-perl/Mouse:0
 dev-perl/Net-API-RPX:0
-dev-perl/Net-Amazon-S3:0
 dev-perl/Net-DBus:0
 dev-perl/Net-LDAP-Server-Test:0
 dev-perl/Net-LDAP-Server:0
@@ -680,7 +666,6 @@ dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/WWW-Mechanize:0
 dev-perl/WebService-MusicBrainz:0
 dev-perl/XML-Atom:0
-dev-perl/XML-Feed:0
 dev-perl/XML-Generator-PerlData:0
 dev-perl/XML-RSS:0
 dev-perl/XML-Tidy:0
@@ -702,20 +687,15 @@ dev-python/argparse:0
 dev-python/beautifulsoup:python-2
 dev-python/beautifulsoup:python-3
 dev-python/dbus-python:0
-dev-python/docutils:0
 dev-python/imaging:0
 dev-python/lxml:0
-dev-python/nose:0
 dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/paramiko:0
 dev-python/pexpect:0
-dev-python/py:0
-dev-python/pycairo:0
 dev-python/pycrypto:0
 dev-python/pygments:0
 dev-python/pygtk:2
-dev-python/pytest:0
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-python/setuptools:0
@@ -748,7 +728,6 @@ dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtest:0
 dev-util/gtk-doc-am:0
-dev-util/gtk-doc:0
 dev-util/intltool:0
 dev-util/kbuild:0
 dev-util/nvidia-cuda-toolkit:0
@@ -756,7 +735,6 @@ dev-util/pkgconfig:0
 dev-util/scons:0
 dev-util/source-highlight:0
 dev-util/xdelta:3
-dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-misc/bsd-games-non-free:0
@@ -764,12 +742,10 @@ games-misc/bsd-games:0
 games-misc/openmsx:0
 games-util/grfcodec:0
 gnome-base/gconf:2
-gnome-base/gdm:0
 gnome-base/gnome-control-center:2
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3
 gnome-base/gnome-keyring:0
-gnome-base/gnome-light:2.0
 gnome-base/gnome-menus:0
 gnome-base/gnome-panel:0
 gnome-base/gnome-session:0
@@ -784,8 +760,6 @@ gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
 gnome-base/libgnomekbd:0
-gnome-base/libgtop:2
-gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-extra/libgda:4
 gnome-extra/yelp:0
@@ -793,16 +767,11 @@ gnome-extra/zenity:0
 kde-base/dolphin:4
 kde-base/gwenview:4
 kde-base/kate:4
-kde-base/kdeartwork-kscreensaver:4
 kde-base/kdeartwork-meta:4
 kde-base/kdeartwork-styles:4
-kde-base/kdebase-data:4
 kde-base/kdebase-meta:4
-kde-base/kdebase-runtime-meta:4
 kde-base/kdebase-startkde:4
-kde-base/kdebindings-perl:4
 kde-base/kdegraphics-meta:4
-kde-base/kdegraphics-strigi-analyzer:4
 kde-base/kdelibs:4
 kde-base/kdepim-common-libs:4
 kde-base/kdepim-l10n:4
@@ -836,14 +805,12 @@ kde-base/plasma-workspace:4
 kde-base/smoke:4
 kde-base/systemsettings:4
 kde-base/thumbnailers:4
-kde-misc/adjustableclock:4
 kde-misc/fancytasks:4
 kde-misc/kcheckgmail:4
 kde-misc/kcm-gtk-config:4
 kde-misc/kcm_touchpad:4
 kde-misc/kdesudo:4
 kde-misc/kdiff3:4
-kde-misc/kgtk:4
 kde-misc/kim4:4
 kde-misc/kio-sysinfo:4
 kde-misc/krcstat:4
@@ -852,8 +819,6 @@ kde-misc/ksplasher:4
 kde-misc/ktrafficanalyzer:4
 kde-misc/kwebkitpart:4
 kde-misc/polkit-kde-kcmodules:4
-kde-misc/publictransport:4
-kde-misc/smooth-tasks:4
 kde-misc/wacomtablet:4
 mail-client/claws-mail-acpi-notifier:0
 mail-client/claws-mail-archive:0
@@ -888,7 +853,6 @@ media-gfx/autopano-sift-C:0
 media-gfx/digikam:4
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
-media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
@@ -926,11 +890,9 @@ media-libs/libggi:0
 media-libs/libggiwmh:0
 media-libs/libgphoto2:0
 media-libs/libgpod:0
-media-libs/libkface:4
 media-libs/libkgeomap:4
 media-libs/liblastfm:0
 media-libs/liblqr:0
-media-libs/libmediawiki:4
 media-libs/libmms:0
 media-libs/libmp4v2:0
 media-libs/libofa:0
@@ -950,7 +912,6 @@ media-libs/phonon-xine:0
 media-libs/phonon:0
 media-libs/portaudio:0
 media-libs/raptor:0
-media-libs/raptor:2
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
 media-libs/sk1libs:0
@@ -1059,7 +1020,6 @@ net-libs/libproxy:0
 net-libs/librpcsecgss:0
 net-libs/libssh:0
 net-libs/libtirpc:0
-net-libs/libtorrent:0
 net-libs/neon:0
 net-libs/openslp:0
 net-libs/ortp:0
@@ -1078,15 +1038,12 @@ net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/tightvnc:0
 net-misc/wget:0
-net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
 net-print/cups:0
 net-proxy/dante:0
 net-wireless/bluedevil:4
 net-wireless/bluez:0
-net-wireless/wpa_supplicant:0
-net-zope/zope-fixers:0
 perl-core/CPAN-Meta:0
 perl-core/CPAN:0
 perl-core/CPANPLUS:0
@@ -1125,7 +1082,6 @@ sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
-sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/findutils:0
 sys-apps/gawk:0
@@ -1151,7 +1107,6 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/thinkfinger:0
 sys-block/eject:0
-sys-block/gparted:0
 sys-boot/syslinux:0
 sys-cluster/openmpi:0
 sys-devel/autogen:0
@@ -1168,7 +1123,6 @@ sys-devel/bison:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
-sys-devel/gdb:0
 sys-devel/libtool:2
 sys-devel/llvm-gcc:0
 sys-devel/llvm:0
@@ -1220,9 +1174,7 @@ virtual/blas:0
 virtual/glu:0
 virtual/init:0
 virtual/jdk:1.6
-virtual/jdk:1.7
 virtual/jre:1.6
-virtual/jre:1.7
 virtual/lapack:0
 virtual/libusb:0
 virtual/libusb:1
@@ -1239,7 +1191,6 @@ www-client/dillo:0
 www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
-www-client/midori:0
 www-client/w3m:0
 www-misc/htdig:0
 www-plugins/mozplugger:0
@@ -1260,14 +1211,10 @@ x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libXaw3d:0
 x11-libs/libXpm:0
-x11-libs/libgksu:2
-x11-libs/libwnck:1
 x11-libs/libwnck:3
 x11-libs/libxcb:0
 x11-libs/libxklavier:0
 x11-libs/openmotif:0
-x11-libs/vte:0
-x11-libs/vte:2.90
 x11-libs/wxGTK:2.8
 x11-misc/dclock:0
 x11-misc/denu:0
@@ -1305,7 +1252,6 @@ x11-themes/xcursor-neutral:0
 x11-wm/awesome:0
 x11-wm/evilwm:0
 x11-wm/fluxbox:0
-x11-wm/i3:0
 x11-wm/metacity:0
 xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0

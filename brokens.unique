@@ -97,8 +97,6 @@ dev-cpp/glibmm:2
 dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql-init-scripts:0
-dev-db/sqlite:0
-dev-db/sqlite:3
 dev-db/virtuoso-odbc:0
 dev-games/ggz-client-libs:0
 dev-games/libggz:0
@@ -109,12 +107,10 @@ dev-java/javatoolkit:0
 dev-java/oracle-jdk-bin:1.7
 dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
-dev-lang/lua:0
 dev-lang/parrot:0
 dev-lang/spidermonkey:0
 dev-lang/swig:0
 dev-libs/DirectFB:0
-dev-libs/apr-util:1
 dev-libs/boehm-gc:0
 dev-libs/confuse:0
 dev-libs/glib:1
@@ -595,7 +591,6 @@ dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/WWW-Mechanize:0
 dev-perl/WebService-MusicBrainz:0
 dev-perl/XML-Atom:0
-dev-perl/XML-Feed:0
 dev-perl/XML-Generator-PerlData:0
 dev-perl/XML-RSS:0
 dev-perl/XML-Tidy:0
@@ -617,10 +612,8 @@ dev-python/argparse:0
 dev-python/beautifulsoup:python-2
 dev-python/beautifulsoup:python-3
 dev-python/dbus-python:0
-dev-python/docutils:0
 dev-python/imaging:0
 dev-python/lxml:0
-dev-python/nose:0
 dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/pygobject:2
@@ -651,7 +644,6 @@ dev-util/d-feet:0
 dev-util/dejagnu:0
 dev-util/dialog:0
 dev-util/gtest:0
-dev-util/gtk-doc:0
 dev-util/intltool:0
 dev-util/kbuild:0
 dev-util/nvidia-cuda-toolkit:0
@@ -675,9 +667,7 @@ java-virtuals/javamail:0
 kde-base/ark:4
 kde-base/kate:4
 kde-base/kcontrol:4
-kde-base/kdebase-data:4
 kde-base/kdebase-kioslaves:4
-kde-base/kdegraphics-strigi-analyzer:4
 kde-base/kdepim-l10n:4
 kde-base/kdepim-wizards:4
 kde-base/kdm:4
@@ -759,7 +749,6 @@ media-fonts/font-sony-misc:0
 media-fonts/font-sun-misc:0
 media-fonts/font-winitzki-cyrillic:0
 media-fonts/font-xfree86-type1:0
-media-fonts/liberation-fonts:0
 media-fonts/libertine-ttf:0
 media-gfx/arss:0
 media-gfx/ebdftopcf:0
@@ -796,7 +785,6 @@ media-libs/libgphoto2:0
 media-libs/libid3tag:0
 media-libs/liblastfm:0
 media-libs/liblqr:0
-media-libs/libmediawiki:4
 media-libs/libmms:0
 media-libs/libmng:0
 media-libs/libmp4v2:0
@@ -914,7 +902,6 @@ net-libs/librpcsecgss:0
 net-libs/libsoup-gnome:2.4
 net-libs/libsoup:2.4
 net-libs/libtirpc:0
-net-libs/libtorrent:0
 net-libs/libvncserver:0
 net-libs/loudmouth:0
 net-libs/openslp:0
@@ -931,12 +918,9 @@ net-misc/rdesktop:0
 net-misc/wget:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
-net-p2p/rtorrent:0
 net-proxy/dante:0
 net-wireless/bluedevil:4
 net-wireless/bluez:0
-net-wireless/wpa_supplicant:0
-net-zope/zope-fixers:0
 net-zope/zope-interface:0
 perl-core/CPAN-Meta:0
 perl-core/CPAN:0
@@ -976,7 +960,6 @@ sci-mathematics/pari:0
 sci-visualization/spectromatic:0
 sys-apps/acl:0
 sys-apps/baselayout:0
-sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/debianutils:0
 sys-apps/file:0
@@ -993,7 +976,6 @@ sys-apps/mlocate:0
 sys-apps/module-init-tools:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sed:0
 sys-apps/texinfo:0
@@ -1017,7 +999,6 @@ sys-devel/automake:1.9
 sys-devel/bc:0
 sys-devel/binutils:0
 sys-devel/bison:0
-sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm-gcc:0
@@ -1062,7 +1043,6 @@ virtual/blas:0
 virtual/glu:0
 virtual/init:0
 virtual/jdk:1.6
-virtual/jdk:1.7
 virtual/lapack:0
 virtual/libusb:0
 virtual/libusb:1
@@ -1094,7 +1074,6 @@ x11-libs/fltk:1
 x11-libs/fltk:2
 x11-libs/fox:1.6
 x11-libs/gnome-pty-helper:0
-x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/libXaw3d:0
 x11-libs/libXft:0
@@ -1146,6 +1125,5 @@ x11-themes/sound-theme-freedesktop:0
 x11-themes/xcursor-neutral:0
 x11-wm/evilwm:0
 x11-wm/fluxbox:0
-x11-wm/i3:0
 x11-wm/openbox:3
 xfce-base/libxfce4util:0
