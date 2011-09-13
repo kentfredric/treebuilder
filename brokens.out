@@ -19,7 +19,6 @@ app-arch/sharutils:0
 app-arch/tar:0
 app-cdr/cdrdao:0
 app-cdr/cuecue:0
-app-cdr/k3b:4
 app-crypt/gnupg:0
 app-crypt/mit-krb5:0
 app-crypt/qca-gnupg:2
@@ -810,7 +809,6 @@ kde-misc/kcheckgmail:4
 kde-misc/kcm-gtk-config:4
 kde-misc/kcm_touchpad:4
 kde-misc/kdesudo:4
-kde-misc/kdiff3:4
 kde-misc/kim4:4
 kde-misc/kio-sysinfo:4
 kde-misc/krcstat:4
