@@ -83,22 +83,22 @@ if ( not $run ) {
   my $mode = '>';
   $mode = '>>' if $append;
   enote("Updating rebuild file $mode");
-  _detect_big_rebuild();
+  _detect_big_rebuild($mode);
   enote("Finding interesting changes");
   _show_interesting_changes();
 }
 else {
   enote("Running build");
-  _do_buiild();
+  _do_build();
 }
 
 sub _meta_prepare {
-  open my $cave, '-|', 'sudo', '-i', 'cave', @preflags ) or die;
+  ( open my $cave, '-|', 'sudo', '-i', 'cave', @preflags ) or die;
   while ( defined( my $line = <$cave> ) ) { next; }
 }
 
 sub _meta_collect {
-    open my $cave, '-|', 'sudo', '-i', 'cave', @preflags ) or die;
+    ( open my $cave, '-|', 'sudo', '-i', 'cave', @preflags ) or die;
     open my $caveout, '>', '/root/rebuilder/current.out' or die;
     while ( defined( my $line = <$cave> ) ) {
         $caveout->print($line);
@@ -106,8 +106,9 @@ sub _meta_collect {
 }
 
 sub _detect_big_rebuild {
-    open my $rebuildtxt, $mode, '/root/rebuilder/rebuild.txt' or die;
-    open my $depper, '-|', $^X, '/root/rebuilder/paludis_deps.pl', '/root/rebuilder/current.out' or die;
+    my $mode = shift;
+    ( open my $rebuildtxt, $mode, '/root/rebuilder/rebuild.txt' ) or die;
+    ( open my $depper, '-|', $^X, '/root/rebuilder/paludis_deps.pl', '/root/rebuilder/current.out' ) or die;
 
     $depper->autoflush(1);
     while ( defined( my $line = <$depper> ) ) {
