@@ -50,7 +50,6 @@ dev-cpp/glibmm:2
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/postgresql-base:9.0
-dev-db/virtuoso-server:0
 dev-java/ant-core:0
 dev-java/bcmail:0
 dev-java/bcprov:0
@@ -222,7 +221,6 @@ dev-perl/DateTime-Format-Epoch:0
 dev-perl/DateTime-Format-MySQL:0
 dev-perl/DateTime-Format-Pg:0
 dev-perl/DateTime-Format-Strptime:0
-dev-perl/DateTime-TimeZone:0
 dev-perl/DateTime:0
 dev-perl/Debug-Client:0
 dev-perl/Devel-Cover:0
@@ -510,7 +508,6 @@ gnome-base/gnome-control-center:2
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3
 gnome-base/gnome-panel:0
-gnome-base/gnome-session:0
 gnome-base/gnome-settings-daemon:0
 gnome-base/gnome-vfs:2
 gnome-base/gvfs:0
@@ -607,7 +604,6 @@ media-libs/gst-plugins-base:0.10
 media-libs/imlib2:0
 media-libs/lcms:0
 media-libs/lcms:2
-media-libs/libcanberra:0
 media-libs/libgpod:0
 media-libs/libkgeomap:4
 media-libs/liblastfm:0
@@ -629,7 +625,6 @@ media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-ffmpeg:0.10
-media-plugins/gst-plugins-meta:0.10
 media-plugins/gst-plugins-mplex:0.10
 media-plugins/gst-plugins-ofa:0.10
 media-plugins/kipi-plugins:4
@@ -691,7 +686,6 @@ perl-core/CPAN:0
 perl-core/CPANPLUS:0
 perl-core/DB_File:0
 perl-core/ExtUtils-MakeMaker:0
-perl-core/Math-BigInt-FastCalc:0
 perl-core/Math-BigRat:0
 perl-core/Module-Build:0
 perl-core/Version-Requirements:0
@@ -733,7 +727,6 @@ sys-apps/iproute2:0
 sys-apps/kbd:0
 sys-apps/lm_sensors:0
 sys-apps/mlocate:0
-sys-apps/paludis:0
 sys-apps/pmount:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/util-linux:0
@@ -793,10 +786,8 @@ virtual/notification-daemon:0
 virtual/package-manager:0
 virtual/tex-base:0
 www-client/dillo:0
-www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
-www-client/opera-next:0
 www-client/seamonkey:0
 www-client/w3m:0
 www-misc/htdig:0
@@ -818,7 +809,6 @@ x11-libs/fltk:2
 x11-libs/fox:1.6
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
@@ -874,5 +864,4 @@ x11-wm/evilwm:0
 x11-wm/fluxbox:0
 x11-wm/metacity:0
 x11-wm/openbox:3
-xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0

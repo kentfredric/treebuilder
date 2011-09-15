@@ -84,7 +84,6 @@ gnome-base/gnome-control-center:2
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3
 gnome-base/gnome-panel:0
-gnome-base/gnome-session:0
 gnome-base/gnome-settings-daemon:0
 gnome-base/gnome-vfs:2
 gnome-base/gvfs:0
@@ -136,7 +135,6 @@ media-gfx/inkscape:0
 media-gfx/sane-backends:0
 media-libs/gegl:0
 media-libs/gst-plugins-base:0.10
-media-libs/libcanberra:0
 media-libs/libgpod:0
 media-libs/libkgeomap:4
 media-libs/libquicktime:0
@@ -197,15 +195,12 @@ sys-power/nvclock:0
 sys-power/upower:0
 sys-process/latencytop:0
 virtual/package-manager:0
-www-client/firefox:0
-www-client/opera-next:0
 www-client/seamonkey:0
 www-client/w3m:0
 www-plugins/adobe-flash:0
 www-plugins/nspluginwrapper:0
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
@@ -238,5 +233,4 @@ x11-themes/oxygen-gtk:0
 x11-themes/sound-theme-freedesktop:0
 x11-wm/metacity:0
 x11-wm/openbox:3
-xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0

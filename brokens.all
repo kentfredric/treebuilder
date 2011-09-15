@@ -64,14 +64,12 @@ app-text/xpdf:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
 dev-cpp/glibmm:2
-dev-cpp/gtkmm:2.4
 dev-cpp/gtkmm:3.0
 dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/postgresql-base:9.0
-dev-db/virtuoso-server:0
 dev-java/ant-core:0
 dev-java/bcmail:0
 dev-java/bcprov:0
@@ -92,13 +90,11 @@ dev-lang/python:3.2
 dev-lang/ruby:1.8
 dev-lang/spidermonkey:0
 dev-lang/vala:0.10
-dev-lang/vala:0.14
 dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/dbus-glib:0
 dev-libs/gdl:1
 dev-libs/gdl:3
-dev-libs/glib:2
 dev-libs/gobject-introspection:0
 dev-libs/json-glib:0
 dev-libs/libIDL:0
@@ -263,12 +259,10 @@ dev-perl/DateTime-Format-MySQL:0
 dev-perl/DateTime-Format-Natural:0
 dev-perl/DateTime-Format-Pg:0
 dev-perl/DateTime-Format-Strptime:0
-dev-perl/DateTime-TimeZone:0
 dev-perl/DateTime:0
 dev-perl/DateTimeX-Easy:0
 dev-perl/Debug-Client:0
 dev-perl/Devel-Cover:0
-dev-perl/Devel-Declare:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-PatchPerl:0
 dev-perl/Devel-StackTrace-AsHTML:0
@@ -537,7 +531,6 @@ dev-python/dbus-python:0
 dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/pygments:0
-dev-python/pygobject:2
 dev-python/pygtk:2
 dev-python/twisted:0
 dev-scheme/guile:12
@@ -562,7 +555,6 @@ dev-util/gtk-doc:0
 dev-util/pkgconfig:0
 dev-vcs/cvs:0
 dev-vcs/subversion:0
-gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gdm:0
 gnome-base/gnome-control-center:2
@@ -572,7 +564,6 @@ gnome-base/gnome-keyring:0
 gnome-base/gnome-light:2.0
 gnome-base/gnome-menus:0
 gnome-base/gnome-panel:0
-gnome-base/gnome-session:0
 gnome-base/gnome-settings-daemon:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
@@ -580,12 +571,10 @@ gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
-gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
 gnome-base/libgnomekbd:0
 gnome-base/libgtop:2
-gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-base/orbit:2
 gnome-extra/libgda:4
@@ -696,7 +685,6 @@ media-libs/lcms:0
 media-libs/lcms:2
 media-libs/lensfun:0
 media-libs/libafterimage:0
-media-libs/libcanberra:0
 media-libs/libgphoto2:0
 media-libs/libgpod:0
 media-libs/libkface:4
@@ -730,7 +718,6 @@ media-plugins/gst-plugins-faad:0.10
 media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-gio:0.10
 media-plugins/gst-plugins-libmms:0.10
-media-plugins/gst-plugins-meta:0.10
 media-plugins/gst-plugins-mplex:0.10
 media-plugins/gst-plugins-musepack:0.10
 media-plugins/gst-plugins-neon:0.10
@@ -793,14 +780,12 @@ net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-libs/xulrunner:1.9
 net-misc/aria2:0
-net-misc/modemmanager:0
 net-misc/networkmanager:0
 net-misc/ntp:0
 net-misc/openssh:0
 net-misc/remmina:0
 net-misc/tightvnc:0
 net-misc/wget:0
-net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
 net-p2p/rtorrent:0
@@ -817,7 +802,6 @@ perl-core/CPANPLUS:0
 perl-core/DB_File:0
 perl-core/ExtUtils-MakeMaker:0
 perl-core/IPC-Cmd:0
-perl-core/Math-BigInt-FastCalc:0
 perl-core/Math-BigInt:0
 perl-core/Math-BigRat:0
 perl-core/Module-Build:0
@@ -864,7 +848,6 @@ sys-apps/lm_sensors:0
 sys-apps/lomoco:0
 sys-apps/mlocate:0
 sys-apps/openrc:0
-sys-apps/paludis:0
 sys-apps/pmount:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/util-linux:0
@@ -874,7 +857,6 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/polkit:0
 sys-auth/thinkfinger:0
-sys-block/gparted:0
 sys-boot/syslinux:0
 sys-cluster/openmpi:0
 sys-devel/autogen:0
@@ -931,16 +913,11 @@ virtual/lapack:0
 virtual/linux-sources:0
 virtual/notification-daemon:0
 virtual/package-manager:0
-virtual/perl-Archive-Tar:0
-virtual/perl-Math-BigInt-FastCalc:0
-virtual/perl-threads-shared:0
 virtual/tex-base:0
 www-client/dillo:0
-www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
 www-client/midori:0
-www-client/opera-next:0
 www-client/seamonkey:0
 www-client/w3m:0
 www-misc/htdig:0
@@ -964,7 +941,6 @@ x11-libs/fltk:2
 x11-libs/fox:1.6
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
@@ -1027,5 +1003,4 @@ x11-wm/fluxbox:0
 x11-wm/i3:0
 x11-wm/metacity:0
 x11-wm/openbox:3
-xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0

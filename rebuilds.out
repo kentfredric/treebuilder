@@ -2,19 +2,14 @@ app-editors/padre:0
 app-editors/gvim:0
 app-editors/scite:0
 sys-process/latencytop:0
-virtual/perl-Archive-Tar:0
 virtual/dev-manager:0
-virtual/perl-Math-BigInt-FastCalc:0
 virtual/package-manager:0
-virtual/perl-threads-shared:0
 dev-python/notify-python:0
 dev-python/pygtk:2
-dev-python/pygobject:2
 dev-python/dbus-python:0
 net-dialup/ppp:0
 app-mobilephone/obexd:0
 app-mobilephone/obex-data-server:0
-dev-cpp/gtkmm:2.4
 dev-cpp/cairomm:0
 dev-cpp/glibmm:2
 dev-cpp/atkmm:0
@@ -42,7 +37,6 @@ net-libs/webkit-gtk:2
 dev-lang/php:5.3
 dev-lang/python:2.7
 dev-lang/vala:0.10
-dev-lang/vala:0.14
 dev-lang/python:2.6
 sci-geosciences/googleearth:0
 sys-auth/polkit-qt:0
@@ -65,7 +59,6 @@ media-plugins/gst-plugins-gio:0.10
 media-plugins/gst-plugins-faad:0.10
 media-plugins/frei0r-plugins:0
 media-plugins/gst-plugins-faac:0.10
-sys-block/gparted:0
 dev-vcs/subversion:0
 x11-libs/libva:0
 x11-libs/libwnck:3
@@ -88,7 +81,6 @@ x11-libs/vte:2.90
 x11-libs/libwnck:1
 x11-libs/vte:0
 x11-libs/gdk-pixbuf:2
-x11-libs/gnome-pty-helper:0
 perl-core/Module-Build:0
 perl-core/CPAN:0
 perl-core/CPAN-Meta:0
@@ -104,7 +96,6 @@ dev-libs/libunique:3
 dev-libs/pslib:0
 dev-libs/libcroco:0.6
 dev-libs/libatasmart:0
-dev-libs/glib:2
 dev-libs/libIDL:0
 dev-libs/gdl:3
 dev-libs/json-glib:0
@@ -160,8 +151,6 @@ dev-util/glade:3
 dev-util/glade:3.10
 dev-util/desktop-file-utils:0
 dev-util/gtk-doc:0
-www-client/firefox:0
-www-client/opera-next:0
 www-client/midori:0
 www-client/seamonkey:0
 www-client/w3m:0
@@ -174,22 +163,18 @@ gnome-base/libglade:2.0
 gnome-base/gconf:2
 gnome-base/nautilus:0
 gnome-base/gnome-keyring:0
-gnome-base/libgnome-keyring:0
 gnome-base/gsettings-desktop-schemas:0
 gnome-base/gnome-menus:0
 gnome-base/libgtop:2
 gnome-base/libbonobo:0
-gnome-base/gnome-session:0
 gnome-base/gnome-desktop:3
 gnome-base/libgnomecanvas:0
 gnome-base/gnome-settings-daemon:0
 gnome-base/gnome-panel:0
 gnome-base/orbit:2
 gnome-base/gdm:0
-gnome-base/dconf:0
 gnome-base/libgnome:0
 gnome-base/gnome-vfs:2
-gnome-base/librsvg:2
 gnome-base/gnome-control-center:2
 sci-astronomy/celestia:0
 dev-db/libiodbc:0
@@ -234,7 +219,6 @@ net-analyzer/mtr:0
 net-analyzer/nmap:0
 net-analyzer/rrdtool:0
 net-analyzer/wireshark:0
-xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
 dev-perl/Sub-Curried:0
 dev-perl/MojoMojo:0
@@ -252,7 +236,6 @@ dev-perl/true:0
 dev-perl/DateTime-Format-Natural:0
 dev-perl/pip:0
 dev-perl/Archive-Peek:0
-dev-perl/Devel-Declare:0
 dev-perl/gtk2-gladexml:0
 dev-perl/Audio-Musepack:0
 dev-perl/Catalyst-Controller-RequestToken:0
@@ -350,9 +333,7 @@ sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 net-misc/remmina:0
-net-misc/modemmanager:0
 net-misc/networkmanager:0
-net-misc/wicd:0
 app-cdr/cdrdao:0
 sys-power/nvclock:0
 sys-power/upower:0
@@ -392,7 +373,6 @@ media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-ugly:0.10
 media-libs/opencv:0
 media-libs/lensfun:0
-media-libs/libcanberra:0
 app-admin/haskell-updater:0
 app-admin/python-updater:0
 app-admin/system-config-printer-common:0
@@ -431,7 +411,6 @@ app-text/poppler:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
 dev-cpp/glibmm:2
-dev-cpp/gtkmm:2.4
 dev-cpp/gtkmm:3.0
 dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
@@ -442,12 +421,10 @@ dev-lang/php:5.3
 dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/vala:0.10
-dev-lang/vala:0.14
 dev-libs/atk:0
 dev-libs/dbus-glib:0
 dev-libs/gdl:1
 dev-libs/gdl:3
-dev-libs/glib:2
 dev-libs/gobject-introspection:0
 dev-libs/json-glib:0
 dev-libs/libIDL:0
@@ -493,7 +470,6 @@ dev-perl/DateTime-Format-Pg:0
 dev-perl/DateTime-Format-Strptime:0
 dev-perl/DateTime:0
 dev-perl/DateTimeX-Easy:0
-dev-perl/Devel-Declare:0
 dev-perl/Dist-Zilla:0
 dev-perl/File-Find-Rule:0
 dev-perl/Gtk2-Ex-PodViewer:0
@@ -522,7 +498,6 @@ dev-perl/signatures:0
 dev-perl/true:0
 dev-python/dbus-python:0
 dev-python/notify-python:0
-dev-python/pygobject:2
 dev-python/pygtk:2
 dev-util/anjuta:0
 dev-util/desktop-file-utils:0
@@ -531,7 +506,6 @@ dev-util/glade:3.10
 dev-util/gtk-doc:0
 dev-util/pkgconfig:0
 dev-vcs/subversion:0
-gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gdm:0
 gnome-base/gnome-control-center:2
@@ -541,7 +515,6 @@ gnome-base/gnome-keyring:0
 gnome-base/gnome-light:2.0
 gnome-base/gnome-menus:0
 gnome-base/gnome-panel:0
-gnome-base/gnome-session:0
 gnome-base/gnome-settings-daemon:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
@@ -549,12 +522,10 @@ gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
-gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
 gnome-base/libgnomekbd:0
 gnome-base/libgtop:2
-gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-base/orbit:2
 gnome-extra/libgda:4
@@ -620,7 +591,6 @@ media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/lensfun:0
 media-libs/libafterimage:0
-media-libs/libcanberra:0
 media-libs/libgphoto2:0
 media-libs/libgpod:0
 media-libs/libkface:4
@@ -686,10 +656,8 @@ net-libs/loudmouth:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-libs/xulrunner:1.9
-net-misc/modemmanager:0
 net-misc/networkmanager:0
 net-misc/remmina:0
-net-misc/wicd:0
 net-p2p/rtorrent:0
 net-wireless/bluez:0
 perl-core/Archive-Extract:0
@@ -712,7 +680,6 @@ sys-apps/openrc:0
 sys-auth/consolekit:0
 sys-auth/polkit-qt:0
 sys-auth/polkit:0
-sys-block/gparted:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
@@ -732,12 +699,7 @@ sys-power/upower:0
 sys-process/latencytop:0
 virtual/dev-manager:0
 virtual/package-manager:0
-virtual/perl-Archive-Tar:0
-virtual/perl-Math-BigInt-FastCalc:0
-virtual/perl-threads-shared:0
-www-client/firefox:0
 www-client/midori:0
-www-client/opera-next:0
 www-client/seamonkey:0
 www-client/w3m:0
 www-plugins/adobe-flash:0
@@ -746,7 +708,6 @@ x11-base/xorg-server:0
 x11-libs/cairo:0
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
@@ -786,5 +747,4 @@ x11-themes/sound-theme-freedesktop:0
 x11-wm/i3:0
 x11-wm/metacity:0
 x11-wm/openbox:3
-xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
