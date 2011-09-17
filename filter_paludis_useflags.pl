@@ -9,14 +9,14 @@ use warnings;
 my $package;
 use Data::Dump qw( dump );
 while ( defined ( my $line = <> ) ){ 
-  if(  $line =~ /^([urv])\s+([^:]*):([^:]*)::([^\s]+)\s+([^\s]+)/ ){
+  if(  $line =~ /^([nurv])\s+([^:]*):([^:]*)::([^\s]+)\s+([^\s]+)/ ){
     $package = {
       change => $1,
       cpv => $2,
       slot => $3,
       repo => $4,
       version => $5,
-      quick => "$1 $2:$3::$4 $5",
+      quick => "$2:$3::$4 $5",
     };
   }
   if( $line =~/^\s+(.*)build_options:\s+/ ){
@@ -59,6 +59,8 @@ while ( defined ( my $line = <> ) ){
       } @tokes;
       $sections{$key}->{cflags} = join q{ }, @ctokes;
     }
+    print $package->{change} eq 'n' ? "\e[36m" : "";
+    print $package->{change} . " ";
     print $package->{quick} . " " . join qq{  }, (), map {
        "\e[33m$_ =>\e[0m "  . $sections{$_}->{cflags}
     } sort keys %sections;
