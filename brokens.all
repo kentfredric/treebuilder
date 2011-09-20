@@ -50,6 +50,7 @@ app-text/po4a:0
 app-text/poppler:0
 app-text/ps2pkm:0
 app-text/rarian:0
+app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/texlive-core:0
 app-text/wgetpaste:0
@@ -853,6 +854,7 @@ media-video/clive:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/mjpegtools:1
+media-video/mkvtoolnix:0
 media-video/mplayer:0
 media-video/nvidia-settings:0
 media-video/transcode:0
@@ -864,7 +866,6 @@ net-analyzer/munin:0
 net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/rrdtool:0
-net-analyzer/wireshark:0
 net-dialup/ppp:0
 net-dns/avahi:0
 net-fs/samba:0
@@ -922,7 +923,6 @@ perl-gcpanp/WWW-Pastebin-CSSStandardsOrg-Create:0
 perl-gcpanp/WWW-Pastebin-NoMorePastingCom-Retrieve:0
 perl-gcpanp/WWW-Pastebin-PastebinCa-Create:0
 perl-gcpanp/WWW-Pastebin-PastebinCom-Retrieve:0
-perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
 perl-gcpanp/WWW-Pastebin-PhpfiCom-Create:0
 perl-gcpanp/WWW-Pastebin-PhpfiCom-Retrieve:0
 perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
