@@ -100,3 +100,4 @@ x11-libs/libnotify:0
 x11-libs/libsexy:0
 x11-libs/vte:0
 x11-libs/vte:2.90
+dev-libs/glib:2
