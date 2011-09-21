@@ -28,3 +28,4 @@ perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
 www-client/seamonkey:0
 x11-base/nouveau-drm:0
 x11-libs/libnotify:0
+media-libs/fontconfig:1.0

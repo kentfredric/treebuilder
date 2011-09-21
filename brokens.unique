@@ -21,9 +21,7 @@ app-misc/note:0
 app-mobilephone/obex-data-server:0
 app-mobilephone/obexd:0
 app-office/dia:0
-app-office/koffice-data:2
 app-office/koffice-l10n:2
-app-office/kplato:2
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0
 app-pda/libplist:0
@@ -38,19 +36,14 @@ app-text/dvipng:0
 app-text/dvipsk:0
 app-text/ebook-tools:0
 app-text/enchant:0
-app-text/ghostscript-gpl:0
 app-text/gtkspell:0
 app-text/libwpd:0.8
 app-text/libwpd:0.9
 app-text/mftrace:1
 app-text/po4a:0
-app-text/poppler:0
 app-text/ps2pkm:0
-app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
-app-text/texlive-core:0
 app-text/wgetpaste:0
-app-text/xdvipdfmx:0
 app-text/xpdf:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
@@ -63,7 +56,6 @@ dev-db/postgresql-base:9.0
 dev-java/ant-core:0
 dev-java/bcmail:0
 dev-java/bcprov:0
-dev-java/icedtea6-bin:0
 dev-java/itext:0
 dev-java/junit:0
 dev-java/sun-jaf:0
@@ -534,8 +526,6 @@ gnome-base/libglade:2.0
 gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
-gnome-base/libgnomekbd:0
-gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-base/orbit:2
 gnome-extra/libgsf:0
@@ -649,7 +639,6 @@ kde-base/krosspython:4
 kde-base/kruler:4
 kde-base/kscd:4
 kde-base/kscreensaver:4
-kde-base/ksmserver:4
 kde-base/ksnapshot:4
 kde-base/ksplash:4
 kde-base/kstart:4
@@ -684,7 +673,6 @@ kde-base/okteta:4
 kde-base/okular:4
 kde-base/oxygen-icons:4
 kde-base/phonon-kde:4
-kde-base/plasma-workspace:4
 kde-base/powerdevil:4
 kde-base/printer-applet:4
 kde-base/pykde4:4
@@ -721,11 +709,8 @@ mail-filter/bogofilter:0
 media-gfx/arss:0
 media-gfx/digikam:4
 media-gfx/enblend:0
-media-gfx/fbida:0
 media-gfx/gimp-texturize-plugin:0
-media-gfx/gimp:2
 media-gfx/gliv:0
-media-gfx/graphviz:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/povray:0
@@ -768,7 +753,6 @@ media-libs/raptor:0
 media-libs/raptor:2
 media-libs/sk1libs:0
 media-libs/tunepimp:0
-media-libs/xine-lib:1
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
@@ -797,7 +781,6 @@ media-sound/japa:0
 media-sound/kid3:4
 media-sound/lash:0
 media-sound/lastfmplayer:0
-media-sound/lilypond:0
 media-sound/moodbar:0
 media-sound/mpd:0
 media-sound/sox:0
@@ -807,8 +790,6 @@ media-video/clive:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/mjpegtools:1
-media-video/mkvtoolnix:0
-media-video/mplayer:0
 media-video/nvidia-settings:0
 media-video/transcode:0
 media-video/xine-ui:0
@@ -824,7 +805,6 @@ net-dns/avahi:0
 net-fs/samba:0
 net-im/bitlbee:0
 net-im/psimedia:0
-net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/libbluedevil:4
@@ -881,7 +861,6 @@ perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 sci-astronomy/celestia:0
 sci-calculators/units:0
-sci-geosciences/googleearth:0
 sci-libs/blas-atlas:0
 sci-libs/cln:1
 sci-libs/hdf5:0
@@ -974,10 +953,8 @@ virtual/tex-base:0
 www-client/dillo:0
 www-client/links:2
 www-client/lynx:0
-www-client/opera-next:0
 www-client/w3m:0
 www-misc/htdig:0
-www-plugins/adobe-flash:0
 www-plugins/mozplugger:0
 www-plugins/nspluginwrapper:0
 www-servers/lighttpd:0
@@ -991,13 +968,11 @@ x11-base/xorg-server:0
 x11-base/xorg-x11:0
 x11-drivers/nvidia-drivers:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fltk:2
 x11-libs/fox:1.6
 x11-libs/gksu:0
 x11-libs/gnome-pty-helper:0
-x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/libXaw3d:0
 x11-libs/libgksu:2
@@ -1007,9 +982,7 @@ x11-libs/libwnck:1
 x11-libs/libwnck:3
 x11-libs/libxklavier:0
 x11-libs/openmotif:0
-x11-libs/pango:0
 x11-libs/qt-core:4
-x11-libs/qt-gui:4
 x11-libs/wxGTK:2.8
 x11-misc/dclock:0
 x11-misc/denu:0
@@ -1038,10 +1011,7 @@ x11-terms/rxvt-unicode:0
 x11-themes/claws-mail-themes:0
 x11-themes/gnome-icon-theme:0
 x11-themes/gnome-themes:0
-x11-themes/gtk-engines-candido:0
 x11-themes/gtk-engines-qtcurve:0
-x11-themes/gtk-engines-qtpixmap:0
-x11-themes/gtk-engines-rezlooks:0
 x11-themes/gtk-engines:2
 x11-themes/gtk-theme-switch:0
 x11-themes/oxygen-gtk:0
@@ -1052,6 +1022,5 @@ x11-wm/evilwm:0
 x11-wm/fluxbox:0
 x11-wm/i3:0
 x11-wm/metacity:0
-x11-wm/openbox:3
 xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0

@@ -48,7 +48,7 @@ my @brokenregexen;
     next if $line =~ /^\s*$/;
     $line =~ s/:.*$//;
     my $regex = qr{
-    (
+    (i
       \Q$line\E$  # terminated
     |
       \Q$line\E[[:space:]] # simple
@@ -96,7 +96,7 @@ $core->old_dependency_files(
           next unless $sourceline =~ $re;
           my $s = $schema->();
           print "+ rebuild $s\n";
-          $wfh->print("$s\n");
+          #$wfh->print("$s\n");
           $rebuild_cache{$package} = 1;
           $rebuild{$s}++;
           $all_cache{$s}++;
@@ -124,7 +124,7 @@ $core->old_dependency_files(
   },
   $timestamp
 );
-foreach my $p ( sort keys %all_cache ) {
+foreach my $p ( sort { $a cmp $b } keys %all_cache ) {
   $allfh->print("$p\n");
   if ( $all_cache{$p} == 1 ) {
     $uniquefh->print("$p\n");
@@ -133,9 +133,9 @@ foreach my $p ( sort keys %all_cache ) {
     $dupfh->print("$p\n");
   }
 }
-foreach my $p ( sort keys %broken ) {
+foreach my $p ( sort { $a cmp $b } keys %broken ) {
   $wbfh->print("$p\n");
 }
-foreach my $p ( sort keys %rebuild ) {
+foreach my $p ( sort { $a cmp $b } keys %rebuild ) {
   $wfh->print("$p\n");
 }
