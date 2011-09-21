@@ -43,7 +43,6 @@ app-text/libwpd:0.9
 app-text/mftrace:1
 app-text/po4a:0
 app-text/ps2pkm:0
-app-text/rarian:0
 app-text/sword:0
 app-text/wgetpaste:0
 app-text/xpdf:0
@@ -492,7 +491,6 @@ dev-perl/text-autoformat:0
 dev-perl/true:0
 dev-perl/wxperl:0
 dev-python/dbus-python:0
-dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/pygments:0
 dev-python/pygobject:2
@@ -716,7 +714,6 @@ media-gfx/digikam:4
 media-gfx/enblend:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gliv:0
-media-gfx/graphviz:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/povray:0
@@ -797,7 +794,6 @@ media-video/clive:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/mjpegtools:1
-media-video/mplayer:0
 media-video/nvidia-settings:0
 media-video/transcode:0
 media-video/xine-ui:0

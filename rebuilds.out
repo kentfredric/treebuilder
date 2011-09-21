@@ -1,9 +1,5 @@
 app-office/karbon:2
-app-text/rarian:0
 dev-perl/CatalystX-SimpleLogin:0
 dev-perl/MojoMojo:0
-dev-python/notify-python:0
-media-gfx/graphviz:0
 media-sound/lilypond:0
-media-video/mplayer:0
 www-client/seamonkey:0
