@@ -132,6 +132,7 @@ dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
 dev-db/postgresql-server:9.0
 dev-db/postgresql-server:9.1
+dev-db/sqlite:0
 dev-db/sqlite:3
 dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
@@ -215,6 +216,7 @@ dev-libs/libtommath:0
 dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/libusb:0
+dev-libs/libusb:1
 dev-libs/libxml2:2
 dev-libs/libxslt:0
 dev-libs/libzip:0
@@ -1405,6 +1407,7 @@ sys-kernel/genkernel:0
 sys-kernel/gentoo-sources:3.0.3
 sys-kernel/gentoo-sources:3.0.4
 sys-libs/cracklib:0
+sys-libs/db:1
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
