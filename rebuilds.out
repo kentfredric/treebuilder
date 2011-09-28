@@ -36,7 +36,6 @@ app-text/texlive-core:0
 app-text/xdvipdfmx:0
 dev-cpp/gtkmm:2.4
 dev-cpp/gtkmm:3.0
-dev-db/libiodbc:0
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/postgresql-base:9.0
@@ -46,7 +45,6 @@ dev-db/virtuoso-server:0
 dev-games/libggz:0
 dev-java/icedtea6-bin:0
 dev-java/swt:3.5
-dev-lang/lua:0
 dev-lang/ocaml:0
 dev-lang/parrot:0
 dev-lang/perl:0
@@ -178,7 +176,6 @@ media-libs/libcanberra:0
 media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libkface:4
-media-libs/libmatroska:0
 media-libs/libmng:0
 media-libs/libopenraw:0
 media-libs/libpano13:0

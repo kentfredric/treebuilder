@@ -1,21 +1,12 @@
 app-admin/apache-tools:0
 app-admin/eselect-blas:0
-app-admin/eselect-boost:0
 app-admin/eselect-cblas:0
-app-admin/eselect-ctags:0
 app-admin/eselect-fontconfig:0
 app-admin/eselect-lapack:0
-app-admin/eselect-mesa:0
 app-admin/eselect-oodict:0
-app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
 app-admin/eselect-php:0
-app-admin/eselect-pinentry:0
-app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
-app-admin/eselect-ruby:0
-app-admin/eselect-timidity:0
-app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
 app-admin/haskell-updater:0
@@ -28,7 +19,6 @@ app-arch/p7zip:0
 app-cdr/cdrdao:0
 app-cdr/cdrkit:0
 app-cdr/k3b:4
-app-crypt/mit-krb5:0
 app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/aspell-en:0
@@ -59,14 +49,12 @@ app-portage/genlop:0
 app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
 app-shells/bash-completion:0
-app-shells/bash:0
 app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/djvu:0
 app-text/docbook-sgml-utils:0
 app-text/docbook2X:0
-app-text/dvipsk:0
 app-text/ebook-tools:0
 app-text/enchant:0
 app-text/gnome-doc-utils:0
@@ -82,10 +70,8 @@ app-text/libwpg:0.1
 app-text/libwpg:0.2
 app-text/mftrace:1
 app-text/po4a:0
-app-text/ps2pkm:0
 app-text/recode:0
 app-text/sgml-common:0
-app-text/tree:0
 app-text/wgetpaste:0
 app-text/xpdf:0
 app-vim/closetag:0
@@ -98,7 +84,6 @@ app-vim/gitv:0
 app-vim/gtk-syntax:0
 app-vim/nerdtree:0
 app-vim/nginx-syntax:0
-app-vim/ntp-syntax:0
 app-vim/pam-syntax:0
 app-vim/taglist:0
 app-vim/tt2-syntax:0
@@ -133,7 +118,6 @@ dev-java/sun-javamail:0
 dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
 dev-lang/ghc:0
-dev-lang/lua:0
 dev-lang/orc:0
 dev-lang/spidermonkey:0
 dev-lang/tcl:0
@@ -171,7 +155,6 @@ dev-libs/libpqxx:0
 dev-libs/libpthread-stubs:0
 dev-libs/libtommath:0
 dev-libs/libusb:0
-dev-libs/libusb:1
 dev-libs/libzip:0
 dev-libs/nss:0
 dev-libs/openobex:0
@@ -673,11 +656,6 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
-dev-util/boost-build:1.37
-dev-util/boost-build:1.39
-dev-util/boost-build:1.41
-dev-util/boost-build:1.42
-dev-util/boost-build:1.46
 dev-util/catalyst:0
 dev-util/cmockery:0
 dev-util/cppunit:0
@@ -983,7 +961,6 @@ media-libs/libkgeomap:4
 media-libs/liblastfm:0
 media-libs/liblqr:0
 media-libs/libmad:0
-media-libs/libmatroska:0
 media-libs/libmediawiki:4
 media-libs/libmikmod:0
 media-libs/libmms:0
@@ -1123,7 +1100,6 @@ perl-gcpanp/criticism:0
 sci-libs/amd:0
 sci-libs/blas-atlas:0
 sci-libs/blas-reference:0
-sci-libs/cln:1
 sci-libs/fftw:3.0
 sci-libs/flann:0
 sci-libs/gsl:0
@@ -1142,7 +1118,6 @@ sys-apps/kbd:0
 sys-apps/lm_sensors:0
 sys-apps/lomoco:0
 sys-apps/man-pages-posix:0
-sys-apps/microcode-ctl:0
 sys-apps/mlocate:0
 sys-apps/openrc:0
 sys-apps/paludis:0
@@ -1185,12 +1160,10 @@ sys-fs/shake:0
 sys-fs/sshfs-fuse:0
 sys-fs/udiskie:0
 sys-fs/udisks-glue:0
-sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-kernel/genkernel:0
 sys-kernel/gentoo-sources:3.0.3
 sys-kernel/gentoo-sources:3.0.4
-sys-libs/db:1
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -1199,7 +1172,6 @@ sys-libs/db:4.7
 sys-libs/db:4.8
 sys-libs/glibc:2.2
 sys-libs/libieee1284:0
-sys-libs/libraw1394:0
 sys-libs/pam:0
 sys-libs/talloc:0
 sys-libs/tdb:0
@@ -1232,7 +1204,6 @@ www-misc/fcgiwrap:0
 www-plugins/mozplugger:0
 www-servers/apache:2
 www-servers/lighttpd:0
-www-servers/spawn-fcgi:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0
 x11-apps/bitmap:0
@@ -1293,7 +1264,6 @@ x11-drivers/xf86-video-nouveau:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
 x11-libs/gdk-pixbuf:2
-x11-libs/gnome-pty-helper:0
 x11-libs/libICE:0
 x11-libs/libSM:0
 x11-libs/libX11:0

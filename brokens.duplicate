@@ -28,7 +28,6 @@ app-text/texlive-core:0
 app-text/xdvipdfmx:0
 dev-cpp/gtkmm:2.4
 dev-cpp/gtkmm:3.0
-dev-db/libiodbc:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
 dev-java/swt:3.5
