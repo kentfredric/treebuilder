@@ -109,7 +109,6 @@ app-text/teckit:0
 app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
-app-text/xpdf:0
 app-vim/closetag:0
 app-vim/colorschemes:0
 app-vim/dhcpd-syntax:0
@@ -145,6 +144,7 @@ dev-java/bcmail:0
 dev-java/bcprov:0
 dev-java/icedtea6-bin:0
 dev-java/itext:0
+dev-java/java-config-wrapper:0
 dev-java/java-config:2
 dev-java/javatoolkit:0
 dev-java/junit:0
@@ -185,7 +185,6 @@ dev-libs/boost:1.46
 dev-libs/cloog-ppl:0
 dev-libs/confuse:0
 dev-libs/cyrus-sasl:2
-dev-libs/dbus-glib:0
 dev-libs/elfutils:0
 dev-libs/fcgi:0
 dev-libs/gdl:1
@@ -863,7 +862,6 @@ kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
 kde-base/kde-env:4
-kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
 kde-base/kdeadmin-meta:4
@@ -1047,6 +1045,7 @@ mail-client/claws-mail-rssyl:0
 mail-client/claws-mail:0
 mail-filter/bogofilter:0
 mail-mta/ssmtp:0
+media-fonts/dejavu:0
 media-fonts/encodings:0
 media-fonts/font-adobe-100dpi:0
 media-fonts/font-adobe-75dpi:0
@@ -1085,6 +1084,7 @@ media-fonts/font-sun-misc:0
 media-fonts/font-util:0
 media-fonts/font-winitzki-cyrillic:0
 media-fonts/font-xfree86-type1:0
+media-fonts/liberation-fonts:0
 media-fonts/terminus-font:0
 media-fonts/unifont:0
 media-gfx/arss:0
@@ -1093,12 +1093,10 @@ media-gfx/digikam:4
 media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
-media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphviz:0
-media-gfx/hugin:0
 media-gfx/imagemagick:0
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
@@ -1390,6 +1388,7 @@ sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/kbd:0
 sys-apps/lomoco:0
+sys-apps/makedev:0
 sys-apps/man-pages-posix:0
 sys-apps/mlocate:0
 sys-apps/module-init-tools:0
