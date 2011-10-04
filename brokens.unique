@@ -1,4 +1,3 @@
-app-admin/apache-tools:0
 app-admin/eselect-blas:0
 app-admin/eselect-cblas:0
 app-admin/eselect-fontconfig:0
@@ -6,10 +5,8 @@ app-admin/eselect-lapack:0
 app-admin/eselect-oodict:0
 app-admin/eselect-package-manager:0
 app-admin/eselect-php:0
-app-admin/eselect-python:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
-app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
 app-admin/metalog:0
@@ -22,7 +19,6 @@ app-admin/testdisk:0
 app-arch/advancecomp:0
 app-arch/cabextract:0
 app-arch/dpkg:0
-app-arch/libarchive:0
 app-arch/p7zip:0
 app-arch/rar:0
 app-arch/unshield:0
@@ -30,7 +26,6 @@ app-cdr/cdrdao:0
 app-cdr/cdrkit:0
 app-crypt/gnupg:0
 app-crypt/gpgme:1
-app-crypt/mhash:0
 app-crypt/pinentry:0
 app-crypt/shash:0
 app-crypt/stan:0
@@ -40,7 +35,6 @@ app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/padre:0
 app-editors/scite:0
-app-editors/vim:0
 app-emulation/virtualbox:0
 app-i18n/scim:0
 app-laptop/laptop-mode-tools:0
@@ -73,7 +67,6 @@ app-portage/gentoolkit:0
 app-portage/layman:0
 app-portage/perl-info:0
 app-shells/bash-completion:0
-app-shells/bash:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/asciidoc:0
@@ -88,7 +81,6 @@ app-text/dvipng:0
 app-text/ebook-tools:0
 app-text/enchant:0
 app-text/ghostscript-gpl:0
-app-text/gnome-doc-utils:0
 app-text/gtkspell:0
 app-text/gv:0
 app-text/htmltidy:0
@@ -100,10 +92,8 @@ app-text/libwpd:0.9
 app-text/libwpg:0.1
 app-text/libwpg:0.2
 app-text/mftrace:1
-app-text/openjade:0
 app-text/po4a:0
 app-text/recode:0
-app-text/sgml-common:0
 app-text/sword:0
 app-text/teckit:0
 app-text/texlive-core:0
@@ -133,8 +123,6 @@ dev-cpp/gtkmm:3.0
 dev-db/mysql-init-scripts:0
 dev-db/mysql-workbench:0
 dev-db/pgadmin3:0
-dev-db/sqlite:0
-dev-db/sqlite:3
 dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-db/xbase:0
@@ -144,7 +132,6 @@ dev-java/bcmail:0
 dev-java/bcprov:0
 dev-java/icedtea6-bin:0
 dev-java/itext:0
-dev-java/java-config-wrapper:0
 dev-java/java-config:2
 dev-java/javatoolkit:0
 dev-java/junit:0
@@ -157,7 +144,6 @@ dev-java/swt:3.5
 dev-lang/ghc:0
 dev-lang/lua:0
 dev-lang/nasm:0
-dev-lang/ocaml:0
 dev-lang/orc:0
 dev-lang/parrot:0
 dev-lang/php:5.3
@@ -170,15 +156,9 @@ dev-lang/ruby-enterprise:1.8
 dev-lang/ruby:1.8
 dev-lang/spidermonkey:0
 dev-lang/swig:0
-dev-lang/tcl:0
 dev-lang/tk:0
 dev-lang/vala:0.10
 dev-lang/vala:0.14
-dev-lang/yasm:0
-dev-libs/DirectFB:0
-dev-libs/apr-util:1
-dev-libs/apr:1
-dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/boost:1.42
 dev-libs/boost:1.46
@@ -189,15 +169,11 @@ dev-libs/elfutils:0
 dev-libs/fcgi:0
 dev-libs/gdl:1
 dev-libs/gdl:3
-dev-libs/geoip:0
-dev-libs/glib:1
-dev-libs/gobject-introspection:0
 dev-libs/ilbc-rfc3951:0
 dev-libs/json-glib:0
 dev-libs/judy:0
 dev-libs/klibc:0
 dev-libs/libIDL:0
-dev-libs/libassuan:0
 dev-libs/libatasmart:0
 dev-libs/libatomic_ops:0
 dev-libs/libcdio:0
@@ -205,29 +181,19 @@ dev-libs/libconfig:0
 dev-libs/libcroco:0.6
 dev-libs/libev:0
 dev-libs/libevent:0
-dev-libs/libgcrypt:0
 dev-libs/libgweather:2
-dev-libs/libksba:0
 dev-libs/libmcrypt:0
 dev-libs/libmemcache:0
 dev-libs/libmix:0
 dev-libs/liboil:0.3
-dev-libs/libpcre:3
 dev-libs/libpqxx:0
-dev-libs/libpthread-stubs:0
-dev-libs/libtasn1:0
 dev-libs/libtommath:0
 dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/libusb:0
 dev-libs/libusb:1
-dev-libs/libxml2:2
-dev-libs/libxslt:0
 dev-libs/libzip:0
-dev-libs/mpc:0
-dev-libs/nss:0
 dev-libs/openobex:0
-dev-libs/openssl:0
 dev-libs/ossp-uuid:0
 dev-libs/pslib:0
 dev-libs/quazip:0
@@ -236,7 +202,6 @@ dev-libs/redland:0
 dev-libs/skyutils:0
 dev-libs/soprano:0
 dev-libs/syck:0
-dev-libs/udis86:0
 dev-libs/xmlrpc-epi:0
 dev-libs/zziplib:0
 dev-perl/Alien-wxWidgets:0
@@ -769,22 +734,16 @@ dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/catalyst:0
-dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cppunit:0
 dev-util/d-feet:0
-dev-util/desktop-file-utils:0
 dev-util/dialog:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtest:0
-dev-util/gtk-doc-am:0
-dev-util/gtk-doc:0
-dev-util/intltool:0
 dev-util/kbuild:0
 dev-util/ltrace:0
 dev-util/nvidia-cuda-toolkit:0
-dev-util/pkgconfig:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
 dev-util/valgrind:0
@@ -794,7 +753,6 @@ dev-vcs/cvs:0
 dev-vcs/cvsps:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
-dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/openmsx:0
 games-util/grfcodec:0
@@ -824,6 +782,7 @@ gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-base/orbit:2
 gnome-extra/libgda:4
+gnome-extra/libgda:5
 gnome-extra/libgsf:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
@@ -861,7 +820,6 @@ kde-base/kcmshell:4
 kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
-kde-base/kde-env:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
 kde-base/kdeadmin-meta:4
@@ -1046,7 +1004,6 @@ mail-client/claws-mail:0
 mail-filter/bogofilter:0
 mail-mta/ssmtp:0
 media-fonts/dejavu:0
-media-fonts/encodings:0
 media-fonts/font-adobe-100dpi:0
 media-fonts/font-adobe-75dpi:0
 media-fonts/font-adobe-utopia-100dpi:0
@@ -1065,7 +1022,6 @@ media-fonts/font-bitstream-75dpi:0
 media-fonts/font-bitstream-speedo:0
 media-fonts/font-bitstream-type1:0
 media-fonts/font-cronyx-cyrillic:0
-media-fonts/font-cursor-misc:0
 media-fonts/font-daewoo-misc:0
 media-fonts/font-dec-misc:0
 media-fonts/font-ibm-type1:0
@@ -1075,13 +1031,11 @@ media-fonts/font-micro-misc:0
 media-fonts/font-misc-cyrillic:0
 media-fonts/font-misc-ethiopic:0
 media-fonts/font-misc-meltho:0
-media-fonts/font-misc-misc:0
 media-fonts/font-mutt-misc:0
 media-fonts/font-schumacher-misc:0
 media-fonts/font-screen-cyrillic:0
 media-fonts/font-sony-misc:0
 media-fonts/font-sun-misc:0
-media-fonts/font-util:0
 media-fonts/font-winitzki-cyrillic:0
 media-fonts/font-xfree86-type1:0
 media-fonts/liberation-fonts:0
@@ -1109,7 +1063,6 @@ media-gfx/sane-backends:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
-media-libs/alsa-lib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0
 media-libs/babl:0
@@ -1263,7 +1216,6 @@ net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/upnpscan:0
 net-analyzer/wireshark:0
-net-dialup/ppp:0
 net-dns/avahi:0
 net-dns/bind-tools:0
 net-dns/dnsmasq:0
@@ -1322,7 +1274,6 @@ perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
 perl-core/Compress-Raw-Zlib:0
 perl-core/DB_File:0
-perl-core/Encode:0
 perl-core/ExtUtils-MakeMaker:0
 perl-core/IPC-Cmd:0
 perl-core/Math-BigInt:0
@@ -1382,14 +1333,11 @@ sys-apps/file:0
 sys-apps/gawk:0
 sys-apps/grep:0
 sys-apps/groff:0
-sys-apps/help2man:0
 sys-apps/hwinfo:0
 sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/kbd:0
 sys-apps/lomoco:0
-sys-apps/makedev:0
-sys-apps/man-pages-posix:0
 sys-apps/mlocate:0
 sys-apps/module-init-tools:0
 sys-apps/openrc:0
@@ -1397,7 +1345,6 @@ sys-apps/paludis:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/rescan-scsi-bus:0
-sys-apps/sg3_utils:0
 sys-apps/usbutils:0
 sys-apps/util-linux:0
 sys-apps/v86d:0
@@ -1453,6 +1400,8 @@ sys-fs/xfsprogs:0
 sys-kernel/genkernel:0
 sys-kernel/gentoo-sources:3.0.3
 sys-kernel/gentoo-sources:3.0.4
+sys-kernel/gentoo-sources:3.0.4-r1
+sys-kernel/gentoo-sources:3.0.4-r2
 sys-libs/cracklib:0
 sys-libs/db:1
 sys-libs/db:3
@@ -1462,7 +1411,6 @@ sys-libs/db:4.6
 sys-libs/db:4.7
 sys-libs/db:4.8
 sys-libs/e2fsprogs-libs:0
-sys-libs/libieee1284:0
 sys-libs/pam:0
 sys-libs/slang:0
 sys-libs/tdb:0
@@ -1477,7 +1425,6 @@ sys-process/at:0
 sys-process/htop:0
 sys-process/iotop:0
 sys-process/latencytop:0
-sys-process/numactl:0
 sys-process/psmisc:0
 sys-process/time:0
 virtual/blas:0
@@ -1491,7 +1438,6 @@ virtual/lapack:0
 virtual/libc:0
 virtual/linux-sources:0
 virtual/logger:0
-virtual/mysql:0
 virtual/notification-daemon:0
 virtual/package-manager:0
 virtual/perl-AutoLoader:0
@@ -1558,7 +1504,6 @@ www-plugins/adobe-flash:0
 www-plugins/mozplugger:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
-www-servers/spawn-fcgi:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0
 x11-apps/bitmap:0
@@ -1630,6 +1575,7 @@ x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
+x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
 x11-libs/libSM:0
 x11-libs/libX11:0
