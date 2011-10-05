@@ -93,6 +93,7 @@ app-text/libwpg:0.1
 app-text/libwpg:0.2
 app-text/mftrace:1
 app-text/po4a:0
+app-text/poppler:0
 app-text/recode:0
 app-text/sword:0
 app-text/teckit:0
@@ -147,6 +148,8 @@ dev-lang/nasm:0
 dev-lang/orc:0
 dev-lang/parrot:0
 dev-lang/php:5.3
+dev-lang/python:2.6
+dev-lang/python:2.7
 dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/rakudo:0
@@ -189,13 +192,14 @@ dev-libs/libtommath:0
 dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/libusb:0
+dev-libs/libusb:1
 dev-libs/libzip:0
+dev-libs/mpc:0
 dev-libs/openobex:0
 dev-libs/ossp-uuid:0
 dev-libs/pslib:0
 dev-libs/quazip:0
 dev-libs/rasqal:0
-dev-libs/redland:0
 dev-libs/skyutils:0
 dev-libs/soprano:0
 dev-libs/syck:0
@@ -779,6 +783,7 @@ gnome-base/librsvg:2
 gnome-base/nautilus:0
 gnome-base/orbit:2
 gnome-extra/libgda:4
+gnome-extra/libgda:5
 gnome-extra/libgsf:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
@@ -840,6 +845,7 @@ kde-base/kdebindings-perl:4
 kde-base/kdebugdialog:4
 kde-base/kdegraphics-meta:4
 kde-base/kdegraphics-strigi-analyzer:4
+kde-base/kdelibs:4
 kde-base/kdemultimedia-kioslaves:4
 kde-base/kdenetwork-filesharing:4
 kde-base/kdepasswd:4
@@ -1096,12 +1102,9 @@ media-libs/libgii:0
 media-libs/libgphoto2:0
 media-libs/libgpod:0
 media-libs/libid3tag:0
-media-libs/libkface:4
-media-libs/libkgeomap:4
 media-libs/liblastfm:0
 media-libs/liblqr:0
 media-libs/libmad:0
-media-libs/libmediawiki:4
 media-libs/libmikmod:0
 media-libs/libmms:0
 media-libs/libmng:0
@@ -1145,7 +1148,6 @@ media-libs/taglib:0
 media-libs/tiff:0
 media-libs/tunepimp:0
 media-libs/vo-aacenc:0
-media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-greycstoration:0
@@ -1164,7 +1166,6 @@ media-plugins/gst-plugins-ofa:0.10
 media-plugins/gst-plugins-resindvd:0.10
 media-plugins/gst-plugins-soup:0.10
 media-plugins/gst-plugins-vp8:0.10
-media-plugins/kipi-plugins:4
 media-plugins/mediastreamer-ilbc:0
 media-plugins/mediastreamer-x264:0
 media-sound/audacity:0
@@ -1192,6 +1193,7 @@ media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
 media-video/emovix:0
+media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
 media-video/mplayer:0
@@ -1242,9 +1244,9 @@ net-libs/libvncserver:0
 net-libs/loudmouth:0
 net-libs/neon:0
 net-libs/openslp:0
+net-libs/xulrunner:1.9
 net-misc/aria2:0
 net-misc/curl:0
-net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/networkmanager:0
 net-misc/ntp:0
@@ -1327,6 +1329,7 @@ sys-apps/ack:0
 sys-apps/busybox:0
 sys-apps/file:0
 sys-apps/gawk:0
+sys-apps/gnome-disk-utility:0
 sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/hwinfo:0
@@ -1358,6 +1361,7 @@ sys-block/parted:0
 sys-boot/grub:0
 sys-boot/syslinux:0
 sys-cluster/openmpi:0
+sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
 sys-devel/autogen:0
 sys-devel/automake:1.10
@@ -1370,10 +1374,12 @@ sys-devel/automake:1.9
 sys-devel/bc:0
 sys-devel/binutils:0
 sys-devel/flex:0
+sys-devel/gcc:4.4
+sys-devel/gcc:4.5
+sys-devel/gcc:4.6
 sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/llvm-gcc:0
-sys-devel/llvm:0
 sys-devel/prelink:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -1395,7 +1401,10 @@ sys-fs/xfsprogs:0
 sys-kernel/genkernel:0
 sys-kernel/gentoo-sources:3.0.3
 sys-kernel/gentoo-sources:3.0.4
+sys-kernel/gentoo-sources:3.0.4-r1
+sys-kernel/gentoo-sources:3.0.4-r2
 sys-libs/cracklib:0
+sys-libs/db:1
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -1412,7 +1421,6 @@ sys-power/iasl:0
 sys-power/nvclock:0
 sys-power/pm-utils:0
 sys-power/powertop:0
-sys-power/upower:0
 sys-process/at:0
 sys-process/htop:0
 sys-process/iotop:0
@@ -1487,13 +1495,14 @@ virtual/perl-podlators:0
 virtual/ssh:0
 virtual/tex-base:0
 www-client/dillo:0
+www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
 www-client/midori:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-misc/htdig:0
 www-plugins/adobe-flash:0
-www-plugins/mozplugger:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
 x11-apps/appres:0
@@ -1567,6 +1576,7 @@ x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
+x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
 x11-libs/libSM:0
 x11-libs/libX11:0
