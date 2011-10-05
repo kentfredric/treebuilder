@@ -10,7 +10,10 @@ my %stash;
 
 while( defined ( my $line = <> )){
   next unless $line =~ /^[urv]\s*([^:]*):([^:]*)::/;
-  $stash{"$1:$2"}++;
+  my $label = "$1:$2";
+  $label =~ s{\e\[(\d+;)*\d+m}{}g;
+
+  $stash{"$label"}++;
 }
 for my $k ( sort keys %stash ){
   print "$k\n";
