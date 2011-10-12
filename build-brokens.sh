@@ -8,4 +8,5 @@ cave -c y \
 	--permit-downgrade "*/*" \
 	--permit-old-version "*/*" \
 	--continue-on-failure if-independent \
+	-J 0 \
 	$@
