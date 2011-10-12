@@ -28,7 +28,7 @@ sub extract_linepart {
   my $X = qr{(?:\e\[(?:\d+;)*\d+m)*};
 
 parser: {
-    if ( $line =~ /^\s*([nurv])\s*(.*$)/ ) {
+    if ( $line =~ /^\s*-?([nurdv])\s*(.*$)/ ) {
       $package->{change} = "$1";
       push $package->{has}, 'change';
       $line ="$2";
