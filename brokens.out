@@ -79,7 +79,9 @@ app-text/libwpd:0.8
 app-text/mftrace:1
 app-text/po4a:0
 app-text/poppler:0
+app-text/rarian:0
 app-text/recode:0
+app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/texlive-core:0
 app-text/xdvipdfmx:0
@@ -258,6 +260,7 @@ dev-perl/VCI:0
 dev-perl/WWW-Curl:0
 dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/WebService-MusicBrainz:0
+dev-perl/Wx-Perl-ProcessStream:0
 dev-perl/XML-Elemental:0
 dev-perl/XML-Feed:0
 dev-perl/XML-Filter-BufferText:0
@@ -307,6 +310,7 @@ dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-fontsrecommended:0
 dev-texlive/texlive-fontutils:0
 dev-texlive/texlive-genericrecommended:0
+dev-texlive/texlive-langenglish:0
 dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
@@ -317,6 +321,7 @@ dev-util/d-feet:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtest:0
+dev-util/gtk-doc:0
 dev-util/kbuild:0
 dev-util/nvidia-cuda-toolkit:0
 dev-util/source-highlight:0
@@ -466,6 +471,8 @@ media-libs/bio2jack:0
 media-libs/faac:0
 media-libs/ftgl:0
 media-libs/gegl:0
+media-libs/giblib:0
+media-libs/glew:0
 media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-base:0.10
 media-libs/gst-plugins-good:0.10
@@ -478,6 +485,7 @@ media-libs/libafterimage:0
 media-libs/libass:0
 media-libs/libcanberra:0
 media-libs/libdc1394:2
+media-libs/libggiwmh:0
 media-libs/libgpod:0
 media-libs/libkface:4
 media-libs/libkgeomap:4
@@ -502,6 +510,7 @@ media-libs/phonon-gstreamer:0
 media-libs/phonon-xine:0
 media-libs/plotutils:0
 media-libs/raptor:0
+media-libs/raptor:2
 media-libs/sdl-image:0
 media-libs/sdl-sound:0
 media-libs/sk1libs:0
@@ -510,6 +519,7 @@ media-libs/speex:0
 media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tunepimp:0
+media-libs/urt:0
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
@@ -517,6 +527,7 @@ media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-dts:0.10
+media-plugins/gst-plugins-dvdread:0.10
 media-plugins/gst-plugins-faac:0.10
 media-plugins/gst-plugins-faad:0.10
 media-plugins/gst-plugins-ffmpeg:0.10
@@ -529,12 +540,15 @@ media-plugins/gst-plugins-ofa:0.10
 media-plugins/gst-plugins-resindvd:0.10
 media-plugins/gst-plugins-soup:0.10
 media-plugins/gst-plugins-vp8:0.10
+media-plugins/gst-plugins-x:0.10
+media-plugins/gst-plugins-xvideo:0.10
 media-plugins/kipi-plugins:4
 media-plugins/mediastreamer-ilbc:0
 media-plugins/mediastreamer-x264:0
 media-sound/amarok:4
 media-sound/audacity:0
 media-sound/aumix:0
+media-sound/baudline:0
 media-sound/boodler:0
 media-sound/clementine:0
 media-sound/fluidsynth:0
@@ -547,6 +561,7 @@ media-sound/lilypond:0
 media-sound/moodbar:0
 media-sound/mpd:0
 media-sound/mpg123:0
+media-sound/ogmtools:0
 media-sound/sox:0
 media-sound/tuxguitar:0
 media-sound/vorbis-tools:0
@@ -741,9 +756,11 @@ x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-nouveau:0
 x11-drivers/xf86-video-nv:0
+x11-libs/fltk:1
 x11-libs/fltk:2
 x11-libs/fox:1.6
 x11-libs/gksu:0
+x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0

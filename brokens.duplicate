@@ -29,6 +29,8 @@ app-text/ghostscript-gpl:0
 app-text/gv:0
 app-text/mftrace:1
 app-text/po4a:0
+app-text/rarian:0
+app-text/scrollkeeper-dtd:1.0
 app-text/texlive-core:0
 dev-db/pgadmin3:0
 dev-java/icedtea6-bin:0
@@ -36,7 +38,6 @@ dev-java/jutils:0
 dev-java/oracle-jdk-bin:1.7
 dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
-dev-libs/libgweather:2
 dev-perl/Alien-wxWidgets:0
 dev-perl/Audio-Extract-PCM:0
 dev-perl/Catalyst-Plugin-XMLRPC:0
@@ -44,6 +45,7 @@ dev-perl/DateTimeX-Easy:0
 dev-perl/MojoMojo:0
 dev-perl/Template-Latex:0
 dev-perl/VCI:0
+dev-perl/Wx-Perl-ProcessStream:0
 dev-python/notify-python:0
 dev-python/pygtk:2
 dev-python/twisted:0
@@ -51,12 +53,14 @@ dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-fontsrecommended:0
 dev-texlive/texlive-fontutils:0
 dev-texlive/texlive-genericrecommended:0
+dev-texlive/texlive-langenglish:0
 dev-texlive/texlive-latex:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/glade:3
 dev-util/glade:3.10
+dev-util/gtk-doc:0
 dev-util/nvidia-cuda-toolkit:0
 gnome-base/gdm:0
 gnome-base/gnome-control-center:2
@@ -115,8 +119,11 @@ media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/pstoedit:0
+media-libs/giblib:0
+media-libs/glew:0
 media-libs/imlib2:0
 media-libs/libafterimage:0
+media-libs/libggiwmh:0
 media-libs/libkface:4
 media-libs/libkgeomap:4
 media-libs/liblastfm:0
@@ -127,11 +134,14 @@ media-libs/mlt:0
 media-libs/opencv:0
 media-libs/smpeg:0
 media-libs/t1lib:5
+media-libs/urt:0
 media-libs/xine-lib:1
 media-plugins/frei0r-plugins:0
-media-plugins/gst-plugins-resindvd:0.10
+media-plugins/gst-plugins-x:0.10
+media-plugins/gst-plugins-xvideo:0.10
 media-plugins/kipi-plugins:4
 media-sound/audacity:0
+media-sound/baudline:0
 media-sound/clementine:0
 media-sound/japa:0
 media-sound/kid3:4
@@ -153,7 +163,6 @@ net-libs/libktorrent:4
 net-libs/xulrunner:1.9
 net-misc/rdesktop:0
 net-p2p/ktorrent:4
-net-print/cups:0
 net-wireless/bluedevil:4
 sci-geosciences/googleearth:0
 sci-libs/flann:0
@@ -176,7 +185,9 @@ x11-apps/x11perf:0
 x11-apps/xdpyinfo:0
 x11-apps/xinput:0
 x11-drivers/xf86-input-wacom:0
+x11-libs/fltk:1
 x11-libs/fltk:2
+x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/libXp:0
 x11-libs/libXres:0
