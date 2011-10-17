@@ -32,10 +32,8 @@ dev-libs/libpqxx:0
 dev-libs/openobex:0
 dev-libs/xmlrpc-epi:0
 dev-perl/Alien-wxWidgets:0
-dev-perl/App-cpanoutdated:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/CPAN-Inject:0
-dev-perl/CPAN-Reporter:0
 dev-perl/Catalyst-Authentication-Store-DBIx-Class:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/Catalyst-Model-DBIC-Schema:0
@@ -72,7 +70,6 @@ dev-perl/Paludis-UseCleaner:0
 dev-perl/RPC-XML:0
 dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-DBDev:0
-dev-perl/Task-Kensho-Toolchain:0
 dev-perl/Task-Kensho-WebDev:0
 dev-perl/Task-Kensho:0
 dev-perl/Template-Latex:0
@@ -213,7 +210,6 @@ net-nds/openldap:0
 net-p2p/ktorrent:4
 net-wireless/bluedevil:4
 net-wireless/bluez:0
-perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0

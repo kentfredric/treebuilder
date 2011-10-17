@@ -1,5 +1,6 @@
 app-arch/dpkg:0
 app-arch/p7zip:0
+app-cdr/k3b:4
 app-doc/podbrowser:0
 app-editors/padre:0
 app-laptop/laptop-mode-tools:0
@@ -7,8 +8,14 @@ app-mobilephone/obex-data-server:0
 app-mobilephone/obexd:0
 app-office/karbon:2
 app-office/kexi:2
+app-office/koffice-data:2
+app-office/koffice-libs:2
 app-office/koffice-meta:2
+app-office/kplato:2
+app-office/kpresenter:2
+app-office/krita:2
 app-office/kspread:2
+app-office/kword:2
 app-pda/gtkpod:0
 app-shells/zsh:0
 app-text/asciidoc:0
@@ -30,12 +37,11 @@ dev-lang/php:5.3
 dev-lang/spidermonkey:0
 dev-libs/libpqxx:0
 dev-libs/openobex:0
+dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-perl/Alien-wxWidgets:0
-dev-perl/App-cpanoutdated:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/CPAN-Inject:0
-dev-perl/CPAN-Reporter:0
 dev-perl/Catalyst-Authentication-Store-DBIx-Class:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/Catalyst-Model-DBIC-Schema:0
@@ -72,7 +78,6 @@ dev-perl/Paludis-UseCleaner:0
 dev-perl/RPC-XML:0
 dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-DBDev:0
-dev-perl/Task-Kensho-Toolchain:0
 dev-perl/Task-Kensho-WebDev:0
 dev-perl/Task-Kensho:0
 dev-perl/Template-Latex:0
@@ -119,6 +124,7 @@ gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
+kde-base/dragonplayer:4
 kde-base/kdeartwork-kscreensaver:4
 kde-base/kdebase-meta:4
 kde-base/kdebase-startkde:4
@@ -156,6 +162,7 @@ media-gfx/feh:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
 media-gfx/hugin:0
+media-gfx/imagemagick:0
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -173,6 +180,7 @@ media-libs/libkface:4
 media-libs/mlt:0
 media-libs/opencv:0
 media-libs/phonon-gstreamer:0
+media-libs/phonon-xine:0
 media-libs/plotutils:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-greycstoration:0
@@ -199,6 +207,7 @@ media-sound/audacity:0
 media-sound/clementine:0
 media-sound/lilypond:0
 media-sound/moodbar:0
+media-sound/musepack-tools:0
 net-analyzer/ettercap:0
 net-im/psi:0
 net-im/psimedia:0
@@ -213,7 +222,6 @@ net-nds/openldap:0
 net-p2p/ktorrent:4
 net-wireless/bluedevil:4
 net-wireless/bluez:0
-perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
