@@ -1,3 +1,4 @@
+use 5.14.2;
 use strict;
 use warnings;
 
@@ -94,20 +95,40 @@ sub pkgdir_strip_to_p {
 }
 
 sub dep_file_to_cpv {
-  my ( $self, $file ) = @_;
+  my ( $self, $file , $opts ) = @_;
+  $opts //= { };
+  $opts->{want} //= {};
+  $opts->{want}->{$_} //= 0 for qw( CATEGORY PN );
+
+  $opts->{want}->{$_} //= 1 for qw( SLOT PVR );
+  state $cache = {};
+  my $key = join(q{}, map { $opts->{want}->{$_} } sort keys %{ $opts->{want} });
+
   my $dir = $self->dep_file_to_pkgdir($file);
+
+  return $cache->{$dir}->{$key} if exists $cache->{$dir} and exists $cache->{$dir}->{$key};
+
   open my $fh, '-|', 'bzcat', $dir . '/environment.bz2' or die;
   my %hash;
+  my $done = sub {
+    return ( 
+      ( not $opts->{want}->{$_[0]} ) or  ( exists $hash{$_[0]} )
+    );
+  };
+  my $alldone = sub { 
+    for ( @_ )  {
+      return if not $done->($_);
+    }
+    return 1;
+  };
 
   #print ">";
   while ( my $line = <$fh> ) {
     chomp $line;
-    last
-      if exists $hash{CATEGORY}
-        and exists $hash{PN}
-        and exists $hash{SLOT}
-        and exists $hash{PVR};
-    if ( !exists $hash{CATEGORY} and $line =~ /^CATEGORY=(.*$)/ ) {
+    
+    last if $alldone->(qw( CATEGORY PN SLOT PVR ));
+
+    if ( ! $done->(qw(CATEGORY)) and $line =~ /^CATEGORY=(.*$)/ ) {
 
       #print "|";
       $hash{CATEGORY} = $1;
@@ -115,7 +136,7 @@ sub dep_file_to_cpv {
     }
 
     #next unless exists $hash{CATEGORY};
-    if ( !exists $hash{PN} and $line =~ /^PN=(.*$)/ ) {
+    if ( ! $done->(qw(PN)) and $line =~ /^PN=(.*$)/ ) {
 
       #print "^";
       $hash{PN} = $1;
@@ -123,7 +144,7 @@ sub dep_file_to_cpv {
     }
 
     #next unless exists $hash{PN};
-    if ( !exists $hash{PVR} and $line =~ /^PVR=(.*$)/ ) {
+    if ( ! $done->(qw( PVR )) and $line =~ /^PVR=(.*$)/ ) {
 
       #print "&";
       $hash{PVR} = $1;
@@ -131,7 +152,7 @@ sub dep_file_to_cpv {
     }
 
     #next unless exists $hash{PV};
-    if ( !exists $hash{SLOT} and $line =~ /^SLOT=(.*$)/ ) {
+    if ( !$done->(qw( SLOT )) and $line =~ /^SLOT=(.*$)/ ) {
 
       #print "*";
       $hash{SLOT} = $1;
@@ -146,6 +167,7 @@ sub dep_file_to_cpv {
   my $x = $self->pkgdir_strip_to_p( $dir, $hash{PVR} ) . q{:} . $hash{SLOT};
 
   #print "$x\n";
+  $cache->{$dir}->{$key} = $x;
   return $x;    #. ':' . $hash{SLOT};
 }
 

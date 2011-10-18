@@ -11,8 +11,10 @@ use lib 'lib';
 use corex;
 use File::stat;
 use File::Spec;
+use Term::ANSIColor qw( :constants );
 
-my $core = corex->new();
+my $core = corex->new( depend => qr/\/R?DEPEND$/ );
+*STDOUT->autoflush(0);
 my @regexen;
 my @brokenregexen;
 {
@@ -37,7 +39,7 @@ my @brokenregexen;
       )
     )
   }x;
-    push @regexen, $regex;
+    push @regexen, [ $regex, $line ];
   }
 }
 {
@@ -58,7 +60,7 @@ my @brokenregexen;
       \Q$line\E: # slotted
     )
     }x;
-    push @brokenregexen, $regex;
+    push @brokenregexen, [ $regex , $line ];
   }
 }
 
@@ -75,11 +77,13 @@ my %rebuild_cache;
 my %broken_cache;
 my %all_cache;
 
-my (%rebuild, %broken);
+my (%rebuild, %broken, %processed );
 
 $core->old_dependency_files(
   sub {
     my $file    = shift;
+    my $b = $file;
+    $b =~ s[^.*/([^/]+)$][$1];
     my $package = $core->dep_file_to_pkgdir($file);
 
     open my $grepfile, '<', $file or die;
@@ -87,15 +91,19 @@ $core->old_dependency_files(
     my $schema = sub {
       return state $schemaval = $core->dep_file_to_cpv($file);
     };
-
+    #say $file;
+    #return if ( exists $broken_cache{$package} );
+    #return if ( exists $rebuild_cache{$package} );
+    #return if ( exists $processed{$package}  );
+    #$processed{$package} = 1;
   INP: while ( my $sourceline = <$grepfile> ) {
       if ( not exists $rebuild_cache{$package} ) {
         foreach my $re (@regexen) {
 
           #      print ">~ $re\n";
-          next unless $sourceline =~ $re;
+          next unless $sourceline =~ $re->[0];
           my $s = $schema->();
-          print "+ rebuild $s\n";
+          print BLUE . "+ rebuild $s ( $b  : $re->[1] )" . RESET . "\n";
           #$wfh->print("$s\n");
           $rebuild_cache{$package} = 1;
           $rebuild{$s}++;
@@ -106,21 +114,28 @@ $core->old_dependency_files(
         }
       }
     }
+    XINP: {
+
     if ( not exists $broken_cache{$package} ) {
       foreach my $re (@brokenregexen) {
-        next unless $package =~ $re;
+        next unless $package =~ $re->[0];
         my $s = $schema->();
         last if exists $broken_cache{$s};
-        print "+ broken $s\n";
+        print YELLOW . "+ broken $s" . RESET . "\n";
 
         #$wbfh->print( "$s\n" );
         $broken_cache{$package} = 1;
         $broken_cache{$s}       = 1;
         $all_cache{$s}++;
         $broken{$s}++;
-        last;
+        last XINP;
       }
+      #if ( not exists $broken_cache{$package} and not exists $rebuild_cache{$package} ){ 
+      #  my $s = $schema->();
+      #  print GREEN . "- skip $s ( $b )" . RESET . "\n";
+      #}
     }
+  }
   },
   $timestamp
 );
