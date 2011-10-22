@@ -9,4 +9,4 @@ cave -c y \
 	--permit-old-version "*/*" \
 	--continue-on-failure if-independent \
 	-J 0 \
-	$@
+	"$@"
