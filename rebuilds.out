@@ -3,7 +3,6 @@ app-office/karbon:2
 app-office/kexi:2
 app-office/koffice-meta:2
 app-text/asciidoc:0
-app-text/gv:0
 dev-db/pgadmin3:0
 dev-lang/lua:0
 dev-perl/Alien-wxWidgets:0
@@ -24,14 +23,11 @@ dev-util/anjuta:0
 dev-util/valgrind:0
 gnome-base/gdm:0
 gnome-base/gnome-control-center:2
-gnome-base/gnome-panel:0
 gnome-base/gnome-settings-daemon:0
 gnome-base/gvfs:0
 gnome-extra/libgda:5
 gnome-extra/yelp:0
 gnome-extra/zenity:0
-kde-base/kdeartwork-kscreensaver:4
-kde-base/kdebase-data:4
 kde-base/kdebase-meta:4
 kde-base/kdebase-startkde:4
 kde-base/kdebindings-perl:4
@@ -40,7 +36,6 @@ kde-base/kdeplasma-addons:4
 kde-base/kdeutils-meta:4
 kde-base/kget:4
 kde-base/kinfocenter:4
-kde-base/kopete:4
 kde-base/kremotecontrol:4
 kde-base/krunner:4
 kde-base/ksmserver:4
@@ -55,7 +50,6 @@ kde-misc/publictransport:4
 kde-misc/smooth-tasks:4
 mail-client/claws-mail-notification:0
 media-gfx/digikam:4
-media-gfx/fbida:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
 media-gfx/hugin:0
@@ -69,7 +63,6 @@ media-plugins/kipi-plugins:4
 media-sound/audacity:0
 media-sound/clementine:0
 media-sound/lilypond:0
-net-analyzer/ettercap:0
 net-im/psimedia:0
 net-libs/xulrunner:1.9
 net-p2p/ktorrent:4
@@ -83,18 +76,5 @@ www-client/firefox:0
 www-client/midori:0
 www-client/opera-next:0
 www-client/seamonkey:0
-x11-libs/libXxf86misc:0
 x11-libs/libnotify:0
-x11-libs/openmotif:0
 x11-misc/notification-daemon:0
-x11-misc/obconf:0
-x11-misc/rss-glx:0
-x11-misc/xscreensaver:0
-x11-proto/xf86miscproto:0
-x11-themes/gnome-icon-theme:0
-x11-themes/sound-theme-freedesktop:0
-x11-themes/xcursor-themes:0
-x11-wm/twm:0
-xfce-base/libxfce4util:0
-xfce-base/libxfcegui4:0
-xfce-extra/transd:0

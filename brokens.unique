@@ -1,12 +1,9 @@
-app-doc/podbrowser:0
 app-editors/padre:0
 app-pda/gtkpod:0
 app-text/bibletime:0
-app-text/dictd:0
 app-text/libwpd:0.8
 app-text/sword:0
 dev-libs/libpqxx:0
-dev-libs/libunique:3
 dev-libs/xmlrpc-epi:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/BackPAN-Index:0
@@ -52,9 +49,7 @@ dev-util/catalyst:0
 dev-util/d-feet:0
 dev-vcs/mercurial:0
 gnome-base/gnome-light:2.0
-gnome-base/libbonoboui:0
 media-libs/gst-plugins-bad:0
-media-libs/gst-plugins-good:0.10
 media-libs/phonon-gstreamer:0
 media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-mad:0.10
