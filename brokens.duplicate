@@ -3,6 +3,7 @@ app-office/karbon:2
 app-office/kexi:2
 app-office/koffice-meta:2
 app-text/asciidoc:0
+app-text/gv:0
 dev-db/pgadmin3:0
 dev-lang/lua:0
 dev-perl/Alien-wxWidgets:0
@@ -10,6 +11,7 @@ dev-perl/Catalyst-Plugin-XMLRPC:0
 dev-perl/DBICx-TestDatabase:0
 dev-perl/DBIx-Class:0
 dev-perl/DateTimeX-Easy:0
+dev-perl/HTML-FormFu-Model-DBIC:0
 dev-perl/Handel:0
 dev-perl/KiokuDB-Backend-DBI:0
 dev-perl/MojoMojo:0
@@ -29,6 +31,7 @@ gnome-extra/libgda:5
 gnome-extra/yelp:0
 gnome-extra/zenity:0
 kde-base/kdeartwork-kscreensaver:4
+kde-base/kdebase-data:4
 kde-base/kdebase-meta:4
 kde-base/kdebase-startkde:4
 kde-base/kdebindings-perl:4
@@ -80,10 +83,18 @@ www-client/firefox:0
 www-client/midori:0
 www-client/opera-next:0
 www-client/seamonkey:0
+x11-libs/libXxf86misc:0
 x11-libs/libnotify:0
+x11-libs/openmotif:0
 x11-misc/notification-daemon:0
 x11-misc/obconf:0
 x11-misc/rss-glx:0
 x11-misc/xscreensaver:0
+x11-proto/xf86miscproto:0
+x11-themes/gnome-icon-theme:0
+x11-themes/sound-theme-freedesktop:0
+x11-themes/xcursor-themes:0
+x11-wm/twm:0
+xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
 xfce-extra/transd:0

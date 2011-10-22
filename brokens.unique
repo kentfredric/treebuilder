@@ -3,7 +3,6 @@ app-editors/padre:0
 app-pda/gtkpod:0
 app-text/bibletime:0
 app-text/dictd:0
-app-text/gv:0
 app-text/libwpd:0.8
 app-text/sword:0
 dev-libs/libpqxx:0
@@ -30,7 +29,6 @@ dev-perl/DBIx-Class-Validation:0
 dev-perl/Data-Handle:0
 dev-perl/DateTime-Format-DateManip:0
 dev-perl/Git-CPAN-Patch:0
-dev-perl/HTML-FormFu-Model-DBIC:0
 dev-perl/KinoSearch1:0
 dev-perl/MooseX-Types-DateTime-ButMaintained:0
 dev-perl/MooseX-Types-DateTimeX:0
@@ -55,7 +53,6 @@ dev-util/d-feet:0
 dev-vcs/mercurial:0
 gnome-base/gnome-light:2.0
 gnome-base/libbonoboui:0
-kde-base/kdebase-data:4
 media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-good:0.10
 media-libs/phonon-gstreamer:0
@@ -76,18 +73,10 @@ virtual/lapack:0
 www-client/w3m:0
 x11-base/nouveau-drm:0
 x11-base/xorg-x11:0
-x11-libs/libXxf86misc:0
-x11-libs/openmotif:0
 x11-libs/wxGTK:2.8
 x11-misc/denu:0
 x11-misc/obmenu:0
-x11-proto/xf86miscproto:0
-x11-themes/gnome-icon-theme:0
 x11-themes/gtk-engines-qtcurve:0
-x11-themes/sound-theme-freedesktop:0
-x11-themes/xcursor-themes:0
 x11-wm/awesome:0
 x11-wm/i3:0
 x11-wm/metacity:0
-x11-wm/twm:0
-xfce-base/libxfce4util:0

@@ -8,6 +8,7 @@ app-pda/gtkpod:0
 app-text/asciidoc:0
 app-text/bibletime:0
 app-text/dictd:0
+app-text/gv:0
 app-text/libwpd:0.8
 app-text/sword:0
 dev-db/pgadmin3:0
@@ -41,6 +42,7 @@ dev-perl/Data-Handle:0
 dev-perl/DateTime-Format-DateManip:0
 dev-perl/DateTimeX-Easy:0
 dev-perl/Git-CPAN-Patch:0
+dev-perl/HTML-FormFu-Model-DBIC:0
 dev-perl/Handel:0
 dev-perl/KinoSearch1:0
 dev-perl/KiokuDB-Backend-DBI:0
@@ -84,6 +86,7 @@ gnome-extra/libgda:5
 gnome-extra/yelp:0
 gnome-extra/zenity:0
 kde-base/kdeartwork-kscreensaver:4
+kde-base/kdebase-data:4
 kde-base/kdebase-meta:4
 kde-base/kdebase-startkde:4
 kde-base/kdebindings-perl:4
@@ -155,7 +158,9 @@ www-client/seamonkey:0
 www-client/w3m:0
 x11-base/nouveau-drm:0
 x11-base/xorg-x11:0
+x11-libs/libXxf86misc:0
 x11-libs/libnotify:0
+x11-libs/openmotif:0
 x11-libs/wxGTK:2.8
 x11-misc/denu:0
 x11-misc/notification-daemon:0
@@ -163,9 +168,15 @@ x11-misc/obconf:0
 x11-misc/obmenu:0
 x11-misc/rss-glx:0
 x11-misc/xscreensaver:0
+x11-proto/xf86miscproto:0
+x11-themes/gnome-icon-theme:0
 x11-themes/gtk-engines-qtcurve:0
+x11-themes/sound-theme-freedesktop:0
+x11-themes/xcursor-themes:0
 x11-wm/awesome:0
 x11-wm/i3:0
 x11-wm/metacity:0
+x11-wm/twm:0
+xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
 xfce-extra/transd:0
