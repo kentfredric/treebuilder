@@ -91,84 +91,103 @@ sub pkgdir_strip_to_p {
   # $dir =~ s{/[^/]*$}{};
   $dir =~ s{-\Q$v\E$}{};
   return $dir;
+  
+}
+
+sub cache_gen {
+  my $alias = shift;
+  require CHI;
+  return CHI->new(
+    driver => 'File',
+    root_dir => '/tmp/rebuilder-cache/',
+    expires_in => '5 hours',
+    label => $alias,
+    namespace => $alias,
+    max_key_length => '80',
+  );
 
 }
 
 sub dep_file_to_cpv {
+  state $chicache = cache_gen('dep-file-to-cpv');
   my ( $self, $file , $opts ) = @_;
+
   $opts //= { };
   $opts->{want} //= {};
   $opts->{want}->{$_} //= 0 for qw( CATEGORY PN );
-
   $opts->{want}->{$_} //= 1 for qw( SLOT PVR );
-  state $cache = {};
-  my $key = join(q{}, map { $opts->{want}->{$_} } sort keys %{ $opts->{want} });
 
-  my $dir = $self->dep_file_to_pkgdir($file);
+  my $key = $file .'-w-' .  join(q{}, map { $opts->{want}->{$_} ? 1 : 0 } sort qw( CATEGORY PN SLOT PVR ));
+  $key =~ s{/}{_}g;
+  $key =~ s{\.}{_}g;
 
-  return $cache->{$dir}->{$key} if exists $cache->{$dir} and exists $cache->{$dir}->{$key};
-
-  open my $fh, '-|', 'bzcat', $dir . '/environment.bz2' or die;
-  my %hash;
-  my $done = sub {
-    return ( 
-      ( not $opts->{want}->{$_[0]} ) or  ( exists $hash{$_[0]} )
-    );
-  };
-  my $alldone = sub { 
-    for ( @_ )  {
-      return if not $done->($_);
-    }
-    return 1;
-  };
+  my $result = $chicache->compute( $key , {}, sub {
+    
+      my $dir = $self->dep_file_to_pkgdir($file);
+      open my $fh, '-|', 'bzcat', $dir . '/environment.bz2' or die;
+      my %hash;
+      my $done = sub {
+        return ( 
+          ( not $opts->{want}->{$_[0]} ) or  ( exists $hash{$_[0]} )
+        );
+      };
+      my $alldone = sub { 
+        for ( @_ )  {
+          return if not $done->($_);
+        }
+        return 1;
+      };
 
   #print ">";
-  while ( my $line = <$fh> ) {
-    chomp $line;
-    
-    last if $alldone->(qw( CATEGORY PN SLOT PVR ));
+    while ( my $line = <$fh> ) {
 
-    if ( ! $done->(qw(CATEGORY)) and $line =~ /^CATEGORY=(.*$)/ ) {
+      chomp $line;
+      
+      last if $alldone->(qw( CATEGORY PN SLOT PVR ));
 
-      #print "|";
-      $hash{CATEGORY} = $1;
-      next;
+      if ( ! $done->(qw(CATEGORY)) and $line =~ /^CATEGORY=(.*$)/ ) {
+
+        #print "|";
+        $hash{CATEGORY} = $1;
+        next;
+      }
+
+      #next unless exists $hash{CATEGORY};
+      if ( ! $done->(qw(PN)) and $line =~ /^PN=(.*$)/ ) {
+
+        #print "^";
+        $hash{PN} = $1;
+        next;
+      }
+
+      #next unless exists $hash{PN};
+      if ( ! $done->(qw( PVR )) and $line =~ /^PVR=(.*$)/ ) {
+
+        #print "&";
+        $hash{PVR} = $1;
+        next;
+      }
+
+      #next unless exists $hash{PV};
+      if ( !$done->(qw( SLOT )) and $line =~ /^SLOT=(.*$)/ ) {
+
+        #print "*";
+        $hash{SLOT} = $1;
+        next;
+      }
+
+      #next unless exists $hash{SLOT};
+      #print '.';
     }
 
-    #next unless exists $hash{CATEGORY};
-    if ( ! $done->(qw(PN)) and $line =~ /^PN=(.*$)/ ) {
+    #print "<\n";
+    my $x = $self->pkgdir_strip_to_p( $dir, $hash{PVR} ) . q{:} . $hash{SLOT};
 
-      #print "^";
-      $hash{PN} = $1;
-      next;
-    }
-
-    #next unless exists $hash{PN};
-    if ( ! $done->(qw( PVR )) and $line =~ /^PVR=(.*$)/ ) {
-
-      #print "&";
-      $hash{PVR} = $1;
-      next;
-    }
-
-    #next unless exists $hash{PV};
-    if ( !$done->(qw( SLOT )) and $line =~ /^SLOT=(.*$)/ ) {
-
-      #print "*";
-      $hash{SLOT} = $1;
-      next;
-    }
-
-    #next unless exists $hash{SLOT};
-    #print '.';
-  }
-
-  #print "<\n";
-  my $x = $self->pkgdir_strip_to_p( $dir, $hash{PVR} ) . q{:} . $hash{SLOT};
-
-  #print "$x\n";
-  $cache->{$dir}->{$key} = $x;
-  return $x;    #. ':' . $hash{SLOT};
+    #print "$x\n";
+    #$cache->{$dir}->{$key} = $x;
+    return $x;    #. ':' . $hash{SLOT};
+  });
+  return $result;
 }
 
 no Moose;
