@@ -68,7 +68,6 @@ net-libs/xulrunner:1.9
 net-p2p/ktorrent:4
 sci-libs/blas-atlas:0
 sci-libs/lapack-atlas:0
-sci-visualization/gnuplot:0
 sys-apps/gnome-disk-utility:0
 sys-auth/thinkfinger:0
 virtual/notification-daemon:0

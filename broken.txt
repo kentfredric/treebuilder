@@ -64,7 +64,6 @@ dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/pygments:0
 dev-python/pygtk:2
-dev-python/twisted:0
 dev-scheme/guile:12
 dev-util/anjuta:0
 dev-util/catalyst:0
@@ -112,7 +111,6 @@ media-libs/phonon-gstreamer:0
 media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
 media-plugins/gimp-resynthesizer:0
-media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-mad:0.10
 media-plugins/gst-plugins-meta:0.10
 media-plugins/gst-plugins-vp8:0.10
@@ -126,13 +124,11 @@ net-im/psimedia:0
 net-libs/xulrunner:1.9
 net-misc/aria2:0
 net-misc/wicd:0
-net-nds/openldap:0
 net-p2p/ktorrent:4
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
 sci-libs/blas-atlas:0
 sci-libs/lapack-atlas:0
 sci-libs/libqalculate:0
-sci-visualization/gnuplot:0
 sys-apps/gnome-disk-utility:0
 sys-apps/paludis:0
 sys-auth/thinkfinger:0
@@ -143,7 +139,6 @@ www-client/firefox:0
 www-client/midori:0
 www-client/opera-next:0
 www-client/seamonkey:0
-www-client/w3m:0
 x11-base/nouveau-drm:0
 x11-base/xorg-x11:0
 x11-libs/libnotify:0
