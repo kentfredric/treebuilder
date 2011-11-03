@@ -7,4 +7,4 @@ cave -c y \
 		--permit-downgrade "*/*" \
 		--permit-uninstall "*/*" \
 		--permit-old-version "*/*" \
-	installed-packages
+	installed-packages "$@"
