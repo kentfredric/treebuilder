@@ -1,0 +1,222 @@
+These are the actions I will take, in order:
+
+r   app-text/scrollkeeper:0::gentoo 9999-r1 to ::installed replacing 9999-r1 [cycle 1]
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: !<app-text/scrollkeeper-9999 from app-text/rarian, !<app-text/scrollkeeper-9999-r1 from app-text/scrollkeeper-dtd, dev-util/anjuta, 8 more
+    In dependency cycle with existing packages: app-text/scrollkeeper:0, dev-db/virtuoso-server:0
+u   dev-db/virtuoso-server:0::gentoo 6.1.3-r1 to ::installed replacing 6.1.3 [cycle 1]
+    kerberos -ldap readline build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, dev-libs/soprano
+u   dev-perl/RPC-XML:0::gentoo 0.760.0 to ::installed replacing 0.740.0
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: dev-perl/Catalyst-Plugin-XMLRPC
+u   kde-base/kate:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) plasma build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdesdk-meta, kde-base/smoke
+u   kde-base/kdepim-wizards:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdepim-meta
+u   kde-base/knode:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) kontact build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdepim-meta
+u   kde-base/kmail:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) kontact (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, !<kde-base/kmail-4.3.2:4 from kde-base/oxygen-icons, !<kde-base/kmail-4.4.80:4 from kde-base/kdepim-common-libs, kde-base/kdepim-meta
+u   kde-base/kdepim-meta:4::gentoo 4.7.1 to ::installed replacing 4.7.0-r1
+    (-aqua) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/libkdegames:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/ksudoku, kde-base/kubrick
+u   kde-base/ksudoku:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/kubrick:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/gwenview:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) kipi semantic-desktop build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdegraphics-meta
+u   kde-base/libksane:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, media-plugins/kipi-plugins
+u   kde-base/liboxygenstyle:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta, kde-base/kstyles, kde-base/kwin
+u   kde-base/kstyles:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta
+u   kde-base/marble:4::gentoo 4.7.1 to ::installed replacing 4.7.0-r1
+    (-aqua) -debug -designer-plugin -gps handbook kde (-kdeenablefinal) plasma -python (-test) build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdeplasma-addons, media-gfx/digikam, media-libs/libkgeomap
+u   kde-base/plasma-apps:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta, kde-base/kdebase-startkde
+r   kde-misc/kio-sysinfo:4::kde 9999 to ::installed replacing 9999
+    (-aqua) (-kdeenablefinal) opengl build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/kdesdk-meta:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -cvs build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/libkdcraw:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/krita, kde-base/kdegraphics-meta, 3 more
+u   kde-base/thumbnailers:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdegraphics-meta
+u   media-libs/libkgeomap:4::gentoo 2.1.0 to ::installed replacing 2.0.0
+    (-aqua) (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, media-gfx/digikam
+u   media-sound/fluidsynth:0::gentoo 1.1.5 to ::installed replacing 1.1.4
+    alsa dbus -debug -examples jack ladspa lash portaudio -pulseaudio readline -sndfile build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, media-sound/tuxguitar
+u   kde-base/kdegraphics-meta:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -scanner build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+r   perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0::kentfredric-experimental 0.001 to ::installed replacing 0.001
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+r   dev-db/mysql-workbench:0::gentoo 5.2.34 to ::installed replacing 5.2.34
+    -debug -doc nls readline -static-libs build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   dev-perl/DateTime-Format-DateManip:0::gentoo 0.40.0 to ::installed replacing 0.04
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   dev-perl/KinoSearch1:0::perl-experimental 1.10.0 to ::installed replacing 1.01
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, dev-perl/MojoMojo
+r   dev-perl/pip:0::perl-experimental 1.190 to ::installed replacing 1.190
+    (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+r   dev-perl/Catalyst-Engine-HTTP-Prefork:0::perl-experimental 0.51 to ::installed replacing 0.51
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   dev-perl/Catalyst-Plugin-Session:0::perl-experimental 0.320.0 to ::installed replacing 0.31
+    (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, !<=dev-perl/Catalyst-Plugin-Session-0.21 from dev-perl/Catalyst-Runtime, dev-perl/Catalyst-Controller-RequestToken, 13 more
+r   dev-perl/signatures:0::perl-experimental 0.60 to ::installed replacing 0.60
+    (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   dev-perl/CatalystX-SimpleLogin:0::perl-experimental 0.140.0 to ::installed replacing 0.140
+    (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, dev-perl/Task-Catalyst
+r   dev-perl/MojoMojo:0::perl-experimental 1.40.0 to ::installed replacing 1.40.0
+    amazonboxes createdb docbook emoticons fastcgi markdown podformatter recaptcha rssformatter syntaxhighlight transclusion (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/kwin:4::gentoo 4.7.1 to ::installed replacing 4.7.0-r1
+    (-aqua) -debug -gles (-kdeenablefinal) opengl xinerama build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdeartwork-styles, kde-base/kdebase-meta, kde-base/kdebase-startkde
+u   kde-base/kdeartwork-styles:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdeartwork-meta
+u   x11-base/nouveau-drm:0::gentoo 20110820 to ::installed replacing 20110801
+    build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   gnome-extra/libgda:4::gentoo 4.2.9 to ::installed replacing 4.2.8
+    berkdb -bindist -canvas -debug -doc (-firebird) gnome-keyring graphviz gtk http introspection -java json -ldap -mysql -oci8 postgres sourceview ssl build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, dev-util/anjuta
+u   x11-libs/libnotify:0::gentoo 0.7.4 to ::installed replacing 0.7.3
+    -doc introspection (-test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, dev-python/notify-python, gnome-base/gnome-settings-daemon, 7 more
+r   media-libs/opencv:0::gentoo 2.2.0-r10 to ::installed replacing 2.2.0-r10
+    -cuda -doc eigen examples ffmpeg gstreamer gtk ieee1394 -ipp jpeg jpeg2k openexr opengl png -python qt4 sse sse2 sse3 -ssse3 tiff v4l xine (-test) build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, media-libs/libkface, media-plugins/frei0r-plugins, media-plugins/kipi-plugins
+r   app-office/koffice-libs:2::gentoo 2.3.3 to ::installed replacing 2.3.3
+    (-aqua) crypt -debug (-kdeenablefinal) openexr opengl reports (test) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/karbon, app-office/kexi, 5 more
+r   app-office/kpresenter:2::gentoo 2.3.3 to ::installed replacing 2.3.3
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/koffice-meta
+r   app-office/krita:2::gentoo 2.3.3 to ::installed replacing 2.3.3
+    (-aqua) -debug gmm kdcraw (-kdeenablefinal) openexr opengl pdf tiff build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/koffice-meta
+r   app-office/kspread:2::gentoo 2.3.3 to ::installed replacing 2.3.3
+    (-aqua) -debug (-kdeenablefinal) solver build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/kexi, app-office/koffice-meta
+r   app-office/kexi:2::gentoo 2.3.3 to ::installed replacing 2.3.3
+    (-aqua) -debug -freetds (-kdeenablefinal) -mysql postgres reports xbase build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/koffice-meta
+r   app-office/kword:2::gentoo 2.3.3-r1 to ::installed replacing 2.3.3-r1
+    (-aqua) -debug (-kdeenablefinal) wpd build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/koffice-meta
+r   app-office/karbon:2::gentoo 2.3.3 to ::installed replacing 2.3.3
+    (-aqua) -debug (-kdeenablefinal) pstoedit wpg build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, app-office/koffice-meta
+u   kde-base/systemsettings:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug -gtk -handbook (-kdeenablefinal) opengl usb xinerama build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, !<kde-base/systemsettings-4.2.91:4 from kde-base/kcontrol, !<kde-base/systemsettings-4.5.80:4 from kde-base/kdm, 2 more
+u   kde-base/konqueror:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) bookmarks -debug handbook (-kdeenablefinal) svg build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, !<=kde-base/konqueror-4.2.67:4 from kde-base/keditfiletype, !<=kde-base/konqueror-4.3.65:4 from kde-base/kfmclient, 4 more
+u   kde-base/konq-plugins:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) -tidy build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta
+u   kde-base/konsole:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug handbook (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta, kde-misc/krcstat
+u   kde-base/nsplugins:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta
+r   kde-base/smoke:4::gentoo 4.6.5 to ::installed replacing 4.6.5
+    akonadi (-aqua) attica -debug declarative kate (-kdeenablefinal) multimedia okular phonon qimageblitz qscintilla qthelp qwt semantic-desktop webkit build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   www-client/seamonkey:0::gentoo 2.3.3 to ::installed replacing 2.3.2
+    alsa -chatzilla crypt -custom-cflags -custom-optimization dbus -debug ipc libnotify methodjit roaming startup-notification -system-sqlite webm wifi LINGUAS: -be -ca -cs -de en en_GB en_US -es -es_AR -es_ES -fi -fr -gl -hu -it -ja -lt -nb -nb_NO -nl -pl -pt -pt_PT -ru -sk -sv -sv_SE -tr -zh -zh_CN build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/ksmserver:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta, kde-base/kdebase-startkde, kde-base/krunner
+u   kde-base/krunner:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug (-kdeenablefinal) opengl build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-startkde, kde-base/kdeplasma-addons
+u   media-plugins/kipi-plugins:4::gentoo 2.1.0 to ::installed replacing 2.0.0
+    (-aqua) calendar cdr crypt -debug expoblending -gpssync -handbook imagemagick ipod (-kdeenablefinal) mediawiki mjpeg opengl panorama+ redeyes scanner -vkontakte+ LINGUAS: -ar -az -be -bg -bn -br -bs -ca -cs -csb -cy -da -de -el en_GB -eo -es -et -eu -fa -fi -fo -fr -fy -ga -gl -ha -he -hi -hr -hsb -hu -id -is -it -ja -ka -kk -km -ko -ku -lb -lo -lt -lv -mi -mk -mn -ms -mt -nb -nds -ne -nl -nn -nso -oc -pa -pl -pt -pt_BR -ro -ru -rw -se -sk -sl -sq -sr -ss -sv -ta -te -tg -th -tr -tt -uk -uz -ven -vi -wa -xh -zh_CN -zh_HK -zh_TW -zu build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, media-gfx/digikam
+u   media-gfx/digikam:4::gentoo 2.1.0-r2 to ::installed replacing 2.0.0 [cycle 2]
+    addressbook (-aqua) -debug -doc gphoto2 handbook (-kdeenablefinal) -mysql semantic-desktop themedesigner thumbnails video LINGUAS: -af+ -ar -az -be -bg -bn -br -bs -ca -cs -csb -cy -da -de -el en_GB -eo -es -et -eu -fa -fi -fo -fr -fy -ga -gl -ha -he -hi -hr -hsb -hu -id -is -it -ja -ka -kk -km -ko -ku -lb -lo -lt -lv -mi -mk -mn -ms -mt -nb -nds -ne -nl -nn -nso -oc -pa -pl -pt -pt_BR -ro -ru -rw -se -sk -sl -sq -sr -sr@Latn+ -ss -sv -ta -te -tg -th -tr -tt -uk -uz -uz@cyrillic+ -ven -vi -wa -xh -zh_CN -zh_HK -zh_TW -zu build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, !!=media-gfx/digikam-2.1.0-r1 from media-gfx/digikam
+    Self dependent (already met)
+r   media-sound/lilypond:0::gentoo 2.12.3 to ::installed replacing 2.12.3
+    -debug -emacs -profile build_options: (-optional_tests) symbols=split -trace -preserve_work
+    Reasons: target, app-text/asciidoc
+u   kde-base/plasma-workspace:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) -debug -google-gadgets -gps handbook (-kdeenablefinal) -python qalculate rss semantic-desktop xinerama build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, !<kde-base/plasma-workspace-4.3.75:4 from kde-base/kdelibs, !<kde-base/plasma-workspace-4.5.60:4 from kde-base/plasma-runtime, 4 more
+u   kde-base/kdeplasma-addons:4::gentoo (formerly from kde) 4.7.1 to ::installed replacing 4.7.0-r1
+    (-aqua) -attica -debug desktopglobe exif (-kdeenablefinal) qalculate qwt scim semantic-desktop build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+r   kde-misc/fancytasks:4::gentoo 1.0.94 to ::installed replacing 1.0.94
+    (-aqua) -debug (-kdeenablefinal) LINGUAS: -da -de en_GB -es -et -fr -km -nds -pl -pt -ru -sv -tr -uk build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   sys-apps/paludis:0::gentoo 0.66.0 to ::installed replacing 0.64.3
+    bash-completion -doc pbins pink portage -prebuilt-documentation -python-bindings ruby-bindings search-index vim-syntax visibility xml zsh-completion build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, !<sys-apps/paludis-0.26.0_alpha5 from app-shells/bash, dev-perl/Cave-Wrapper, virtual/package-manager
+u   kde-base/kdeartwork-meta:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   kde-base/kdebase-startkde:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) (-kdeenablefinal) wallpapers+ build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target, kde-base/kdebase-meta
+u   kde-base/kdebase-meta:4::gentoo 4.7.1 to ::installed replacing 4.7.0
+    (-aqua) wallpapers+ build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+u   net-libs/webkit-gtk:3::gentoo 1.4.2-r300 to ::installed replacing 1.4.1-r300
+    (-aqua) coverage -debug -doc gstreamer introspection jit spell (test)* build_options: optional_tests symbols=split -trace -preserve_work
+    Reasons: target
+
+Total: 19 reinstalls, 48 upgrades
+
+USE:
+    panorama:                      Pull in dependencies needed by panorama plugin
+    test:                          Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+    vkontakte:                     Build plugin for vkontakte.ru
+    wallpapers:                    Install the KDE wallpapers
+
+linguas:
+    af:                            Afrikaans locale
+    sr@Latn:                       Serbian (latin) locale
+    uz@cyrillic:                   Uzbek (cyrillic) locale
+
+Executing pretend actions: 1 of 67]2;1 of 67 pretend app-text/scrollkeeper-9999-r1:0::gentoo]2;Completed 1 of 67 pretend app-text/scrollkeeper-9999-r1:0::gentoo2 of 67]2;2 of 67 pretend dev-db/virtuoso-server-6.1.3-r1:0::gentoo]2;Completed 2 of 67 pretend dev-db/virtuoso-server-6.1.3-r1:0::gentoo3 of 67]2;3 of 67 pretend dev-perl/RPC-XML-0.760.0:0::gentoo]2;Completed 3 of 67 pretend dev-perl/RPC-XML-0.760.0:0::gentoo4 of 67]2;4 of 67 pretend kde-base/kate-4.7.1:4::gentoo]2;Completed 4 of 67 pretend kde-base/kate-4.7.1:4::gentoo5 of 67]2;5 of 67 pretend kde-base/kdepim-wizards-4.7.1:4::gentoo]2;Completed 5 of 67 pretend kde-base/kdepim-wizards-4.7.1:4::gentoo6 of 67]2;6 of 67 pretend kde-base/knode-4.7.1:4::gentoo]2;Completed 6 of 67 pretend kde-base/knode-4.7.1:4::gentoo7 of 67]2;7 of 67 pretend kde-base/kmail-4.7.1:4::gentoo]2;Completed 7 of 67 pretend kde-base/kmail-4.7.1:4::gentoo8 of 67]2;8 of 67 pretend kde-base/kdepim-meta-4.7.1:4::gentoo]2;Completed 8 of 67 pretend kde-base/kdepim-meta-4.7.1:4::gentoo9 of 67]2;9 of 67 pretend kde-base/libkdegames-4.7.1:4::gentoo]2;Completed 9 of 67 pretend kde-base/libkdegames-4.7.1:4::gentoo10 of 67]2;10 of 67 pretend kde-base/ksudoku-4.7.1:4::gentoo]2;Completed 10 of 67 pretend kde-base/ksudoku-4.7.1:4::gentoo11 of 67]2;11 of 67 pretend kde-base/kubrick-4.7.1:4::gentoo]2;Completed 11 of 67 pretend kde-base/kubrick-4.7.1:4::gentoo12 of 67]2;12 of 67 pretend kde-base/gwenview-4.7.1:4::gentoo]2;Completed 12 of 67 pretend kde-base/gwenview-4.7.1:4::gentoo13 of 67]2;13 of 67 pretend kde-base/libksane-4.7.1:4::gentoo]2;Completed 13 of 67 pretend kde-base/libksane-4.7.1:4::gentoo14 of 67]2;14 of 67 pretend kde-base/liboxygenstyle-4.7.1:4::gentoo]2;Completed 14 of 67 pretend kde-base/liboxygenstyle-4.7.1:4::gentoo15 of 67]2;15 of 67 pretend kde-base/kstyles-4.7.1:4::gentoo]2;Completed 15 of 67 pretend kde-base/kstyles-4.7.1:4::gentoo16 of 67]2;16 of 67 pretend kde-base/marble-4.7.1:4::gentoo]2;Completed 16 of 67 pretend kde-base/marble-4.7.1:4::gentoo17 of 67]2;17 of 67 pretend kde-base/plasma-apps-4.7.1:4::gentoo]2;Completed 17 of 67 pretend kde-base/plasma-apps-4.7.1:4::gentoo18 of 67]2;18 of 67 pretend kde-misc/kio-sysinfo-9999:4::kde]2;Completed 18 of 67 pretend kde-misc/kio-sysinfo-9999:4::kde19 of 67]2;19 of 67 pretend kde-base/kdesdk-meta-4.7.1:4::gentoo]2;Completed 19 of 67 pretend kde-base/kdesdk-meta-4.7.1:4::gentoo20 of 67]2;20 of 67 pretend kde-base/libkdcraw-4.7.1:4::gentoo]2;Completed 20 of 67 pretend kde-base/libkdcraw-4.7.1:4::gentoo21 of 67]2;21 of 67 pretend kde-base/thumbnailers-4.7.1:4::gentoo]2;Completed 21 of 67 pretend kde-base/thumbnailers-4.7.1:4::gentoo22 of 67]2;22 of 67 pretend media-libs/libkgeomap-2.1.0:4::gentoo]2;Completed 22 of 67 pretend media-libs/libkgeomap-2.1.0:4::gentoo23 of 67]2;23 of 67 pretend media-sound/fluidsynth-1.1.5:0::gentoo]2;Completed 23 of 67 pretend media-sound/fluidsynth-1.1.5:0::gentoo24 of 67]2;24 of 67 pretend kde-base/kdegraphics-meta-4.7.1:4::gentoo]2;Completed 24 of 67 pretend kde-base/kdegraphics-meta-4.7.1:4::gentoo25 of 67]2;25 of 67 pretend perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve-0.001:0::kentfredric-experimental]2;Completed 25 of 67 pretend perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve-0.001:0::kentfredric-experimental26 of 67]2;26 of 67 pretend dev-db/mysql-workbench-5.2.34:0::gentoo]2;Completed 26 of 67 pretend dev-db/mysql-workbench-5.2.34:0::gentoo27 of 67]2;27 of 67 pretend dev-perl/DateTime-Format-DateManip-0.40.0:0::gentoo]2;Completed 27 of 67 pretend dev-perl/DateTime-Format-DateManip-0.40.0:0::gentoo28 of 67]2;28 of 67 pretend dev-perl/KinoSearch1-1.10.0:0::perl-experimental]2;Completed 28 of 67 pretend dev-perl/KinoSearch1-1.10.0:0::perl-experimental29 of 67]2;29 of 67 pretend dev-perl/pip-1.190:0::perl-experimental]2;Completed 29 of 67 pretend dev-perl/pip-1.190:0::perl-experimental30 of 67]2;30 of 67 pretend dev-perl/Catalyst-Engine-HTTP-Prefork-0.51:0::perl-experimental]2;Completed 30 of 67 pretend dev-perl/Catalyst-Engine-HTTP-Prefork-0.51:0::perl-experimental31 of 67]2;31 of 67 pretend dev-perl/Catalyst-Plugin-Session-0.320.0:0::perl-experimental]2;Completed 31 of 67 pretend dev-perl/Catalyst-Plugin-Session-0.320.0:0::perl-experimental32 of 67]2;32 of 67 pretend dev-perl/signatures-0.60:0::perl-experimental]2;Completed 32 of 67 pretend dev-perl/signatures-0.60:0::perl-experimental33 of 67]2;33 of 67 pretend dev-perl/CatalystX-SimpleLogin-0.140.0:0::perl-experimental]2;Completed 33 of 67 pretend dev-perl/CatalystX-SimpleLogin-0.140.0:0::perl-experimental34 of 67]2;34 of 67 pretend dev-perl/MojoMojo-1.40.0:0::perl-experimental]2;Completed 34 of 67 pretend dev-perl/MojoMojo-1.40.0:0::perl-experimental35 of 67]2;35 of 67 pretend kde-base/kwin-4.7.1:4::gentoo]2;Completed 35 of 67 pretend kde-base/kwin-4.7.1:4::gentoo36 of 67]2;36 of 67 pretend kde-base/kdeartwork-styles-4.7.1:4::gentoo]2;Completed 36 of 67 pretend kde-base/kdeartwork-styles-4.7.1:4::gentoo37 of 67]2;37 of 67 pretend x11-base/nouveau-drm-20110820:0::gentoo]2;Completed 37 of 67 pretend x11-base/nouveau-drm-20110820:0::gentoo38 of 67]2;38 of 67 pretend gnome-extra/libgda-4.2.9:4::gentoo]2;Completed 38 of 67 pretend gnome-extra/libgda-4.2.9:4::gentoo39 of 67]2;39 of 67 pretend x11-libs/libnotify-0.7.4:0::gentoo]2;Completed 39 of 67 pretend x11-libs/libnotify-0.7.4:0::gentoo40 of 67]2;40 of 67 pretend media-libs/opencv-2.2.0-r10:0::gentoo]2;Completed 40 of 67 pretend media-libs/opencv-2.2.0-r10:0::gentoo41 of 67]2;41 of 67 pretend app-office/koffice-libs-2.3.3:2::gentoo]2;Completed 41 of 67 pretend app-office/koffice-libs-2.3.3:2::gentoo42 of 67]2;42 of 67 pretend app-office/kpresenter-2.3.3:2::gentoo]2;Completed 42 of 67 pretend app-office/kpresenter-2.3.3:2::gentoo43 of 67]2;43 of 67 pretend app-office/krita-2.3.3:2::gentoo]2;Completed 43 of 67 pretend app-office/krita-2.3.3:2::gentoo44 of 67]2;44 of 67 pretend app-office/kspread-2.3.3:2::gentoo]2;Completed 44 of 67 pretend app-office/kspread-2.3.3:2::gentoo45 of 67]2;45 of 67 pretend app-office/kexi-2.3.3:2::gentoo]2;Completed 45 of 67 pretend app-office/kexi-2.3.3:2::gentoo46 of 67]2;46 of 67 pretend app-office/kword-2.3.3-r1:2::gentoo]2;Completed 46 of 67 pretend app-office/kword-2.3.3-r1:2::gentoo47 of 67]2;47 of 67 pretend app-office/karbon-2.3.3:2::gentoo]2;Completed 47 of 67 pretend app-office/karbon-2.3.3:2::gentoo48 of 67]2;48 of 67 pretend kde-base/systemsettings-4.7.1:4::gentoo]2;Completed 48 of 67 pretend kde-base/systemsettings-4.7.1:4::gentoo49 of 67]2;49 of 67 pretend kde-base/konqueror-4.7.1:4::gentoo]2;Completed 49 of 67 pretend kde-base/konqueror-4.7.1:4::gentoo50 of 67]2;50 of 67 pretend kde-base/konq-plugins-4.7.1:4::gentoo]2;Completed 50 of 67 pretend kde-base/konq-plugins-4.7.1:4::gentoo51 of 67]2;51 of 67 pretend kde-base/konsole-4.7.1:4::gentoo]2;Completed 51 of 67 pretend kde-base/konsole-4.7.1:4::gentoo52 of 67]2;52 of 67 pretend kde-base/nsplugins-4.7.1:4::gentoo]2;Completed 52 of 67 pretend kde-base/nsplugins-4.7.1:4::gentoo53 of 67]2;53 of 67 pretend kde-base/smoke-4.6.5:4::gentoo]2;Completed 53 of 67 pretend kde-base/smoke-4.6.5:4::gentoo54 of 67]2;54 of 67 pretend www-client/seamonkey-2.3.3:0::gentoo]2;Completed 54 of 67 pretend www-client/seamonkey-2.3.3:0::gentoo55 of 67]2;55 of 67 pretend kde-base/ksmserver-4.7.1:4::gentoo]2;Completed 55 of 67 pretend kde-base/ksmserver-4.7.1:4::gentoo56 of 67]2;56 of 67 pretend kde-base/krunner-4.7.1:4::gentoo]2;Completed 56 of 67 pretend kde-base/krunner-4.7.1:4::gentoo57 of 67]2;57 of 67 pretend media-plugins/kipi-plugins-2.1.0:4::gentoo]2;Completed 57 of 67 pretend media-plugins/kipi-plugins-2.1.0:4::gentoo58 of 67]2;58 of 67 pretend media-gfx/digikam-2.1.0-r2:4::gentoo]2;Completed 58 of 67 pretend media-gfx/digikam-2.1.0-r2:4::gentoo59 of 67]2;59 of 67 pretend media-sound/lilypond-2.12.3:0::gentoo]2;Completed 59 of 67 pretend media-sound/lilypond-2.12.3:0::gentoo60 of 67]2;60 of 67 pretend kde-base/plasma-workspace-4.7.1:4::gentoo]2;Completed 60 of 67 pretend kde-base/plasma-workspace-4.7.1:4::gentoo61 of 67]2;61 of 67 pretend kde-base/kdeplasma-addons-4.7.1:4::gentoo]2;Completed 61 of 67 pretend kde-base/kdeplasma-addons-4.7.1:4::gentoo62 of 67]2;62 of 67 pretend kde-misc/fancytasks-1.0.94:4::gentoo]2;Completed 62 of 67 pretend kde-misc/fancytasks-1.0.94:4::gentoo63 of 67]2;63 of 67 pretend sys-apps/paludis-0.66.0:0::gentoo]2;Completed 63 of 67 pretend sys-apps/paludis-0.66.0:0::gentoo64 of 67]2;64 of 67 pretend kde-base/kdeartwork-meta-4.7.1:4::gentoo]2;Completed 64 of 67 pretend kde-base/kdeartwork-meta-4.7.1:4::gentoo65 of 67]2;65 of 67 pretend kde-base/kdebase-startkde-4.7.1:4::gentoo]2;Completed 65 of 67 pretend kde-base/kdebase-startkde-4.7.1:4::gentoo66 of 67]2;66 of 67 pretend kde-base/kdebase-meta-4.7.1:4::gentoo]2;Completed 66 of 67 pretend kde-base/kdebase-meta-4.7.1:4::gentoo67 of 67]2;67 of 67 pretend net-libs/webkit-gtk-1.4.2-r300:3::gentoo]2;Completed 67 of 67 pretend net-libs/webkit-gtk-1.4.2-r300:3::gentoo
+
+ [35;01m*[0m No unread news items found
