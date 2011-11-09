@@ -14,12 +14,10 @@ dev-perl/MojoMojo:0
 dev-perl/pip:0
 dev-util/cucumber-rails:1
 dev-util/cucumber:0
-gnome-base/libbonobo:0
 kde-base/kdebase-meta:4
 kde-base/kdebase-startkde:4
 kde-base/kdebindings-perl:4
 kde-base/kdeplasma-addons:4
-kde-base/plasma-workspace:4
 kde-base/smoke:4
 kde-misc/adjustableclock:4
 kde-misc/fancytasks:4
