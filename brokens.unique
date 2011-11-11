@@ -85,8 +85,6 @@ sci-libs/lapack-atlas:0
 sci-visualization/gnuplot:0
 sys-apps/paludis:0
 sys-devel/autogen:0
-sys-libs/db:1
-sys-libs/db:3
 virtual/lapack:0
 x11-libs/gtk+:3
 x11-libs/vte:2.90
