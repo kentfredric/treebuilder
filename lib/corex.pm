@@ -16,178 +16,231 @@ use File::Basename;
 
 has vdb => ( isa => 'Str', is => 'rw', default => '/var/db/pkg' );
 
-has depend => ( isa => 'RegexpRef', is => 'rw', default => sub { qr/\/[A-Z]*DEPEND$/ } );
+has depend =>
+  ( isa => 'RegexpRef', is => 'rw', default => sub { qr/\/[A-Z]*DEPEND$/ } );
 
-has 'rebuilder_root' => ( isa => 'Str', is => 'rw', default => '/root/rebuilder' );
+has 'rebuilder_root' =>
+  ( isa => 'Str', is => 'rw', default => '/root/rebuilder' );
 
 {
-  no warnings 'redefine';
-  require File::Spec::Unix;
+    no warnings 'redefine';
+    require File::Spec::Unix;
 
-  sub File::Spec::Unix::catdir {
-    shift;
-    return ( join q{/}, @_ );
-  }
+    sub File::Spec::Unix::catdir {
+        shift;
+        return ( join q{/}, @_ );
+    }
 }
 
 sub rebuild_file {
-  my ( $self, $filename ) = @_;
-  return $self->rebuilder_root . '/' . $filename;
+    my ( $self, $filename ) = @_;
+    return $self->rebuilder_root . '/' . $filename;
 }
 
 sub all_dependency_files {
-  my ( $self, $callback ) = @_;
-  my $it     = File::Next::files( $self->vdb );
-  my $depend = $self->depend;
-  while ( defined( my $file = $it->() ) ) {
-    next unless $file =~ $depend;
-    $callback->($file);
-  }
+    my ( $self, $callback ) = @_;
+    my $it     = File::Next::files( $self->vdb );
+    my $depend = $self->depend;
+    while ( defined( my $file = $it->() ) ) {
+        next unless $file =~ $depend;
+        $callback->($file);
+    }
 }
 
 sub old_dependency_files {
-  my ( $self, $callback, $timestamp ) = @_;
-  $self->all_dependency_files(
-    sub {
-      my $file = shift;
-      if ( stat($file)->mtime <= $timestamp ) {
-        return $callback->($file);
-      }
-    }
-  );
+    my ( $self, $callback, $timestamp ) = @_;
+    $self->all_dependency_files(
+        sub {
+            my $file = shift;
+            if ( stat($file)->mtime <= $timestamp ) {
+                return $callback->($file);
+            }
+        }
+    );
 }
 
 sub new_dependency_files {
-  my ( $self, $callback, $timestamp ) = @_;
-  $self->all_dependency_files(
-    sub {
-      my $file = shift;
-      if ( stat($file)->mtime > $timestamp ) {
-        return $callback->($file);
-      }
-    }
-  );
+    my ( $self, $callback, $timestamp ) = @_;
+    $self->all_dependency_files(
+        sub {
+            my $file = shift;
+            if ( stat($file)->mtime > $timestamp ) {
+                return $callback->($file);
+            }
+        }
+    );
 }
 
 sub dep_file_to_pkgdir {
-  my ( $self, $file ) = @_;
-  $file =~ s{\/[^/]+$}{};
-  return $file;
+    my ( $self, $file ) = @_;
+    $file =~ s{\/[^/]+$}{};
+    return $file;
 }
 
 sub pkgdir_to_cat {
-  my ( $self, $dir ) = @_;
-  my $vdb = $self->vdb;
-  $dir =~ s/^\Q$vdb\E\/?//;
-  $dir =~ s/\/.*$//;
-  return $dir;
+    my ( $self, $dir ) = @_;
+    my $vdb = $self->vdb;
+    $dir =~ s/^\Q$vdb\E\/?//;
+    $dir =~ s/\/.*$//;
+    return $dir;
 }
 
 sub pkgdir_strip_to_p {
-  my ( $self, $dir, $v ) = @_;
-  my $vdb = $self->vdb;
-  $dir =~ s/^\Q$vdb\E\/?//;
+    my ( $self, $dir, $v ) = @_;
+    my $vdb = $self->vdb;
+    $dir =~ s/^\Q$vdb\E\/?//;
 
-  # $dir =~ s{/[^/]*$}{};
-  $dir =~ s{-\Q$v\E$}{};
-  return $dir;
-  
+    # $dir =~ s{/[^/]*$}{};
+    $dir =~ s{-\Q$v\E$}{};
+    return $dir;
+
 }
 
 sub cache_gen {
-  my $alias = shift;
-  require CHI;
-  return CHI->new(
-    driver => 'File',
-    root_dir => '/tmp/rebuilder-cache/',
-    expires_in => '5 hours',
-    label => $alias,
-    namespace => $alias,
-    max_key_length => '80',
-  );
+    my $alias = shift;
+    require CHI;
+    return CHI->new(
+        driver         => 'File',
+        root_dir       => '/tmp/rebuilder-cache/',
+        expires_in     => '5 hours',
+        label          => $alias,
+        namespace      => $alias,
+        max_key_length => '80',
+    );
 
 }
 
-sub dep_file_to_cpv {
-  state $chicache = cache_gen('dep-file-to-cpv');
-  my ( $self, $file , $opts ) = @_;
+sub _real_dep_file_to_cpv {
+    my ( $self, %c ) = @_;
+    my $file = $c{file};
+    my $opts = $c{opts};
 
-  $opts //= { };
-  $opts->{want} //= {};
-  $opts->{want}->{$_} //= 0 for qw( CATEGORY PN );
-  $opts->{want}->{$_} //= 1 for qw( SLOT PVR );
+    my $dir = $self->dep_file_to_pkgdir( $c{file} );
 
-  my $key = $file .'-w-' .  join(q{}, map { $opts->{want}->{$_} ? 1 : 0 } sort qw( CATEGORY PN SLOT PVR ));
-  $key =~ s{/}{_}g;
-  $key =~ s{\.}{_}g;
+    my $hash = $self->dep_file_to_cpv_hash( $file, $opts );
 
-  my $result = $chicache->compute( $key , {}, sub {
-    
-      my $dir = $self->dep_file_to_pkgdir($file);
-      open my $fh, '-|', 'bzcat', $dir . '/environment.bz2' or die;
-      my %hash;
-      my $done = sub {
-        return ( 
-          ( not $opts->{want}->{$_[0]} ) or  ( exists $hash{$_[0]} )
+    my $x = $self->pkgdir_strip_to_p( $dir, $hash->{PVR} ) . q{:} . $hash->{SLOT};
+    return $x;
+
+}
+
+sub _real_dep_file_to_cpv_hash {
+    my ( $self, %c ) = @_;
+    my $file = $c{file};
+    my $opts = $c{opts};
+
+    my $dir = $self->dep_file_to_pkgdir( $c{file} );
+    open my $fh, '-|', 'bzcat', $dir . '/environment.bz2' or die;
+    my %hash;
+    my $done = sub {
+        return (
+                 ( not $opts->{want}->{ $_[0] } )
+              or ( exists $hash{ $_[0] } )
         );
-      };
-      my $alldone = sub { 
-        for ( @_ )  {
-          return if not $done->($_);
+    };
+    my $alldone = sub {
+        for (@_) {
+            return if not $done->($_);
         }
         return 1;
-      };
+    };
 
-  #print ">";
+    #print ">";
     while ( my $line = <$fh> ) {
 
-      chomp $line;
-      
-      last if $alldone->(qw( CATEGORY PN SLOT PVR ));
+        chomp $line;
 
-      if ( ! $done->(qw(CATEGORY)) and $line =~ /^CATEGORY=(.*$)/ ) {
+        last if $alldone->(qw( CATEGORY PN SLOT PVR ));
 
-        #print "|";
-        $hash{CATEGORY} = $1;
-        next;
-      }
+        if ( !$done->(qw(CATEGORY)) and $line =~ /^CATEGORY=(.*$)/ ) {
 
-      #next unless exists $hash{CATEGORY};
-      if ( ! $done->(qw(PN)) and $line =~ /^PN=(.*$)/ ) {
+            #print "|";
+            $hash{CATEGORY} = $1;
+            next;
+        }
 
-        #print "^";
-        $hash{PN} = $1;
-        next;
-      }
+        #next unless exists $hash{CATEGORY};
+        if ( !$done->(qw(PN)) and $line =~ /^PN=(.*$)/ ) {
 
-      #next unless exists $hash{PN};
-      if ( ! $done->(qw( PVR )) and $line =~ /^PVR=(.*$)/ ) {
+            #print "^";
+            $hash{PN} = $1;
+            next;
+        }
 
-        #print "&";
-        $hash{PVR} = $1;
-        next;
-      }
+        #next unless exists $hash{PN};
+        if ( !$done->(qw( PVR )) and $line =~ /^PVR=(.*$)/ ) {
 
-      #next unless exists $hash{PV};
-      if ( !$done->(qw( SLOT )) and $line =~ /^SLOT=(.*$)/ ) {
+            #print "&";
+            $hash{PVR} = $1;
+            next;
+        }
 
-        #print "*";
-        $hash{SLOT} = $1;
-        next;
-      }
+        #next unless exists $hash{PV};
+        if ( !$done->(qw( SLOT )) and $line =~ /^SLOT=(.*$)/ ) {
 
-      #next unless exists $hash{SLOT};
-      #print '.';
+            #print "*";
+            $hash{SLOT} = $1;
+            next;
+        }
+
+        #next unless exists $hash{SLOT};
+        #print '.';
     }
+    return \%hash;
+}
 
-    #print "<\n";
-    my $x = $self->pkgdir_strip_to_p( $dir, $hash{PVR} ) . q{:} . $hash{SLOT};
 
-    #print "$x\n";
-    #$cache->{$dir}->{$key} = $x;
-    return $x;    #. ':' . $hash{SLOT};
-  });
-  return $result;
+sub _pre_opts {
+    my ( $self, $opts, $file ) = @_;
+    $opts //= {};
+    $opts->{want} //= {};
+    $opts->{want}->{$_} //= 0 for qw( CATEGORY PN );
+    $opts->{want}->{$_} //= 1 for qw( SLOT PVR );
+
+    my $key =
+      $file . '-w-'
+      . join( q{},
+        map { $opts->{want}->{$_} ? 1 : 0 } sort qw( CATEGORY PN SLOT PVR ) );
+    $key =~ s{/}{_}g;
+    $key =~ s{\.}{_}g;
+    return ( $opts, $key );
+}
+
+sub dep_file_to_cpv_hash {
+    state $chicache = cache_gen('dep-file-to-cpv-hash');
+     my ( $self, $file, $opts ) = @_;
+     my ($key);
+    ( $opts, $key ) = $self->_pre_opts( $opts, $file );
+    my $result = $chicache->compute(
+     $key,
+        {},
+        sub {
+            return $self->_real_dep_file_to_cpv_hash(
+                file => $file,
+                opts => $opts,
+            );
+        }
+    );
+    return $result;
+}
+sub dep_file_to_cpv {
+    state $chicache = cache_gen('dep-file-to-cpv');
+    my ( $self, $file, $opts ) = @_;
+    my ($key);
+
+    ( $opts, $key ) = $self->_pre_opts( $opts, $file );
+
+    my $result = $chicache->compute(
+        $key,
+        {},
+        sub {
+            return $self->_real_dep_file_to_cpv(
+                file => $file,
+                opts => $opts,
+            );
+        }
+    );
+    return $result;
 }
 
 no Moose;

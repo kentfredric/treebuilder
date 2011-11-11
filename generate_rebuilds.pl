@@ -48,19 +48,21 @@ my @brokenregexen;
     chomp $line;
     next if $line =~ /^\s*#/;
     next if $line =~ /^\s*$/;
-    $line =~ s/:.*$//;
+    my $slot = 0;
+    if ( $line =~ /:(.*)$/ ) {
+      $slot = "$1";
+	    $line =~ s/:.*$//;
+    }
     my $regex = qr{
-    (i
+    (
       \Q$line\E$  # terminated
     |
       \Q$line\E[[:space:]] # simple
     |
       \Q$line\E-[\d] # version specific
-    |
-      \Q$line\E: # slotted
     )
     }x;
-    push @brokenregexen, [ $regex , $line ];
+    push @brokenregexen, [ $regex , $line , $slot ];
   }
 }
 
@@ -88,6 +90,10 @@ $core->old_dependency_files(
 
     open my $grepfile, '<', $file or die;
 
+    my $schemahash = sub {
+      return state $schemaval = $core->dep_file_to_cpv_hash($file);
+
+    };
     my $schema = sub {
       return state $schemaval = $core->dep_file_to_cpv($file);
     };
@@ -119,8 +125,18 @@ $core->old_dependency_files(
     if ( not exists $broken_cache{$package} ) {
       foreach my $re (@brokenregexen) {
         next unless $package =~ $re->[0];
+        my $slot = $re->[2];
+ #       print " $package matches " . $re->[0]. "\n";;
         my $s = $schema->();
+        my $h = $schemahash->();
+        require Data::Dump;
+        if( $h->{SLOT} ne $slot ) {
+          print "$s != $s + $slot \n";
+          next;
+        }
         last if exists $broken_cache{$s};
+      
+#        print(Data::Dump::pp($h));
         print YELLOW . "+ broken $s" . RESET . "\n";
 
         #$wbfh->print( "$s\n" );
