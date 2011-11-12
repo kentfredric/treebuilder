@@ -59,7 +59,6 @@ dev-util/catalyst:0
 dev-util/cucumber-rails:1
 dev-util/cucumber:0
 dev-util/d-feet:0
-dev-util/valgrind:0
 gnome-base/gnome-desktop:3
 kde-base/kdebindings-perl:4
 kde-base/smoke:4
