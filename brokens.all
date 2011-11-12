@@ -22,11 +22,8 @@ dev-libs/glib:1
 dev-libs/libpqxx:0
 dev-libs/xmlrpc-epi:0
 dev-perl/Audio-Ofa-Util:0
-dev-perl/BackPAN-Index:0
 dev-perl/CPAN-Inject:0
-dev-perl/Catalyst-Authentication-Store-DBIx-Class:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
-dev-perl/Catalyst-Model-DBIC-Schema:0
 dev-perl/Catalyst-Plugin-XMLRPC:0
 dev-perl/DBICx-TestDatabase:0
 dev-perl/DBIx-Class-DateTime-Epoch:0
@@ -49,12 +46,11 @@ dev-perl/Net-Amazon-S3:0
 dev-perl/Padre-Plugin-Autoformat:0
 dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/RPC-XML:0
-dev-perl/Task-Catalyst:0
-dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-WebDev:0
 dev-perl/WebService-MusicBrainz:0
 dev-perl/pip:0
 dev-perl/signatures:0
+dev-python/notify-python:0
 dev-ruby/gherkin:0
 dev-ruby/rspec:0
 dev-ruby/rspec:2
@@ -62,6 +58,7 @@ dev-scheme/guile:12
 dev-util/catalyst:0
 dev-util/cucumber-rails:1
 dev-util/cucumber:0
+dev-util/d-feet:0
 dev-util/valgrind:0
 gnome-base/gnome-desktop:3
 kde-base/kdebindings-perl:4
@@ -71,7 +68,6 @@ kde-misc/fancytasks:4
 kde-misc/kgtk:4
 kde-misc/publictransport:4
 kde-misc/smooth-tasks:4
-media-gfx/fbida:0
 media-gfx/imagemagick:0
 media-gfx/inkscape:0
 media-gfx/pstoedit:0
@@ -79,6 +75,7 @@ media-libs/babl:0
 media-libs/lcms:2
 media-sound/lilypond:0
 net-misc/aria2:0
+net-misc/wicd:0
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
 sci-libs/blas-atlas:0
 sci-libs/lapack-atlas:0
@@ -86,7 +83,11 @@ sci-visualization/gnuplot:0
 sys-apps/paludis:0
 sys-devel/autogen:0
 virtual/lapack:0
+x11-base/xorg-x11:0
 x11-libs/gtk+:3
 x11-libs/vte:2.90
 x11-misc/denu:0
+x11-misc/obmenu:0
+x11-themes/gtk-engines-qtcurve:0
 x11-wm/awesome:0
+x11-wm/i3:0

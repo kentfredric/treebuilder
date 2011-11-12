@@ -1,0 +1,15 @@
+app-text/asciidoc:0
+dev-perl/Catalyst-Engine-HTTP-Prefork:0
+dev-perl/Catalyst-Plugin-XMLRPC:0
+dev-perl/MojoMojo:0
+dev-python/notify-python:0
+dev-util/d-feet:0
+kde-base/kdebindings-perl:4
+net-misc/wicd:0
+sys-apps/paludis:0
+x11-base/xorg-x11:0
+x11-misc/denu:0
+x11-misc/obmenu:0
+x11-themes/gtk-engines-qtcurve:0
+x11-wm/awesome:0
+x11-wm/i3:0
