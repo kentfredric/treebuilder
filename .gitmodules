@@ -1,0 +1,3 @@
+[submodule "extlib"]
+	path = extlib
+	url = /home/kent/perl/git/kscripts/
