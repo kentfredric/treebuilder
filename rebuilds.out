@@ -7,7 +7,6 @@ app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/scite:0
 app-emulation/wine:0
-app-i18n/scim:0
 app-mobilephone/obex-data-server:0
 app-office/dia:0
 app-office/karbon:2
@@ -98,8 +97,6 @@ gnome-base/libgnomecanvas:0
 gnome-base/libgnomekbd:0
 gnome-base/librsvg:2
 gnome-base/nautilus:0
-gnome-extra/libgda:4
-gnome-extra/libgda:5
 gnome-extra/libgsf:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
@@ -141,12 +138,10 @@ media-libs/mesa:0
 media-libs/mlt:0
 media-libs/opencv:0
 media-libs/phonon-xine:0
-media-libs/raptor:2
 media-libs/silgraphite:0
 media-libs/sk1libs:0
 media-libs/smpeg:0
 media-libs/vigra:0
-media-libs/xine-lib:1
 media-plugins/gimp-refocus:0
 media-plugins/gst-plugins-lame:0.10
 media-plugins/kipi-plugins:4
@@ -204,12 +199,10 @@ x11-apps/xdpyinfo:0
 x11-apps/xinit:0
 x11-apps/xinput:0
 x11-apps/xsetmode:0
-x11-base/xorg-server:0
 x11-drivers/nvidia-drivers:0
 x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
-x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-fbdev:0
 x11-drivers/xf86-video-nv:0
@@ -219,8 +212,6 @@ x11-libs/fltk:2
 x11-libs/fox:1.6
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gtk+:2
-x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
