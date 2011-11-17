@@ -4,7 +4,11 @@ app-mobilephone/obexd:0
 app-pda/gtkpod:0
 app-text/asciidoc:0
 app-text/bibletime:0
+app-text/gocr:0
 app-text/libwpd:0.8
+app-text/mftrace:1
+app-text/rarian:0
+app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 dev-db/sqlite:0
 dev-lang/lua:0
@@ -12,6 +16,7 @@ dev-libs/openobex:0
 dev-libs/xmlrpc-epi:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/CPAN-Inject:0
+dev-perl/Cache-Memcached-Managed:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/DBICx-TestDatabase:0
 dev-perl/DBIx-Class-DateTime-Epoch:0
@@ -54,9 +59,10 @@ gnome-base/gvfs:0
 gnome-base/libbonoboui:0
 gnome-base/libgnome:0
 kde-base/kdebindings-perl:4
+kde-base/krdc:4
 kde-base/smoke:4
 media-gfx/digikam:4
-media-gfx/gimp:2
+media-gfx/gimp-texturize-plugin:0
 media-libs/babl:0
 media-libs/gegl:0
 media-libs/gst-plugins-bad:0
@@ -67,8 +73,11 @@ media-libs/libcanberra:0
 media-libs/libkface:4
 media-libs/mlt:0
 media-libs/phonon-gstreamer:0
+media-libs/sk1libs:0
 media-plugins/frei0r-plugins:0
+media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
+media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-dts:0.10
 media-plugins/gst-plugins-faac:0.10
 media-plugins/gst-plugins-faad:0.10
@@ -84,6 +93,8 @@ media-plugins/kipi-plugins:4
 media-sound/audacity:0
 media-sound/clementine:0
 media-sound/lilypond:0
+media-video/mplayer:0
+media-video/subtitleripper:0
 net-im/psimedia:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
