@@ -30,7 +30,6 @@ dev-ruby/gherkin:0
 dev-ruby/rspec:2
 dev-util/cucumber-rails:1
 dev-util/cucumber:0
-kde-base/plasma-workspace:4
 kde-base/smoke:4
 media-libs/phonon-gstreamer:0
 net-misc/aria2:0
