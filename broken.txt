@@ -50,7 +50,6 @@ dev-perl/pip:0
 dev-perl/signatures:0
 dev-ruby/actionmailer:3.0
 dev-ruby/actionpack:3.0
-dev-ruby/activerecord:3.0
 dev-ruby/gherkin:0
 dev-ruby/rspec:2
 dev-ruby/spork:0

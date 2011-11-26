@@ -16,7 +16,6 @@ dev-db/mysql-workbench:0
 dev-perl/MojoMojo:0
 dev-ruby/actionmailer:3.0
 dev-ruby/actionpack:3.0
-dev-ruby/activerecord:3.0
 dev-ruby/spork:0
 dev-util/anjuta:0
 gnome-base/gnome-light:2.0
