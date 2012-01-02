@@ -115,7 +115,6 @@ dev-java/apt-mirror:0
 dev-java/bcmail:0
 dev-java/bcprov:0
 dev-java/itext:0
-dev-java/java-config-wrapper:0
 dev-java/java-config:2
 dev-java/javatoolkit:0
 dev-java/jinput:0
@@ -137,14 +136,12 @@ dev-libs/atk:0
 dev-libs/boost:1.42
 dev-libs/boost:1.46
 dev-libs/boost:1.47
-dev-libs/check:0
 dev-libs/confuse:0
 dev-libs/dbus-glib:0
 dev-libs/elfutils:0
 dev-libs/json-glib:0
 dev-libs/kpathsea:0
 dev-libs/libIDL:0
-dev-libs/libatasmart:0
 dev-libs/libconfig:0
 dev-libs/libcroco:0.6
 dev-libs/libedit:0
@@ -153,7 +150,6 @@ dev-libs/libgee:0
 dev-libs/libgpg-error:0
 dev-libs/liboil:0.3
 dev-libs/libpqxx:0
-dev-libs/libpthread-stubs:0
 dev-libs/libtommath:0
 dev-libs/libzip:0
 dev-libs/mpc:0
@@ -524,7 +520,6 @@ kde-base/kcmshell:4
 kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
-kde-base/kde-env:4
 kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
@@ -725,7 +720,6 @@ media-fonts/font-schumacher-misc:0
 media-fonts/font-screen-cyrillic:0
 media-fonts/font-sony-misc:0
 media-fonts/font-sun-misc:0
-media-fonts/font-util:0
 media-fonts/font-winitzki-cyrillic:0
 media-fonts/font-xfree86-type1:0
 media-fonts/freefont-ttf:0
@@ -764,7 +758,6 @@ media-libs/gst-plugins-base:0.10
 media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
-media-libs/jpeg:62
 media-libs/lcms:2
 media-libs/libao:0
 media-libs/libass:0
@@ -909,7 +902,6 @@ sys-devel/bison:0
 sys-devel/gcc:4.5
 sys-devel/llvm:0
 sys-devel/make:0
-sys-devel/patch:0
 sys-fs/hfsutils:0
 sys-fs/mdadm:0
 sys-fs/shake:0
@@ -938,10 +930,8 @@ virtual/cron:0
 virtual/dev-manager:0
 virtual/glu:0
 virtual/jdk:1.7
-virtual/jpeg:0
 virtual/jre:1.6
 virtual/jre:1.7
-virtual/krb5:0
 virtual/lapack:0
 virtual/libintl:0
 virtual/logger:0
@@ -1055,7 +1045,6 @@ x11-libs/libvdpau:0
 x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/openmotif:0
-x11-libs/pixman:0
 x11-libs/qwt:6
 x11-libs/startup-notification:0
 x11-libs/wxGTK:2.8
