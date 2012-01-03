@@ -524,9 +524,6 @@ x11-libs/libxklavier:0
 x11-libs/mx:1.0
 x11-libs/pango:0
 x11-libs/qscintilla:0
-x11-libs/qt-assistant:4
-x11-libs/qt-declarative:4
-x11-libs/qt-qt3support:4
 x11-libs/qtscriptgenerator:0
 x11-libs/qwt:5
 x11-libs/vdpau-video:0

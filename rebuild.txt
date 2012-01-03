@@ -206,9 +206,14 @@ x11-libs/qt-assistant:4
 x11-libs/qt-core:4
 x11-libs/qt-dbus:4
 x11-libs/qt-declarative:4
+x11-libs/qt-demo:4
+x11-libs/qt-embedded:4
 x11-libs/qt-gui:4
+x11-libs/qt-meta:4
+x11-libs/qt-mobility:4
 x11-libs/qt-multimedia:4
 x11-libs/qt-opengl:4
+x11-libs/qt-phonon:4
 x11-libs/qt-qt3support:4
 x11-libs/qt-script:4
 x11-libs/qt-sql:4
