@@ -91,6 +91,7 @@ dev-cpp/eigen:3
 dev-cpp/glibmm:2
 dev-cpp/pangomm:1.4
 dev-db/mysql-init-scripts:0
+dev-db/mysql-workbench:0
 dev-db/sqlite:0
 dev-db/unixODBC:0
 dev-games/ggz-client-libs:0
@@ -110,8 +111,10 @@ dev-java/javatoolkit:0
 dev-java/jinput:0
 dev-java/junit:0
 dev-java/lwjgl:2.7
+dev-java/oracle-jdk-bin:1.7
 dev-java/sun-jaf:0
 dev-java/sun-javamail:0
+dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
 dev-lang/lua:0
 dev-lang/ocaml:0
@@ -309,7 +312,12 @@ dev-python/pyxml:0
 dev-ruby/actionmailer:3.0
 dev-ruby/activemodel:3.0
 dev-ruby/activerecord:3.0
+dev-ruby/fakeweb:0
+dev-ruby/haml:0
+dev-ruby/parsetree:0
+dev-ruby/posix-spawn:0
 dev-ruby/rake-compiler:0
+dev-ruby/right_http_connection:0
 dev-ruby/sinatra:0
 dev-ruby/spork:0
 dev-scheme/guile:12
@@ -391,6 +399,7 @@ media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
 media-gfx/graphite2:0
 media-gfx/graphviz:0
+media-gfx/imagemagick:0
 media-gfx/kpovmodeler:4
 media-gfx/nvidia-cg-toolkit:0
 media-libs/alsa-lib:0
@@ -411,6 +420,7 @@ media-libs/libdv:0
 media-libs/libexif:0
 media-libs/libggi:0
 media-libs/libggiwmh:0
+media-libs/libkgeomap:4
 media-libs/libmediawiki:4
 media-libs/libmms:0
 media-libs/libofa:0
