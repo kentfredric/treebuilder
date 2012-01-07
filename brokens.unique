@@ -32,7 +32,6 @@ app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
-app-emulation/emul-linux-x86-xlibs:0
 app-laptop/i8kutils:0
 app-misc/pax-utils:0
 app-pda/usbmuxd:0
@@ -59,7 +58,6 @@ app-text/libwpd:0.8
 app-text/libwpg:0.1
 app-text/libwpg:0.2
 app-text/libwps:0
-app-text/mftrace:1
 app-text/opensp:0
 app-text/po4a:0
 app-text/ps2pkm:0
@@ -68,7 +66,6 @@ app-text/sword:0
 app-text/t1utils:0
 app-text/wgetpaste:0
 app-text/xmlto:0
-app-text/xpdf:0
 dev-cpp/atkmm:0
 dev-cpp/eigen:3
 dev-cpp/glibmm:2
@@ -117,7 +114,6 @@ dev-libs/liboil:0.3
 dev-libs/libtommath:0
 dev-libs/mpc:0
 dev-libs/popt:0
-dev-libs/ppl:0
 dev-libs/shared-desktop-ontologies:0
 dev-libs/syck:0
 dev-libs/xmlrpc-epi:0
@@ -314,7 +310,6 @@ gnome-base/gnome-fallback:3.0
 gnome-base/gnome-mime-data:0
 gnome-base/gsettings-desktop-schemas:0
 gnome-base/libgnome-keyring:0
-gnome-base/libgnome:0
 gnome-base/libgtop:2
 gnome-extra/yelp-xsl:0
 java-virtuals/jaf:0
@@ -322,7 +317,6 @@ java-virtuals/javamail:0
 kde-misc/kim4:4
 mail-filter/bogofilter:0
 media-gfx/arss:0
-media-gfx/ebdftopcf:0
 media-gfx/exiv2:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/graphite2:0
@@ -336,7 +330,6 @@ media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/libao:0
 media-libs/libcuefile:0
-media-libs/libdc1394:2
 media-libs/libexif:0
 media-libs/libmms:0
 media-libs/libofa:0
@@ -347,7 +340,6 @@ media-libs/openal:0
 media-libs/raptor:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
-media-libs/t1lib:5
 media-libs/taglib-extras:0
 media-libs/taglib:0
 media-libs/xvid:0
@@ -371,10 +363,7 @@ media-plugins/gst-plugins-resindvd:0.10
 media-plugins/gst-plugins-taglib:0.10
 media-plugins/gst-plugins-v4l2:0.10
 media-plugins/gst-plugins-vp8:0.10
-media-plugins/gst-plugins-x:0.10
-media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-ilbc:0
-media-sound/baudline:0
 media-sound/fluidsynth:0
 media-sound/japa:0
 media-sound/lilypond:0
@@ -386,20 +375,14 @@ media-sound/tuxguitar:0
 media-sound/vorbis-tools:0
 media-video/clive:0
 media-video/gnome-video-effects:0
-net-analyzer/arping:2
 net-analyzer/netcat:0
-net-analyzer/tcpdump:0
 net-dns/dnsmasq:0
 net-dns/libidn:0
 net-fs/cifs-utils:0
 net-fs/fusesmb:0
 net-fs/samba:0
-net-im/bitlbee:0
-net-libs/liboauth:0
 net-misc/axel:0
-net-misc/dhcp:0
 net-misc/dhcpcd:0
-net-misc/youtube-dl:0
 net-wireless/broadcom-sta:0
 net-wireless/iw:0
 perl-core/CPAN:0
@@ -413,7 +396,6 @@ sci-libs/blas-atlas:0
 sci-libs/clapack:0
 sci-libs/flann:0
 sci-libs/lapack-atlas:0
-sci-mathematics/lpsolve:0
 sys-apps/acl:0
 sys-apps/attr:0
 sys-apps/coreutils:0
@@ -432,7 +414,6 @@ sys-apps/smartmontools:0
 sys-apps/sysvinit:0
 sys-apps/texinfo:0
 sys-apps/util-linux:0
-sys-auth/polkit-qt:0
 sys-block/eject:0
 sys-block/nbd:0
 sys-boot/grub:0
@@ -442,12 +423,10 @@ sys-devel/bison:0
 sys-devel/make:0
 sys-fs/hfsutils:0
 sys-fs/mdadm:0
-sys-fs/mtools:0
 sys-fs/shake:0
 sys-fs/sshfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
-sys-kernel/genkernel:0
 sys-libs/db:3
 sys-libs/glibc:2.2
 sys-libs/gpm:0
@@ -480,22 +459,11 @@ virtual/perl-threads-shared:0
 virtual/ssh:0
 virtual/tex-base:0
 virtual/ttf-fonts:0
-www-plugins/mozplugger:0
 x11-base/nouveau-drm:0
 x11-libs/gnome-pty-helper:0
 x11-libs/qtscriptgenerator:0
-x11-misc/dclock:0
 x11-misc/denu:0
-x11-misc/dmenu:0
-x11-misc/dzen:2
 x11-misc/obmenu:0
 x11-misc/shared-mime-info:0
-x11-misc/transset-df:0
-x11-misc/x2vnc:0
-x11-misc/xclip:0
-x11-misc/xrestop:0
-x11-misc/xsel:0
 x11-themes/murrine-themes:0
 x11-themes/shiki-colors:0
-x11-wm/awesome:0
-x11-wm/evilwm:0
