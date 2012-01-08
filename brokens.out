@@ -91,11 +91,8 @@ dev-java/java-config:2
 dev-java/javatoolkit:0
 dev-java/jinput:0
 dev-java/junit:0
-dev-java/oracle-jdk-bin:1.7
 dev-java/sun-jaf:0
 dev-java/sun-javamail:0
-dev-java/sun-jdk:1.6
-dev-java/sun-jre-bin:1.6
 dev-lang/lua:0
 dev-lang/perl:0
 dev-lang/rakudo:0
@@ -351,8 +348,6 @@ media-gfx/imagemagick:0
 media-gfx/kpovmodeler:4
 media-gfx/nvidia-cg-toolkit:0
 media-libs/alsa-lib:0
-media-libs/babl:0
-media-libs/gegl:0
 media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-base:0.10
 media-libs/gst-plugins-good:0.10
