@@ -13,7 +13,6 @@ app-admin/eselect-php:0
 app-admin/eselect-pinentry:0
 app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
-app-admin/eselect-ruby:0
 app-admin/eselect-timidity:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
@@ -44,7 +43,6 @@ app-shells/gentoo-bashcomp:0
 app-text/bibletime:0
 app-text/build-docbook-catalog:0
 app-text/convertlit:0
-app-text/dictd:0
 app-text/docbook-sgml-utils:0
 app-text/docbook-xml-dtd:4.1.2
 app-text/docbook-xml-dtd:4.2
@@ -68,13 +66,10 @@ app-text/rarian:0
 app-text/sword:0
 app-text/t1utils:0
 app-text/wgetpaste:0
-app-text/xmlto:0
 dev-cpp/atkmm:0
 dev-cpp/eigen:3
 dev-cpp/glibmm:2
 dev-cpp/pangomm:1.4
-dev-db/mysql-init-scripts:0
-dev-db/mysql-workbench:0
 dev-db/sqlite:0
 dev-db/unixODBC:0
 dev-games/ggz-client-libs:0
@@ -97,7 +92,6 @@ dev-java/sun-javamail:0
 dev-lang/lua:0
 dev-lang/perl:0
 dev-lang/rakudo:0
-dev-lang/ruby-enterprise:1.8
 dev-lang/ruby:1.8
 dev-lang/spidermonkey:0
 dev-lang/yasm:0
@@ -321,7 +315,6 @@ dev-util/lafilefixer:0
 dev-util/pkgconfig:0
 dev-util/scons:0
 dev-util/source-highlight:0
-dev-util/strace:0
 dev-util/valgrind:0
 dev-util/xdelta:3
 dev-vcs/cvs:0
@@ -343,11 +336,9 @@ media-gfx/arss:0
 media-gfx/digikam:4
 media-gfx/exiv2:0
 media-gfx/gimp-texturize-plugin:0
-media-gfx/gimp:2
 media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/imagemagick:0
-media-gfx/kpovmodeler:4
 media-gfx/nvidia-cg-toolkit:0
 media-libs/alsa-lib:0
 media-libs/gst-plugins-bad:0
@@ -358,12 +349,10 @@ media-libs/gstreamer:0.10
 media-libs/libao:0
 media-libs/libcuefile:0
 media-libs/libexif:0
-media-libs/libkgeomap:4
 media-libs/libmms:0
 media-libs/libofa:0
 media-libs/libprojectm:0
 media-libs/libreplaygain:0
-media-libs/libv4l:0
 media-libs/musicbrainz:3
 media-libs/openal:0
 media-libs/raptor:0
@@ -414,7 +403,6 @@ net-fs/cifs-utils:0
 net-fs/fusesmb:0
 net-fs/samba:0
 net-misc/axel:0
-net-misc/dhcpcd:0
 net-wireless/broadcom-sta:0
 net-wireless/iw:0
 perl-core/CPAN:0
@@ -426,7 +414,6 @@ perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
 sci-calculators/units:0
 sci-libs/blas-atlas:0
 sci-libs/clapack:0
-sci-libs/flann:0
 sci-libs/lapack-atlas:0
 sys-apps/acl:0
 sys-apps/attr:0
@@ -434,13 +421,9 @@ sys-apps/coreutils:0
 sys-apps/diffutils:0
 sys-apps/findutils:0
 sys-apps/gawk:0
-sys-apps/hwinfo:0
 sys-apps/kbd:0
-sys-apps/keyutils:0
 sys-apps/lm_sensors:0
 sys-apps/man:0
-sys-apps/mlocate:0
-sys-apps/paludis:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sed:0
 sys-apps/sg3_utils:0
@@ -463,10 +446,8 @@ sys-fs/sshfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-libs/db:3
-sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
-sys-libs/libcap:0
 sys-libs/libieee1284:0
 sys-libs/libraw1394:0
 sys-libs/readline:0
@@ -488,7 +469,6 @@ virtual/mailx:0
 virtual/mysql:0
 virtual/notification-daemon:0
 virtual/opengl:0
-virtual/os-headers:0
 virtual/pager:0
 virtual/perl-CPAN:0
 virtual/perl-CPANPLUS:0
