@@ -74,7 +74,6 @@ app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/dvipng:0
 app-text/dvipsk:0
-app-text/ebook-tools:0
 app-text/evince:0
 app-text/gocr:0
 app-text/gtkspell:2
@@ -140,7 +139,6 @@ dev-java/lwjgl:2.7
 dev-java/sun-jaf:0
 dev-java/sun-javamail:0
 dev-java/swt:3.5
-dev-lang/nasm:0
 dev-lang/ocaml:0
 dev-lang/spidermonkey:0
 dev-lang/swig:0
@@ -255,7 +253,6 @@ dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/Catalyst-Engine-PSGI:0
 dev-perl/Catalyst-Log-Log4perl:0
 dev-perl/Catalyst-Model-Adaptor:0
-dev-perl/Catalyst-Model-DBIC-Schema:0
 dev-perl/Catalyst-Model-EVDB:0
 dev-perl/Catalyst-Model-KiokuDB:0
 dev-perl/Catalyst-Model-LDAP:0
@@ -345,12 +342,10 @@ dev-perl/Data-Page:0
 dev-perl/Data-Rx:0
 dev-perl/Data-Section:0
 dev-perl/Data-Serializer:0
-dev-perl/Data-Taxi:0
 dev-perl/Data-TreeDumper-Renderer-GTK:0
 dev-perl/Date-Calc:0
 dev-perl/Date-ISO8601:0
 dev-perl/Date-JD:0
-dev-perl/Date-Tiny:0
 dev-perl/DateTime-Event-ICal:0
 dev-perl/DateTime-Event-Recurrence:0
 dev-perl/DateTime-Format-Builder:0
@@ -370,7 +365,6 @@ dev-perl/DateTime-Format-Strptime:0
 dev-perl/DateTime-Format-W3CDTF:0
 dev-perl/DateTime-Locale:0
 dev-perl/DateTime-Set:0
-dev-perl/DateTime-TimeZone-SystemV:0
 dev-perl/DateTime-TimeZone-Tzfile:0
 dev-perl/DateTimeX-Easy:0
 dev-perl/Debug-Client:0
@@ -397,7 +391,6 @@ dev-perl/Dist-Zilla-Plugin-MinimumPerl:0
 dev-perl/Dist-Zilla-Plugin-PerlTidy:0
 dev-perl/Dist-Zilla-Plugin-PodWeaver:0
 dev-perl/Dist-Zilla-Plugin-PortabilityTests:0
-dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny:0
 dev-perl/Dist-Zilla-Plugin-Repository:0
 dev-perl/Dist-Zilla-Plugin-TaskWeaver:0
 dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes:0
@@ -493,7 +486,6 @@ dev-perl/Meta-Builder:0
 dev-perl/Method-Signatures-Simple:0
 dev-perl/Mixin-ExtraFields:0
 dev-perl/Module-Compile:0
-dev-perl/Module-Install-AuthorTests:0
 dev-perl/Module-Install-ProvidesClass:0
 dev-perl/Module-Manifest:0
 dev-perl/Module-Refresh:0
@@ -534,12 +526,9 @@ dev-perl/MooseX-Param:0
 dev-perl/MooseX-Params-Validate:0
 dev-perl/MooseX-RelatedClassRoles:0
 dev-perl/MooseX-Role-Cmd:0
-dev-perl/MooseX-Role-Restricted:0
 dev-perl/MooseX-Role-TraitConstructor:0
 dev-perl/MooseX-Role-WithOverloading:0
-dev-perl/MooseX-SemiAffordanceAccessor:0
 dev-perl/MooseX-Traits-Pluggable:0
-dev-perl/MooseX-Traits:0
 dev-perl/MooseX-TransactionalMethods:0
 dev-perl/MooseX-Types-Authen-Passphrase:0
 dev-perl/MooseX-Types-DateTime-ButMaintained:0
@@ -653,7 +642,6 @@ dev-perl/Task-Moose:0
 dev-perl/Task-Spark-Form:0
 dev-perl/Template-Alloy:0
 dev-perl/Template-DBI:0
-dev-perl/Template-GD:0
 dev-perl/Template-Latex:0
 dev-perl/Template-Plugin-Cycle:0
 dev-perl/Template-Plugin-JSON:0
@@ -830,7 +818,6 @@ dev-ruby/rexical:0
 dev-ruby/right_http_connection:0
 dev-ruby/rr:0
 dev-ruby/rspec-core:2
-dev-ruby/rspec-expectations:2
 dev-ruby/rspec-mocks:2
 dev-ruby/rspec:0
 dev-ruby/rspec:2
@@ -887,7 +874,6 @@ dev-util/pkgconfig:0
 dev-util/source-highlight:0
 dev-util/xdelta:3
 dev-vcs/cvs:0
-dev-vcs/cvsps:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
@@ -897,7 +883,6 @@ gnome-base/gconf:2
 gnome-base/gnome-core-libs:3.0
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3
-gnome-base/gnome-fallback:3.0
 gnome-base/gnome-keyring:0
 gnome-base/gnome-light:2.0
 gnome-base/gnome-mime-data:0
@@ -918,14 +903,8 @@ gnome-extra/polkit-gnome:0
 gnome-extra/yelp-xsl:0
 gnome-extra/zenity:0
 java-virtuals/jaf:0
-kde-base/kdebase-meta:4
-kde-base/kdebase-startkde:4
-kde-base/kdeplasma-addons:4
-kde-base/plasma-workspace:4
-kde-misc/fancytasks:4
 kde-misc/kim4:4
 kde-misc/ksplasher:4
-kde-misc/smooth-tasks:4
 mail-client/claws-mail-acpi-notifier:0
 mail-client/claws-mail-archive:0
 mail-client/claws-mail-attachwarner:0
@@ -942,10 +921,8 @@ media-fonts/encodings:0
 media-fonts/font-adobe-100dpi:0
 media-fonts/font-adobe-75dpi:0
 media-fonts/font-adobe-utopia-100dpi:0
-media-fonts/font-adobe-utopia-75dpi:0
 media-fonts/font-adobe-utopia-type1:0
 media-fonts/font-alias:0
-media-fonts/font-arabic-misc:0
 media-fonts/font-bh-100dpi:0
 media-fonts/font-bh-75dpi:0
 media-fonts/font-bh-lucidatypewriter-100dpi:0
@@ -1104,7 +1081,6 @@ media-plugins/mediastreamer-x264:0
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/boodler:0
-media-sound/clementine:0
 media-sound/fluidsynth:0
 media-sound/gogglesmm:0
 media-sound/id3v2:0
@@ -1258,7 +1234,6 @@ sys-fs/reiser4progs:0
 sys-fs/shake:0
 sys-fs/udiskie:0
 sys-fs/xfsdump:0
-sys-libs/cracklib:0
 sys-libs/db:3
 sys-libs/gpm:0
 sys-libs/libcap:0
@@ -1345,7 +1320,6 @@ virtual/perl-libnet:0
 virtual/perl-parent:0
 virtual/perl-podlators:0
 virtual/perl-threads-shared:0
-virtual/ruby-ffi:0
 virtual/ruby-minitest:0
 virtual/ruby-rdoc:ree18
 virtual/ruby-rdoc:ruby19
@@ -1458,7 +1432,6 @@ x11-proto/fixesproto:0
 x11-proto/fontsproto:0
 x11-proto/kbproto:0
 x11-proto/printproto:0
-x11-proto/randrproto:0
 x11-proto/recordproto:0
 x11-proto/renderproto:0
 x11-proto/resourceproto:0
