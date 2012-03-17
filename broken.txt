@@ -79,8 +79,6 @@ app-text/gocr:0
 app-text/gtkspell:2
 app-text/gtkspell:3
 app-text/iso-codes:0
-app-text/libwpd:0.8
-app-text/libwpg:0.1
 app-text/libwpg:0.2
 app-text/mftrace:1
 app-text/mythes:0

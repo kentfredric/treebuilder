@@ -525,7 +525,6 @@ dev-libs/boehm-gc:0
 media-sound/lash:0
 gnome-base/gnome-settings-daemon:0
 dev-ruby/PlugMan:0
-app-text/libwpg:0.1
 dev-java/sun-jaf:0
 dev-perl/HTML-Scrubber:0
 dev-perl/MooseX-Types-Set-Object:0
@@ -604,7 +603,6 @@ dev-perl/MojoMojo:0
 dev-perl/Test-File-ShareDir:0
 dev-perl/CPAN-Uploader:0
 dev-perl/MooseX-Storage:0
-app-text/libwpd:0.8
 sys-power/iasl:0
 app-arch/p7zip:0
 gnome-base/gnome-session:0

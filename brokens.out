@@ -79,8 +79,6 @@ app-text/gocr:0
 app-text/gtkspell:2
 app-text/gtkspell:3
 app-text/iso-codes:0
-app-text/libwpd:0.8
-app-text/libwpg:0.1
 app-text/libwpg:0.2
 app-text/mftrace:1
 app-text/mythes:0
@@ -621,7 +619,6 @@ dev-perl/String-Truncate:0
 dev-perl/Sub-Curried:0
 dev-perl/Sub-Exporter-GlobExporter:0
 dev-perl/Sub-Exporter:0
-dev-perl/Symbol-Util:0
 dev-perl/Taint-Util:0
 dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-Async:0
@@ -1148,7 +1145,6 @@ perl-core/Dumpvalue:0
 perl-core/Encode:0
 perl-core/Env:0
 perl-core/ExtUtils-ParseXS:0
-perl-core/Module-Load-Conditional:0
 perl-core/PodParser:0
 perl-core/constant:0
 perl-core/podlators:0
@@ -1377,7 +1373,6 @@ x11-apps/xwud:0
 x11-base/xorg-x11:0
 x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
-x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-video-fbdev:0
 x11-drivers/xf86-video-nv:0
 x11-libs/gksu:0
@@ -1443,7 +1438,6 @@ x11-proto/xf86bigfontproto:0
 x11-proto/xf86driproto:0
 x11-proto/xf86vidmodeproto:0
 x11-proto/xineramaproto:0
-x11-proto/xproto:0
 x11-themes/gnome-themes-standard:0
 x11-themes/gnome-themes:0
 x11-themes/gtk-engines-unico:0
