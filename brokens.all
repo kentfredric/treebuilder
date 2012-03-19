@@ -25,6 +25,7 @@ app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/metalog:0
 app-admin/python-updater:0
+app-admin/system-config-printer-common:0
 app-arch/advancecomp:0
 app-arch/cabextract:0
 app-arch/gzip:0
@@ -47,6 +48,7 @@ app-editors/padre:0
 app-editors/scite:0
 app-editors/vim-core:0
 app-editors/vim:0
+app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox-modules:0
 app-emulation/virtualbox:0
 app-i18n/enca:0
@@ -911,11 +913,9 @@ gnome-base/gnome-menus:3
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-panel:0
 gnome-base/gnome-session:0
-gnome-base/gnome-settings-daemon:0
 gnome-base/gnome-shell:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
-gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
@@ -1243,6 +1243,7 @@ media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
 media-libs/lcms:2
 media-libs/lensfun:0
+media-libs/libao:0
 media-libs/libart_lgpl:0
 media-libs/libass:0
 media-libs/libbs2b:0
@@ -1255,6 +1256,8 @@ media-libs/libdv:0
 media-libs/libechonest:0
 media-libs/libexif:0
 media-libs/libggiwmh:0
+media-libs/libgphoto2:0
+media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libkface:4
 media-libs/libkgeomap:4
@@ -1268,6 +1271,8 @@ media-libs/libpano13:0
 media-libs/libprojectm-qt:0
 media-libs/libprojectm:0
 media-libs/libquicktime:0
+media-libs/libsdl:0
+media-libs/mediastreamer:0
 media-libs/mesa:0
 media-libs/musicbrainz:1
 media-libs/musicbrainz:3
@@ -1276,6 +1281,7 @@ media-libs/openal:0
 media-libs/opencv:0
 media-libs/openexr:0
 media-libs/openjpeg:0
+media-libs/phonon:0
 media-libs/portaudio:0
 media-libs/prison:4
 media-libs/qimageblitz:0
@@ -1288,6 +1294,7 @@ media-libs/urt:0
 media-libs/vamp-plugin-sdk:0
 media-libs/xine-lib:1
 media-libs/xvid:0
+media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gst-plugins-a52dec:0.10
 media-plugins/gst-plugins-alsa:0.10
@@ -1338,20 +1345,24 @@ media-sound/lash:0
 media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
+media-sound/mpd:0
+media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
 media-sound/projectm-jack:0
 media-sound/qjackctl:0
 media-sound/qmpdclient:0
+media-sound/sox:0
 media-sound/tuxguitar:0
 media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
-media-video/cheese:0
 media-video/clive:0
 media-video/emovix:0
+media-video/ffmpeg:0
 media-video/gnome-video-effects:0
 media-video/mjpegtools:1
+media-video/mplayer:0
 media-video/subtitleripper:0
 media-video/vcdimager:0
 media-video/xine-ui:0
@@ -1366,10 +1377,12 @@ net-dns/idnkit:0
 net-dns/openresolv:0
 net-firewall/iptables:0
 net-fs/fusesmb:0
+net-fs/nfs-utils:0
 net-im/bitlbee:0
 net-im/psimedia:0
 net-im/skype:0
 net-im/telepathy-logger:0
+net-im/telepathy-mission-control:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnome-online-accounts:0
@@ -1397,6 +1410,7 @@ net-misc/nxclient:0
 net-p2p/ktorrent:4
 net-print/cups:0
 net-wireless/bluedevil:4
+net-wireless/bluez:0
 net-wireless/broadcom-sta:0
 net-wireless/gnome-bluetooth:2
 net-wireless/wireless-tools:0
@@ -1453,6 +1467,7 @@ sci-visualization/spectromatic:0
 sys-apps/accountsservice:0
 sys-apps/acl:0
 sys-apps/attr:0
+sys-apps/biosdevname:0
 sys-apps/diffutils:0
 sys-apps/dmapi:0
 sys-apps/findutils:0
@@ -1464,8 +1479,10 @@ sys-apps/irqbalance:0
 sys-apps/kbd:0
 sys-apps/less:0
 sys-apps/lm_sensors:0
+sys-apps/lomoco:0
 sys-apps/man-pages-posix:0
 sys-apps/man:0
+sys-apps/openrc:0
 sys-apps/paludis:0
 sys-apps/pmount:0
 sys-apps/sandbox:0
@@ -1480,6 +1497,7 @@ sys-auth/rtkit:0
 sys-auth/thinkfinger:0
 sys-block/eject:0
 sys-block/gparted:0
+sys-block/parted:0
 sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
 sys-devel/automake:1.10
@@ -1499,12 +1517,15 @@ sys-devel/make:0
 sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/cryptsetup:0
+sys-fs/dmraid:0
 sys-fs/hfsutils:0
 sys-fs/multipath-tools:0
 sys-fs/reiser4progs:0
 sys-fs/shake:0
 sys-fs/udiskie:0
+sys-fs/udisks:0
 sys-fs/xfsdump:0
+sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.2.11
 sys-kernel/gentoo-sources:3.2.2
 sys-kernel/gentoo-sources:3.2.9
@@ -1546,6 +1567,7 @@ virtual/libusb:1
 virtual/linux-sources:0
 virtual/logger:0
 virtual/mailx:0
+virtual/modutils:0
 virtual/mta:0
 virtual/mysql:0
 virtual/opengl:0
@@ -1652,6 +1674,7 @@ x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-fbdev:0
 x11-drivers/xf86-video-nv:0
+x11-libs/cairo:0
 x11-libs/fox:1.6
 x11-libs/fox:1.7
 x11-libs/gksu:0
@@ -1680,6 +1703,7 @@ x11-libs/libXxf86dga:0
 x11-libs/libXxf86vm:0
 x11-libs/libgksu:2
 x11-libs/libpciaccess:0
+x11-libs/libva:0
 x11-libs/libwnck:1
 x11-libs/libwnck:3
 x11-libs/libxcb:0
