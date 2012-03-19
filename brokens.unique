@@ -77,7 +77,6 @@ app-shells/bash-completion:0
 app-shells/bash:0
 app-shells/gentoo-bashcomp:0
 app-shells/psh:0
-app-text/asciidoc:0
 app-text/bibletime:0
 app-text/build-docbook-catalog:0
 app-text/convertlit:0
@@ -113,6 +112,7 @@ app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
 app-text/ps2pkm:0
+app-text/ronn:0
 app-text/t1utils:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
@@ -283,7 +283,6 @@ dev-perl/Catalyst-Plugin-StackTrace:0
 dev-perl/Catalyst-Plugin-Static-Simple:0
 dev-perl/Catalyst-Plugin-SubRequest:0
 dev-perl/Catalyst-Plugin-Unicode-Encoding:0
-dev-perl/Catalyst-Plugin-XMLRPC:0
 dev-perl/Catalyst-View-Download:0
 dev-perl/Catalyst-View-Excel-Template-Plus:0
 dev-perl/Catalyst-View-GD-Barcode:0
@@ -306,7 +305,6 @@ dev-perl/Class-Container:0
 dev-perl/Class-DBI:0
 dev-perl/Class-Discover:0
 dev-perl/Class-Factory-Util:0
-dev-perl/Class-Load-XS:0
 dev-perl/Class-Method-Modifiers:0
 dev-perl/Class-Mix:0
 dev-perl/Class-Std:0
@@ -738,7 +736,6 @@ dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/pyatspi:0
 dev-python/pycairo:0
-dev-python/pygments:0
 dev-python/pygobject:2
 dev-python/pygobject:3
 dev-python/pygtk:2
@@ -750,6 +747,7 @@ dev-python/urwid:0
 dev-ruby/PlugMan:0
 dev-ruby/abstract:0
 dev-ruby/actionmailer:3.0
+dev-ruby/actionpack:3.1
 dev-ruby/activemodel:3.0
 dev-ruby/activerecord:3.0
 dev-ruby/activesupport:3.0
@@ -770,6 +768,7 @@ dev-ruby/fakefs:0
 dev-ruby/fakeweb:0
 dev-ruby/ffi:0
 dev-ruby/flexmock:0
+dev-ruby/gherkin:0
 dev-ruby/haml:0
 dev-ruby/heckle:0
 dev-ruby/hike:0
@@ -777,7 +776,6 @@ dev-ruby/hoe-seattlerb:0
 dev-ruby/httpclient:0
 dev-ruby/i18n:0.5
 dev-ruby/i18n:0.6
-dev-ruby/libxml:0
 dev-ruby/linecache:0
 dev-ruby/maruku:0
 dev-ruby/memcache-client:0
@@ -816,10 +814,8 @@ dev-ruby/ruby2ruby:0
 dev-ruby/ruby_parser:0
 dev-ruby/rubyforge:0
 dev-ruby/rubyzip:0
-dev-ruby/sass:0
 dev-ruby/session:0
 dev-ruby/shoulda:0
-dev-ruby/sinatra:0
 dev-ruby/sprockets:2.0
 dev-ruby/syntax:0
 dev-ruby/term-ansicolor:0
@@ -840,6 +836,7 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
+dev-util/aruba:0
 dev-util/automoc:0
 dev-util/boost-build:1.37
 dev-util/boost-build:1.39
@@ -849,6 +846,8 @@ dev-util/boost-build:1.46
 dev-util/boost-build:1.47
 dev-util/catalyst:0
 dev-util/cscope:0
+dev-util/cucumber-rails:1
+dev-util/cucumber:0
 dev-util/dejagnu:0
 dev-util/gtk-doc-am:0
 dev-util/gtk-doc:0
@@ -1121,7 +1120,6 @@ media-fonts/webby-fonts:0
 media-gfx/arss:0
 media-gfx/autopano-sift-C:0
 media-gfx/exiv2:0
-media-gfx/gimp-texturize-plugin:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0
 media-gfx/inkscape:0
@@ -1186,9 +1184,6 @@ media-libs/vamp-plugin-sdk:0
 media-libs/xine-lib:1
 media-libs/xvid:0
 media-plugins/frei0r-plugins:0
-media-plugins/gimp-greycstoration:0
-media-plugins/gimp-refocus:0
-media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-ofa:0.10
 media-plugins/gst-plugins-x:0.10
@@ -1207,6 +1202,7 @@ media-sound/japa:0
 media-sound/kid3:4
 media-sound/lash:0
 media-sound/lilypond:0
+media-sound/moodbar:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
 media-sound/projectm-jack:0
@@ -1216,10 +1212,8 @@ media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-video/clive:0
-media-video/dvdrip:0
 media-video/emovix:0
 media-video/mjpegtools:1
-media-video/mplayer:0
 media-video/subtitleripper:0
 media-video/vcdimager:0
 media-video/xine-ui:0
@@ -1256,7 +1250,6 @@ net-misc/axel:0
 net-misc/dhcp:0
 net-misc/iputils:0
 net-misc/nxclient:0
-net-misc/remmina:0
 net-p2p/ktorrent:4
 net-print/cups:0
 net-wireless/bluedevil:4
@@ -1327,7 +1320,6 @@ sys-apps/man-pages-posix:0
 sys-apps/man:0
 sys-apps/paludis:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/smartmontools:0
 sys-apps/sysvinit:0
@@ -1388,6 +1380,7 @@ virtual/blas:0
 virtual/cdrtools:0
 virtual/dev-manager:0
 virtual/editor:0
+virtual/ffmpeg:0
 virtual/glu:0
 virtual/jdk:1.6
 virtual/jdk:1.7
@@ -1502,15 +1495,12 @@ x11-apps/xsetroot:0
 x11-apps/xvinfo:0
 x11-apps/xwud:0
 x11-base/nouveau-drm:0
-x11-base/xorg-server:0
-x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-fbdev:0
 x11-drivers/xf86-video-nv:0
-x11-drivers/xf86-video-vesa:0
 x11-libs/fox:1.6
 x11-libs/fox:1.7
 x11-libs/gnome-pty-helper:0

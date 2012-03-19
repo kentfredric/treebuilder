@@ -295,7 +295,6 @@ dev-perl/Class-Container:0
 dev-perl/Class-DBI:0
 dev-perl/Class-Discover:0
 dev-perl/Class-Factory-Util:0
-dev-perl/Class-Load-XS:0
 dev-perl/Class-Method-Modifiers:0
 dev-perl/Class-Mix:0
 dev-perl/Class-Std:0
@@ -726,7 +725,6 @@ dev-python/numpy:0
 dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/pycairo:0
-dev-python/pygments:0
 dev-python/pyopenssl:0
 dev-python/pyxattr:0
 dev-python/pyxml:0
@@ -762,7 +760,6 @@ dev-ruby/hoe-seattlerb:0
 dev-ruby/httpclient:0
 dev-ruby/i18n:0.5
 dev-ruby/i18n:0.6
-dev-ruby/libxml:0
 dev-ruby/linecache:0
 dev-ruby/maruku:0
 dev-ruby/memcache-client:0
@@ -774,7 +771,6 @@ dev-ruby/open4:0
 dev-ruby/parsetree:0
 dev-ruby/pdf-reader:0
 dev-ruby/polyglot:0
-dev-ruby/posix-spawn:0
 dev-ruby/racc:0
 dev-ruby/rack-cache:1.1
 dev-ruby/rack-mount:0.6

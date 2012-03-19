@@ -80,7 +80,6 @@ app-shells/bash-completion:0
 app-shells/bash:0
 app-shells/gentoo-bashcomp:0
 app-shells/psh:0
-app-text/asciidoc:0
 app-text/bibletime:0
 app-text/build-docbook-catalog:0
 app-text/convertlit:0
@@ -311,7 +310,6 @@ dev-perl/Catalyst-Plugin-StackTrace:0
 dev-perl/Catalyst-Plugin-Static-Simple:0
 dev-perl/Catalyst-Plugin-SubRequest:0
 dev-perl/Catalyst-Plugin-Unicode-Encoding:0
-dev-perl/Catalyst-Plugin-XMLRPC:0
 dev-perl/Catalyst-View-Download:0
 dev-perl/Catalyst-View-Excel-Template-Plus:0
 dev-perl/Catalyst-View-GD-Barcode:0
@@ -334,7 +332,6 @@ dev-perl/Class-Container:0
 dev-perl/Class-DBI:0
 dev-perl/Class-Discover:0
 dev-perl/Class-Factory-Util:0
-dev-perl/Class-Load-XS:0
 dev-perl/Class-Method-Modifiers:0
 dev-perl/Class-Mix:0
 dev-perl/Class-Std:0
@@ -767,7 +764,6 @@ dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/pyatspi:0
 dev-python/pycairo:0
-dev-python/pygments:0
 dev-python/pygobject:2
 dev-python/pygobject:3
 dev-python/pygtk:2
@@ -808,7 +804,6 @@ dev-ruby/hoe-seattlerb:0
 dev-ruby/httpclient:0
 dev-ruby/i18n:0.5
 dev-ruby/i18n:0.6
-dev-ruby/libxml:0
 dev-ruby/linecache:0
 dev-ruby/maruku:0
 dev-ruby/memcache-client:0
@@ -820,7 +815,6 @@ dev-ruby/open4:0
 dev-ruby/parsetree:0
 dev-ruby/pdf-reader:0
 dev-ruby/polyglot:0
-dev-ruby/posix-spawn:0
 dev-ruby/racc:0
 dev-ruby/rack-cache:1.1
 dev-ruby/rack-mount:0.6
@@ -848,10 +842,8 @@ dev-ruby/ruby2ruby:0
 dev-ruby/ruby_parser:0
 dev-ruby/rubyforge:0
 dev-ruby/rubyzip:0
-dev-ruby/sass:0
 dev-ruby/session:0
 dev-ruby/shoulda:0
-dev-ruby/sinatra:0
 dev-ruby/sprockets:2.0
 dev-ruby/syntax:0
 dev-ruby/term-ansicolor:0
@@ -1222,7 +1214,6 @@ media-gfx/arss:0
 media-gfx/autopano-sift-C:0
 media-gfx/digikam:4
 media-gfx/exiv2:0
-media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
 media-gfx/hugin:0
 media-gfx/imagemagick:0
@@ -1298,9 +1289,6 @@ media-libs/vamp-plugin-sdk:0
 media-libs/xine-lib:1
 media-libs/xvid:0
 media-plugins/frei0r-plugins:0
-media-plugins/gimp-greycstoration:0
-media-plugins/gimp-refocus:0
-media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
 media-plugins/gst-plugins-alsa:0.10
 media-plugins/gst-plugins-dts:0.10
@@ -1361,11 +1349,9 @@ media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-video/cheese:0
 media-video/clive:0
-media-video/dvdrip:0
 media-video/emovix:0
 media-video/gnome-video-effects:0
 media-video/mjpegtools:1
-media-video/mplayer:0
 media-video/subtitleripper:0
 media-video/vcdimager:0
 media-video/xine-ui:0
@@ -1408,7 +1394,6 @@ net-misc/axel:0
 net-misc/dhcp:0
 net-misc/iputils:0
 net-misc/nxclient:0
-net-misc/remmina:0
 net-p2p/ktorrent:4
 net-print/cups:0
 net-wireless/bluedevil:4
@@ -1483,7 +1468,6 @@ sys-apps/man-pages-posix:0
 sys-apps/man:0
 sys-apps/paludis:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/smartmontools:0
 sys-apps/sysvinit:0
@@ -1662,15 +1646,12 @@ x11-apps/xsetroot:0
 x11-apps/xvinfo:0
 x11-apps/xwud:0
 x11-base/nouveau-drm:0
-x11-base/xorg-server:0
-x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-fbdev:0
 x11-drivers/xf86-video-nv:0
-x11-drivers/xf86-video-vesa:0
 x11-libs/fox:1.6
 x11-libs/fox:1.7
 x11-libs/gksu:0

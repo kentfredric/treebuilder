@@ -3,7 +3,6 @@ app-editors/scite:0
 app-portage/metagen:0
 app-text/evince:0
 app-text/rarian:0
-app-text/ronn:0
 app-text/scrollkeeper-dtd:1.0
 dev-cpp/atkmm:0
 dev-cpp/glibmm:2
@@ -27,13 +26,7 @@ dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/pth:0
 dev-python/imaging:0
-dev-ruby/actionpack:3.1
-dev-ruby/gherkin:0
-dev-ruby/posix-spawn:0
 dev-util/anjuta:0
-dev-util/aruba:0
-dev-util/cucumber-rails:1
-dev-util/cucumber:0
 dev-util/d-feet:0
 dev-util/glade:3
 dev-util/glade:3.10
@@ -140,7 +133,6 @@ media-plugins/gst-plugins-vorbis:0.10
 media-plugins/gst-plugins-vp8:0.10
 media-plugins/gst-plugins-wavpack:0.10
 media-sound/mac:0
-media-sound/moodbar:0
 media-sound/tuxguitar:0
 media-video/cheese:0
 media-video/gnome-video-effects:0
@@ -156,7 +148,6 @@ sci-mathematics/pari:0
 sys-apps/accountsservice:0
 sys-power/cpufreqd:0
 sys-process/vixie-cron:0
-virtual/ffmpeg:0
 virtual/package-manager:0
 x11-libs/gksu:0
 x11-libs/gtk+:3
