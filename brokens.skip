@@ -6,3 +6,5 @@ dev-perl/Data-Handle:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/signatures:0
 dev-perl/KinoSearch1:0
+dev-perl/math-pari:0
+sci-mathematics/pari:0
