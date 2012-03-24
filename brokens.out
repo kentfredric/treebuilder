@@ -185,13 +185,10 @@ dev-java/swt:3.5
 dev-java/swt:3.7
 dev-lang/lua:0
 dev-lang/nasm:0
-dev-lang/nqp:0
 dev-lang/ocaml:0
 dev-lang/perl:0
 dev-lang/python:3.1
 dev-lang/python:3.2
-dev-lang/rakudo:0
-dev-lang/ruby:1.9
 dev-lang/spidermonkey:0
 dev-lang/swig:0
 dev-lang/vala:0.10
@@ -962,7 +959,6 @@ dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
-dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
 dev-vcs/git:0
@@ -1352,7 +1348,6 @@ sys-fs/reiser4progs:0
 sys-fs/shake:0
 sys-fs/squashfs-tools:0
 sys-fs/sshfs-fuse:0
-sys-fs/udev:0
 sys-fs/udisks:0
 sys-fs/xfsdump:0
 sys-kernel/dracut:0
@@ -1539,5 +1534,4 @@ x11-wm/fluxbox:0
 x11-wm/i3:0
 x11-wm/metacity:0
 x11-wm/mutter:0
-xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
