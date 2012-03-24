@@ -30,6 +30,7 @@ app-admin/testdisk:0
 app-arch/advancecomp:0
 app-arch/cabextract:0
 app-arch/gzip:0
+app-arch/p7zip:0
 app-arch/sharutils:0
 app-arch/xz-utils:0
 app-benchmarks/cpuburn:0
@@ -1037,6 +1038,7 @@ media-fonts/urw-fonts:0
 media-fonts/webby-fonts:0
 media-gfx/arss:0
 media-gfx/autopano-sift-C:0
+media-gfx/digikam:4
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
@@ -1160,6 +1162,7 @@ media-sound/fluidsynth:0
 media-sound/gogglesmm:0
 media-sound/id3v2:0
 media-sound/japa:0
+media-sound/kid3:4
 media-sound/lash:0
 media-sound/lastfmplayer:0
 media-sound/lilypond:0
@@ -1349,6 +1352,7 @@ sys-fs/reiser4progs:0
 sys-fs/shake:0
 sys-fs/squashfs-tools:0
 sys-fs/sshfs-fuse:0
+sys-fs/udev:0
 sys-fs/udisks:0
 sys-fs/xfsdump:0
 sys-kernel/dracut:0
