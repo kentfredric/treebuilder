@@ -57,7 +57,6 @@ app-editors/vim:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/virtualbox:0
 app-i18n/enca:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
@@ -1075,7 +1074,6 @@ kde-base/kdebase-startkde:4
 kde-base/kdebugdialog:4
 kde-base/kdegraphics-mobipocket:4
 kde-base/kdegraphics-strigi-analyzer:4
-kde-base/kdelibs:4
 kde-base/kdemultimedia-kioslaves:4
 kde-base/kdenetwork-filesharing:4
 kde-base/kdepasswd:4
@@ -1195,7 +1193,6 @@ kde-base/okular:4
 kde-base/phonon-kde:4
 kde-base/plasma-apps:4
 kde-base/plasma-runtime:4
-kde-base/plasma-workspace:4
 kde-base/powerdevil:4
 kde-base/printer-applet:4
 kde-base/pykde4:4
@@ -1211,7 +1208,6 @@ kde-base/systemsettings:4
 kde-base/thumbnailers:4
 kde-base/umbrello:4
 kde-misc/adjustableclock:4
-kde-misc/fancytasks:4
 kde-misc/kcm-gtk-config:4
 kde-misc/kcm_touchpad:4
 kde-misc/kdesudo:4
@@ -1628,7 +1624,6 @@ sys-power/powertop:0
 sys-power/upower:0
 sys-process/atop:0
 sys-process/latencytop:0
-sys-process/numactl:0
 sys-process/psmisc:0
 virtual/blas:0
 virtual/cdrtools:0
@@ -1656,7 +1651,6 @@ virtual/mta:0
 virtual/mysql:0
 virtual/notification-daemon:0
 virtual/opengl:0
-virtual/os-headers:0
 virtual/package-manager:0
 virtual/perl-AutoLoader:0
 virtual/perl-B-Lint:0
