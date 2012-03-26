@@ -106,6 +106,7 @@ app-text/opensp:0
 app-text/po4a:0
 app-text/ps2pkm:0
 app-text/rarian:0
+app-text/ronn:0
 app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
@@ -178,6 +179,7 @@ dev-lang/swig:0
 dev-libs/boehm-gc:0
 dev-libs/confuse:0
 dev-libs/elfutils:0
+dev-libs/folks:0
 dev-libs/hyphen:0
 dev-libs/ilbc-rfc3951:0
 dev-libs/klibc:0
@@ -754,6 +756,24 @@ dev-python/pycups:0
 dev-python/pycurl:0
 dev-python/pygments:0
 dev-python/pyxattr:0
+dev-ruby/actionmailer:3.0
+dev-ruby/activerecord:3.0
+dev-ruby/activesupport:3.0
+dev-ruby/bundler:0
+dev-ruby/fakeweb:0
+dev-ruby/gherkin:0
+dev-ruby/haml:0
+dev-ruby/hpricot:0
+dev-ruby/httpclient:0
+dev-ruby/nokogiri:0
+dev-ruby/parsetree:0
+dev-ruby/rack-mount:0.8
+dev-ruby/rack:1.2
+dev-ruby/rake-compiler:0
+dev-ruby/rdoc:0
+dev-ruby/right_http_connection:0
+dev-ruby/rspec:0
+dev-ruby/rubyzip:0
 dev-tex/bibtexu:0
 dev-tex/luatex:0
 dev-texlive/texlive-basic:0
@@ -767,6 +787,7 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
+dev-util/aruba:0
 dev-util/automoc:0
 dev-util/boost-build:1.37
 dev-util/boost-build:1.39
@@ -776,6 +797,8 @@ dev-util/boost-build:1.46
 dev-util/boost-build:1.47
 dev-util/catalyst:0
 dev-util/cscope:0
+dev-util/cucumber-rails:1
+dev-util/cucumber:0
 dev-util/d-feet:0
 dev-util/dejagnu:0
 dev-util/dialog:0
@@ -845,6 +868,7 @@ media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/feh:0
+media-gfx/gimp:2
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/optipng:0
@@ -857,6 +881,7 @@ media-libs/freeglut:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
+media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-good:0.10
 media-libs/herqq:0
 media-libs/jasper:0
@@ -1176,6 +1201,7 @@ virtual/ttf-fonts:0
 www-client/dillo:0
 www-client/firefox:0
 www-client/lynx:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-plugins/mozplugger:0
 www-plugins/nspluginwrapper:0

@@ -988,6 +988,7 @@ net-dns/openresolv:0
 net-fs/cifs-utils:0
 net-fs/fusesmb:0
 net-fs/samba:0
+net-im/bitlbee:0
 net-im/telepathy-mission-control:0
 net-libs/libgadu:0
 net-libs/libmsn:0
@@ -1198,6 +1199,7 @@ virtual/ssh:0
 virtual/tex-base:0
 virtual/ttf-fonts:0
 www-client/dillo:0
+www-client/firefox:0
 www-client/lynx:0
 www-client/seamonkey:0
 www-client/w3m:0
