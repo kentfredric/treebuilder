@@ -21,6 +21,7 @@ app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
 app-admin/eselect:0
+app-admin/haskell-updater:0
 app-admin/metalog:0
 app-admin/sudo:0
 app-admin/sysstat:0
@@ -48,6 +49,7 @@ app-editors/padre:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
+app-emulation/virtualbox:0
 app-i18n/enca:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
@@ -57,6 +59,7 @@ app-misc/zisofs-tools:0
 app-mobilephone/smssend:0
 app-office/akonadi-server:0
 app-office/koffice-meta:2
+app-pda/gtkpod:0
 app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
@@ -104,6 +107,7 @@ app-text/mythes:0
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
+app-text/poppler:0
 app-text/ps2pkm:0
 app-text/rarian:0
 app-text/ronn:0
@@ -168,10 +172,13 @@ dev-java/sun-jaf:0
 dev-java/sun-javamail:0
 dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
+dev-java/swt:3.7
 dev-lang/lua:0
 dev-lang/nasm:0
 dev-lang/ocaml:0
 dev-lang/perl:0
+dev-lang/php:5.3
+dev-lang/php:5.4
 dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/spidermonkey:0
@@ -796,6 +803,7 @@ dev-util/boost-build:1.42
 dev-util/boost-build:1.46
 dev-util/boost-build:1.47
 dev-util/catalyst:0
+dev-util/cmake:0
 dev-util/cscope:0
 dev-util/cucumber-rails:1
 dev-util/cucumber:0
@@ -820,8 +828,12 @@ games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
 games-util/grfcodec:0
 gnome-base/gnome-light:2.0
+gnome-base/gvfs:0
 gnome-base/libgnome-keyring:0
+gnome-extra/sushi:0
 gnome-extra/yelp-xsl:0
+gnome-extra/yelp:0
+gnome-extra/zenity:0
 java-virtuals/jaf:0
 java-virtuals/javamail:0
 kde-base/kdeadmin-meta:4
@@ -867,6 +879,7 @@ media-gfx/digikam:4
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
+media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/gimp:2
 media-gfx/luminance-hdr:0
@@ -899,6 +912,7 @@ media-libs/libexif:0
 media-libs/libggiwmh:0
 media-libs/libid3tag:0
 media-libs/libofa:0
+media-libs/libopenraw:0
 media-libs/libpano13:0
 media-libs/libpng:0
 media-libs/libpng:1.2
@@ -915,6 +929,8 @@ media-libs/openexr:0
 media-libs/phonon-gstreamer:0
 media-libs/portaudio:0
 media-libs/qimageblitz:0
+media-libs/raptor:0
+media-libs/raptor:2
 media-libs/sdl-image:0
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
@@ -943,9 +959,11 @@ media-plugins/gst-plugins-vorbis:0.10
 media-plugins/mediastreamer-ilbc:0
 media-plugins/mediastreamer-x264:0
 media-sound/alsa-utils:0.9
+media-sound/amarok:4
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/boodler:0
+media-sound/clementine:0
 media-sound/gogglesmm:0
 media-sound/id3v2:0
 media-sound/japa:0
@@ -955,6 +973,7 @@ media-sound/lastfmplayer:0
 media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
+media-sound/mpd:0
 media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
@@ -969,6 +988,8 @@ media-sound/vorbis-tools:0
 media-video/clive:0
 media-video/dvdrip:0
 media-video/emovix:0
+media-video/ffmpeg:0
+media-video/mplayer:0
 media-video/rtmpdump:0
 media-video/smplayer:0
 media-video/subtitleripper:0
@@ -990,6 +1011,7 @@ net-fs/fusesmb:0
 net-fs/samba:0
 net-im/bitlbee:0
 net-im/telepathy-mission-control:0
+net-libs/gnome-online-accounts:0
 net-libs/libgadu:0
 net-libs/libmsn:0
 net-libs/liboauth:0
@@ -1047,6 +1069,7 @@ perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
 sci-calculators/units:0
+sci-geosciences/googleearth:0
 sci-libs/blas-atlas:0
 sci-libs/clapack:0
 sci-libs/cln:1
@@ -1106,6 +1129,7 @@ sys-fs/reiser4progs:0
 sys-fs/shake:0
 sys-fs/squashfs-tools:0
 sys-fs/xfsdump:0
+sys-kernel/dracut:0
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -1201,6 +1225,7 @@ virtual/ttf-fonts:0
 www-client/dillo:0
 www-client/firefox:0
 www-client/lynx:0
+www-client/midori:0
 www-client/seamonkey:0
 www-client/w3m:0
 www-plugins/mozplugger:0
