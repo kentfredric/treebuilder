@@ -99,7 +99,7 @@ app-editors/vim:0
 app-shells/bash:0
 app-text/build-docbook-catalog:0
 net-libs/gnutls:0
-sys-fs/udev-182:0
+sys-fs/udev:0
 www-servers/apache:2
 x11-libs/libdrm:0
 app-editors/gvim:0

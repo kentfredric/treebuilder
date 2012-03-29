@@ -141,6 +141,7 @@ dev-libs/hyphen:0
 dev-libs/ilbc-rfc3951:0
 dev-libs/klibc:0
 dev-libs/kpathsea:0
+dev-libs/libatasmart:0
 dev-libs/libattica:0
 dev-libs/libconfig:0
 dev-libs/libdbusmenu-qt:0
@@ -986,6 +987,7 @@ media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/potrace:0
+media-gfx/sane-backends:0
 media-libs/clutter-gtk:1.0
 media-libs/faac:0
 media-libs/freeglut:0
@@ -1000,6 +1002,7 @@ media-libs/libaacplus:0
 media-libs/libao:0
 media-libs/libass:0
 media-libs/libbs2b:0
+media-libs/libcanberra:0
 media-libs/libclalsadrv:0
 media-libs/libclxclient:0
 media-libs/libcue:0
@@ -1008,6 +1011,7 @@ media-libs/libdv:0
 media-libs/libechonest:0
 media-libs/libexif:0
 media-libs/libggiwmh:0
+media-libs/libgphoto2:0
 media-libs/libid3tag:0
 media-libs/libkface:4
 media-libs/libkgeomap:4
@@ -1161,6 +1165,7 @@ sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/acl:0
 sys-apps/attr:0
+sys-apps/biosdevname:0
 sys-apps/diffutils:0
 sys-apps/dmapi:0
 sys-apps/findutils:0
@@ -1168,8 +1173,10 @@ sys-apps/gawk:0
 sys-apps/kbd:0
 sys-apps/less:0
 sys-apps/lm_sensors:0
+sys-apps/lomoco:0
 sys-apps/man-pages-posix:0
 sys-apps/man:0
+sys-apps/openrc:0
 sys-apps/paludis:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
@@ -1235,6 +1242,7 @@ sys-process/atop:0
 sys-process/psmisc:0
 virtual/blas:0
 virtual/cdrtools:0
+virtual/dev-manager:0
 virtual/freedesktop-icon-theme:0
 virtual/glu:0
 virtual/jdk:1.6

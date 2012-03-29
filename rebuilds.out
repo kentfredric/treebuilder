@@ -82,6 +82,7 @@ dev-lang/python:2.6
 dev-lang/python:2.7
 dev-libs/folks:0
 dev-libs/grantlee:0
+dev-libs/libatasmart:0
 dev-libs/libdbusmenu-qt:0
 dev-perl/Apache-Test:0
 dev-perl/Audio-Extract-PCM:0
@@ -406,12 +407,15 @@ media-gfx/imagemagick:0
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
+media-gfx/sane-backends:0
 media-libs/chromaprint:0
 media-libs/faac:0
 media-libs/gegl:0
 media-libs/gst-plugins-bad:0
 media-libs/herqq:0
 media-libs/libaacplus:0
+media-libs/libcanberra:0
+media-libs/libgphoto2:0
 media-libs/libkface:4
 media-libs/libkgeomap:4
 media-libs/liblastfm:0
@@ -482,6 +486,9 @@ net-wireless/wpa_supplicant:0
 sci-libs/flann:0
 sci-libs/libqalculate:0
 sci-visualization/gnuplot:0
+sys-apps/biosdevname:0
+sys-apps/lomoco:0
+sys-apps/openrc:0
 sys-apps/paludis:0
 sys-apps/rescan-scsi-bus:0
 sys-auth/polkit-kde-agent:4
@@ -491,6 +498,7 @@ sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
 sys-libs/ldb:0
 sys-libs/tevent:0
+virtual/dev-manager:0
 virtual/editor:0
 virtual/package-manager:0
 www-client/firefox:0
