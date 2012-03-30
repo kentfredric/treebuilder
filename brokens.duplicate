@@ -81,7 +81,6 @@ kde-base/kcachegrind:4
 kde-base/kcron:4
 kde-base/kdeaccounts-plugin:4
 kde-base/kdeartwork-kscreensaver:4
-kde-base/kdeartwork-styles:4
 kde-base/kdebase-data:4
 kde-base/kdebase-kioslaves:4
 kde-base/kdebase-startkde:4
@@ -118,10 +117,7 @@ kde-base/ksecrets:4
 kde-base/ksmserver:4
 kde-base/ktimetracker:4
 kde-base/kuser:4
-kde-base/kwin:4
 kde-base/libplasmaclock:4
-kde-base/libplasmagenericshell:4
-kde-base/libtaskmanager:4
 kde-base/mplayerthumbs:4
 kde-base/nepomuk:4
 kde-base/nsplugins:4

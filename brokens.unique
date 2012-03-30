@@ -197,6 +197,7 @@ gnome-base/libgnome-keyring:0
 gnome-extra/yelp-xsl:0
 java-virtuals/jaf:0
 java-virtuals/javamail:0
+kde-base/-reinstalling-libtaskmanager:4
 kde-base/kdeadmin-meta:4
 kde-base/kdesdk-meta:4
 kde-base/kdeutils-meta:4
