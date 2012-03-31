@@ -25,6 +25,7 @@ app-admin/testdisk:0
 app-arch/advancecomp:0
 app-arch/cabextract:0
 app-arch/gzip:0
+app-arch/p7zip:0
 app-arch/sharutils:0
 app-arch/xz-utils:0
 app-benchmarks/cpuburn:0
@@ -54,6 +55,7 @@ app-portage/genlop:0
 app-shells/gentoo-bashcomp:0
 app-shells/psh:0
 app-shells/zsh:0
+app-text/bibletime:0
 app-text/convertlit:0
 app-text/docbook-dsssl-stylesheets:0
 app-text/docbook-sgml-dtd:3.0
@@ -78,6 +80,7 @@ app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
 app-text/ps2pkm:0
+app-text/rarian:0
 app-text/ronn:0
 app-text/t1utils:0
 app-text/wgetpaste:0
@@ -111,6 +114,7 @@ dev-lang/swig:0
 dev-libs/boehm-gc:0
 dev-libs/confuse:0
 dev-libs/elfutils:0
+dev-libs/folks:0
 dev-libs/hyphen:0
 dev-libs/ilbc-rfc3951:0
 dev-libs/klibc:0
@@ -135,6 +139,7 @@ dev-libs/xmlrpc-epi:0
 dev-libs/yajl:0
 dev-perl/CPAN-Inject:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
+dev-perl/Catalyst-Plugin-Session-State-Cookie:0
 dev-perl/DBIx-Class-DigestColumns:0
 dev-perl/Data-Handle:0
 dev-perl/DateTime-Format-DateManip:0
@@ -230,8 +235,10 @@ media-fonts/unifont:0
 media-fonts/urw-fonts:0
 media-fonts/webby-fonts:0
 media-gfx/autopano-sift-C:0
+media-gfx/digikam:4
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
+media-gfx/gimp:2
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/potrace:0
 media-libs/clutter-gtk:1.0
@@ -239,6 +246,7 @@ media-libs/freeglut:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
+media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-good:0.10
 media-libs/jasper:0
 media-libs/lcms:2
@@ -271,6 +279,7 @@ media-libs/sdl-image:0
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
 media-libs/tiff:0
+media-libs/tunepimp:0
 media-libs/vamp-plugin-sdk:0
 media-libs/xvid:0
 media-plugins/frei0r-plugins:0
@@ -292,6 +301,7 @@ media-sound/alsa-utils:0.9
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/id3v2:0
+media-sound/lilypond:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
 media-sound/projectm-jack:0
@@ -419,6 +429,7 @@ virtual/ssh:0
 virtual/tex-base:0
 virtual/ttf-fonts:0
 www-client/dillo:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-plugins/mozplugger:0
 www-servers/nginx:0
