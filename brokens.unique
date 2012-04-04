@@ -47,6 +47,7 @@ app-portage/genlop:0
 app-shells/gentoo-bashcomp:0
 app-shells/psh:0
 app-shells/zsh:0
+app-text/bibletime:0
 app-text/docbook-dsssl-stylesheets:0
 app-text/docbook-sgml-utils:0
 app-text/docbook2X:0
@@ -89,6 +90,7 @@ dev-lang/swig:0
 dev-libs/boehm-gc:0
 dev-libs/confuse:0
 dev-libs/elfutils:0
+dev-libs/folks:0
 dev-libs/hyphen:0
 dev-libs/ilbc-rfc3951:0
 dev-libs/klibc:0
@@ -109,12 +111,16 @@ dev-perl/CPAN-Inject:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/Catalyst-Plugin-Session-State-Cookie:0
 dev-perl/DBIx-Class-DigestColumns:0
+dev-perl/Data-Handle:0
 dev-perl/DateTime-Format-DateManip:0
 dev-perl/GSSAPI:0
 dev-perl/MooseX-Types-DateTimeX:0
+dev-perl/WebService-MusicBrainz:0
 dev-perl/math-pari:0
+dev-perl/pip:0
 dev-perl/signatures:0
 dev-ruby/actionmailer:3.0
+dev-ruby/activerecord:3.0
 dev-ruby/activesupport:3.0
 dev-ruby/bundler:0
 dev-ruby/fakeweb:0
@@ -185,6 +191,7 @@ media-fonts/ttf-bitstream-vera:0
 media-fonts/unifont:0
 media-fonts/urw-fonts:0
 media-fonts/webby-fonts:0
+media-gfx/digikam:4
 media-gfx/ebdftopcf:0
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/potrace:0
@@ -339,6 +346,7 @@ virtual/ruby-ssl:ree18
 virtual/ssh:0
 virtual/tex-base:0
 virtual/ttf-fonts:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-plugins/mozplugger:0
 www-servers/nginx:0
