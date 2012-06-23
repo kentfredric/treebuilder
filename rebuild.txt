@@ -3294,3 +3294,17 @@ dev-perl/Catalyst-Log-Log4perl:0
 dev-perl/Catalyst-Model-DBIC-Schema:0
 dev-perl/Catalyst-Plugin-SubRequest:0
 dev-perl/DBIx-Class-Schema-Loader:0
+dev-perl/Devel-Cover:0
+dev-perl/File-Spec-Native:0
+dev-perl/Dist-Metadata:0
+dev-perl/Dist-Zilla:0
+dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
+dev-perl/Gentoo-Overlay:0
+dev-perl/HTML-FormHandler:0
+dev-perl/HTML-TreeBuilder-LibXML:0
+dev-perl/MooseX-Types-Common:0
+dev-perl/Package-Pkg:0
+dev-perl/String-Diff:0
+dev-perl/Task-Kensho:0
+dev-perl/Test-EOL:0
+dev-perl/App-cpanoutdated:0
