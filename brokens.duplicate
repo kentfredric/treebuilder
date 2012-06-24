@@ -20,15 +20,12 @@ dev-cpp/gtest:0
 dev-cpp/gtkmm:2.4
 dev-cpp/gtkmm:3.0
 dev-cpp/pangomm:1.4
-dev-db/libiodbc:0
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
-dev-db/postgresql-base:9.1
 dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
-dev-db/xbase:0
 dev-games/libggz:0
 dev-haskell/cabal:0
 dev-java/ant-core:0
@@ -131,7 +128,6 @@ dev-perl/Module-Install-ProvidesClass:0
 dev-perl/MojoMojo:0
 dev-perl/MooseX-Declare:0
 dev-perl/OOTools:0
-dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/Regexp-Grammars:0
 dev-perl/Test-Regression:0
 dev-perl/Test-TinyMocker:0
@@ -287,7 +283,6 @@ dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtk-builder-convert:0
 dev-util/intel-ocl-sdk:0
-dev-util/intltool:0
 dev-util/itstool:0
 dev-util/kbuild:0
 dev-util/lafilefixer:0
@@ -635,7 +630,6 @@ media-sound/sox:0
 media-sound/timidity++:0
 media-sound/tuxguitar:0
 media-sound/vorbis-tools:0
-media-sound/wavpack:0
 media-video/cheese:0
 media-video/dirac:0
 media-video/gnome-video-effects:0
@@ -688,7 +682,6 @@ net-misc/aria2:0
 net-misc/dhcp:0
 net-misc/memcached:0
 net-misc/modemmanager:0
-net-misc/netkit-telnetd:0
 net-misc/nxclient:0
 net-misc/nxnode:0
 net-misc/nxserver-freeedition:0
