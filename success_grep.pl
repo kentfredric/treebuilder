@@ -42,10 +42,22 @@ while(1){
 	push @match, [ $line, $. ];
 	$line =~ s/^.* : //;
 	$line =~ s/::.*$//;
-	$line =~ s/-r\d+:/:/;
-	$line =~ s/_beta\d*:/:/;
-	$line =~ s/_rc\d*:/:/;
-	$line =~ s/(-[0-9.]+)+:/:/;
+
+
+	$line =~ s{
+	(
+		-r\d+
+		|
+		_beta\d*
+		|
+		_rc\d*
+		|
+		-[0-9.]+
+		|
+		_p\d*
+		|
+		_pre\d*
+	)+:}{:}x;
 	say $line;
 }
 my (@indices) = (
