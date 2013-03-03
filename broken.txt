@@ -1230,6 +1230,7 @@ mail-client/claws-mail-archive:0
 mail-client/claws-mail-notification:0
 mail-client/claws-mail-rssyl:0
 mail-client/claws-mail:0
+mail-client/mailx:0
 mail-mta/ssmtp:0
 media-fonts/cantarell:0
 media-fonts/font-adobe-100dpi:0
@@ -1671,6 +1672,7 @@ sys-power/cpufreqd:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
 sys-power/upower:0
+sys-process/at:0
 sys-process/vixie-cron:0
 virtual/dev-manager:0
 virtual/editor:0
