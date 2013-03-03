@@ -13,6 +13,7 @@ app-arch/rpm2targz:0
 app-cdr/brasero:0
 app-cdr/cdrkit:0
 app-crypt/gnupg:0
+app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/padre:0
 app-editors/scite:0
@@ -193,6 +194,7 @@ dev-perl/Audio-Extract-PCM:0
 dev-perl/Audio-MPD-Common:0
 dev-perl/Audio-MPD:0
 dev-perl/Audio-Ofa-Util:0
+dev-perl/Audio-Ofa:0
 dev-perl/Audio-SndFile:0
 dev-perl/Authen-Passphrase:0
 dev-perl/B-Hooks-EndOfScope:0
@@ -212,6 +214,7 @@ dev-perl/CGI-Application-Plugin-Authentication:0
 dev-perl/CGI-Application-Plugin-Session:0
 dev-perl/CGI-Application-Plugin-TT:0
 dev-perl/CGI-Application:0
+dev-perl/CGI-Cookie-XS:0
 dev-perl/CGI-PSGI:0
 dev-perl/CGI-Session:0
 dev-perl/CHI:0
@@ -417,6 +420,7 @@ dev-perl/Devel-PartialDump:0
 dev-perl/Devel-PatchPerl:0
 dev-perl/Devel-Pragma:0
 dev-perl/Devel-REPL:0
+dev-perl/Devel-StackTrace-AsHTML:0
 dev-perl/Devel-StackTrace-WithLexicals:0
 dev-perl/Devel-StackTrace:0
 dev-perl/Digest-HMAC:0
@@ -493,6 +497,7 @@ dev-perl/File-ShareDir-PathClass:0
 dev-perl/File-ShareDir:0
 dev-perl/File-Spec-Native:0
 dev-perl/File-chdir:0
+dev-perl/Filesys-Notify-Simple:0
 dev-perl/Finance-Currency-Convert-WebserviceX:0
 dev-perl/Find-Lib:0
 dev-perl/FindBin-libs:0
@@ -542,6 +547,7 @@ dev-perl/HTTP-Server-Simple-PSGI:0
 dev-perl/Handel:0
 dev-perl/Hash-FieldHash:0
 dev-perl/Hash-Merge-Simple:0
+dev-perl/Hash-MultiValue:0
 dev-perl/IO-CaptureOutput:0
 dev-perl/IO-Digest:0
 dev-perl/IO-HTML:0
@@ -590,6 +596,7 @@ dev-perl/MetaCPAN-API:0
 dev-perl/Method-Signatures-Simple:0
 dev-perl/Modern-Perl:0
 dev-perl/Module-CPANTS-Analyse:0
+dev-perl/Module-Compile:0
 dev-perl/Module-Data:0
 dev-perl/Module-Implementation:0
 dev-perl/Module-Install-ProvidesClass:0
@@ -727,6 +734,7 @@ dev-perl/Package-Variant:0
 dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/Paludis-UseCleaner:0
 dev-perl/Pango:0
+dev-perl/Parse-BACKPAN-Packages:0
 dev-perl/Parse-CPAN-Distributions:0
 dev-perl/Parse-CPAN-Packages:0
 dev-perl/Parse-ErrorString-Perl:0
@@ -761,6 +769,7 @@ dev-perl/Pod-POM:0
 dev-perl/Pod-ProjectDocs:0
 dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Spell:0
+dev-perl/Pod-Strip:0
 dev-perl/Pod-Tests:0
 dev-perl/Pod-Weaver-Plugin-Encoding:0
 dev-perl/Pod-Weaver:0
@@ -836,6 +845,7 @@ dev-perl/Test-CheckDeps:0
 dev-perl/Test-ClassAPI:0
 dev-perl/Test-Corpus-Audio-MPD:0
 dev-perl/Test-Differences:0
+dev-perl/Test-Distribution:0
 dev-perl/Test-EOL:0
 dev-perl/Test-Fatal:0
 dev-perl/Test-File-ShareDir:0
@@ -852,6 +862,7 @@ dev-perl/Test-Moose-More:0
 dev-perl/Test-Most:0
 dev-perl/Test-Object:0
 dev-perl/Test-Perl-Critic:0
+dev-perl/Test-Pod:0
 dev-perl/Test-Portability-Files:0
 dev-perl/Test-Regression:0
 dev-perl/Test-Script:0
@@ -881,6 +892,7 @@ dev-perl/Tree-Trie:0
 dev-perl/TryCatch:0
 dev-perl/UNIVERSAL-moniker:0
 dev-perl/URI-Escape-XS:0
+dev-perl/URI-Fetch:0
 dev-perl/URI-FromHash:0
 dev-perl/UUID:0
 dev-perl/User:0
@@ -1453,6 +1465,7 @@ net-wireless/wireless-tools:0
 net-zope/zope-fixers:0
 net-zope/zope-interface:0
 perl-core/Archive-Extract:0
+perl-core/Archive-Tar:0
 perl-core/B-Debug:0
 perl-core/B-Lint:0
 perl-core/CPAN-Meta:0
@@ -1470,6 +1483,7 @@ perl-core/File-Fetch:0
 perl-core/Filter-Simple:0
 perl-core/Getopt-Long:0
 perl-core/HTTP-Tiny:0
+perl-core/IPC-Cmd:0
 perl-core/Log-Message-Simple:0
 perl-core/Log-Message:0
 perl-core/Math-Complex:0
@@ -1481,13 +1495,13 @@ perl-core/Pod-Plainer:0
 perl-core/Pod-Usage:0
 perl-core/PodParser:0
 perl-core/SelfLoader:0
-perl-core/Socket:0
 perl-core/Term-UI:0
 perl-core/Unicode-Collate:0
 perl-core/Unicode-Normalize:0
 perl-core/autodie:0
 perl-core/constant:0
 perl-core/libnet:0
+perl-core/podlators:0
 perl-gcpanp/Iterator-IO:0
 perl-gcpanp/Iterator-Misc:0
 perl-gcpanp/Iterator-Util:0
