@@ -109,7 +109,6 @@ dev-lang/python:2.7
 dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/rakudo:0
-dev-lang/ruby-enterprise:1.8
 dev-lang/ruby:1.8
 dev-lang/ruby:1.9
 dev-lang/spidermonkey:0
@@ -1230,6 +1229,7 @@ mail-client/claws-mail-archive:0
 mail-client/claws-mail-notification:0
 mail-client/claws-mail-rssyl:0
 mail-client/claws-mail:0
+mail-client/mailx:0
 mail-mta/ssmtp:0
 media-fonts/cantarell:0
 media-fonts/font-adobe-100dpi:0
@@ -1556,7 +1556,6 @@ perl-core/Version-Requirements:0
 perl-core/autodie:0
 perl-core/constant:0
 perl-core/libnet:0
-perl-core/podlators:0
 perl-gcpanp/Iterator-IO:0
 perl-gcpanp/Iterator-Misc:0
 perl-gcpanp/Iterator-Util:0
@@ -1671,6 +1670,7 @@ sys-power/cpufreqd:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
 sys-power/upower:0
+sys-process/at:0
 sys-process/vixie-cron:0
 virtual/dev-manager:0
 virtual/editor:0

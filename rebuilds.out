@@ -1,7 +1,7 @@
-app-admin/sudo:0
-app-crypt/gnupg:0
-dev-lang/php:5.3
-dev-lang/php:5.4
-mail-client/mailx:0
-sys-process/at:0
-sys-process/vixie-cron:0
+app-editors/padre:0
+dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod:0
+dev-perl/Dist-Zilla-Plugin-ReadmeFromPod:0
+dev-perl/Module-Install-ReadmeFromPod:0
+dev-perl/Pod-Markdown:0
+perl-core/Pod-Perldoc:0
+perl-core/Thread-Queue:0
