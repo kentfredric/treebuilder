@@ -89,6 +89,7 @@ dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-games/ggz-client-libs:0
 dev-java/gnu-classpath:0.98
+dev-java/icedtea-bin:7
 dev-java/java-config-wrapper:0
 dev-java/java-config:2
 dev-java/oracle-jdk-bin:1.7
@@ -183,7 +184,6 @@ dev-perl/BackPAN-Index:0
 dev-perl/Beanstalk-Client:0
 dev-perl/BerkeleyDB-Manager:0
 dev-perl/Best:0
-dev-perl/Bit-Vector:0
 dev-perl/Bundle-CPAN:0
 dev-perl/Business-CreditCard:0
 dev-perl/Business-PayPal-API:0
@@ -255,7 +255,6 @@ dev-perl/Catalyst-Plugin-Email:0
 dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FillInForm:0
 dev-perl/Catalyst-Plugin-FormValidator-Simple:0
-dev-perl/Catalyst-Plugin-FormValidator:0
 dev-perl/Catalyst-Plugin-I18N:0
 dev-perl/Catalyst-Plugin-Log-Dispatch:0
 dev-perl/Catalyst-Plugin-PageCache:0
@@ -374,6 +373,7 @@ dev-perl/Data-TreeDumper-Renderer-GTK:0
 dev-perl/Data-TreeDumper:0
 dev-perl/Data-UUID:0
 dev-perl/Data-Visitor:0
+dev-perl/Date-Calc:0
 dev-perl/DateTime-Event-ICal:0
 dev-perl/DateTime-Event-Recurrence:0
 dev-perl/DateTime-Format-Builder:0
@@ -536,7 +536,6 @@ dev-perl/HTTP-Cookies:0
 dev-perl/HTTP-Daemon:0
 dev-perl/HTTP-Date:0
 dev-perl/HTTP-Exception:0
-dev-perl/HTTP-Lite:0
 dev-perl/HTTP-Message:0
 dev-perl/HTTP-Negotiate:0
 dev-perl/HTTP-Parser-XS:0
@@ -569,7 +568,6 @@ dev-perl/KinoSearch1:0
 dev-perl/KinoSearch:0
 dev-perl/KiokuDB-Backend-DBI:0
 dev-perl/KiokuDB:0
-dev-perl/KiokuX-User:0
 dev-perl/LWP-Online:0
 dev-perl/LWP-Protocol-https:0
 dev-perl/Lexical-Persistence:0
@@ -659,7 +657,6 @@ dev-perl/MooseX-Object-Pluggable:0
 dev-perl/MooseX-OneArgNew:0
 dev-perl/MooseX-POE:0
 dev-perl/MooseX-Param:0
-dev-perl/MooseX-Params-Validate:0
 dev-perl/MooseX-RelatedClassRoles:0
 dev-perl/MooseX-Role-Cmd:0
 dev-perl/MooseX-Role-Parameterized:0
@@ -688,7 +685,6 @@ dev-perl/MooseX-Types-LoadableClass:0
 dev-perl/MooseX-Types-Path-Class:0
 dev-perl/MooseX-Types-Path-Tiny:0
 dev-perl/MooseX-Types-Perl:0
-dev-perl/MooseX-Types-Set-Object:0
 dev-perl/MooseX-Types-Stringlike:0
 dev-perl/MooseX-Types-Structured:0
 dev-perl/MooseX-Types-URI:0
@@ -779,7 +775,6 @@ dev-perl/Pod-Eventual:0
 dev-perl/Pod-Markdown:0
 dev-perl/Pod-POM:0
 dev-perl/Pod-ProjectDocs:0
-dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Spell:0
 dev-perl/Pod-Strip:0
 dev-perl/Pod-Tests:0
@@ -841,7 +836,7 @@ dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-Testing:0
 dev-perl/Task-Kensho-Toolchain:0
-dev-perl/Task-Kensho-WebDev:0
+dev-perl/Task-Kensho-WebCrawling:0
 dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
 dev-perl/Task-Moose:0
@@ -904,7 +899,6 @@ dev-perl/Text-MultiMarkdown:0
 dev-perl/Text-TabularDisplay:0
 dev-perl/Text-Textile:0
 dev-perl/Text-vCard:0
-dev-perl/Throwable-X:0
 dev-perl/Throwable:0
 dev-perl/Tie-CPHash:0
 dev-perl/Tie-Sub:0
@@ -973,7 +967,6 @@ dev-perl/prefork:0
 dev-perl/signatures:0
 dev-perl/syntax:0
 dev-perl/tie-encryptedhash:0
-dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/Babel:0
@@ -1578,6 +1571,7 @@ sys-apps/man:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
+sys-apps/paludis:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/portage:0
