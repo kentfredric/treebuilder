@@ -168,26 +168,7 @@ dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-libs/zziplib:0
 dev-perl/Adam:0
-dev-perl/Algorithm-FloodControl:0
-dev-perl/Alien-wxWidgets:0
-dev-perl/Any-Moose:0
-dev-perl/Apache-Htpasswd:0
-dev-perl/App-Cache:0
-dev-perl/App-Cmd:0
-dev-perl/App-Nopaste:0
-dev-perl/App-cpanminus:0
-dev-perl/App-cpanoutdated:0
-dev-perl/App-mymeta_requires:0
 dev-perl/App-perlbrew:0
-dev-perl/AppConfig:0
-dev-perl/Archive-Any:0
-dev-perl/Archive-Peek:0
-dev-perl/Archive-Zip:0
-dev-perl/Array-Compare:0
-dev-perl/Audio-Extract-PCM:0
-dev-perl/Audio-MPD-Common:0
-dev-perl/Audio-MPD:0
-dev-perl/Audio-Ofa-Util:0
 dev-perl/Audio-Ofa:0
 dev-perl/Audio-SndFile:0
 dev-perl/Authen-DecHpwd:0
@@ -197,16 +178,15 @@ dev-perl/B-Hooks-OP-Annotation:0
 dev-perl/B-Hooks-OP-Check-EntersubForCV:0
 dev-perl/B-RecDeparse:0
 dev-perl/BZ-Client:0
+dev-perl/BackPAN-Index:0
 dev-perl/Beanstalk-Client:0
 dev-perl/BerkeleyDB-Manager:0
 dev-perl/Best:0
 dev-perl/Bit-Vector:0
-dev-perl/Bundle-CPAN:0
 dev-perl/Business-CreditCard:0
 dev-perl/Business-PayPal-API:0
 dev-perl/Business-Tax-VAT-Validation:0
 dev-perl/CGI-Application-Dispatch:0
-dev-perl/CGI-Application-Plugin-Authentication:0
 dev-perl/CGI-Application-Plugin-Session:0
 dev-perl/CGI-Application-Plugin-TT:0
 dev-perl/CGI-Application:0
@@ -219,7 +199,6 @@ dev-perl/CPAN-Checksums:0
 dev-perl/CPAN-Inject:0
 dev-perl/CPAN-Meta-Check:0
 dev-perl/CPAN-Mini:0
-dev-perl/CPAN-ParseDistribution:0
 dev-perl/CPAN-Perl-Releases:0
 dev-perl/CPAN-Reporter:0
 dev-perl/CPAN-Uploader:0
@@ -339,10 +318,7 @@ dev-perl/Color-Calc:0
 dev-perl/Color-Library:0
 dev-perl/Config-Any:0
 dev-perl/Config-AutoConf:0
-dev-perl/Config-GitLike:0
 dev-perl/Config-INI:0
-dev-perl/Config-JFDI:0
-dev-perl/Config-JSON:0
 dev-perl/Config-MVP-Reader-INI:0
 dev-perl/Config-MVP:0
 dev-perl/Config-Pit:0
@@ -427,7 +403,6 @@ dev-perl/Devel-NYTProf:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-PatchPerl:0
 dev-perl/Devel-Pragma:0
-dev-perl/Devel-REPL:0
 dev-perl/Devel-StackTrace-AsHTML:0
 dev-perl/Devel-StackTrace-WithLexicals:0
 dev-perl/Devel-StackTrace:0
@@ -435,7 +410,6 @@ dev-perl/Digest-HMAC:0
 dev-perl/Digest-Whirlpool:0
 dev-perl/Directory-Scratch-Structured:0
 dev-perl/Directory-Scratch:0
-dev-perl/Dist-Metadata:0
 dev-perl/Dist-Zilla-App-Command-cover:0
 dev-perl/Dist-Zilla-App-Command-dumpphases:0
 dev-perl/Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective:0
@@ -473,9 +447,9 @@ dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla-Util-Test-KENTNL:0
-dev-perl/Dist-Zilla:0
 dev-perl/EVDB-API:0
 dev-perl/ElasticSearch-SearchBuilder:0
+dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MIME:0
@@ -516,7 +490,6 @@ dev-perl/FormValidator-Simple:0
 dev-perl/GD-SVG:0
 dev-perl/GSSAPI:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
-dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group-INI:0
 dev-perl/Gentoo-Overlay-Group:0
 dev-perl/Gentoo-Overlay:0
@@ -602,6 +575,7 @@ dev-perl/Locale-Codes:0
 dev-perl/Log-Any-Adapter-Dispatch:0
 dev-perl/Log-Any-Adapter:0
 dev-perl/Log-Contextual:0
+dev-perl/Log-Dispatch-Config:0
 dev-perl/Log-Dispatchouli:0
 dev-perl/MIME-Lite:0
 dev-perl/MIME-tools:0
@@ -610,11 +584,10 @@ dev-perl/Mason:0
 dev-perl/Math-BigInt-GMP:0
 dev-perl/Math-Factor-XS:0
 dev-perl/MemHandle:0
-dev-perl/MetaCPAN-API:0
 dev-perl/Method-Signatures-Simple:0
+dev-perl/Method-Signatures:0
 dev-perl/Mixin-ExtraFields:0
 dev-perl/Modern-Perl:0
-dev-perl/Module-CPANTS-Analyse:0
 dev-perl/Module-Compile:0
 dev-perl/Module-Data:0
 dev-perl/Module-Implementation:0
@@ -627,7 +600,6 @@ dev-perl/Module-Refresh:0
 dev-perl/Module-ScanDeps:0
 dev-perl/Module-Signature:0
 dev-perl/Module-Starter:0
-dev-perl/MojoMojo:0
 dev-perl/Mojolicious-Plugin-Authentication:0
 dev-perl/Mojolicious-Plugin-Database:0
 dev-perl/Mojolicious:0
@@ -635,7 +607,6 @@ dev-perl/Moo:0
 dev-perl/Moose-Autobox:0
 dev-perl/Moose:0
 dev-perl/MooseX-Aliases:0
-dev-perl/MooseX-App-Cmd:0
 dev-perl/MooseX-App:0
 dev-perl/MooseX-Attribute-Chained:0
 dev-perl/MooseX-AttributeHelpers:0
@@ -660,7 +631,6 @@ dev-perl/MooseX-Iterator:0
 dev-perl/MooseX-LazyLogDispatch:0
 dev-perl/MooseX-LazyRequire:0
 dev-perl/MooseX-Lexical-Types:0
-dev-perl/MooseX-Log-Log4perl:0
 dev-perl/MooseX-LogDispatch:0
 dev-perl/MooseX-MarkAsMethods:0
 dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion:0
@@ -731,8 +701,6 @@ dev-perl/ORLite:0
 dev-perl/Object-Pluggable:0
 dev-perl/Object-Signature:0
 dev-perl/Olson-Abbreviations:0
-dev-perl/PAR-Dist:0
-dev-perl/PAR:0
 dev-perl/POE-Component-Client-Keepalive:0
 dev-perl/POE-Component-IRC:0
 dev-perl/POE-Component-Resolver:0
@@ -757,9 +725,7 @@ dev-perl/Pango:0
 dev-perl/Parallel-Iterator:0
 dev-perl/Params-Classify:0
 dev-perl/Params-Util:0
-dev-perl/Parse-BACKPAN-Packages:0
 dev-perl/Parse-CPAN-Distributions:0
-dev-perl/Parse-CPAN-Packages:0
 dev-perl/Parse-ErrorString-Perl:0
 dev-perl/Parse-Method-Signatures:0
 dev-perl/Path-Abstract:0
@@ -843,7 +809,6 @@ dev-perl/System-Command:0
 dev-perl/TAP-SimpleOutput:0
 dev-perl/Taint-Util:0
 dev-perl/Task-Catalyst:0
-dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-Config:0
 dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
@@ -854,7 +819,6 @@ dev-perl/Task-Kensho-Logging:0
 dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-Testing:0
-dev-perl/Task-Kensho-Toolchain:0
 dev-perl/Task-Kensho-WebDev:0
 dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
@@ -865,7 +829,6 @@ dev-perl/Template-Latex:0
 dev-perl/Template-Plugin-Cycle:0
 dev-perl/Template-Plugin-JSON:0
 dev-perl/Template-Provider-Encoding:0
-dev-perl/Template-Toolkit:0
 dev-perl/Template-XML:0
 dev-perl/Tenjin:0
 dev-perl/Term-ProgressBar-Quiet:0
@@ -883,6 +846,7 @@ dev-perl/Test-File-ShareDir:0
 dev-perl/Test-Filename:0
 dev-perl/Test-Identity:0
 dev-perl/Test-InDistDir:0
+dev-perl/Test-Inline:0
 dev-perl/Test-Kwalitee:0
 dev-perl/Test-Lazy:0
 dev-perl/Test-LeakTrace:0
@@ -944,7 +908,6 @@ dev-perl/Weather-Com:0
 dev-perl/Web-Scraper:0
 dev-perl/WebService-MusicBrainz:0
 dev-perl/Wx-Perl-ProcessStream:0
-dev-perl/Wx-Scintilla:0
 dev-perl/XML-Atom:0
 dev-perl/XML-DOM:0
 dev-perl/XML-Elemental:0
@@ -981,14 +944,12 @@ dev-perl/namespace-autoclean:0
 dev-perl/namespace-clean:0
 dev-perl/perl-ldap:0
 dev-perl/perl5i:0
-dev-perl/pip:0
 dev-perl/prefork:0
 dev-perl/signatures:0
 dev-perl/syntax:0
 dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
-dev-perl/wxperl:0
 dev-python/Babel:0
 dev-python/argparse:0
 dev-python/beautifulsoup:python-2
@@ -1511,7 +1472,6 @@ perl-core/B-Debug:0
 perl-core/B-Lint:0
 perl-core/CPAN-Meta-Requirements:0
 perl-core/CPAN-Meta:0
-perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
 perl-core/Devel-DProf:0
@@ -1677,11 +1637,6 @@ virtual/opengl:0
 virtual/os-headers:0
 virtual/package-manager:0
 virtual/pager:0
-virtual/ruby-ffi:0
-virtual/ruby-minitest:0
-virtual/ruby-test-unit:0
-virtual/ruby-threads:ruby18
-virtual/rubygems:ruby18
 virtual/shadow:0
 www-client/dillo:0
 www-client/firefox:0
