@@ -1,7 +1,2 @@
-app-editors/padre:0
-dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod:0
-dev-perl/Dist-Zilla-Plugin-ReadmeFromPod:0
-dev-perl/Module-Install-ReadmeFromPod:0
-dev-perl/Pod-Markdown:0
-perl-core/Pod-Perldoc:0
-perl-core/Thread-Queue:0
+dev-perl/ElasticSearch:0
+dev-perl/Test-Inline:0

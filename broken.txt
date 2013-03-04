@@ -167,16 +167,10 @@ dev-libs/skyutils:0
 dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-libs/zziplib:0
-dev-perl/Acme-Damn:0
 dev-perl/Adam:0
-dev-perl/Algorithm-Dependency:0
 dev-perl/Algorithm-FloodControl:0
 dev-perl/Alien-wxWidgets:0
-dev-perl/Amazon-S3:0
 dev-perl/Any-Moose:0
-dev-perl/Any-URI-Escape:0
-dev-perl/AnyEvent-I3:0
-dev-perl/Apache-DBI:0
 dev-perl/Apache-Htpasswd:0
 dev-perl/App-Cache:0
 dev-perl/App-Cmd:0
