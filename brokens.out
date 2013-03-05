@@ -35,7 +35,6 @@ app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/genlop:0
 app-portage/perl-info:0
-app-shells/bash:0
 app-shells/zsh:0
 app-text/asciidoc:0
 app-text/build-docbook-catalog:0
@@ -89,6 +88,7 @@ dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-games/ggz-client-libs:0
 dev-java/gnu-classpath:0.98
+dev-java/icedtea-bin:7
 dev-java/java-config-wrapper:0
 dev-java/java-config:2
 dev-java/oracle-jdk-bin:1.7
@@ -372,6 +372,7 @@ dev-perl/Data-TreeDumper-Renderer-GTK:0
 dev-perl/Data-TreeDumper:0
 dev-perl/Data-UUID:0
 dev-perl/Data-Visitor:0
+dev-perl/Date-Calc:0
 dev-perl/DateTime-Event-ICal:0
 dev-perl/DateTime-Event-Recurrence:0
 dev-perl/DateTime-Format-Builder:0
@@ -834,6 +835,7 @@ dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-Testing:0
 dev-perl/Task-Kensho-Toolchain:0
+dev-perl/Task-Kensho-WebCrawling:0
 dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
 dev-perl/Task-Moose:0
@@ -1463,9 +1465,7 @@ net-misc/nxserver-freeedition:0
 net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
-net-misc/rsync:0
 net-misc/tightvnc:0
-net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
 net-p2p/rtorrent:0
@@ -1567,7 +1567,7 @@ sys-apps/man-pages-posix:0
 sys-apps/man:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
-sys-apps/net-tools:0
+sys-apps/paludis:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/portage:0
@@ -1575,7 +1575,6 @@ sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/shadow:0
 sys-apps/sysvinit:0
-sys-apps/texinfo:0
 sys-apps/usbutils:0
 sys-apps/vbetool:0
 sys-auth/consolekit:0
@@ -1641,20 +1640,13 @@ sys-power/pm-utils:0
 sys-power/upower:0
 sys-process/at:0
 sys-process/vixie-cron:0
-virtual/dev-manager:0
-virtual/editor:0
 virtual/eject:0
 virtual/freedesktop-icon-theme:0
 virtual/krb5:0
-virtual/modutils:0
 virtual/mysql:0
 virtual/notification-daemon:0
 virtual/opencl:0
 virtual/opengl:0
-virtual/os-headers:0
-virtual/package-manager:0
-virtual/pager:0
-virtual/shadow:0
 www-client/dillo:0
 www-client/firefox:0
 www-client/links:2
