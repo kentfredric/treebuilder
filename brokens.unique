@@ -1859,7 +1859,6 @@ sys-apps/openrc:0
 sys-apps/paludis:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/shadow:0
@@ -1927,7 +1926,6 @@ sys-libs/db:4.4
 sys-libs/db:4.5
 sys-libs/db:4.6
 sys-libs/db:4.7
-sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
 sys-libs/libcap-ng:0
