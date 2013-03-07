@@ -1836,7 +1836,6 @@ sci-mathematics/pari:0
 sci-visualization/spectromatic:0
 sys-apps/accountsservice:0
 sys-apps/biosdevname:0
-sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/ed:0
 sys-apps/ethtool:0
