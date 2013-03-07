@@ -1863,7 +1863,6 @@ sys-apps/sandbox:0
 sys-apps/shadow:0
 sys-apps/sysvinit:0
 sys-apps/usbutils:0
-sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-auth/consolekit:0
 sys-auth/pam_ssh:0
@@ -1901,7 +1900,6 @@ sys-firmware/rt61-firmware:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dmraid:0
-sys-fs/e2fsprogs:0
 sys-fs/jfsutils:0
 sys-fs/lvm2:0
 sys-fs/mdadm:0
