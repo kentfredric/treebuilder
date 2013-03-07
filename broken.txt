@@ -1841,7 +1841,6 @@ sys-apps/ed:0
 sys-apps/ethtool:0
 sys-apps/flashrom:0
 sys-apps/gnome-disk-utility:0
-sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/hwinfo:0
 sys-apps/iproute2:0
