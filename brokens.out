@@ -10,6 +10,7 @@ app-admin/perl-cleaner:0
 app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/system-config-printer-common:0
+app-admin/testdisk:0
 app-arch/advancecomp:0
 app-arch/dpkg:0
 app-arch/libarchive:0
@@ -21,6 +22,7 @@ app-arch/zip:0
 app-cdr/brasero:0
 app-cdr/cdrkit:0
 app-crypt/gnupg:0
+app-crypt/mit-krb5:0
 app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/padre:0
@@ -1696,6 +1698,7 @@ net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-firewall/iptables:0
 net-fs/nfs-utils:0
+net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
@@ -1747,6 +1750,7 @@ net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/tightvnc:0
+net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
 net-p2p/ktorrent:4
@@ -1836,6 +1840,7 @@ sci-mathematics/pari:0
 sci-visualization/spectromatic:0
 sys-apps/accountsservice:0
 sys-apps/biosdevname:0
+sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/ed:0
 sys-apps/ethtool:0
@@ -1886,7 +1891,6 @@ sys-devel/automake:1.7
 sys-devel/automake:1.8
 sys-devel/automake:1.9
 sys-devel/binutils-config:0
-sys-devel/binutils:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
@@ -1904,6 +1908,7 @@ sys-fs/jfsutils:0
 sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/multipath-tools:0
+sys-fs/nilfs-utils:0
 sys-fs/ntfs3g:0
 sys-fs/shake:0
 sys-fs/squashfs-tools:0

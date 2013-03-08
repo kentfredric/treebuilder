@@ -1860,6 +1860,7 @@ sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/openrc:0
 sys-apps/paludis:0
+sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/portage:0
@@ -1891,7 +1892,6 @@ sys-devel/automake:1.7
 sys-devel/automake:1.8
 sys-devel/automake:1.9
 sys-devel/binutils-config:0
-sys-devel/binutils:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
@@ -1901,6 +1901,7 @@ sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0
 sys-devel/m4:0
+sys-devel/prelink:0
 sys-firmware/rt61-firmware:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -1929,6 +1930,7 @@ sys-libs/db:4.4
 sys-libs/db:4.5
 sys-libs/db:4.6
 sys-libs/db:4.7
+sys-libs/db:4.8
 sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
