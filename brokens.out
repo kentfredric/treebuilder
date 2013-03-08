@@ -1300,7 +1300,6 @@ dev-util/boost-build:1.46
 dev-util/boost-build:1.47
 dev-util/boost-build:1.48
 dev-util/catalyst:0
-dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/ctags:0
 dev-util/d-feet:0
@@ -1999,7 +1998,6 @@ sci-visualization/spectromatic:0
 sys-apps/accountsservice:0
 sys-apps/biosdevname:0
 sys-apps/coreutils:0
-sys-apps/dbus:0
 sys-apps/ed:0
 sys-apps/ethtool:0
 sys-apps/flashrom:0

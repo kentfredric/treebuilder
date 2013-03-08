@@ -55,11 +55,13 @@ app-i18n/scim:0
 app-laptop/laptop-mode-tools:0
 app-laptop/tp_smapi:0
 app-misc/ca-certificates:0
+app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
 app-misc/tmux:0
 app-misc/vifm:0
+app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
@@ -1185,6 +1187,7 @@ dev-python/pytz:0
 dev-python/pyxattr:0
 dev-python/pyxml:0
 dev-python/urwid:0
+dev-qt/qtdbus:4
 dev-ruby/PlugMan:0
 dev-ruby/RubyInline:0
 dev-ruby/abstract:0
@@ -1300,7 +1303,6 @@ dev-util/boost-build:1.46
 dev-util/boost-build:1.47
 dev-util/boost-build:1.48
 dev-util/catalyst:0
-dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/ctags:0
 dev-util/d-feet:0
@@ -1908,6 +1910,7 @@ net-wireless/rt2860-firmware:0
 net-wireless/rt2870-firmware:0
 net-wireless/rt73-firmware:0
 net-wireless/wireless-tools:0
+net-wireless/wpa_supplicant:0
 perl-core/Archive-Extract:0
 perl-core/Archive-Tar:0
 perl-core/B-Debug:0
@@ -1999,7 +2002,6 @@ sci-visualization/spectromatic:0
 sys-apps/accountsservice:0
 sys-apps/biosdevname:0
 sys-apps/coreutils:0
-sys-apps/dbus:0
 sys-apps/ed:0
 sys-apps/ethtool:0
 sys-apps/flashrom:0
