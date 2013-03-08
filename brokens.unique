@@ -1,9 +1,24 @@
 app-accessibility/at-spi2-core:2
 app-accessibility/caribou:0
-app-admin/eselect-mesa:0
-app-admin/eselect-opencl:0
-app-admin/eselect-opengl:0
-app-admin/eselect:0
+app-admin/eselect-blas:0
+app-admin/eselect-boost:0
+app-admin/eselect-cblas:0
+app-admin/eselect-ecj:0
+app-admin/eselect-esd:0
+app-admin/eselect-fontconfig:0
+app-admin/eselect-lapack:0
+app-admin/eselect-oodict:0
+app-admin/eselect-package-manager:0
+app-admin/eselect-php:0
+app-admin/eselect-postgresql:0
+app-admin/eselect-python:0
+app-admin/eselect-qtgraphicssystem:0
+app-admin/eselect-rails:0
+app-admin/eselect-ruby:0
+app-admin/eselect-timidity:0
+app-admin/eselect-vi:0
+app-admin/eselect-wxwidgets:0
+app-admin/eselect-xvmc:0
 app-admin/haskell-updater:0
 app-admin/metalog:0
 app-admin/perl-cleaner:0
@@ -23,6 +38,8 @@ app-cdr/brasero:0
 app-cdr/cdrkit:0
 app-crypt/gnupg:0
 app-crypt/mit-krb5:0
+app-crypt/pinentry:0
+app-crypt/shash:0
 app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/padre:0
@@ -33,7 +50,6 @@ app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gtklibs:0
 app-emulation/emul-linux-x86-medialibs:0
-app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
@@ -42,6 +58,7 @@ app-emulation/virtualbox-modules:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/scim:0
+app-laptop/laptop-mode-tools:0
 app-laptop/tp_smapi:0
 app-misc/ca-certificates:0
 app-misc/note:0
@@ -56,12 +73,10 @@ app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
-app-portage/genlop:0
 app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
 app-portage/perl-info:0
 app-portage/portage-utils:0
-app-shells/bash-completion:0
 app-shells/zsh:0
 app-text/asciidoc:0
 app-text/bibletime:0
@@ -1105,7 +1120,6 @@ dev-ruby/rack-protection:1
 dev-ruby/rack-ssl:1.3
 dev-ruby/rack-test:0.5
 dev-ruby/rack-test:0.6
-dev-ruby/rake:0
 dev-ruby/rb-inotify:0
 dev-ruby/rdiscount:0
 dev-ruby/require_relative:0
@@ -1167,6 +1181,7 @@ dev-util/boost-build:1.48
 dev-util/catalyst:0
 dev-util/cmake:0
 dev-util/cmockery:0
+dev-util/ctags:0
 dev-util/d-feet:0
 dev-util/dialog:0
 dev-util/gdbus-codegen:0
@@ -1183,7 +1198,6 @@ dev-util/ltrace:0
 dev-util/nvidia-cuda-toolkit:0
 dev-util/reswrap:0
 dev-util/scons:0
-dev-util/source-highlight:0
 dev-util/strace:0
 dev-util/valgrind:0
 dev-util/xdelta:3
@@ -1573,7 +1587,6 @@ media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
-media-libs/mesa:0
 media-libs/musicbrainz:3
 media-libs/musicbrainz:4
 media-libs/musicbrainz:5
@@ -1642,7 +1655,6 @@ media-sound/alsa-firmware:0
 media-sound/amarok:4
 media-sound/audacity:0
 media-sound/baudline:0
-media-sound/boodler:0
 media-sound/cdparanoia:0
 media-sound/clementine:0
 media-sound/fluidsynth:0
@@ -1857,11 +1869,9 @@ sys-apps/man:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/openrc:0
-sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/shadow:0
@@ -1891,6 +1901,9 @@ sys-devel/automake:1.8
 sys-devel/automake:1.9
 sys-devel/binutils-config:0
 sys-devel/gcc:4.4
+sys-devel/gcc:4.5
+sys-devel/gcc:4.6
+sys-devel/gcc:4.7
 sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
@@ -1935,6 +1948,7 @@ sys-libs/libraw1394:0
 sys-libs/mtdev:0
 sys-libs/slang:0
 sys-libs/talloc:0
+sys-power/acpi-support:0
 sys-power/cpufreqd:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
@@ -1964,7 +1978,6 @@ www-servers/apache:2
 www-servers/lighttpd:0
 www-servers/nginx:0
 x11-apps/mkfontscale:0
-x11-base/xorg-server:0
 x11-base/xorg-x11:0
 x11-drivers/xf86-input-wacom:0
 x11-libs/fox:1.7
@@ -2002,6 +2015,7 @@ x11-misc/xdg-user-dirs-gtk:0
 x11-misc/xkbd:0
 x11-misc/xkeyboard-config:0
 x11-misc/xscreensaver:0
+x11-proto/glproto:0
 x11-terms/gnome-terminal:0
 x11-terms/xterm:0
 x11-themes/gnome-icon-theme-symbolic:0
