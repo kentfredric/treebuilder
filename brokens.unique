@@ -1170,10 +1170,8 @@ dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/paramiko:0
 dev-python/pexpect:0
-dev-python/py:0
 dev-python/pyalsa:0
 dev-python/pyatspi:0
-dev-python/pycairo:0
 dev-python/pycrypto:0
 dev-python/pycups:0
 dev-python/pycurl:0
@@ -1182,7 +1180,6 @@ dev-python/pygobject:2
 dev-python/pygobject:3
 dev-python/pygtk:2
 dev-python/pyopenssl:0
-dev-python/pytest:0
 dev-python/pytz:0
 dev-python/pyxattr:0
 dev-python/pyxml:0
