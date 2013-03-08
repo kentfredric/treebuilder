@@ -1,1 +1,1 @@
-+2013, 03 March, 08 Friday, 17:07:03.320024276 333168:11601 349801:1099 ** ~success  install : app-admin/eselect-pinentry-0.4:0::gentoo
++2013, 03 March, 08 Friday, 20:07:11.133247442 395378:283417 ** ~success true task : 
