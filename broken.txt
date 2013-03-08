@@ -197,7 +197,6 @@ dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/libxml2:2
 dev-libs/libzip:0
-dev-libs/mpc:0
 dev-libs/nettle:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
@@ -1977,7 +1976,6 @@ x11-drivers/xf86-input-wacom:0
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0

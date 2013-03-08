@@ -197,7 +197,6 @@ dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/libxml2:2
 dev-libs/libzip:0
-dev-libs/mpc:0
 dev-libs/nettle:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
@@ -1860,6 +1859,7 @@ sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/openrc:0
 sys-apps/paludis:0
+sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/portage:0
@@ -1900,6 +1900,7 @@ sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0
 sys-devel/m4:0
+sys-devel/prelink:0
 sys-firmware/rt61-firmware:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -1928,6 +1929,7 @@ sys-libs/db:4.4
 sys-libs/db:4.5
 sys-libs/db:4.6
 sys-libs/db:4.7
+sys-libs/db:4.8
 sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
@@ -1974,7 +1976,6 @@ x11-drivers/xf86-input-wacom:0
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0

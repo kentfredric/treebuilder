@@ -42,7 +42,6 @@ app-emulation/virtualbox-modules:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/scim:0
-app-laptop/laptop-mode-tools:0
 app-laptop/tp_smapi:0
 app-misc/ca-certificates:0
 app-misc/note:0
@@ -134,6 +133,7 @@ dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
 dev-java/swt:3.5
 dev-java/swt:3.7
+dev-lang/ghc:0
 dev-lang/nasm:0
 dev-lang/nqp:0
 dev-lang/ocaml:0
@@ -194,8 +194,8 @@ dev-libs/libpcre:3
 dev-libs/libsigc++:2
 dev-libs/libunique:1
 dev-libs/libunique:3
+dev-libs/libxml2:2
 dev-libs/libzip:0
-dev-libs/mpc:0
 dev-libs/nettle:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
@@ -1180,6 +1180,7 @@ dev-util/itstool:0
 dev-util/kbuild:0
 dev-util/lafilefixer:0
 dev-util/ltrace:0
+dev-util/nvidia-cuda-toolkit:0
 dev-util/reswrap:0
 dev-util/scons:0
 dev-util/source-highlight:0
@@ -1889,8 +1890,11 @@ sys-devel/automake:1.7
 sys-devel/automake:1.8
 sys-devel/automake:1.9
 sys-devel/binutils-config:0
+sys-devel/gcc:4.4
 sys-devel/gdb:0
 sys-devel/gettext:0
+sys-devel/libtool:2
+sys-devel/llvm:0
 sys-devel/m4:0
 sys-devel/prelink:0
 sys-firmware/rt61-firmware:0
@@ -1898,6 +1902,7 @@ sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dmraid:0
 sys-fs/jfsutils:0
+sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/multipath-tools:0
 sys-fs/nilfs-utils:0
@@ -1912,9 +1917,16 @@ sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs:0
 sys-kernel/dracut:0
+sys-kernel/gentoo-sources:3.5.0
+sys-kernel/gentoo-sources:3.8.1
 sys-kernel/linux-headers:0
 sys-kernel/spl:0
+sys-libs/db:4.4
+sys-libs/db:4.5
+sys-libs/db:4.6
+sys-libs/db:4.7
 sys-libs/db:4.8
+sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
 sys-libs/libcap-ng:0
@@ -1923,7 +1935,6 @@ sys-libs/libraw1394:0
 sys-libs/mtdev:0
 sys-libs/slang:0
 sys-libs/talloc:0
-sys-power/acpi-support:0
 sys-power/cpufreqd:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
@@ -1941,9 +1952,11 @@ virtual/opencl:0
 virtual/opengl:0
 virtual/texi2dvi:0
 www-client/dillo:0
+www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
 www-client/midori:0
+www-client/seamonkey:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
 www-plugins/nspluginwrapper:0
@@ -1953,12 +1966,10 @@ www-servers/nginx:0
 x11-apps/mkfontscale:0
 x11-base/xorg-server:0
 x11-base/xorg-x11:0
-x11-drivers/ati-drivers:1
 x11-drivers/xf86-input-wacom:0
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gnome-pty-helper:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtkglext:0
