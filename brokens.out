@@ -1169,7 +1169,6 @@ dev-python/dbus-python:0
 dev-python/docutils:0
 dev-python/jaxml:0
 dev-python/lxml:0
-dev-python/nose:0
 dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/paramiko:0
@@ -1189,8 +1188,6 @@ dev-python/pytest:0
 dev-python/pytz:0
 dev-python/pyxattr:0
 dev-python/pyxml:0
-dev-python/setuptools:0
-dev-python/twisted:0
 dev-python/urwid:0
 dev-ruby/PlugMan:0
 dev-ruby/RubyInline:0
@@ -1916,8 +1913,6 @@ net-wireless/rt2860-firmware:0
 net-wireless/rt2870-firmware:0
 net-wireless/rt73-firmware:0
 net-wireless/wireless-tools:0
-net-zope/zope-fixers:0
-net-zope/zope-interface:0
 perl-core/Archive-Extract:0
 perl-core/Archive-Tar:0
 perl-core/B-Debug:0

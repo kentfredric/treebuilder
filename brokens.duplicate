@@ -1,1 +1,14 @@
-app-text/asciidoc:0
+dev-python/Babel:0
+dev-python/argparse:0
+dev-python/docutils:0
+dev-python/jaxml:0
+dev-python/lxml:0
+dev-python/numpy:0
+dev-python/paramiko:0
+dev-python/py:0
+dev-python/pygments:0
+dev-python/pytest:0
+dev-python/pytz:0
+dev-python/pyxattr:0
+dev-python/urwid:0
+media-libs/vigra:0
