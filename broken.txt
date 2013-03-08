@@ -1163,12 +1163,9 @@ dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/Babel:0
 dev-python/argparse:0
-dev-python/beautifulsoup:python-2
-dev-python/beautifulsoup:python-3
 dev-python/dbus-python:0
 dev-python/docutils:0
 dev-python/jaxml:0
-dev-python/lxml:0
 dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/paramiko:0

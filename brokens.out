@@ -1163,17 +1163,15 @@ dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/Babel:0
 dev-python/argparse:0
-dev-python/beautifulsoup:python-2
-dev-python/beautifulsoup:python-3
 dev-python/dbus-python:0
 dev-python/docutils:0
 dev-python/jaxml:0
-dev-python/lxml:0
 dev-python/notify-python:0
 dev-python/numpy:0
 dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/py:0
+dev-python/pyalsa:0
 dev-python/pyatspi:0
 dev-python/pycairo:0
 dev-python/pycrypto:0
@@ -2094,6 +2092,7 @@ sys-kernel/gentoo-sources:3.5.0
 sys-kernel/gentoo-sources:3.8.1
 sys-kernel/linux-headers:0
 sys-kernel/spl:0
+sys-libs/cracklib:0
 sys-libs/db:4.4
 sys-libs/db:4.5
 sys-libs/db:4.6
