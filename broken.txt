@@ -1,7 +1,6 @@
 app-accessibility/at-spi2-core:2
 app-accessibility/caribou:0
 app-admin/eselect-blas:0
-app-admin/eselect-boost:0
 app-admin/eselect-cblas:0
 app-admin/eselect-ecj:0
 app-admin/eselect-esd:0
@@ -187,10 +186,6 @@ dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/apr:1
 dev-libs/atk:0
-dev-libs/boost:1.42
-dev-libs/boost:1.46
-dev-libs/boost:1.47
-dev-libs/boost:1.48
 dev-libs/check:0
 dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
@@ -1671,7 +1666,6 @@ media-libs/glew:0
 media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-bad:1.0
 media-libs/gst-plugins-base:1.0
-media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:1.0
 media-libs/imlib2:0
@@ -1773,6 +1767,7 @@ media-plugins/gst-plugins-libmms:0.10
 media-plugins/gst-plugins-libmms:1.0
 media-plugins/gst-plugins-mad:0.10
 media-plugins/gst-plugins-mad:1.0
+media-plugins/gst-plugins-meta:0.10
 media-plugins/gst-plugins-meta:1.0
 media-plugins/gst-plugins-mpeg2dec:0.10
 media-plugins/gst-plugins-mpeg2dec:1.0
@@ -2188,7 +2183,6 @@ www-servers/nginx:0
 x11-apps/mkfontscale:0
 x11-base/xorg-server:0
 x11-base/xorg-x11:0
-x11-drivers/ati-drivers:1
 x11-drivers/xf86-input-wacom:0
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
