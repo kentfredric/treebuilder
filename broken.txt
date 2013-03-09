@@ -1188,6 +1188,7 @@ dev-python/pyxattr:0
 dev-python/pyxml:0
 dev-python/urwid:0
 dev-qt/qtdbus:4
+dev-qt/qtwebkit:4
 dev-ruby/PlugMan:0
 dev-ruby/RubyInline:0
 dev-ruby/abstract:0
@@ -1671,6 +1672,7 @@ media-libs/gst-plugins-bad:0
 media-libs/gst-plugins-base:0.10
 media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-ugly:0.10
+media-libs/gstreamer:0.10
 media-libs/imlib2:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
@@ -1752,6 +1754,7 @@ media-plugins/gst-plugins-dv:0.10
 media-plugins/gst-plugins-dvdread:0.10
 media-plugins/gst-plugins-faac:0.10
 media-plugins/gst-plugins-faad:0.10
+media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-flac:0.10
 media-plugins/gst-plugins-gconf:0.10
 media-plugins/gst-plugins-gio:0.10
@@ -1845,6 +1848,7 @@ net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
 net-im/psi:0
+net-im/psimedia:0
 net-im/qwit:0
 net-im/skype:0
 net-im/telepathy-logger:0

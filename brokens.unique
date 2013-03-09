@@ -39,7 +39,6 @@ app-arch/sharutils:0
 app-arch/unzip:0
 app-arch/zip:0
 app-benchmarks/cpuburn:0
-app-cdr/brasero:0
 app-cdr/cdrkit:0
 app-crypt/gnupg:0
 app-crypt/mhash:0
@@ -50,7 +49,6 @@ app-editors/padre:0
 app-editors/scite:0
 app-emulation/virtualbox-modules:0
 app-emulation/virtualbox:0
-app-emulation/wine:0
 app-i18n/scim:0
 app-laptop/laptop-mode-tools:0
 app-laptop/tp_smapi:0
@@ -64,7 +62,6 @@ app-misc/vifm:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-office/dia:0
-app-pda/gtkpod:0
 app-pda/libimobiledevice:0
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -156,7 +153,6 @@ dev-games/ggz-client-libs:0
 dev-games/physfs:0
 dev-java/bcprov:0
 dev-java/eclipse-ecj:3.7
-dev-java/gnu-classpath:0.98
 dev-java/icedtea-bin:7
 dev-java/java-config-wrapper:0
 dev-java/java-config:2
@@ -674,6 +670,7 @@ dev-perl/HTTP-Parser-XS:0
 dev-perl/HTTP-Response-Encoding:0
 dev-perl/HTTP-Server-Simple-PSGI:0
 dev-perl/HTTP-Server-Simple:0
+dev-perl/Handel:0
 dev-perl/Hash-FieldHash:0
 dev-perl/Hash-Merge-Simple:0
 dev-perl/Hash-MoreUtils:0
@@ -1187,6 +1184,7 @@ dev-python/pyxattr:0
 dev-python/pyxml:0
 dev-python/urwid:0
 dev-qt/qtdbus:4
+dev-qt/qtwebkit:4
 dev-ruby/PlugMan:0
 dev-ruby/RubyInline:0
 dev-ruby/abstract:0
@@ -1337,8 +1335,6 @@ gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gdm:0
 gnome-base/gnome-common:3
-gnome-base/gnome-control-center:2
-gnome-base/gnome-core-libs:3.0
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3
 gnome-base/gnome-keyring:0
@@ -1349,7 +1345,6 @@ gnome-base/gnome-mime-data:0
 gnome-base/gnome-panel:0
 gnome-base/gnome-session:0
 gnome-base/gnome-settings-daemon:0
-gnome-base/gnome-shell:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
 gnome-base/gvfs:0
@@ -1372,7 +1367,6 @@ gnome-extra/libgsf:0
 gnome-extra/nautilus-sendto:0
 gnome-extra/nm-applet:0
 gnome-extra/polkit-gnome:0
-gnome-extra/sushi:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
@@ -1653,7 +1647,6 @@ media-libs/audiofile:0
 media-libs/babl:0
 media-libs/bio2jack:0
 media-libs/chromaprint:0
-media-libs/clutter-gst:1.0
 media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
 media-libs/cogl:1.0
@@ -1666,10 +1659,7 @@ media-libs/freetype:2
 media-libs/ftgl:0
 media-libs/gegl:0
 media-libs/glew:0
-media-libs/gst-plugins-bad:0
-media-libs/gst-plugins-base:0.10
-media-libs/gst-plugins-good:0.10
-media-libs/gst-plugins-ugly:0.10
+media-libs/gstreamer:0.10
 media-libs/imlib2:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
@@ -1677,7 +1667,6 @@ media-libs/libaacplus:0
 media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
-media-libs/libcanberra:0
 media-libs/libcuefile:0
 media-libs/libdc1394:2
 media-libs/libdvdnav:0
@@ -1719,9 +1708,7 @@ media-libs/musicbrainz:4
 media-libs/musicbrainz:5
 media-libs/netpbm:0
 media-libs/openal:0
-media-libs/opencv:0
 media-libs/openjpeg:0
-media-libs/phonon-gstreamer:0
 media-libs/phonon:0
 media-libs/plotutils:0
 media-libs/prison:4
@@ -1744,40 +1731,7 @@ media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
-media-plugins/gst-plugins-a52dec:0.10
-media-plugins/gst-plugins-alsa:0.10
-media-plugins/gst-plugins-dts:0.10
-media-plugins/gst-plugins-dv:0.10
-media-plugins/gst-plugins-dvdread:0.10
-media-plugins/gst-plugins-faac:0.10
-media-plugins/gst-plugins-faad:0.10
-media-plugins/gst-plugins-flac:0.10
-media-plugins/gst-plugins-gconf:0.10
-media-plugins/gst-plugins-gio:0.10
-media-plugins/gst-plugins-jack:0.10
-media-plugins/gst-plugins-jpeg:0.10
-media-plugins/gst-plugins-lame:0.10
-media-plugins/gst-plugins-libmms:0.10
-media-plugins/gst-plugins-mad:0.10
-media-plugins/gst-plugins-meta:0.10
-media-plugins/gst-plugins-mpeg2dec:0.10
-media-plugins/gst-plugins-mplex:0.10
-media-plugins/gst-plugins-musepack:0.10
-media-plugins/gst-plugins-neon:0.10
-media-plugins/gst-plugins-ofa:0.10
-media-plugins/gst-plugins-ogg:0.10
-media-plugins/gst-plugins-pango:0.10
-media-plugins/gst-plugins-resindvd:0.10
-media-plugins/gst-plugins-soup:0.10
-media-plugins/gst-plugins-speex:0.10
-media-plugins/gst-plugins-taglib:0.10
-media-plugins/gst-plugins-theora:0.10
-media-plugins/gst-plugins-v4l2:0.10
-media-plugins/gst-plugins-vorbis:0.10
-media-plugins/gst-plugins-vp8:0.10
-media-plugins/gst-plugins-wavpack:0.10
-media-plugins/gst-plugins-x:0.10
-media-plugins/gst-plugins-xvideo:0.10
+media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/mediastreamer-x264:0
 media-sound/alsa-firmware:0
 media-sound/amarok:4
@@ -1785,14 +1739,12 @@ media-sound/audacity:0
 media-sound/baudline:0
 media-sound/boodler:0
 media-sound/cdparanoia:0
-media-sound/clementine:0
 media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
 media-sound/lash:0
 media-sound/mac:0
-media-sound/moodbar:0
 media-sound/mpd:0
 media-sound/mpg123:0
 media-sound/musepack-tools:0
@@ -1804,7 +1756,6 @@ media-sound/sox:0
 media-sound/tuxguitar:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
-media-video/cheese:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
@@ -1844,6 +1795,7 @@ net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
 net-im/psi:0
+net-im/psimedia:0
 net-im/qwit:0
 net-im/skype:0
 net-im/telepathy-logger:0
@@ -1877,8 +1829,6 @@ net-libs/openslp:0
 net-libs/ortp:0
 net-libs/rest:0.7
 net-libs/telepathy-glib:0
-net-libs/webkit-gtk:2
-net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/curl:0
 net-misc/dhcp:0
@@ -1901,7 +1851,6 @@ net-p2p/rtorrent:0
 net-print/cups:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
-net-wireless/bluez:0
 net-wireless/broadcom-sta:0
 net-wireless/gnome-bluetooth:2
 net-wireless/iw:0
@@ -1913,6 +1862,7 @@ net-wireless/wpa_supplicant:0
 perl-core/Archive-Extract:0
 perl-core/Archive-Tar:0
 perl-core/B-Debug:0
+perl-core/B-Lint:0
 perl-core/CPAN-Meta-Requirements:0
 perl-core/CPAN-Meta:0
 perl-core/CPAN:0
@@ -1921,6 +1871,7 @@ perl-core/CPANPLUS:0
 perl-core/Compress-Raw-Bzip2:0
 perl-core/Devel-DProf:0
 perl-core/Devel-PPPort:0
+perl-core/Devel-SelfStubber:0
 perl-core/Dumpvalue:0
 perl-core/Encode:0
 perl-core/Env:0
@@ -2194,8 +2145,6 @@ x11-libs/mx:1.0
 x11-libs/pango:0
 x11-libs/vte:0
 x11-libs/vte:2.90
-x11-libs/wxGTK:2.8
-x11-libs/wxGTK:2.9
 x11-misc/colord:0
 x11-misc/icon-naming-utils:0
 x11-misc/notification-daemon:0
