@@ -76,6 +76,7 @@ app-mobilephone/smssend:0
 app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
+app-pda/libimobiledevice:0
 app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
@@ -131,6 +132,7 @@ app-text/po4a:0
 app-text/poppler:0
 app-text/rarian:0
 app-text/recode:0
+app-text/sword:0
 app-text/teckit:0
 app-text/texlive-core:0
 app-text/wgetpaste:0
@@ -177,6 +179,7 @@ dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-db/xbase:0
 dev-games/ggz-client-libs:0
+dev-games/libggz:0
 dev-games/physfs:0
 dev-java/bcprov:0
 dev-java/eclipse-ecj:3.7
@@ -1148,6 +1151,7 @@ dev-perl/User:0
 dev-perl/VCI:0
 dev-perl/Variable-Magic:0
 dev-perl/Version-Next:0
+dev-perl/WWW-Curl:0
 dev-perl/WWW-Mechanize-Cached:0
 dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/WWW-Mechanize:0
@@ -1340,6 +1344,7 @@ dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/catalyst:0
+dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/ctags:0
 dev-util/d-feet:0
@@ -1676,6 +1681,7 @@ media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
+media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp:2
@@ -1824,6 +1830,7 @@ media-plugins/gst-plugins-mad:1.0
 media-plugins/gst-plugins-meta:1.0
 media-plugins/gst-plugins-mpeg2dec:1.0
 media-plugins/gst-plugins-mplex:1.0
+media-plugins/gst-plugins-neon:0.10
 media-plugins/gst-plugins-resindvd:1.0
 media-plugins/gst-plugins-soup:1.0
 media-plugins/gst-plugins-taglib:1.0
@@ -1855,6 +1862,7 @@ media-sound/pavucontrol:0
 media-sound/projectm-jack:0
 media-sound/pulseaudio:0
 media-sound/qmpdclient:0
+media-sound/scmpc:0
 media-sound/sox:0
 media-sound/timidity++:0
 media-sound/tuxguitar:0
@@ -1909,7 +1917,6 @@ net-im/telepathy-mission-control:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnome-online-accounts:0
-net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libgadu:0
 net-libs/libktorrent:4
@@ -1928,8 +1935,8 @@ net-libs/libsoup:2.4
 net-libs/libssh:0
 net-libs/libtirpc:0
 net-libs/libtorrent:0
+net-libs/libvncserver:0
 net-libs/loudmouth:0
-net-libs/neon:0
 net-libs/nodejs:0
 net-libs/openslp:0
 net-libs/ortp:0
@@ -1938,12 +1945,11 @@ net-libs/telepathy-glib:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-misc/aria2:0
-net-misc/curl:0
 net-misc/dhcp:0
+net-misc/iputils:0
 net-misc/memcached:0
 net-misc/mobile-broadband-provider-info:0
 net-misc/modemmanager:0
-net-misc/networkmanager:0
 net-misc/nxclient:0
 net-misc/nxnode:0
 net-misc/nxserver-freeedition:0
@@ -1954,6 +1960,7 @@ net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
+net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
@@ -1968,7 +1975,6 @@ net-wireless/rt2860-firmware:0
 net-wireless/rt2870-firmware:0
 net-wireless/rt73-firmware:0
 net-wireless/wireless-tools:0
-net-wireless/wpa_supplicant:0
 perl-core/Archive-Extract:0
 perl-core/Archive-Tar:0
 perl-core/B-Debug:0
