@@ -64,7 +64,6 @@ app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
-app-pda/libimobiledevice:0
 app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
@@ -105,6 +104,7 @@ app-text/gnome-doc-utils:0
 app-text/gtkspell:2
 app-text/gtkspell:3
 app-text/libwpd:0.9
+app-text/libwps:0
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
@@ -222,7 +222,6 @@ dev-libs/libunique:1
 dev-libs/libunique:3
 dev-libs/libxml2:2
 dev-libs/libzip:0
-dev-libs/nettle:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
 dev-libs/ossp-uuid:0
@@ -1630,6 +1629,7 @@ media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0
+media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/optipng:0
@@ -1657,8 +1657,11 @@ media-libs/ftgl:0
 media-libs/gegl:0
 media-libs/glew:0
 media-libs/gst-plugins-bad:1.0
+media-libs/gst-plugins-base:0.10
 media-libs/gst-plugins-base:1.0
+media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-good:1.0
+media-libs/gst-plugins-ugly:0.10
 media-libs/gst-plugins-ugly:1.0
 media-libs/imlib2:0
 media-libs/ladspa-cmt:0
