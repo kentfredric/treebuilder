@@ -76,6 +76,7 @@ app-mobilephone/smssend:0
 app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
+app-pda/libimobiledevice:0
 app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
@@ -131,6 +132,7 @@ app-text/po4a:0
 app-text/poppler:0
 app-text/rarian:0
 app-text/recode:0
+app-text/sword:0
 app-text/teckit:0
 app-text/texlive-core:0
 app-text/wgetpaste:0
@@ -177,6 +179,7 @@ dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-db/xbase:0
 dev-games/ggz-client-libs:0
+dev-games/libggz:0
 dev-games/physfs:0
 dev-java/bcprov:0
 dev-java/eclipse-ecj:3.7
@@ -1148,6 +1151,7 @@ dev-perl/User:0
 dev-perl/VCI:0
 dev-perl/Variable-Magic:0
 dev-perl/Version-Next:0
+dev-perl/WWW-Curl:0
 dev-perl/WWW-Mechanize-Cached:0
 dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/WWW-Mechanize:0
@@ -1340,6 +1344,7 @@ dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/catalyst:0
+dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/ctags:0
 dev-util/d-feet:0
@@ -1365,7 +1370,6 @@ dev-util/strace:0
 dev-util/valgrind:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
-dev-vcs/cvsps:0
 dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/subversion:0
@@ -1446,7 +1450,6 @@ kde-base/kcmshell:4
 kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
-kde-base/kde-env:4
 kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
@@ -1587,7 +1590,6 @@ kde-base/nepomuk:4
 kde-base/nsplugins:4
 kde-base/okteta:4
 kde-base/okular:4
-kde-base/oxygen-icons:4
 kde-base/phonon-kde:4
 kde-base/plasma-apps:4
 kde-base/plasma-runtime:4
@@ -1676,6 +1678,7 @@ media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
+media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp:2
@@ -1748,7 +1751,6 @@ media-libs/libggi:0
 media-libs/libgii:0
 media-libs/libgphoto2:0
 media-libs/libgpod:0
-media-libs/libjpeg-turbo:0
 media-libs/libmad:0
 media-libs/libmikmod:0
 media-libs/libmms:0
@@ -1760,8 +1762,6 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
-media-libs/libpng:0
-media-libs/libpng:1.2
 media-libs/libprojectm-qt:0
 media-libs/libprojectm:0
 media-libs/libquicktime:0
@@ -1824,6 +1824,7 @@ media-plugins/gst-plugins-mad:1.0
 media-plugins/gst-plugins-meta:1.0
 media-plugins/gst-plugins-mpeg2dec:1.0
 media-plugins/gst-plugins-mplex:1.0
+media-plugins/gst-plugins-neon:0.10
 media-plugins/gst-plugins-resindvd:1.0
 media-plugins/gst-plugins-soup:1.0
 media-plugins/gst-plugins-taglib:1.0
@@ -1855,6 +1856,7 @@ media-sound/pavucontrol:0
 media-sound/projectm-jack:0
 media-sound/pulseaudio:0
 media-sound/qmpdclient:0
+media-sound/scmpc:0
 media-sound/sox:0
 media-sound/timidity++:0
 media-sound/tuxguitar:0
@@ -1927,6 +1929,7 @@ net-libs/libsoup:2.4
 net-libs/libssh:0
 net-libs/libtirpc:0
 net-libs/libtorrent:0
+net-libs/libvncserver:0
 net-libs/loudmouth:0
 net-libs/nodejs:0
 net-libs/openslp:0
@@ -1937,6 +1940,7 @@ net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/dhcp:0
+net-misc/iputils:0
 net-misc/memcached:0
 net-misc/mobile-broadband-provider-info:0
 net-misc/modemmanager:0
@@ -1947,9 +1951,9 @@ net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/tightvnc:0
-net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
+net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0

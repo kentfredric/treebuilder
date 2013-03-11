@@ -113,6 +113,7 @@ app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/docbook2X:0
 app-text/dvipdfmx:0
+app-text/dvipng:0
 app-text/ebook-tools:0
 app-text/enchant:0
 app-text/evince:0
@@ -136,6 +137,7 @@ app-text/sword:0
 app-text/teckit:0
 app-text/texlive-core:0
 app-text/wgetpaste:0
+app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-vim/closetag:0
 app-vim/colorschemes:0
@@ -673,6 +675,7 @@ dev-perl/Find-Lib:0
 dev-perl/FindBin-libs:0
 dev-perl/FormValidator-Simple:0
 dev-perl/GD-SVG:0
+dev-perl/GD:0
 dev-perl/GSSAPI:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
@@ -1201,6 +1204,7 @@ dev-perl/log-dispatch:0
 dev-perl/namespace-autoclean:0
 dev-perl/namespace-clean:0
 dev-perl/perl-ldap:0
+dev-perl/perl-tk:0
 dev-perl/perl5i:0
 dev-perl/pip:0
 dev-perl/prefork:0
@@ -1235,6 +1239,7 @@ dev-python/pyxattr:0
 dev-python/pyxml:0
 dev-python/urwid:0
 dev-qt/qtdbus:4
+dev-qt/qtgui:4
 dev-qt/qtwebkit:4
 dev-ruby/PlugMan:0
 dev-ruby/RubyInline:0
@@ -1330,6 +1335,7 @@ dev-ruby/yajl-ruby:0
 dev-ruby/zentest:0
 dev-scheme/guile:12
 dev-tcltk/expect:0
+dev-tex/luatex:0
 dev-texlive/texlive-basic:0
 dev-texlive/texlive-documentation-base:0
 dev-texlive/texlive-fontsextra:0
@@ -1370,7 +1376,6 @@ dev-util/strace:0
 dev-util/valgrind:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
-dev-vcs/cvsps:0
 dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/subversion:0
@@ -1451,7 +1456,6 @@ kde-base/kcmshell:4
 kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
-kde-base/kde-env:4
 kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
@@ -1592,7 +1596,6 @@ kde-base/nepomuk:4
 kde-base/nsplugins:4
 kde-base/okteta:4
 kde-base/okular:4
-kde-base/oxygen-icons:4
 kde-base/phonon-kde:4
 kde-base/plasma-apps:4
 kde-base/plasma-runtime:4
@@ -1754,7 +1757,6 @@ media-libs/libggi:0
 media-libs/libgii:0
 media-libs/libgphoto2:0
 media-libs/libgpod:0
-media-libs/libjpeg-turbo:0
 media-libs/libmad:0
 media-libs/libmikmod:0
 media-libs/libmms:0
@@ -1766,8 +1768,6 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
-media-libs/libpng:0
-media-libs/libpng:1.2
 media-libs/libprojectm-qt:0
 media-libs/libprojectm:0
 media-libs/libquicktime:0
@@ -1957,7 +1957,6 @@ net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/tightvnc:0
-net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
 net-nds/openldap:0
@@ -2082,6 +2081,7 @@ sys-apps/lm_sensors:0
 sys-apps/lomoco:0
 sys-apps/makedev:0
 sys-apps/man-pages-posix:0
+sys-apps/man-pages:0
 sys-apps/man:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
@@ -2193,6 +2193,7 @@ virtual/dev-manager:0
 virtual/editor:0
 virtual/eject:0
 virtual/freedesktop-icon-theme:0
+virtual/jpeg:0
 virtual/krb5:0
 virtual/mysql:0
 virtual/notification-daemon:0
@@ -2437,7 +2438,9 @@ x11-themes/gtk-engines-xfce:0
 x11-themes/gtk-engines-xfce:3
 x11-themes/gtk-engines:2
 x11-themes/hicolor-icon-theme:0
+x11-themes/oxygen-molecule:4
 x11-themes/sound-theme-freedesktop:0
+x11-themes/xcursor-neutral:0
 x11-themes/xcursor-themes:0
 x11-wm/awesome:0
 x11-wm/metacity:0
