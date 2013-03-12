@@ -49,7 +49,6 @@ app-cdr/brasero:0
 app-cdr/cdrkit:0
 app-crypt/gpgme:1
 app-crypt/mhash:0
-app-crypt/mit-krb5:0
 app-crypt/qca-gnupg:2
 app-crypt/shash:0
 app-crypt/stan:0
@@ -68,7 +67,6 @@ app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
-app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
@@ -92,14 +90,12 @@ app-portage/gentoolkit:0
 app-portage/perl-info:0
 app-portage/portage-utils:0
 app-shells/bash-completion:0
-app-shells/bash:0
 app-shells/dash:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
-app-text/build-docbook-catalog:0
 app-text/dictd:0
 app-text/djvu:0
 app-text/docbook-dsssl-stylesheets:0

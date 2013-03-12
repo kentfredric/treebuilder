@@ -1,1 +1,1 @@
-+2013, 03 March, 13 Wednesday, 00:51:15.875646217 483255:267776 ** ~success true task : 
++2013, 03 March, 13 Wednesday, 02:10:58.119466640 505843:732231 750323:5811 ** ~success  install : app-text/docbook-xsl-stylesheets-1.78.0:0::gentoo
