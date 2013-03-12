@@ -1,4 +1,3 @@
-app-accessibility/at-spi2-core:2
 app-accessibility/caribou:0
 app-admin/apache-tools:0
 app-admin/eselect-blas:0
@@ -23,7 +22,6 @@ app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
-app-admin/metalog:0
 app-admin/perl-cleaner:0
 app-admin/python-updater:0
 app-admin/sudo:0
@@ -46,7 +44,6 @@ app-arch/zip:0
 app-benchmarks/cpuburn:0
 app-cdr/brasero:0
 app-cdr/cdrkit:0
-app-crypt/gnupg:0
 app-crypt/gpgme:1
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -178,7 +175,6 @@ dev-db/postgresql-base:9.2
 dev-db/postgresql-server:9.1
 dev-db/postgresql-server:9.2
 dev-db/sqlite:0
-dev-db/sqlite:3
 dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-db/xbase:0
@@ -259,8 +255,6 @@ dev-libs/libmcrypt:0
 dev-libs/libmemcache:0
 dev-libs/libmix:0
 dev-libs/liboil:0.3
-dev-libs/libpcre:3
-dev-libs/libpthread-stubs:0
 dev-libs/libsigc++:2
 dev-libs/libunique:1
 dev-libs/libunique:3
@@ -270,7 +264,6 @@ dev-libs/libxml2:2
 dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/nettle:0/4
-dev-libs/nspr:0
 dev-libs/openobex:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
@@ -302,10 +295,13 @@ dev-perl/Algorithm-C3:0
 dev-perl/Algorithm-FloodControl:0
 dev-perl/Algorithm-IncludeExclude:0
 dev-perl/Alien-wxWidgets:0
+dev-perl/Any-Moose:0
+dev-perl/Any-URI-Escape:0
 dev-perl/Apache-DBI:0
 dev-perl/Apache-Htpasswd:0
 dev-perl/App-Cache:0
 dev-perl/App-Cmd:0
+dev-perl/App-cpanminus:0
 dev-perl/App-cpanoutdated:0
 dev-perl/App-mymeta_requires:0
 dev-perl/App-perlbrew:0
@@ -1106,6 +1102,7 @@ dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-Testing:0
 dev-perl/Task-Kensho-Toolchain:0
 dev-perl/Task-Kensho-WebCrawling:0
+dev-perl/Task-Kensho-WebDev:0
 dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
 dev-perl/Task-Moose:0
@@ -1284,6 +1281,7 @@ dev-perl/signatures:0
 dev-perl/syntax:0
 dev-perl/text-reform:0
 dev-perl/tie-encryptedhash:0
+dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/Babel:0
@@ -1778,7 +1776,6 @@ media-gfx/sane-backends:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
-media-libs/alsa-lib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0
 media-libs/babl:0
@@ -2149,7 +2146,6 @@ sys-boot/syslinux:0
 sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
 sys-devel/automake:1.10
-sys-devel/automake:1.12
 sys-devel/automake:1.13
 sys-devel/automake:1.4
 sys-devel/automake:1.5
@@ -2194,7 +2190,6 @@ sys-kernel/gentoo-sources:3.5.0
 sys-kernel/gentoo-sources:3.8.1
 sys-kernel/linux-headers:0
 sys-kernel/spl:0
-sys-libs/cracklib:0
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -2202,7 +2197,6 @@ sys-libs/db:4.6
 sys-libs/db:4.7
 sys-libs/db:4.8
 sys-libs/glibc:2.2
-sys-libs/gpm:0
 sys-libs/ldb:0
 sys-libs/libcap-ng:0
 sys-libs/libcap:0
@@ -2224,7 +2218,6 @@ sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
 sys-process/lsof:0
-sys-process/numactl:0
 sys-process/time:0
 sys-process/vixie-cron:0
 virtual/awk:0
@@ -2260,7 +2253,6 @@ x11-apps/iceauth:0
 x11-apps/luit:0
 x11-apps/mkfontdir:0
 x11-apps/mkfontscale:0
-x11-apps/rgb:0
 x11-apps/scripts:0
 x11-apps/sessreg:0
 x11-apps/setxkbmap:0
@@ -2321,20 +2313,15 @@ x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
-x11-libs/libICE:0
-x11-libs/libSM:0
 x11-libs/libX11:0
 x11-libs/libXScrnSaver:0
-x11-libs/libXau:0
 x11-libs/libXaw3d:0
 x11-libs/libXaw:0
 x11-libs/libXcomposite:0
 x11-libs/libXcursor:0
 x11-libs/libXdamage:0
-x11-libs/libXdmcp:0
 x11-libs/libXext:0
 x11-libs/libXfixes:0
-x11-libs/libXfont:0
 x11-libs/libXft:0
 x11-libs/libXi:0
 x11-libs/libXinerama:0
@@ -2355,7 +2342,6 @@ x11-libs/libdrm:0
 x11-libs/libfontenc:0
 x11-libs/libgksu:2
 x11-libs/libnotify:0
-x11-libs/libpciaccess:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
 x11-libs/libwnck:1
@@ -2366,7 +2352,6 @@ x11-libs/libxklavier:0
 x11-libs/motif:0
 x11-libs/mx:1.0
 x11-libs/pango:0
-x11-libs/pixman:0
 x11-libs/startup-notification:0
 x11-libs/vte:0
 x11-libs/vte:2.90
@@ -2399,33 +2384,15 @@ x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xscreensaver:0
 x11-proto/bigreqsproto:0
-x11-proto/compositeproto:0
-x11-proto/damageproto:0
-x11-proto/dri2proto:0
-x11-proto/fixesproto:0
 x11-proto/fontsproto:0
-x11-proto/glproto:0
-x11-proto/inputproto:0
-x11-proto/kbproto:0
 x11-proto/printproto:0
-x11-proto/randrproto:0
-x11-proto/recordproto:0
-x11-proto/renderproto:0
 x11-proto/resourceproto:0
-x11-proto/scrnsaverproto:0
 x11-proto/trapproto:0
-x11-proto/videoproto:0
 x11-proto/xcb-proto:0
 x11-proto/xcmiscproto:0
-x11-proto/xextproto:0
-x11-proto/xf86bigfontproto:0
-x11-proto/xf86dgaproto:0
 x11-proto/xf86driproto:0
 x11-proto/xf86miscproto:0
 x11-proto/xf86rushproto:0
-x11-proto/xf86vidmodeproto:0
-x11-proto/xineramaproto:0
-x11-proto/xproto:0
 x11-terms/gnome-terminal:0
 x11-terms/rxvt-unicode:0
 x11-terms/xterm:0
