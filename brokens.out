@@ -1,5 +1,6 @@
 app-accessibility/at-spi2-core:2
 app-accessibility/caribou:0
+app-admin/apache-tools:0
 app-admin/eselect-blas:0
 app-admin/eselect-cblas:0
 app-admin/eselect-ecj:0
@@ -176,6 +177,7 @@ dev-db/postgresql-base:9.1
 dev-db/postgresql-base:9.2
 dev-db/postgresql-server:9.1
 dev-db/postgresql-server:9.2
+dev-db/sqlite:0
 dev-db/sqlite:3
 dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
@@ -217,7 +219,6 @@ dev-lang/yasm:0
 dev-libs/DirectFB:0
 dev-libs/atk:0
 dev-libs/boehm-gc:0
-dev-libs/check:0
 dev-libs/cloog-ppl:0
 dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
@@ -268,6 +269,7 @@ dev-libs/libverto:0
 dev-libs/libxml2:2
 dev-libs/libxslt:0
 dev-libs/libzip:0
+dev-libs/nettle:0/4
 dev-libs/nspr:0
 dev-libs/openobex:0
 dev-libs/openssl:0
@@ -1096,6 +1098,7 @@ dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
 dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-ExcelCSV:0
+dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-Logging:0
 dev-perl/Task-Kensho-ModuleDev:0
@@ -1423,6 +1426,7 @@ dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/ctags:0
 dev-util/d-feet:0
+dev-util/dejagnu:0
 dev-util/dialog:0
 dev-util/gdbus-codegen:0
 dev-util/glade:3
@@ -1797,6 +1801,7 @@ media-libs/gavl:0
 media-libs/gd:2
 media-libs/gegl:0
 media-libs/glew:0
+media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
 media-libs/gst-plugins-base:0.10
 media-libs/gst-plugins-base:1.0
@@ -1885,12 +1890,15 @@ media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-greycstoration:0
 media-plugins/gimp-refocus:0
+media-plugins/gst-plugins-a52dec:0.10
 media-plugins/gst-plugins-a52dec:1.0
 media-plugins/gst-plugins-cdparanoia:1.0
+media-plugins/gst-plugins-dts:0.10
 media-plugins/gst-plugins-dts:1.0
 media-plugins/gst-plugins-dv:1.0
 media-plugins/gst-plugins-dvdread:1.0
 media-plugins/gst-plugins-faad:1.0
+media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-flac:1.0
 media-plugins/gst-plugins-jack:1.0
 media-plugins/gst-plugins-lame:1.0
@@ -1985,6 +1993,7 @@ net-im/telepathy-mission-control:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnome-online-accounts:0
+net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libgadu:0
 net-libs/libktorrent:4
@@ -2004,6 +2013,7 @@ net-libs/libssh:0
 net-libs/libtorrent:0
 net-libs/libvncserver:0
 net-libs/loudmouth:0
+net-libs/neon:0
 net-libs/nodejs:0
 net-libs/openslp:0
 net-libs/ortp:0
@@ -2012,6 +2022,7 @@ net-libs/telepathy-glib:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-misc/aria2:0
+net-misc/curl:0
 net-misc/dhcp:0
 net-misc/iputils:0
 net-misc/memcached:0
@@ -2025,6 +2036,7 @@ net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/tightvnc:0
+net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
 net-nds/openldap:0
@@ -2042,21 +2054,7 @@ net-wireless/rt2860-firmware:0
 net-wireless/rt2870-firmware:0
 net-wireless/rt73-firmware:0
 net-wireless/wireless-tools:0
-perl-core/B-Lint:0
-perl-core/CPAN-Meta-Requirements:0
-perl-core/CPAN-Meta:0
-perl-core/CPANPLUS:0
 perl-core/Devel-DProf:0
-perl-core/Digest-MD5:0
-perl-core/Math-BigInt-FastCalc:0
-perl-core/Module-Build:0
-perl-core/Module-Load-Conditional:0
-perl-core/Pod-Perldoc:0
-perl-core/Thread-Queue:0
-perl-core/Unicode-Collate:0
-perl-core/Version-Requirements:0
-perl-core/locale-maketext:0
-perl-core/threads-shared:0
 perl-gcpanp/B-Fathom:0
 perl-gcpanp/Devel-CallTrace:0
 perl-gcpanp/Iterator-IO:0
@@ -2123,6 +2121,7 @@ sys-apps/mlocate:0
 sys-apps/openrc:0
 sys-apps/paludis:0
 sys-apps/paxctl:0
+sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
@@ -2173,6 +2172,7 @@ sys-firmware/rt61-firmware:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dmraid:0
+sys-fs/hfsutils:0
 sys-fs/jfsutils:0
 sys-fs/lvm2:0
 sys-fs/mdadm:0
@@ -2195,6 +2195,7 @@ sys-kernel/gentoo-sources:3.8.1
 sys-kernel/linux-headers:0
 sys-kernel/spl:0
 sys-libs/cracklib:0
+sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
 sys-libs/db:4.6
