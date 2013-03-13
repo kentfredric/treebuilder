@@ -1,1 +1,1 @@
-+2013, 03 March, 14 Thursday, 01:25:03.528459473 164996:5357943 884562:36132 ** ~success  install : media-libs/fontconfig-2.10.2:1.0::gentoo
++2013, 03 March, 14 Thursday, 06:28:52.777102434 59748:1225162 ** ~success true task : 
