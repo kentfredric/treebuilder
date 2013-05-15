@@ -739,7 +739,6 @@ dev-perl/Finance-Currency-Convert-WebserviceX:0
 dev-perl/Find-Lib:0
 dev-perl/FindBin-libs:0
 dev-perl/FormValidator-Simple:0
-dev-perl/Future:0
 dev-perl/GD-Barcode:0
 dev-perl/GD-Graph3d:0
 dev-perl/GD-SVG:0
@@ -759,6 +758,7 @@ dev-perl/Getopt-Long-Descriptive:0
 dev-perl/Getopt-Lucid:0
 dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository:0
+dev-perl/Git-Wrapper:0
 dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
 dev-perl/GraphViz:0
@@ -768,17 +768,14 @@ dev-perl/Gtk2-Ex-Simple-List:0
 dev-perl/Gtk3:0
 dev-perl/HTML-FormFu-Model-DBIC:0
 dev-perl/HTML-FormFu:0
-dev-perl/HTML-FormHandler:0
 dev-perl/HTML-Mason:0
 dev-perl/HTML-Packer:0
 dev-perl/HTML-Parser:0
 dev-perl/HTML-Selector-XPath:0
 dev-perl/HTML-SimpleParse:0
 dev-perl/HTML-TagCloud:0
-dev-perl/HTML-Template-Pro:0
 dev-perl/HTML-TokeParser-Simple:0
 dev-perl/HTML-Tree:0
-dev-perl/HTML-TreeBuilder-LibXML:0
 dev-perl/HTML-TreeBuilder-XPath:0
 dev-perl/HTML-Zoom:0
 dev-perl/HTTP-Body:0
@@ -1317,7 +1314,6 @@ dev-python/pycurl:0
 dev-python/pygments:0
 dev-python/pygobject:3
 dev-python/pyopenssl:0
-dev-python/pytest:0
 dev-python/pytz:0
 dev-python/pyxattr:0
 dev-python/pyxdg:0
