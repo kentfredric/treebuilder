@@ -1,1 +1,1 @@
-+2013, 05 May, 21 Tuesday, 11:41:42.858110070 534947:167864 ** ~success true task : 
++2013, 05 May, 22 Wednesday, 10:16:23.752581308 607842:770325 967675:5078 ** ~success  clean : dev-perl/DBICx-TestDatabase-0.40.0:0::installed
