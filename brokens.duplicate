@@ -1,3 +1,15 @@
-dev-perl/Catalyst-View-Email:0
+app-doc/podbrowser:0
+app-emulation/virtualbox:0
+dev-perl/Audio-Ofa-Util:0
+dev-perl/Authen-DecHpwd:0
+dev-perl/MetaCPAN-API:0
+dev-perl/Method-Signatures:0
 dev-perl/MojoMojo:0
-dev-perl/SOAP-Lite:0
+dev-perl/Net-Google-DataAPI:0
+dev-perl/Task-Kensho:0
+media-libs/musicbrainz:3
+media-video/mkvtoolnix:0
+net-analyzer/wireshark:0
+net-misc/aria2:0
+net-misc/curl:0
+sys-fs/zfs:0
