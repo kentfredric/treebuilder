@@ -1,2 +1,11 @@
-app-editors/padre:0
-dev-perl/ORLite-Migrate:0
+app-misc/strigi:0
+app-text/bibletime:0
+dev-libs/glib:2
+dev-perl/MojoMojo:0
+dev-perl/MooseX-Getopt:0
+dev-perl/MooseX-Method-Signatures:0
+dev-perl/MooseX-Role-WithOverloading:0
+dev-perl/MooseX-Types-ISO8601:0
+dev-util/ltrace:0
+sys-devel/gcc:4.5
+sys-devel/prelink:0

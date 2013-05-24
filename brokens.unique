@@ -68,6 +68,7 @@ app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/nano:0
+app-editors/padre:0
 app-editors/scite:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
@@ -91,7 +92,6 @@ app-misc/geoclue:0
 app-misc/media-player-info:0
 app-misc/note:0
 app-misc/screen:0
-app-misc/strigi:0
 app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
@@ -119,7 +119,6 @@ app-shells/zsh:0
 app-text/ansifilter:0
 app-text/asciidoc:0
 app-text/aspell:0
-app-text/bibletime:0
 app-text/build-docbook-catalog:0
 app-text/dictd:0
 app-text/djvu:0
@@ -193,7 +192,6 @@ app-vim/vim-spell-en:0
 app-vim/vimbuddy:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
-dev-cpp/clucene:1
 dev-cpp/ctemplate:0
 dev-cpp/eigen:2
 dev-cpp/eigen:3
@@ -309,7 +307,6 @@ dev-libs/cloog-ppl:0
 dev-libs/confuse:0
 dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
-dev-libs/elfutils:0
 dev-libs/fcgi:0
 dev-libs/folks:0
 dev-libs/fribidi:0
@@ -318,7 +315,6 @@ dev-libs/gdl:3
 dev-libs/gdome2:0
 dev-libs/geoip:0
 dev-libs/gjs:0
-dev-libs/glib:2
 dev-libs/gobject-introspection-common:0
 dev-libs/gobject-introspection:0
 dev-libs/grantlee:0
@@ -451,7 +447,6 @@ dev-perl/Catalyst-Plugin-Session-Store-DBIC:0
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap:0
 dev-perl/Catalyst-Plugin-Session-Store-Memcached:0
 dev-perl/Catalyst-Plugin-Session:0
-dev-perl/Catalyst-Plugin-Setenv:0
 dev-perl/Catalyst-Plugin-Spark-Form:0
 dev-perl/Catalyst-Plugin-StackTrace:0
 dev-perl/Catalyst-Plugin-SubRequest:0
@@ -478,6 +473,7 @@ dev-perl/Color-Calc:0
 dev-perl/Config-JFDI:0
 dev-perl/Config-MVP:0
 dev-perl/Crypt-OpenPGP:0
+dev-perl/Crypt-Skip32:0
 dev-perl/DBD-CSV:0
 dev-perl/DBI:0
 dev-perl/DBICx-TestDatabase:0
@@ -494,16 +490,17 @@ dev-perl/Data-TreeDumper:0
 dev-perl/Data-Visitor:0
 dev-perl/Date-Calc:0
 dev-perl/DateTime-Format-Builder:0
-dev-perl/DateTime-Format-DateManip:0
 dev-perl/DateTime-Format-Duration:0
 dev-perl/DateTime-Format-Epoch:0
 dev-perl/DateTime-Format-ICal:0
+dev-perl/DateTime-Format-ISO8601:0
 dev-perl/DateTime-Format-Mail:0
 dev-perl/DateTime-Format-Natural:0
 dev-perl/DateTime-Format-Strptime:0
 dev-perl/DateTime-Set:0
 dev-perl/DateTime-TimeZone:0
 dev-perl/DateTime:0
+dev-perl/DateTimeX-Easy:0
 dev-perl/Devel-Declare:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-Pragma:0
@@ -531,6 +528,7 @@ dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny:0
 dev-perl/Dist-Zilla-Plugin-Repository:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
+dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/EVDB-API:0
@@ -570,7 +568,6 @@ dev-perl/Mixin-ExtraFields:0
 dev-perl/Mixin-Linewise:0
 dev-perl/Module-Extract-Namespaces:0
 dev-perl/Module-Install-ProvidesClass:0
-dev-perl/MojoMojo:0
 dev-perl/Mojolicious-Plugin-Authentication:0
 dev-perl/Mojolicious-Plugin-Database:0
 dev-perl/Moo:0
@@ -579,19 +576,19 @@ dev-perl/Moose:0
 dev-perl/MooseX-App-Cmd:0
 dev-perl/MooseX-AttributeShortcuts:0
 dev-perl/MooseX-ClassAttribute:0
+dev-perl/MooseX-ConfigFromFile:0
 dev-perl/MooseX-Daemonize:0
 dev-perl/MooseX-Declare:0
-dev-perl/MooseX-Getopt:0
 dev-perl/MooseX-HasDefaults:0
 dev-perl/MooseX-LazyLogDispatch:0
+dev-perl/MooseX-LazyRequire:0
 dev-perl/MooseX-LogDispatch:0
 dev-perl/MooseX-MarkAsMethods:0
-dev-perl/MooseX-Method-Signatures:0
+dev-perl/MooseX-MethodAttributes:0
 dev-perl/MooseX-OneArgNew:0
 dev-perl/MooseX-Params-Validate:0
 dev-perl/MooseX-RelatedClassRoles:0
 dev-perl/MooseX-Role-Tempdir:0
-dev-perl/MooseX-Role-WithOverloading:0
 dev-perl/MooseX-SimpleConfig:0
 dev-perl/MooseX-Storage:0
 dev-perl/MooseX-Types-Common:0
@@ -599,7 +596,6 @@ dev-perl/MooseX-Types-DateTime-ButMaintained:0
 dev-perl/MooseX-Types-DateTime-MoreCoercions:0
 dev-perl/MooseX-Types-DateTime:0
 dev-perl/MooseX-Types-DateTimeX:0
-dev-perl/MooseX-Types-ISO8601:0
 dev-perl/MooseX-Types-JSON:0
 dev-perl/MooseX-Types-LoadableClass:0
 dev-perl/MooseX-Types-Path-Tiny:0
@@ -613,6 +609,7 @@ dev-perl/Net-Server-SS-PreFork:0
 dev-perl/Net-Twitter:0
 dev-perl/Number-Tolerant:0
 dev-perl/OOTools:0
+dev-perl/ORLite-Migrate:0
 dev-perl/PPI-HTML:0
 dev-perl/PPI-XS:0
 dev-perl/PPIx-Regexp:0
@@ -622,7 +619,6 @@ dev-perl/Parallel-Runner:0
 dev-perl/Parse-CPAN-Packages:0
 dev-perl/Path-Abstract:0
 dev-perl/Path-Class-Rule:0
-dev-perl/Perl-Critic-Moose:0
 dev-perl/Perl-MinimumVersion:0
 dev-perl/Perl-PrereqScanner:0
 dev-perl/Perl-Tags:0
@@ -630,7 +626,6 @@ dev-perl/Plack:0
 dev-perl/Pod-Elemental-PerlMunger:0
 dev-perl/Pod-Elemental-Transformer-List:0
 dev-perl/Pod-Elemental-Transformer-WikiDoc:0
-dev-perl/Pod-ProjectDocs:0
 dev-perl/PortageXS:0
 dev-perl/RPC-XML:0
 dev-perl/Regexp-Grammars-Common-String:0
@@ -651,19 +646,16 @@ dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-OOP:0
 dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
-dev-perl/Task-Spark-Form:0
 dev-perl/Template-DBI:0
 dev-perl/Template-Latex:0
 dev-perl/Template-Plugin-Cycle:0
 dev-perl/Template-Plugin-JSON:0
 dev-perl/Term-ProgressBar-Quiet:0
 dev-perl/Test-Assert:0
-dev-perl/Test-CheckDeps:0
 dev-perl/Test-Corpus-Audio-MPD:0
-dev-perl/Test-Distribution:0
+dev-perl/Test-Kwalitee:0
 dev-perl/Test-Log-Dispatch:0
 dev-perl/Test-Output:0
-dev-perl/Test-Perl-Critic:0
 dev-perl/Test-Regression:0
 dev-perl/Test-SharedFork:0
 dev-perl/Test-TempDir:0
@@ -948,7 +940,6 @@ dev-util/intltool:0
 dev-util/itstool:0
 dev-util/kbuild:0
 dev-util/lafilefixer:0
-dev-util/ltrace:0
 dev-util/nvidia-cuda-toolkit:0
 dev-util/pkgconfig:0
 dev-util/ragel:0
@@ -1737,7 +1728,6 @@ sys-devel/binutils-config:0
 sys-devel/binutils:0
 sys-devel/flex:0
 sys-devel/gcc:4.4
-sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gdb:0
@@ -1747,7 +1737,6 @@ sys-devel/llvm:0
 sys-devel/m4:0
 sys-devel/make:0
 sys-devel/patch:0
-sys-devel/prelink:0
 sys-devel/qconf:0
 sys-firmware/alsa-firmware:0
 sys-firmware/rt61-firmware:0
