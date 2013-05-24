@@ -1,1 +1,1 @@
-+2013, 05 May, 24 Friday, 11:42:51.542458796 914273:884551 341456:16574 ** ~success  install : dev-perl/String-ToIdentifier-EN-0.90.0:0::perl-experimental
++2013, 05 May, 25 Saturday, 03:20:54.101400262 737220:12325 ** ~success  sync : gentoo
