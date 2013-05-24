@@ -550,6 +550,7 @@ dev-perl/Gentoo-MirrorList:0
 dev-perl/Getopt-Long-Descriptive:0
 dev-perl/Getopt-Usaginator:0
 dev-perl/Git-CPAN-Patch:0
+dev-perl/Gitalist:0
 dev-perl/Graphics-ColorNames-WWW:0
 dev-perl/Graphics-ColorObject:0
 dev-perl/HTML-FormFu-Model-DBIC:0

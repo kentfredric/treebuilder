@@ -441,6 +441,7 @@ dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-Compress:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
 dev-perl/Catalyst-Plugin-Email:0
+dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FormValidator-Simple:0
 dev-perl/Catalyst-Plugin-FormValidator:0
 dev-perl/Catalyst-Plugin-I18N:0
@@ -650,6 +651,7 @@ dev-perl/String-Formatter:0
 dev-perl/Sub-Exporter-ForMethods:0
 dev-perl/Sub-Exporter-GlobExporter:0
 dev-perl/Syntax-Keyword-Junction:0
+dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-ExcelCSV:0
 dev-perl/Task-Kensho-Hackery:0
