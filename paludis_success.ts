@@ -1,1 +1,1 @@
-+2013, 05 May, 25 Saturday, 07:10:06.106251283 951723:401853 113932:17035 ** ~success  install : dev-perl/Test-CheckDeps-0.2.0:0::gentoo
++2013, 05 May, 26 Sunday, 03:13:37.255058164 90190:8774 ** ~success  sync : gentoo
