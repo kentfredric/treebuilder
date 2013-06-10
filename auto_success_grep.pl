@@ -18,9 +18,11 @@ my  $filereader = FileReader->new(
 );
 
 if ( $filereader->seek_to_match( qr/^\Q$timestamp\E/ ) ) {
+	say "Found timestamp at l" . $filereader->user_pos;
 	while( $filereader->seek_to_match( qr/success\s+install/ ) ) { 
 		my $line = $filereader->getline;
 		if ( my $desc = assemble_distname( parse_distname( $line )) ) {
+			say "Found good: \e[31m$desc \e[0m\n\e[37m>> $line \e[0m";
 			$auto_success->say( $desc );
 		}
 	}
@@ -118,35 +120,5 @@ BEGIN {
 	}
 	__PACKAGE__->meta->make_immutable;
 }
-__END__
 
-sub _seek_to_timestamp { 
-	my ( $fh, $timestamp ) = @_;
-	return _seek_to_match($fh, qr/^\Q$timestamp\E/);
-}
-sub _seek_to_match {
-	my ( $fh , $match ) = @_; 
-	my $cache_name = refaddr($fh);
-	$linecache->{$cache_name} //= [];
-	my $cache = $linecache->{$cache_name};
-	while(1) {
-		my $line = $fh->getline;
-		$cache->[ $fh->
-		return if not defined $line;
-		next if $line !~ $match;
-		my $bytes = do { use bytes; length $line };
-		seek $fh, 0 - $bytes, 1;
-		return 1;
-	}
-}
-__END__
-while(1) {
-
-	my $line = $log->get_line;
-	last if not defined $line;
-	chomp $line;
-	next unless $line eq $timestamp;
-
-
-}
 
