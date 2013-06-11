@@ -1,1 +1,1 @@
-+2013, 06 June, 11 Tuesday, 07:40:35.027711332 440481:638808 837955:13970 ** ~success  install : dev-perl/KiokuX-User-0.20:0::perl-experimental
++2013, 06 June, 12 Wednesday, 03:20:26.187312618 543758:8897 ** ~success  sync : gentoo
