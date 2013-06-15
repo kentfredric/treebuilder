@@ -1,1 +1,1 @@
-+2013, 06 June, 14 Friday, 03:12:24.184360050 791475:10909 ** ~success  sync : gentoo
++2013, 06 June, 16 Sunday, 03:18:00.614904301 321784:12692 ** ~success  sync : gentoo
