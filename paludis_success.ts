@@ -1,1 +1,1 @@
-+2013, 06 June, 28 Friday, 22:03:06.789336900 343846:397260 768981:3205 ** ~success  install : dev-perl/Pod-Strip-1.20.0:0::perl-experimental
++2013, 06 June, 28 Friday, 22:32:44.832562496 879164:60582 ** ~success true task : 
