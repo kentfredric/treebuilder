@@ -1286,7 +1286,6 @@ media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
 media-libs/alsa-oss:0
-media-libs/audiofile:0/1
 media-libs/babl:0
 media-libs/bio2jack:0
 media-libs/chromaprint:0
@@ -1840,7 +1839,6 @@ virtual/perl-podlators:0
 virtual/pkgconfig:0
 virtual/ruby-ffi:0
 virtual/ruby-minitest:0
-virtual/ruby-rdoc:ruby18
 virtual/ruby-ssl:ruby18
 virtual/ruby-test-unit:0
 virtual/ruby-threads:ruby18
