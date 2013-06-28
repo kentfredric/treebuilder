@@ -67,9 +67,11 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
+app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
+app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gtklibs:0
@@ -360,7 +362,6 @@ dev-libs/xmlrpc-epi:0
 dev-libs/zthread:0
 dev-libs/zziplib:0
 dev-perl/Adam:0
-dev-perl/Algorithm-C3:0
 dev-perl/Algorithm-FloodControl:0
 dev-perl/Alien-wxWidgets:0
 dev-perl/App-Cache:0
@@ -404,13 +405,10 @@ dev-perl/CatalystX-REPL:0
 dev-perl/CatalystX-SimpleLogin:0
 dev-perl/Child:0
 dev-perl/Class-Accessor-Grouped:0
-dev-perl/Class-DBI-Plugin-DeepAbstractSearch:0
 dev-perl/Class-DBI-Plugin:0
-dev-perl/Class-Factory-Util:0
 dev-perl/Class-Load-XS:0
 dev-perl/Class-Load:0
 dev-perl/Class-Mix:0
-dev-perl/Class-XPath:0
 dev-perl/Config-GitLike:0
 dev-perl/Config-IniFiles:0
 dev-perl/Config-JFDI:0
@@ -429,7 +427,6 @@ dev-perl/DBIx-Class-UUIDColumns:0
 dev-perl/DBIx-Class:0
 dev-perl/Dancer:2
 dev-perl/Data-Couplet:0
-dev-perl/Data-Dump-Streamer:0
 dev-perl/Data-Dumper-Names:0
 dev-perl/Data-Float:0
 dev-perl/Data-FormValidator:0
@@ -439,22 +436,15 @@ dev-perl/Data-Pond:0
 dev-perl/Data-Serializer:0
 dev-perl/Data-Taxi:0
 dev-perl/Data-TreeDumper-Renderer-GTK:0
-dev-perl/Data-UUID:0
 dev-perl/Date-ISO8601:0
 dev-perl/Date-JD:0
 dev-perl/DateManip:0
 dev-perl/DateTime-Format-Builder:0
-dev-perl/DateTime-Format-DateManip:0
-dev-perl/DateTime-Format-DateParse:0
 dev-perl/DateTime-Format-Epoch:0
 dev-perl/DateTime-Format-Excel:0
 dev-perl/DateTime-Format-Mail:0
-dev-perl/DateTime-Format-MySQL:0
-dev-perl/DateTime-Format-Natural:0
 dev-perl/DateTime-Format-Strptime:0
-dev-perl/DateTime-Set:0
 dev-perl/DateTime-TimeZone-Tzfile:0
-dev-perl/DateTime:0
 dev-perl/DateTimeX-Easy:0
 dev-perl/Devel-Autoflush:0
 dev-perl/Devel-Cover:0
@@ -495,7 +485,6 @@ dev-perl/FindBin-libs:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group:0
-dev-perl/Gentoo-PerlMod-Version-FixEbuild:0
 dev-perl/Gentoo-PerlMod-Version:0
 dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
@@ -514,7 +503,6 @@ dev-perl/HTML-TreeBuilder-LibXML:0
 dev-perl/HTML-TreeBuilder-XPath:0
 dev-perl/Handel:0
 dev-perl/Hash-FieldHash:0
-dev-perl/Hash-MoreUtils:0
 dev-perl/Hash-StoredIterator:0
 dev-perl/IO-Async:0
 dev-perl/IO-CaptureOutput:0
@@ -522,7 +510,6 @@ dev-perl/IO-Socket-INET6:0
 dev-perl/IO-Socket-IP:0
 dev-perl/IPC-Run-Fused:0
 dev-perl/Imager:0
-dev-perl/Inline:0
 dev-perl/JavaScript-Minifier-XS:0
 dev-perl/KinoSearch1:0
 dev-perl/KinoSearch:0
@@ -554,7 +541,6 @@ dev-perl/MooX-Types-MooseLike:0
 dev-perl/Moose:0
 dev-perl/MooseX-App-Cmd:0
 dev-perl/MooseX-AttributeShortcuts:0
-dev-perl/MooseX-AuthorizedMethods:0
 dev-perl/MooseX-Declare:0
 dev-perl/MooseX-Getopt:0
 dev-perl/MooseX-LazyRequire:0
@@ -566,10 +552,8 @@ dev-perl/MooseX-Types-DateTime-ButMaintained:0
 dev-perl/MooseX-Types-DateTime:0
 dev-perl/MooseX-Types-DateTimeX:0
 dev-perl/MooseX-Types-ISO8601:0
-dev-perl/MooseX-Types-URI:0
 dev-perl/MooseX-YAML:0
 dev-perl/Net-API-RPX:0
-dev-perl/Net-Amazon-S3:0
 dev-perl/Net-Amazon:0
 dev-perl/Net-DBus:0
 dev-perl/Net-DNS:0
@@ -638,11 +622,8 @@ dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-WebDev:0
-dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
 dev-perl/Task-Moose:0
-dev-perl/Task-Spark-Form:0
-dev-perl/Tee:0
 dev-perl/Template-Alloy:0
 dev-perl/Template-Toolkit:0
 dev-perl/Template-XML:0
@@ -667,7 +648,6 @@ dev-perl/Test-Perl-Critic:0
 dev-perl/Test-Pod:0
 dev-perl/Test-Script:0
 dev-perl/Test-Spec:0
-dev-perl/Test-SubCalls:0
 dev-perl/Test-Unit-Lite:0
 dev-perl/Test-WWW-Mechanize-PSGI:0
 dev-perl/Test-WWW-Mechanize:0
@@ -683,7 +663,6 @@ dev-perl/URI-Find:0
 dev-perl/Unicode-MapUTF8:0
 dev-perl/VCI:0
 dev-perl/WWW-Mechanize-TreeBuilder:0
-dev-perl/WWW-Mechanize:0
 dev-perl/WWW-Search:0
 dev-perl/Weather-Com:0
 dev-perl/Web-Scraper:0
@@ -692,7 +671,6 @@ dev-perl/Wx-Perl-ProcessStream:0
 dev-perl/XML-Atom:0
 dev-perl/XML-Elemental:0
 dev-perl/XML-Filter-BufferText:0
-dev-perl/XML-Generator-PerlData:0
 dev-perl/XML-LibXSLT:0
 dev-perl/XML-RSS-LibXML:0
 dev-perl/XML-RSS:0
@@ -786,7 +764,6 @@ dev-ruby/activesupport:3.2
 dev-ruby/ammeter:0
 dev-ruby/arel:2.0
 dev-ruby/arel:2.1
-dev-ruby/arel:3.0
 dev-ruby/ascii85:0
 dev-ruby/awesome_print:0
 dev-ruby/bacon:0
@@ -837,7 +814,6 @@ dev-ruby/maruku:0
 dev-ruby/memcache-client:0
 dev-ruby/metaclass:0
 dev-ruby/mime-types:0
-dev-ruby/mocha:0
 dev-ruby/multi_json:0
 dev-ruby/mustache:0
 dev-ruby/mysql2:0.3
