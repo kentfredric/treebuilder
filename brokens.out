@@ -105,7 +105,6 @@ app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
-app-portage/genlop:0
 app-portage/gentoolkit-dev:0
 app-portage/layman:0
 app-portage/metagen:0
@@ -170,18 +169,15 @@ app-text/wgetpaste:0
 app-text/xmlto:0
 app-text/yelp-tools:0
 app-vim/closetag:0
-app-vim/colorschemes:0
 app-vim/dhcpd-syntax:0
 app-vim/eselect-syntax:0
 app-vim/fugitive:0
 app-vim/gitv:0
 app-vim/gtk-syntax:0
-app-vim/nerdtree:0
 app-vim/nginx-syntax:0
 app-vim/ntp-syntax:0
 app-vim/pam-syntax:0
 app-vim/perl-support:0
-app-vim/taglist:0
 app-vim/tt2-syntax:0
 app-vim/vim-spell-en:0
 app-vim/vimbuddy:0
@@ -387,7 +383,6 @@ dev-perl/Algorithm-FloodControl:0
 dev-perl/Alien-wxWidgets:0
 dev-perl/App-Nopaste:0
 dev-perl/App-cpanminus:0
-dev-perl/Archive-Any:0
 dev-perl/Archive-Peek:0
 dev-perl/Async-MergePoint:0
 dev-perl/Audio-Extract-PCM:0
@@ -397,7 +392,6 @@ dev-perl/Audio-Ofa:0
 dev-perl/Authen-DecHpwd:0
 dev-perl/Authen-Passphrase:0
 dev-perl/BackPAN-Index:0
-dev-perl/BerkeleyDB-Manager:0
 dev-perl/Bundle-CPAN:0
 dev-perl/CGI-Application-Dispatch:0
 dev-perl/CGI-Application-Plugin-Authentication:0
@@ -424,7 +418,6 @@ dev-perl/Catalyst-Plugin-Singleton:0
 dev-perl/Catalyst-Runtime:0
 dev-perl/Catalyst-View-Wkhtmltopdf:0
 dev-perl/Child:0
-dev-perl/Class-Accessor-Chained:0
 dev-perl/Class-Container:0
 dev-perl/Class-DBI:0
 dev-perl/Class-Factory-Util:0
@@ -445,11 +438,9 @@ dev-perl/DBICx-TestDatabase:0
 dev-perl/DBIx-Class-Cursor-Cached:0
 dev-perl/DBIx-Class-DigestColumns:0
 dev-perl/DBIx-Class-EncodedColumn:0
-dev-perl/DBIx-Class-Loader:0
 dev-perl/DBIx-Class-QueryLog:0
 dev-perl/DBIx-Class-Schema-Loader:0
 dev-perl/DBIx-Class-UUIDColumns:0
-dev-perl/DBIx-Class-Validation:0
 dev-perl/DBIx-Class:0
 dev-perl/Dancer:0
 dev-perl/Data-Couplet:0
@@ -457,7 +448,6 @@ dev-perl/Data-Currency:0
 dev-perl/Data-Dump-Streamer:0
 dev-perl/Data-Dumper-Names:0
 dev-perl/Data-Float:0
-dev-perl/Data-FormValidator-Constraints-DateTime:0
 dev-perl/Data-FormValidator:0
 dev-perl/Data-Handle:0
 dev-perl/Data-Integer:0
@@ -474,13 +464,10 @@ dev-perl/DateTime-Format-DateManip:0
 dev-perl/DateTime-Format-DateParse:0
 dev-perl/DateTime-Format-Epoch:0
 dev-perl/DateTime-Format-Excel:0
-dev-perl/DateTime-Format-ICal:0
 dev-perl/DateTime-Format-ISO8601:0
 dev-perl/DateTime-Format-Mail:0
 dev-perl/DateTime-Format-MySQL:0
 dev-perl/DateTime-Format-Natural:0
-dev-perl/DateTime-Format-W3CDTF:0
-dev-perl/DateTime-Locale:0
 dev-perl/DateTime-Set:0
 dev-perl/DateTime-TimeZone-SystemV:0
 dev-perl/DateTime-TimeZone-Tzfile:0
@@ -505,7 +492,6 @@ dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Package:0
 dev-perl/Dist-Zilla-Plugin-ModuleInstall:0
-dev-perl/Dist-Zilla-Plugin-PerlTidy:0
 dev-perl/Dist-Zilla-Plugin-Repository:0
 dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
@@ -523,7 +509,6 @@ dev-perl/ExtUtils-CChecker:0
 dev-perl/ExtUtils-XSpp:0
 dev-perl/Fennec-Lite:0
 dev-perl/Fennec:0
-dev-perl/File-BaseDir:0
 dev-perl/File-DesktopEntry:0
 dev-perl/File-MimeInfo:0
 dev-perl/File-ShareDir-PathClass:0
@@ -543,7 +528,6 @@ dev-perl/GraphViz:0
 dev-perl/Graphics-ColorNames-WWW:0
 dev-perl/Graphics-ColorNames:0
 dev-perl/Gtk2-Ex-PodViewer:0
-dev-perl/Gtk2-Ex-Simple-List:0
 dev-perl/HTML-FormFu-Model-DBIC:0
 dev-perl/HTML-GenToc:0
 dev-perl/HTML-LinkList:0
@@ -551,13 +535,11 @@ dev-perl/HTML-Mason:0
 dev-perl/HTML-SimpleParse:0
 dev-perl/HTML-TagCloud:0
 dev-perl/HTML-TokeParser-Simple:0
-dev-perl/HTML-Tree:0
 dev-perl/HTTP-Exception:0
 dev-perl/Handel:0
 dev-perl/Hash-FieldHash:0
 dev-perl/Hash-MoreUtils:0
 dev-perl/Hash-StoredIterator:0
-dev-perl/Hook-LexWrap:0
 dev-perl/IO-Async:0
 dev-perl/IO-CaptureOutput:0
 dev-perl/IO-Socket-INET6:0
@@ -590,8 +572,6 @@ dev-perl/Module-ExtractUse:0
 dev-perl/Module-Install-AuthorTests:0
 dev-perl/Module-Runtime:0
 dev-perl/Module-ScanDeps:0
-dev-perl/Module-Signature:0
-dev-perl/Module-Util:0
 dev-perl/MojoMojo:0
 dev-perl/Mojolicious-Plugin-Authentication:0
 dev-perl/MooX-Types-MooseLike:0
@@ -613,7 +593,6 @@ dev-perl/Net-LDAP-Server-Test:0
 dev-perl/Net-OAuth2:0
 dev-perl/Net-SNMP:0
 dev-perl/Net-Twitter:0
-dev-perl/OOTools:0
 dev-perl/ORLite-Migrate:0
 dev-perl/Object-Pluggable:0
 dev-perl/Object-Signature:0
@@ -645,13 +624,11 @@ dev-perl/Petal:0
 dev-perl/Plack:0
 dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Strip:0
-dev-perl/Probe-Perl:0
 dev-perl/RRD-Simple:0
 dev-perl/Regexp-Grammars-Common-String:0
 dev-perl/Regexp-Grammars:0
 dev-perl/Role-Tiny:0
 dev-perl/SOAP-Lite:0
-dev-perl/SQL-Translator:0
 dev-perl/SVN-Notify:0
 dev-perl/Scalar-String:0
 dev-perl/Search-GIN:0
@@ -667,7 +644,6 @@ dev-perl/Symbol-Util:0
 dev-perl/System-Command:0
 dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-Async:0
-dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Scalability:0
@@ -693,7 +669,6 @@ dev-perl/Test-Exception:0
 dev-perl/Test-Expect:0
 dev-perl/Test-File-ShareDir:0
 dev-perl/Test-Identity:0
-dev-perl/Test-Inter:0
 dev-perl/Test-JSON:0
 dev-perl/Test-Lazy:0
 dev-perl/Test-Most:0
@@ -718,14 +693,12 @@ dev-perl/URI-Find:0
 dev-perl/URI-FromHash:0
 dev-perl/Unicode-MapUTF8:0
 dev-perl/VCI:0
-dev-perl/WWW-Curl:0
 dev-perl/Wx-Perl-ProcessStream:0
 dev-perl/Wx-Scintilla:0
 dev-perl/XML-Elemental:0
 dev-perl/XML-Feed:0
 dev-perl/XML-Filter-BufferText:0
 dev-perl/XML-Generator-PerlData:0
-dev-perl/XML-LibXML:0
 dev-perl/XML-RSS:0
 dev-perl/XML-SAX-Base:0
 dev-perl/XML-Simple:0
@@ -737,8 +710,6 @@ dev-perl/autobox-dump:0
 dev-perl/constant-boolean:0
 dev-perl/convert-ascii-armour:0
 dev-perl/convert-pem:0
-dev-perl/crypt-cbc:0
-dev-perl/crypt-rsa:0
 dev-perl/gtk2-fu:0
 dev-perl/gtk2-gladexml:0
 dev-perl/gtk2-perl:0
@@ -1007,6 +978,7 @@ games-util/nml:0
 gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gnome-common:3
+gnome-base/gnome-control-center:2
 gnome-base/gnome-core-libs:3.0
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3/4
@@ -1016,6 +988,7 @@ gnome-base/gnome-light:2.0
 gnome-base/gnome-menus:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-panel:0
+gnome-base/gnome-session:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
 gnome-base/gvfs:0
