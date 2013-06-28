@@ -45,6 +45,7 @@ app-arch/libarchive:0/13
 app-arch/p7zip:0
 app-arch/pax:0
 app-arch/pbzip2:0
+app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/tar:0
 app-arch/unshield:0
