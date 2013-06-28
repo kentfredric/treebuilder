@@ -1,1 +1,1 @@
-+2013, 06 June, 28 Friday, 21:16:59.416272180 343846:120523 454567:4077 ** ~success  install : dev-perl/Probe-Perl-0.10.0:0::gentoo
++2013, 06 June, 28 Friday, 22:03:06.789336900 343846:397260 768981:3205 ** ~success  install : dev-perl/Pod-Strip-1.20.0:0::perl-experimental
