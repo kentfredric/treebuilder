@@ -373,6 +373,7 @@ dev-perl/Async-MergePoint:0
 dev-perl/Audio-MPD:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/Audio-Ofa:0
+dev-perl/Authen-DecHpwd:0
 dev-perl/B-Hooks-EndOfScope:0
 dev-perl/BackPAN-Index:0
 dev-perl/CGI-Application-Dispatch:0
@@ -1566,12 +1567,14 @@ net-libs/rest:0.7
 net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
+net-misc/dhcp:0
 net-misc/iputils:0
 net-misc/memcached:0
 net-misc/mobile-broadband-provider-info:0
 net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
+net-misc/ntp:0
 net-misc/nxclient:0
 net-misc/nxnode:0
 net-misc/nxserver-freeedition:0
