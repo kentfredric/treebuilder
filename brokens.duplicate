@@ -1,0 +1,11 @@
+app-misc/tmux:0
+app-misc/vifm:0
+dev-ruby/hoe:0
+dev-ruby/railties:3.1
+dev-ruby/railties:3.2
+dev-ruby/redcloth:0
+dev-util/cmake:0
+dev-util/gtk-doc:0
+media-video/mkvtoolnix:0
+sys-devel/llvm:0
+virtual/editor:0
