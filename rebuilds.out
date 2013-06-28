@@ -1,3 +1,8 @@
-app-arch/rar:0
-media-video/mplayer:0
-net-wireless/rtl8192su-firmware:0
+gnome-base/gnome-control-center:2
+gnome-base/gnome-light:2.0
+gnome-base/gnome-panel:0
+gnome-base/gnome-session:0
+net-im/telepathy-logger:0
+net-misc/remmina:0
+virtual/notification-daemon:0
+x11-misc/xscreensaver:0

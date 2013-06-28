@@ -304,7 +304,6 @@ dev-libs/confuse:0
 dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
 dev-libs/fcgi:0
-dev-libs/folks:0
 dev-libs/fribidi:0
 dev-libs/gdl:1
 dev-libs/gdl:3
@@ -1007,18 +1006,16 @@ games-util/grfcodec:0
 games-util/nml:0
 gnome-base/dconf:0
 gnome-base/gconf:2
-gnome-base/gdm:0
 gnome-base/gnome-common:3
+gnome-base/gnome-control-center:2
 gnome-base/gnome-core-libs:3.0
 gnome-base/gnome-desktop:2
 gnome-base/gnome-desktop:3/4
 gnome-base/gnome-fallback:3.0
 gnome-base/gnome-keyring:0
-gnome-base/gnome-light:2.0
 gnome-base/gnome-menus:0
 gnome-base/gnome-mime-data:0
-gnome-base/gnome-panel:0
-gnome-base/gnome-shell:0
+gnome-base/gnome-session:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
 gnome-base/gvfs:0
@@ -1524,6 +1521,7 @@ media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
 media-video/mkvtoolnix:0
+media-video/mplayer:0
 media-video/recordmydesktop:0
 media-video/rtmpdump:0
 media-video/smplayer:0
@@ -1564,8 +1562,6 @@ net-im/psi:0
 net-im/psimedia:0
 net-im/qwit:0
 net-im/skype:0
-net-im/telepathy-logger:0
-net-im/telepathy-mission-control:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
@@ -1595,7 +1591,6 @@ net-libs/nodejs:0
 net-libs/openslp:0
 net-libs/ortp:0
 net-libs/rest:0.7
-net-libs/telepathy-glib:0
 net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
@@ -1610,7 +1605,6 @@ net-misc/nxclient:0
 net-misc/nxnode:0
 net-misc/nxserver-freeedition:0
 net-misc/rdesktop:0
-net-misc/remmina:0
 net-misc/rsync:0
 net-misc/tightvnc:0
 net-misc/wget:0
@@ -1625,6 +1619,7 @@ net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
 net-wireless/iw:0
+net-wireless/rtl8192su-firmware:0
 net-wireless/wireless-tools:0
 net-wireless/wpa_supplicant:0
 perl-core/CPAN-Meta:0
@@ -1847,7 +1842,6 @@ virtual/libintl:0
 virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
-virtual/notification-daemon:0
 virtual/opencl:0
 virtual/opengl:0
 virtual/os-headers:0
@@ -2053,7 +2047,6 @@ x11-misc/xkbd:0
 x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
-x11-misc/xscreensaver:0
 x11-misc/xsel:0
 x11-plugins/docker:0
 x11-proto/bigreqsproto:0
