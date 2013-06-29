@@ -820,16 +820,7 @@ dev-qt/qtsvg:4
 dev-qt/qttest:4
 dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
-dev-ruby/activesupport:3.1
-dev-ruby/activesupport:3.2
-dev-ruby/diff-lcs:0
-dev-ruby/flexmock:0
-dev-ruby/multi_json:0
-dev-ruby/rake-compiler:0
 dev-ruby/rdoc:0
-dev-ruby/rexical:0
-dev-ruby/rspec-expectations:2
-dev-ruby/yajl-ruby:0
 dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
@@ -852,7 +843,6 @@ dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cscope:0
 dev-util/ctags:0
-dev-util/cucumber:0
 dev-util/d-feet:0
 dev-util/dejagnu:0
 dev-util/desktop-file-utils:0
@@ -1760,7 +1750,6 @@ virtual/perl-Thread-Queue:0
 virtual/perl-libnet:0
 virtual/perl-podlators:0
 virtual/pkgconfig:0
-virtual/ruby-test-unit:0
 virtual/rubygems:ruby18
 virtual/shadow:0
 virtual/ssh:0
