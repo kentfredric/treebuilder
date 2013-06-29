@@ -75,7 +75,6 @@ app-emulation/emul-linux-x86-gtklibs:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
-app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
@@ -1170,8 +1169,6 @@ media-libs/cogl:1.0/11
 media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
-media-libs/faac:0
-media-libs/faad2:0
 media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/ftgl:0
@@ -1248,7 +1245,6 @@ media-libs/libshout:0
 media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
-media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
@@ -1665,7 +1661,6 @@ sys-process/at:0
 sys-process/iotop:0
 sys-process/latencytop:0
 sys-process/lsof:0
-sys-process/procps:0
 sys-process/psmisc:0
 sys-process/time:0
 sys-process/vixie-cron:0

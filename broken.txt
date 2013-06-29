@@ -71,11 +71,11 @@ app-editors/scite:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
+app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
-app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
@@ -96,6 +96,7 @@ app-mobilephone/obex-data-server:0
 app-mobilephone/smssend:0
 app-office/akonadi-server:0
 app-office/dia:0
+app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -177,6 +178,7 @@ dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql-init-scripts:0
 dev-db/mysql-workbench:0
+dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
@@ -1160,7 +1162,9 @@ media-gfx/qrencode:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
+media-libs/alsa-lib:0
 media-libs/alsa-oss:0
+media-libs/audiofile:0/1
 media-libs/babl:0
 media-libs/bio2jack:0
 media-libs/chromaprint:0
@@ -1170,8 +1174,7 @@ media-libs/cogl:1.0/11
 media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
-media-libs/faac:0
-media-libs/faad2:0
+media-libs/flac:0
 media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/ftgl:0
@@ -1248,8 +1251,8 @@ media-libs/libshout:0
 media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
-media-libs/libtheora:0
 media-libs/libv4l:0
+media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
@@ -1283,6 +1286,7 @@ media-libs/taglib:0
 media-libs/urt:0
 media-libs/vigra:0
 media-libs/vo-aacenc:0
+media-libs/webrtc-audio-processing:0
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
@@ -1337,6 +1341,7 @@ media-sound/clementine:0
 media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
+media-sound/lame:0
 media-sound/lash:0
 media-sound/lastfmplayer:0
 media-sound/lilypond:0
@@ -1665,7 +1670,6 @@ sys-process/at:0
 sys-process/iotop:0
 sys-process/latencytop:0
 sys-process/lsof:0
-sys-process/procps:0
 sys-process/psmisc:0
 sys-process/time:0
 sys-process/vixie-cron:0
