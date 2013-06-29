@@ -1,1 +1,1 @@
-+2013, 06 June, 29 Saturday, 20:02:37.080882311 394982:234988 677320:4832 ** ~success  clean : dev-perl/Test-Kwalitee-1.60.0:0::installed
++2013, 06 June, 29 Saturday, 21:58:23.915291825 707323:646610 221608:8237 ** ~success  install : dev-java/swt-3.5.2:3.5::gentoo
