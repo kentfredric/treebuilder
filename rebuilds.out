@@ -1,3 +1,1 @@
-dev-lang/ruby:1.8
-dev-lang/ruby:1.9
-dev-ruby/hoe:0
+dev-ruby/rdoc:0
