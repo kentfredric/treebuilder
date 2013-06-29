@@ -1,1 +1,8 @@
-dev-perl/pip:0
+dev-ruby/actionpack:3.1
+dev-ruby/actionpack:3.2
+dev-ruby/capybara:0
+dev-ruby/rack-test:0.6
+dev-ruby/sinatra:0
+dev-ruby/sprockets:2.0
+dev-ruby/sprockets:2.1
+dev-ruby/sprockets:2.2
