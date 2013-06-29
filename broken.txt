@@ -387,7 +387,6 @@ dev-perl/CGI-Application-Plugin-Session:0
 dev-perl/CGI-Application-Plugin-TT:0
 dev-perl/CHI:0
 dev-perl/CPAN-Checksums:0
-dev-perl/CPAN-Inject:0
 dev-perl/CPAN-Reporter:0
 dev-perl/CPAN-Uploader:0
 dev-perl/CPS:0
