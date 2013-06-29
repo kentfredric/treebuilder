@@ -2,9 +2,8 @@ dev-libs/xmlrpc-epi:0
 dev-lang/lua:0
 dev-util/valgrind:0
 perl-gcpanp/WWW-Pastebin-PastieCabooSe-Retrieve:0
-dev-perl/Data-Handle:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
-dev-perl/signatures:0
 dev-perl/KinoSearch1:0
 dev-perl/math-pari:0
 sci-mathematics/pari:0
+dev-perl/Audio-Ofa:0
