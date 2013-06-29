@@ -198,9 +198,7 @@ dev-games/libggz:0
 dev-games/physfs:0
 dev-java/ant-eclipse-ecj:3.7
 dev-java/apple-java-extensions-bin:0
-dev-java/bctsp:0
 dev-java/itext:0
-dev-java/itext:5
 dev-java/oracle-jdk-bin:1.7
 dev-java/sun-jdk:1.6
 dev-java/sun-jre-bin:1.6
