@@ -820,7 +820,7 @@ dev-qt/qtsvg:4
 dev-qt/qttest:4
 dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
-dev-ruby/rdoc:0
+dev-ruby/hoe:0
 dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
