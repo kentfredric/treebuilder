@@ -1,1 +1,1 @@
-+2013, 06 June, 29 Saturday, 19:12:28.649909405 324889:21301 351172:2392 ** ~success  install : dev-ruby/rspec-expectations-2.13.0:2::gentoo
++2013, 06 June, 29 Saturday, 19:18:34.337971663 357295:26096 ** ~success true task : 

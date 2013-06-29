@@ -807,6 +807,8 @@ dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-ruby/RubyInline:0
 dev-ruby/actionmailer:3.2
+dev-ruby/actionpack:3.1
+dev-ruby/actionpack:3.2
 dev-ruby/activemodel:3.1
 dev-ruby/activemodel:3.2
 dev-ruby/activerecord:3.1
@@ -816,6 +818,7 @@ dev-ruby/activeresource:3.2
 dev-ruby/activesupport:3.1
 dev-ruby/activesupport:3.2
 dev-ruby/ammeter:0
+dev-ruby/capybara:0
 dev-ruby/coffee-rails:3.2
 dev-ruby/fakeweb:0
 dev-ruby/fast_xs:0
@@ -838,6 +841,7 @@ dev-ruby/racc:0
 dev-ruby/rack-mount:0.8
 dev-ruby/rack-protection:1
 dev-ruby/rack-ssl:1.3
+dev-ruby/rack-test:0.6
 dev-ruby/rack:0
 dev-ruby/rack:1.2
 dev-ruby/rack:1.3
@@ -846,11 +850,8 @@ dev-ruby/railties:3.1
 dev-ruby/railties:3.2
 dev-ruby/rexical:0
 dev-ruby/rr:0
-dev-ruby/rspec-core:2
-dev-ruby/rspec-mocks:2
 dev-ruby/rspec-rails:2
 dev-ruby/rspec:0
-dev-ruby/rspec:2
 dev-ruby/ruby-prof:0
 dev-ruby/ruby2ruby:0
 dev-ruby/ruby_parser:0
@@ -859,6 +860,10 @@ dev-ruby/sass-rails:0
 dev-ruby/sass-rails:3.2
 dev-ruby/sass:0
 dev-ruby/sexp_processor:0
+dev-ruby/sinatra:0
+dev-ruby/sprockets:2.0
+dev-ruby/sprockets:2.1
+dev-ruby/sprockets:2.2
 dev-ruby/sqlite3:0
 dev-ruby/test-spec:0
 dev-ruby/thor:0
