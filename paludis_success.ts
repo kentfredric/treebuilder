@@ -1,1 +1,1 @@
-+2013, 06 June, 29 Saturday, 21:58:23.915291825 707323:646610 221608:8237 ** ~success  install : dev-java/swt-3.5.2:3.5::gentoo
++2013, 06 June, 29 Saturday, 22:10:13.466634989 707323:717565 ** ~success true task : 
