@@ -54,7 +54,6 @@ app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
 app-crypt/gnupg:0
-app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/pinentry:0
@@ -71,6 +70,7 @@ app-editors/scite:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
+app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
@@ -95,6 +95,7 @@ app-mobilephone/obex-data-server:0
 app-mobilephone/smssend:0
 app-office/akonadi-server:0
 app-office/dia:0
+app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -176,6 +177,7 @@ dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql-init-scripts:0
 dev-db/mysql-workbench:0
+dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
@@ -209,20 +211,14 @@ dev-lang/parrot:0
 dev-lang/perl:0/5.16
 dev-lang/php:5.3
 dev-lang/php:5.4
-dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/python:3.3
 dev-lang/rakudo:0
-dev-lang/ruby:1.8
-dev-lang/ruby:1.9
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
-dev-lang/vala:0.10
-dev-lang/vala:0.14
-dev-lang/vala:0.16
 dev-lang/yasm:0
 dev-libs/DirectFB:0
 dev-libs/atk:0
@@ -238,8 +234,6 @@ dev-libs/fribidi:0
 dev-libs/gdl:1
 dev-libs/gdome2:0
 dev-libs/geoip:0
-dev-libs/glib:2
-dev-libs/gobject-introspection-common:0
 dev-libs/grantlee:0
 dev-libs/icu:0/51.1
 dev-libs/ilbc-rfc3951:0
@@ -255,8 +249,6 @@ dev-libs/libdbusmenu-qt:0
 dev-libs/libedit:0
 dev-libs/libev:0
 dev-libs/libgcrypt:0
-dev-libs/libgee:0.8
-dev-libs/libgpg-error:0
 dev-libs/libical:0
 dev-libs/libksba:0
 dev-libs/libmcrypt:0
@@ -830,13 +822,11 @@ dev-util/d-feet:0
 dev-util/dejagnu:0
 dev-util/desktop-file-utils:0
 dev-util/dialog:0
-dev-util/gdbus-codegen:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtk-doc:0
 dev-util/intel-ocl-sdk:0
 dev-util/kbuild:0
-dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/ragel:0
 dev-util/reswrap:0
@@ -1159,7 +1149,9 @@ media-gfx/qrencode:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
+media-libs/alsa-lib:0
 media-libs/alsa-oss:0
+media-libs/audiofile:0/1
 media-libs/babl:0
 media-libs/bio2jack:0
 media-libs/chromaprint:0
@@ -1169,6 +1161,7 @@ media-libs/cogl:1.0/11
 media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
+media-libs/flac:0
 media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/ftgl:0
@@ -1246,6 +1239,7 @@ media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
 media-libs/libv4l:0
+media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
@@ -1279,6 +1273,7 @@ media-libs/taglib:0
 media-libs/urt:0
 media-libs/vigra:0
 media-libs/vo-aacenc:0
+media-libs/webrtc-audio-processing:0
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
@@ -1333,6 +1328,7 @@ media-sound/clementine:0
 media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
+media-sound/lame:0
 media-sound/lash:0
 media-sound/lastfmplayer:0
 media-sound/lilypond:0
@@ -1593,7 +1589,6 @@ sys-devel/llvm:0
 sys-devel/m4:0
 sys-devel/make:0
 sys-devel/patch:0
-sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -1618,11 +1613,8 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
-sys-fs/zfs-kmod:0
-sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
-sys-kernel/spl:0
 sys-libs/cracklib:0
 sys-libs/db:3
 sys-libs/db:4.4
@@ -1642,7 +1634,6 @@ sys-libs/mtdev:0
 sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
-sys-libs/talloc:0
 sys-libs/tevent:0
 sys-libs/timezone-data:0
 sys-libs/zlib:0
