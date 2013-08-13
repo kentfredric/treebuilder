@@ -305,6 +305,7 @@ dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
+dev-libs/apr:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/boost:0/1.52
@@ -1741,6 +1742,7 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
+sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/linux-headers:0
