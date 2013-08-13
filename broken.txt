@@ -33,6 +33,7 @@ app-admin/metalog:0
 app-admin/openrc-settingsd:0
 app-admin/perl-cleaner:0
 app-admin/python-updater:0
+app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
@@ -139,7 +140,9 @@ app-text/docbook-xml-simple-dtd:0
 app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/docbook2X:0
+app-text/dvipdfmx:0
 app-text/dvipng:0
+app-text/dvipsk:0
 app-text/ebook-tools:0
 app-text/enchant:0
 app-text/enscript:0
@@ -159,6 +162,7 @@ app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
 app-text/poppler:0/37
+app-text/ps2pkm:0
 app-text/qpdf:0/10
 app-text/rarian:0
 app-text/scrollkeeper-dtd:1.0
@@ -167,6 +171,7 @@ app-text/t1utils:0
 app-text/teckit:0
 app-text/texlive-core:0
 app-text/wgetpaste:0
+app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
 app-vim/closetag:0
@@ -313,6 +318,7 @@ dev-lang/python:3.3
 dev-lang/rakudo:0
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
+dev-lang/swig:0
 dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
 dev-lang/vala:0.20
@@ -345,7 +351,6 @@ dev-libs/iniparser:0
 dev-libs/json-glib:0
 dev-libs/judy:0
 dev-libs/klibc:0
-dev-libs/kpathsea:0
 dev-libs/libIDL:0
 dev-libs/libconfig:0
 dev-libs/libcroco:0.6
@@ -556,6 +561,7 @@ dev-perl/DateTime-TimeZone-Tzfile:0
 dev-perl/DateTime:0
 dev-perl/Debug-ShowStuff:0
 dev-perl/Devel-CheckOS:0
+dev-perl/Devel-NYTProf:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-SimpleTrace:0
 dev-perl/Digest-CRC:0
@@ -913,7 +919,7 @@ dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-scheme/guile:12
 dev-tcltk/expect:0
-dev-tex/bibtexu:0
+dev-tex/luatex:0
 dev-texlive/texlive-basic:0
 dev-texlive/texlive-documentation-base:0
 dev-texlive/texlive-fontsextra:0
@@ -958,6 +964,7 @@ dev-vcs/cvsps:0
 dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
+dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
@@ -1261,6 +1268,7 @@ media-gfx/fontforge:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
+media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.1
 media-gfx/inkscape:0
@@ -1356,7 +1364,6 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
-media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
@@ -1371,6 +1378,7 @@ media-libs/libshout:0
 media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
+media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libvpx:0
@@ -1385,6 +1393,7 @@ media-libs/openal:0
 media-libs/opencv:0
 media-libs/openexr:0/20
 media-libs/openexr_ctl:0
+media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
 media-libs/phonon:0
 media-libs/plotutils:0
@@ -1559,6 +1568,7 @@ net-libs/openslp:0
 net-libs/ortp:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
+net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
 net-misc/dhcp:0
@@ -1568,6 +1578,7 @@ net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
 net-misc/ntp:0
+net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/tightvnc:0
@@ -1594,6 +1605,7 @@ perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
 perl-core/Compress-Raw-Bzip2:0
+perl-core/Compress-Raw-Zlib:0
 perl-core/Devel-DProf:0
 perl-core/Module-Load-Conditional:0
 perl-core/Module-Pluggable:0
@@ -1688,6 +1700,7 @@ sys-apps/smartmontools:0
 sys-apps/systemd:0
 sys-apps/texinfo:0
 sys-apps/usbutils:0
+sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
@@ -1778,7 +1791,6 @@ sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/tevent:0
 sys-libs/timezone-data:0
-sys-libs/zlib:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0
 sys-power/iasl:0

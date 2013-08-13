@@ -345,7 +345,6 @@ dev-libs/iniparser:0
 dev-libs/json-glib:0
 dev-libs/judy:0
 dev-libs/klibc:0
-dev-libs/kpathsea:0
 dev-libs/libIDL:0
 dev-libs/libconfig:0
 dev-libs/libcroco:0.6
@@ -913,7 +912,6 @@ dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-scheme/guile:12
 dev-tcltk/expect:0
-dev-tex/bibtexu:0
 dev-texlive/texlive-basic:0
 dev-texlive/texlive-documentation-base:0
 dev-texlive/texlive-fontsextra:0
@@ -1356,7 +1354,6 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
-media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
@@ -1778,7 +1775,6 @@ sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/tevent:0
 sys-libs/timezone-data:0
-sys-libs/zlib:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0
 sys-power/iasl:0
