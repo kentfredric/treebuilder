@@ -66,11 +66,9 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
-app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -171,7 +169,23 @@ app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xmlto:0
 app-text/yelp-tools:0
+app-vim/closetag:0
+app-vim/colorschemes:0
+app-vim/dhcpd-syntax:0
+app-vim/eselect-syntax:0
+app-vim/fugitive:0
+app-vim/gentoo-syntax:0
+app-vim/gitv:0
+app-vim/gtk-syntax:0
+app-vim/nerdtree:0
+app-vim/nginx-syntax:0
+app-vim/ntp-syntax:0
+app-vim/pam-syntax:0
 app-vim/perl-support:0
+app-vim/taglist:0
+app-vim/tt2-syntax:0
+app-vim/vim-spell-en:0
+app-vim/vimbuddy:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
 dev-cpp/clucene:1
@@ -299,6 +313,7 @@ dev-lang/python:3.3
 dev-lang/rakudo:0
 dev-lang/ruby:1.8
 dev-lang/ruby:1.9
+dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
@@ -606,6 +621,7 @@ dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository:0
 dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
+dev-perl/GraphViz:0
 dev-perl/Graphics-ColorObject:0
 dev-perl/Gtk3:0
 dev-perl/HTML-FormFu-Model-DBIC:0
@@ -917,6 +933,7 @@ dev-util/boost-build:0
 dev-util/catalyst:0
 dev-util/cmake:0
 dev-util/cmockery:0
+dev-util/cppunit:0
 dev-util/cscope:0
 dev-util/ctags:0
 dev-util/d-feet:0
@@ -1247,7 +1264,6 @@ media-gfx/fontforge:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
-media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.1
 media-gfx/inkscape:0
@@ -1546,7 +1562,6 @@ net-libs/openslp:0
 net-libs/ortp:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
-net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
 net-misc/dhcp:0
@@ -1948,6 +1963,7 @@ x11-libs/libnotify:0
 x11-libs/libpciaccess:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
+x11-libs/libvdpau:0
 x11-libs/libwnck:1
 x11-libs/libxcb:0
 x11-libs/libxkbfile:0

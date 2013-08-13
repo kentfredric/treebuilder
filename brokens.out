@@ -66,11 +66,9 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
-app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -305,6 +303,7 @@ dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
+dev-libs/apr:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/boost:0/1.52
@@ -1246,7 +1245,6 @@ media-gfx/fontforge:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
-media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.1
 media-gfx/inkscape:0
@@ -1545,7 +1543,6 @@ net-libs/openslp:0
 net-libs/ortp:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
-net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
 net-misc/dhcp:0
@@ -1741,6 +1738,7 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
+sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/linux-headers:0
