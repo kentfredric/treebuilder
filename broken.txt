@@ -67,9 +67,11 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
+app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
+app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -139,6 +141,7 @@ app-text/docbook-xml-dtd:4.5
 app-text/docbook-xml-simple-dtd:0
 app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
+app-text/docbook-xsl-stylesheets:0
 app-text/docbook2X:0
 app-text/dvipdfmx:0
 app-text/dvipng:0
@@ -1385,6 +1388,7 @@ media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
+media-libs/mlt:0
 media-libs/musicbrainz:3
 media-libs/musicbrainz:4
 media-libs/musicbrainz:5
@@ -1687,6 +1691,7 @@ sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/openrc:0
+sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
