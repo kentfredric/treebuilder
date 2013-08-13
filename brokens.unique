@@ -770,7 +770,6 @@ dev-perl/Pod-Markdown:0
 dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Weaver-Plugin-Encoding:0
 dev-perl/Pod-Weaver:0
-dev-perl/RRD-Simple:0
 dev-perl/Regexp-Grammars-Common-String:0
 dev-perl/Role-HasMessage:0
 dev-perl/Role-HasPayload:0
@@ -1502,7 +1501,6 @@ net-analyzer/munin:0
 net-analyzer/netcat:0
 net-analyzer/nettop:0
 net-analyzer/nmap:0
-net-analyzer/ntop:0
 net-analyzer/portsentry:0
 net-analyzer/rrdtool:0
 net-analyzer/slurm:0
@@ -1658,7 +1656,6 @@ sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
 sys-apps/kmod:0
-sys-apps/lm_sensors:0
 sys-apps/lomoco:0
 sys-apps/makedev:0
 sys-apps/man-pages-posix:0
@@ -1850,7 +1847,6 @@ www-plugins/adobe-flash:0
 www-plugins/mozplugger:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
-www-servers/lighttpd:0
 www-servers/nginx:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0

@@ -1,1 +1,1 @@
-+2013, 08 August, 14 Wednesday, 02:07:36.779176924 742886:64832 745462:57274 ** ~success  install : dev-vcs/subversion-1.7.11:0::gentoo
++2013, 08 August, 14 Wednesday, 02:12:17.345070168 742886:92888 ** ~success true task : 
