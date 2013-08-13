@@ -1677,7 +1677,6 @@ sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/openrc:0
-sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0

@@ -1,13 +1,4 @@
-app-misc/tmux:0
-app-portage/layman:0
-dev-perl/RRD-Simple:0
-dev-perl/VCI:0
-dev-util/anjuta:0
-kde-base/dolphin-plugins:4
-kde-base/kdesdk-kioslaves:4
-media-sound/jack-audio-connection-kit:0
-net-analyzer/ntop:0
-net-im/psi:0
-net-im/qwit:0
-sys-apps/lm_sensors:0
-www-servers/lighttpd:0
+app-admin/haskell-updater:0
+app-admin/python-updater:0
+app-shells/bash:0
+dev-perl/Cave-Wrapper:0

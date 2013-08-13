@@ -1677,7 +1677,6 @@ sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/openrc:0
-sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
@@ -1822,6 +1821,7 @@ virtual/notification-daemon:0
 virtual/opencl:0
 virtual/opengl:0
 virtual/os-headers:0
+virtual/package-manager:0
 virtual/pager:0
 virtual/pam:0
 virtual/perl-Archive-Extract:0
