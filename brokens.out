@@ -311,8 +311,6 @@ dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/python:3.3
 dev-lang/rakudo:0
-dev-lang/ruby:1.8
-dev-lang/ruby:1.9
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/tcl:0/8.6
@@ -1821,6 +1819,7 @@ virtual/notification-daemon:0
 virtual/opencl:0
 virtual/opengl:0
 virtual/os-headers:0
+virtual/package-manager:0
 virtual/pager:0
 virtual/pam:0
 virtual/perl-Archive-Extract:0
