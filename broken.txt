@@ -140,12 +140,12 @@ app-text/docbook-xml-dtd:4.5
 app-text/docbook-xml-simple-dtd:0
 app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
-app-text/docbook-xsl-stylesheets:0
 app-text/docbook2X:0
 app-text/dvipng:0
 app-text/ebook-tools:0
 app-text/enchant:0
 app-text/enscript:0
+app-text/ghostscript-gpl:0
 app-text/gnome-doc-utils:0
 app-text/gocr:0
 app-text/gtkspell:2
@@ -291,14 +291,18 @@ dev-lang/parrot:0
 dev-lang/perl:0/5.16
 dev-lang/php:5.3
 dev-lang/php:5.4
+dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/python:3.3
 dev-lang/rakudo:0
+dev-lang/ruby:1.8
+dev-lang/ruby:1.9
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
+dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
 dev-libs/atk:0
@@ -309,13 +313,17 @@ dev-libs/cloog-ppl:0
 dev-libs/confuse:0
 dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
+dev-libs/elfutils:0
 dev-libs/fcgi:0
 dev-libs/fribidi:0
 dev-libs/gdl:1
 dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
+dev-libs/glib:2
 dev-libs/gmp:0
+dev-libs/gobject-introspection-common:0
+dev-libs/gobject-introspection:0
 dev-libs/grantlee:0
 dev-libs/icu:0/51.1
 dev-libs/ilbc-rfc3951:0
@@ -331,12 +339,14 @@ dev-libs/libdbusmenu-qt:0
 dev-libs/libedit:0
 dev-libs/libev:0
 dev-libs/libgcrypt:0
+dev-libs/libgee:0.8
 dev-libs/libical:0
 dev-libs/libksba:0
 dev-libs/libmcrypt:0
 dev-libs/libmemcache:0
 dev-libs/libmix:0
 dev-libs/liboil:0.3
+dev-libs/libpcre:3
 dev-libs/libpqxx:0
 dev-libs/libpthread-stubs:0
 dev-libs/libpwquality:0
@@ -378,9 +388,7 @@ dev-libs/xmlrpc-epi:0
 dev-libs/zthread:0
 dev-libs/zziplib:0
 dev-perl/Adam:0
-dev-perl/Amazon-S3:0
 dev-perl/Any-Moose:0
-dev-perl/App-Cache:0
 dev-perl/App-Cmd:0
 dev-perl/App-cpanoutdated:0
 dev-perl/App-mymeta_requires:0
@@ -393,9 +401,11 @@ dev-perl/Audio-Ofa-Util:0
 dev-perl/Audio-Ofa:0
 dev-perl/Authen-Passphrase:0
 dev-perl/B-Hooks-EndOfScope:0
+dev-perl/BackPAN-Index:0
 dev-perl/BerkeleyDB-Manager:0
 dev-perl/CGI-Application-Dispatch:0
 dev-perl/CGI-Application-FastCGI:0
+dev-perl/CGI-Application-Plugin-Authentication:0
 dev-perl/CGI-Application-Plugin-AutoRunmode:0
 dev-perl/CGI-Application-Plugin-JSON:0
 dev-perl/CGI-Application-Plugin-Session:0
@@ -483,6 +493,7 @@ dev-perl/Class-Load-XS:0
 dev-perl/Class-Load:0
 dev-perl/Class-Mix:0
 dev-perl/Color-Calc:0
+dev-perl/Compress-Bzip2:0
 dev-perl/Config-JFDI:0
 dev-perl/Config-JSON:0
 dev-perl/Config-MVP:0
@@ -581,6 +592,7 @@ dev-perl/File-Type:0
 dev-perl/File-Which:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Future:0
+dev-perl/GD:0
 dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group-INI:0
 dev-perl/Gentoo-Overlay-Group:0
@@ -723,6 +735,7 @@ dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/Paludis-UseCleaner:0
 dev-perl/Parallel-Runner:0
 dev-perl/Params-Validate:0
+dev-perl/Parse-BACKPAN-Packages:0
 dev-perl/Parse-ErrorString-Perl:0
 dev-perl/Parse-Method-Signatures:0
 dev-perl/Parse-RecDescent:0
@@ -830,6 +843,7 @@ dev-perl/libwww-perl:0
 dev-perl/log-dispatch:0
 dev-perl/namespace-autoclean:0
 dev-perl/net-server:0
+dev-perl/perl-tk:0
 dev-perl/perl5i:0
 dev-perl/tie-encryptedhash:0
 dev-perl/utf8-all:0
@@ -882,11 +896,6 @@ dev-qt/qtsvg:4
 dev-qt/qttest:4
 dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
-dev-ruby/hoe:0
-dev-ruby/racc:0
-dev-ruby/rake:0
-dev-ruby/rdoc:0
-dev-ruby/rubygems:0
 dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
@@ -913,6 +922,7 @@ dev-util/d-feet:0
 dev-util/dejagnu:0
 dev-util/desktop-file-utils:0
 dev-util/dialog:0
+dev-util/gdbus-codegen:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtk-doc-am:0
@@ -921,7 +931,6 @@ dev-util/intel-ocl-sdk:0
 dev-util/itstool:0
 dev-util/kbuild:0
 dev-util/pkgconfig:0
-dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/scons:0
 dev-util/strace:0
@@ -974,17 +983,20 @@ kde-base/audiocd-kio:4
 kde-base/blogilo:4
 kde-base/dolphin-plugins:4
 kde-base/dolphin:4
+kde-base/dragon:4
 kde-base/drkonqi:4
 kde-base/ffmpegthumbs:4
 kde-base/filelight:4
 kde-base/freespacenotifier:4
 kde-base/gwenview:4
+kde-base/juk:4
 kde-base/kabcclient:4
 kde-base/kaddressbook:4
 kde-base/kalarm:4
 kde-base/kamera:4
 kde-base/kapptemplate:4
 kde-base/kate:4
+kde-base/katepart:4
 kde-base/kcachegrind:4
 kde-base/kcalc:4
 kde-base/kcharselect:4
@@ -1037,6 +1049,7 @@ kde-base/kdesdk-meta:4
 kde-base/kdesdk-misc:4
 kde-base/kdesdk-scripts:4
 kde-base/kdesdk-strigi-analyzer:4
+kde-base/kdesu:4
 kde-base/kdeutils-meta:4
 kde-base/kdf:4
 kde-base/kdialog:4
@@ -1045,10 +1058,12 @@ kde-base/kdontchangethehostname:4
 kde-base/keditfiletype:4
 kde-base/kephal:4
 kde-base/kfile:4
+kde-base/kfind:4
 kde-base/kgamma:4
 kde-base/kget:4
 kde-base/kglobalaccel:4
 kde-base/kgpg:4
+kde-base/khelpcenter:4
 kde-base/khotkeys:4
 kde-base/kiconfinder:4
 kde-base/kinfocenter:4
@@ -1068,6 +1083,7 @@ kde-base/knotify:4
 kde-base/kolourpaint:4
 kde-base/kompare:4
 kde-base/konq-plugins:4
+kde-base/konqueror:4
 kde-base/konsole:4
 kde-base/konsolekalendar:4
 kde-base/kontact:4
@@ -1123,6 +1139,7 @@ kde-base/nepomuk-widgets:4
 kde-base/nepomuk:4
 kde-base/nsplugins:4
 kde-base/okteta:4
+kde-base/okular:4
 kde-base/oxygen-icons:4
 kde-base/phonon-kde:4
 kde-base/plasma-apps:4
@@ -1241,6 +1258,7 @@ media-gfx/optipng:0
 media-gfx/povray:0
 media-gfx/pstoedit:0
 media-gfx/qrencode:0
+media-gfx/sane-backends:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
@@ -1260,6 +1278,7 @@ media-libs/exempi:2
 media-libs/flac:0
 media-libs/fontconfig:1.0
 media-libs/freeglut:0
+media-libs/freetype:2
 media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gd:2
@@ -1286,6 +1305,7 @@ media-libs/jbig2dec:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
 media-libs/lcms:0
+media-libs/lcms:2
 media-libs/libaacplus:0
 media-libs/libafterimage:0
 media-libs/libao:0
@@ -1310,7 +1330,6 @@ media-libs/libgii:0
 media-libs/libgphoto2:0/6
 media-libs/libgpod:0
 media-libs/libid3tag:0
-media-libs/libjpeg-turbo:0
 media-libs/liblastfm:0
 media-libs/libmad:0
 media-libs/libmikmod:0
@@ -1344,7 +1363,6 @@ media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
-media-libs/mlt:0
 media-libs/musicbrainz:3
 media-libs/musicbrainz:4
 media-libs/musicbrainz:5
@@ -1485,7 +1503,6 @@ net-analyzer/traceroute:0
 net-analyzer/upnpscan:0
 net-analyzer/wireshark:0
 net-dialup/ppp:0
-net-dns/avahi:0
 net-dns/bind-tools:0
 net-dns/dnsmasq:0
 net-dns/idnkit:0
@@ -1538,12 +1555,8 @@ net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
 net-misc/ntp:0
-net-misc/nxclient:0
-net-misc/nxnode:0
-net-misc/nxserver-freeedition:0
 net-misc/rdesktop:0
 net-misc/remmina:0
-net-misc/rsync:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
@@ -1553,6 +1566,7 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
+net-print/cups-filters:0
 net-print/cups:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
@@ -1566,6 +1580,7 @@ perl-core/CPAN-Meta:0
 perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
+perl-core/Compress-Raw-Bzip2:0
 perl-core/Devel-DProf:0
 perl-core/Module-Load-Conditional:0
 perl-core/Module-Pluggable:0
@@ -1701,7 +1716,6 @@ sys-devel/libtool:2
 sys-devel/llvm:0
 sys-devel/m4:0
 sys-devel/make:0
-sys-devel/patch:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -1811,7 +1825,6 @@ virtual/perl-libnet:0
 virtual/perl-podlators:0
 virtual/pkgconfig:0
 virtual/python-argparse:0
-virtual/rubygems:ruby18
 virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
@@ -1975,7 +1988,6 @@ x11-misc/synergy:0
 x11-misc/touchfreeze:0
 x11-misc/trayer:0
 x11-misc/util-macros:0
-x11-misc/x11vnc:0
 x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
 x11-misc/xclip:0

@@ -1,1 +1,1 @@
-+2013, 07 July, 03 Wednesday, 13:56:55.681573469 94311:2656 ** --[start]--
++2013, 08 August, 14 Wednesday, 00:58:05.615184434 534545:43171 558187:28351 ** ~success  install : media-libs/mlt-0.9.0:0::gentoo
