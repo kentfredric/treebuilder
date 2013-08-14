@@ -1022,7 +1022,6 @@ kde-base/kalarm:4
 kde-base/kamera:4
 kde-base/kapptemplate:4
 kde-base/kate:4
-kde-base/katepart:4
 kde-base/kcachegrind:4
 kde-base/kcalc:4
 kde-base/kcharselect:4
@@ -1032,6 +1031,7 @@ kde-base/kcmshell:4
 kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
+kde-base/kde-env:4
 kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
@@ -1058,7 +1058,6 @@ kde-base/kdebugdialog:4
 kde-base/kdegraphics-meta:4
 kde-base/kdegraphics-mobipocket:4
 kde-base/kdegraphics-strigi-analyzer:4
-kde-base/kdelibs:4
 kde-base/kdenetwork-filesharing:4
 kde-base/kdenetwork-meta:4
 kde-base/kdepasswd:4
@@ -1076,7 +1075,6 @@ kde-base/kdesdk-meta:4
 kde-base/kdesdk-misc:4
 kde-base/kdesdk-scripts:4
 kde-base/kdesdk-strigi-analyzer:4
-kde-base/kdesu:4
 kde-base/kdeutils-meta:4
 kde-base/kdf:4
 kde-base/kdialog:4
@@ -1088,12 +1086,10 @@ kde-base/keditfiletype:4
 kde-base/kephal:4
 kde-base/kfile:4
 kde-base/kfind:4
-kde-base/kfmclient:4
 kde-base/kgamma:4
 kde-base/kget:4
 kde-base/kglobalaccel:4
 kde-base/kgpg:4
-kde-base/khelpcenter:4
 kde-base/khotkeys:4
 kde-base/kiconfinder:4
 kde-base/kinfocenter:4
@@ -1170,8 +1166,6 @@ kde-base/libtaskmanager:4
 kde-base/lokalize:4
 kde-base/marble:4
 kde-base/mplayerthumbs:4
-kde-base/nepomuk-core:4
-kde-base/nepomuk-widgets:4
 kde-base/nepomuk:4
 kde-base/nsplugins:4
 kde-base/okteta:4
