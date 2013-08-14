@@ -1,1 +1,1 @@
-+2013, 08 August, 14 Wednesday, 19:37:59.107508986 12787:14541 ** ~success true task : 
++2013, 08 August, 14 Wednesday, 22:07:26.968076469 14200:830832 237810:4323 ** ~success  install : kde-base/kdepim-l10n-4.10.5:4::gentoo
