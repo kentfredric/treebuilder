@@ -36,7 +36,6 @@ app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
-app-admin/system-config-printer-common:0
 app-admin/testdisk:0
 app-arch/advancecomp:0
 app-arch/cabextract:0
@@ -890,8 +889,6 @@ dev-python/ply:0
 dev-python/py:0
 dev-python/pycairo:0
 dev-python/pycrypto:0
-dev-python/pycups:0
-dev-python/pycurl:0
 dev-python/pygments:0
 dev-python/pygobject:2
 dev-python/pygobject:3
@@ -1031,7 +1028,6 @@ kde-base/kcron:4
 kde-base/kde-env:4
 kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
-kde-base/kdeaccounts-plugin:4
 kde-base/kdeadmin-meta:4
 kde-base/kdeartwork-colorschemes:4
 kde-base/kdeartwork-desktopthemes:4
@@ -1172,7 +1168,6 @@ kde-base/plasma-apps:4
 kde-base/plasma-runtime:4
 kde-base/plasma-workspace:4
 kde-base/powerdevil:4
-kde-base/printer-applet:4
 kde-base/pykde4:4
 kde-base/qguiplatformplugin_kde:4
 kde-base/renamedlg-plugins:4
@@ -1181,7 +1176,6 @@ kde-base/solid:4
 kde-base/superkaramba:4
 kde-base/svgpart:4
 kde-base/sweeper:4
-kde-base/system-config-printer-kde:4
 kde-base/systemsettings:4
 kde-base/thumbnailers:4
 kde-base/umbrello:4
@@ -1514,7 +1508,6 @@ media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/ettercap:0
-net-analyzer/iptraf-ng:0
 net-analyzer/mtr:0
 net-analyzer/munin:0
 net-analyzer/netcat:0
@@ -1674,7 +1667,6 @@ sys-apps/gnome-disk-utility:0
 sys-apps/gptfdisk:0
 sys-apps/grep:0
 sys-apps/groff:0
-sys-apps/hwinfo:0
 sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
@@ -1808,7 +1800,6 @@ sys-process/acct:0
 sys-process/at:0
 sys-process/iotop:0
 sys-process/latencytop:0
-sys-process/lsof:0
 sys-process/psmisc:0
 sys-process/time:0
 sys-process/vixie-cron:0
