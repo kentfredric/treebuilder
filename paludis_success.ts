@@ -1,1 +1,1 @@
-+2013, 08 August, 14 Wednesday, 22:07:26.968076469 14200:830832 237810:4323 ** ~success  install : kde-base/kdepim-l10n-4.10.5:4::gentoo
++2013, 08 August, 14 Wednesday, 23:20:24.316223929 14200:1268567 293811:10294 ** ~success  install : kde-base/akonadiconsole-4.10.5:4::gentoo
