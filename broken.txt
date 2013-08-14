@@ -1406,7 +1406,6 @@ media-libs/musicbrainz:5
 media-libs/netpbm:0
 media-libs/openal:0
 media-libs/opencv:0
-media-libs/openexr:0/20
 media-libs/openexr_ctl:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0

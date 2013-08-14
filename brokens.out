@@ -1016,6 +1016,7 @@ kde-base/freespacenotifier:4
 kde-base/gwenview:4
 kde-base/juk:4
 kde-base/kabcclient:4
+kde-base/kactivities:4
 kde-base/kaddressbook:4
 kde-base/kalarm:4
 kde-base/kamera:4
@@ -1027,9 +1028,11 @@ kde-base/kcalc:4
 kde-base/kcharselect:4
 kde-base/kcheckpass:4
 kde-base/kcminit:4
+kde-base/kcmshell:4
 kde-base/kcolorchooser:4
 kde-base/kcontrol:4
 kde-base/kcron:4
+kde-base/kde-l10n:4
 kde-base/kde-wallpapers:4
 kde-base/kdeaccounts-plugin:4
 kde-base/kdeadmin-meta:4
@@ -1078,11 +1081,14 @@ kde-base/kdeutils-meta:4
 kde-base/kdf:4
 kde-base/kdialog:4
 kde-base/kdm:4
+kde-base/kdnssd:4
 kde-base/kdontchangethehostname:4
+kde-base/keditbookmarks:4
 kde-base/keditfiletype:4
 kde-base/kephal:4
 kde-base/kfile:4
 kde-base/kfind:4
+kde-base/kfmclient:4
 kde-base/kgamma:4
 kde-base/kget:4
 kde-base/kglobalaccel:4
@@ -1122,6 +1128,7 @@ kde-base/krfb:4
 kde-base/krosspython:4
 kde-base/kruler:4
 kde-base/krunner:4
+kde-base/kscd:4
 kde-base/kscreensaver:4
 kde-base/ksmserver:4
 kde-base/ksnapshot:4
@@ -1148,10 +1155,13 @@ kde-base/kwalletd:4
 kde-base/kwin:4
 kde-base/kwrite:4
 kde-base/kwrited:4
+kde-base/libkcddb:4
+kde-base/libkcompactdisc:4
 kde-base/libkdcraw:4
 kde-base/libkdegames:4
 kde-base/libkexiv2:4
 kde-base/libkipi:4
+kde-base/libkonq:4
 kde-base/libkworkspace:4
 kde-base/liboxygenstyle:4
 kde-base/libplasmaclock:4
@@ -1159,6 +1169,8 @@ kde-base/libplasmagenericshell:4
 kde-base/libtaskmanager:4
 kde-base/lokalize:4
 kde-base/marble:4
+kde-base/mplayerthumbs:4
+kde-base/nepomuk-core:4
 kde-base/nepomuk-widgets:4
 kde-base/nepomuk:4
 kde-base/nsplugins:4
@@ -1166,6 +1178,7 @@ kde-base/okteta:4
 kde-base/okular:4
 kde-base/phonon-kde:4
 kde-base/plasma-apps:4
+kde-base/plasma-runtime:4
 kde-base/plasma-workspace:4
 kde-base/powerdevil:4
 kde-base/printer-applet:4
@@ -1175,6 +1188,7 @@ kde-base/renamedlg-plugins:4
 kde-base/solid-runtime:4
 kde-base/solid:4
 kde-base/superkaramba:4
+kde-base/svgpart:4
 kde-base/sweeper:4
 kde-base/system-config-printer-kde:4
 kde-base/systemsettings:4
@@ -1392,7 +1406,6 @@ media-libs/musicbrainz:5
 media-libs/netpbm:0
 media-libs/openal:0
 media-libs/opencv:0
-media-libs/openexr:0/20
 media-libs/openexr_ctl:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
@@ -1740,6 +1753,7 @@ sys-devel/libtool:2
 sys-devel/llvm:0
 sys-devel/m4:0
 sys-devel/make:0
+sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
