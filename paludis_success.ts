@@ -1,1 +1,1 @@
-+2013, 08 August, 14 Wednesday, 23:20:24.316223929 14200:1268567 293811:10294 ** ~success  install : kde-base/akonadiconsole-4.10.5:4::gentoo
++2013, 08 August, 15 Thursday, 05:43:30.665894171 14200:3567202 ** ~success true task : 
