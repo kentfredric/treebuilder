@@ -989,14 +989,12 @@ gnome-extra/yelp:0
 gnome-extra/zenity:0
 java-virtuals/jaf:0
 java-virtuals/javamail:0
-kde-base/ffmpegthumbs:4
 kde-base/kdeartwork-meta:4
 kde-base/kdelibs:4
 kde-base/kdemultimedia-meta:4
 kde-base/kdenetwork-meta:4
 kde-base/kdesdk-meta:4
 kde-base/kdeutils-meta:4
-kde-base/kopete:4
 kde-base/lokalize:4
 kde-base/pykde4:4
 kde-base/superkaramba:4
@@ -1129,7 +1127,6 @@ media-libs/harfbuzz:0
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
-media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
@@ -1185,7 +1182,6 @@ media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
 media-libs/libtheora:0
-media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
@@ -1218,7 +1214,6 @@ media-libs/speex:0
 media-libs/t1lib:5
 media-libs/taglib-extras:0
 media-libs/taglib:0
-media-libs/tiff:0
 media-libs/urt:0
 media-libs/vigra:0
 media-libs/vo-aacenc:0
@@ -1301,7 +1296,6 @@ media-sound/vorbis-tools:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
-media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
 media-video/mplayer:0
@@ -1617,7 +1611,6 @@ virtual/freedesktop-icon-theme:0
 virtual/glu:0
 virtual/init:0
 virtual/jdk:1.7
-virtual/jpeg:0
 virtual/krb5:0
 virtual/latex-base:0
 virtual/libc:0
