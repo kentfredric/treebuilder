@@ -70,6 +70,7 @@ app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
+app-editors/vim-core:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
@@ -93,6 +94,7 @@ app-misc/geoclue:0
 app-misc/media-player-info:0
 app-misc/note:0
 app-misc/pax-utils:0
+app-misc/screen:0
 app-misc/strigi:0
 app-misc/tmux:0
 app-misc/vifm:0
@@ -315,6 +317,7 @@ dev-lang/python:3.1
 dev-lang/python:3.2
 dev-lang/python:3.3
 dev-lang/rakudo:0
+dev-lang/ruby:1.9
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/swig:0
@@ -323,6 +326,7 @@ dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
+dev-libs/apr-util:1
 dev-libs/apr:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
@@ -350,6 +354,7 @@ dev-libs/json-glib:0
 dev-libs/judy:0
 dev-libs/klibc:0
 dev-libs/libIDL:0
+dev-libs/libcdio:0
 dev-libs/libconfig:0
 dev-libs/libcroco:0.6
 dev-libs/libdbusmenu-qt:0
@@ -518,6 +523,7 @@ dev-perl/Config-Pit:0
 dev-perl/Crypt-Eksblowfish:0
 dev-perl/Crypt-OpenPGP:0
 dev-perl/Crypt-Skip32:0
+dev-perl/Curses:0
 dev-perl/DBI:0
 dev-perl/DBICx-TestDatabase:0
 dev-perl/DBIx-Class-DateTime-Epoch:0
@@ -768,6 +774,7 @@ dev-perl/Perl6-Caller:0
 dev-perl/Plack-Middleware-ForceEnv:0
 dev-perl/Plack-Middleware-ReverseProxy:0
 dev-perl/Pod-Coverage-Moose:0
+dev-perl/Pod-Coverage:0
 dev-perl/Pod-Elemental-PerlMunger:0
 dev-perl/Pod-Elemental-Transformer-List:0
 dev-perl/Pod-Markdown:0
@@ -849,10 +856,12 @@ dev-perl/Wx-Scintilla:0
 dev-perl/XML-Elemental:0
 dev-perl/XML-Feed:0
 dev-perl/XML-Filter-BufferText:0
+dev-perl/XML-Parser:0
 dev-perl/XML-RSS-Parser:0
 dev-perl/XML-RSS:0
 dev-perl/XML-SAX-Base:0
 dev-perl/XML-Tidy:0
+dev-perl/XML-Twig:0
 dev-perl/constant-boolean:0
 dev-perl/convert-ascii-armour:0
 dev-perl/convert-pem:0
@@ -949,6 +958,7 @@ dev-util/kbuild:0
 dev-util/pkgconfig:0
 dev-util/reswrap:0
 dev-util/scons:0
+dev-util/strace:0
 dev-util/valgrind:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
@@ -1334,6 +1344,7 @@ media-sound/vorbis-tools:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
+media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
 media-video/mplayer:0
@@ -1347,6 +1358,7 @@ media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/ettercap:0
+net-analyzer/iptraf-ng:0
 net-analyzer/mtr:0
 net-analyzer/munin:0
 net-analyzer/netcat:0
@@ -1362,6 +1374,7 @@ net-analyzer/traceroute:0
 net-analyzer/upnpscan:0
 net-analyzer/wireshark:0
 net-dialup/ppp:0
+net-dns/avahi:0
 net-dns/bind-tools:0
 net-dns/dnsmasq:0
 net-dns/idnkit:0
@@ -1505,11 +1518,13 @@ sys-apps/gnome-disk-utility:0
 sys-apps/gptfdisk:0
 sys-apps/grep:0
 sys-apps/groff:0
+sys-apps/hwinfo:0
 sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
 sys-apps/kmod:0
+sys-apps/less:0
 sys-apps/lm_sensors:0
 sys-apps/lomoco:0
 sys-apps/makedev:0
@@ -1635,6 +1650,7 @@ sys-process/acct:0
 sys-process/at:0
 sys-process/iotop:0
 sys-process/latencytop:0
+sys-process/procps:0
 sys-process/psmisc:0
 sys-process/time:0
 sys-process/vixie-cron:0
@@ -1652,6 +1668,8 @@ virtual/latex-base:0
 virtual/libc:0
 virtual/libffi:0
 virtual/libintl:0
+virtual/libusb:0
+virtual/libusb:1
 virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
