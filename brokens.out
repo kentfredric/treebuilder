@@ -1539,7 +1539,6 @@ sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0

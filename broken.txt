@@ -90,6 +90,7 @@ app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
+app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/media-player-info:0
 app-misc/note:0
@@ -1539,7 +1540,6 @@ sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
