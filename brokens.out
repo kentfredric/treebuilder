@@ -18,15 +18,12 @@ app-admin/eselect-opencl:0
 app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
 app-admin/eselect-php:0
-app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
 app-admin/eselect-qtgraphicssystem:0
-app-admin/eselect-ruby:0
 app-admin/eselect-timidity:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
-app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
 app-admin/metalog:0
@@ -66,12 +63,9 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
-app-editors/vim-core:0
-app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -90,6 +84,7 @@ app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
+app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/media-player-info:0
 app-misc/note:0
@@ -1507,7 +1502,6 @@ sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/biosdevname:0
-sys-apps/busybox:0
 sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/diffutils:0
