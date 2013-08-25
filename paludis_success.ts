@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 00:41:52.760917048 357199:597294 769475:20653 ** ~success  install : dev-vcs/git-1.8.3.2:0::gentoo
++2013, 08 August, 26 Monday, 01:20:06.776330572 783563:130051 ** ~success true task : 

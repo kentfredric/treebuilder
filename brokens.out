@@ -54,6 +54,7 @@ app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
+app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -69,7 +70,6 @@ app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
 app-editors/vim:0
-app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
@@ -78,7 +78,6 @@ app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
-app-emulation/emul-linux-x86-xlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/ibus:0
@@ -91,7 +90,6 @@ app-laptop/tp_smapi:0
 app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/lirc:0
-app-misc/media-player-info:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/screen:0
@@ -620,6 +618,7 @@ dev-perl/Getopt-Usaginator:0
 dev-perl/Git-CPAN-Patch:0
 dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository:0
+dev-perl/Git-Wrapper:0
 dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
 dev-perl/GraphViz:0
@@ -658,6 +657,7 @@ dev-perl/Module-Install-AuthorTests:0
 dev-perl/Module-Install-ProvidesClass:0
 dev-perl/Module-Install:0
 dev-perl/Module-Refresh:0
+dev-perl/Module-Signature:0
 dev-perl/MojoMojo:0
 dev-perl/Mojolicious-Plugin-Authentication:0
 dev-perl/Moose-Autobox:0
@@ -844,6 +844,7 @@ dev-perl/TryCatch:0
 dev-perl/UNIVERSAL-moniker:0
 dev-perl/Unicode-MapUTF8:0
 dev-perl/VCI:0
+dev-perl/WWW-Curl:0
 dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/Web-Scraper:0
 dev-perl/Wx-Scintilla:0
@@ -1677,7 +1678,6 @@ sys-apps/microcode-ctl:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
-sys-apps/openrc:0
 sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
@@ -1689,7 +1689,6 @@ sys-apps/sdparm:0
 sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
-sys-apps/systemd:0
 sys-apps/texinfo:0
 sys-apps/usbutils:0
 sys-apps/util-linux:0
@@ -1736,7 +1735,6 @@ sys-devel/llvm:0
 sys-devel/m4:0
 sys-devel/make:0
 sys-devel/patch:0
-sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -1757,8 +1755,6 @@ sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
 sys-fs/udiskie:0
 sys-fs/udisks-glue:0
-sys-fs/udisks:0
-sys-fs/udisks:2
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs:0
@@ -1847,7 +1843,6 @@ virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
 virtual/texi2dvi:0
-virtual/udev:0
 virtual/yacc:0
 www-client/dillo:0
 www-client/firefox:0
@@ -1934,7 +1929,6 @@ x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
 x11-libs/libSM:0
-x11-libs/libX11:0
 x11-libs/libXScrnSaver:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
