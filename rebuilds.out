@@ -1,9 +1,0 @@
-app-misc/geoclue:0
-gnome-extra/libgda:4
-gnome-extra/libgda:5
-media-gfx/gimp:2
-media-plugins/gst-plugins-soup:0.10
-media-sound/clementine:0
-net-libs/webkit-gtk:2
-net-libs/webkit-gtk:3
-net-misc/networkmanager:0
