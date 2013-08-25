@@ -87,7 +87,6 @@ app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
 app-misc/ca-certificates:0
-app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/screen:0
@@ -364,7 +363,6 @@ dev-libs/libpwquality:0
 dev-libs/libsigc++:2
 dev-libs/libtasn1:0
 dev-libs/libunique:1
-dev-libs/libusb:0
 dev-libs/libusb:1
 dev-libs/libverto:0
 dev-libs/libxml2:2
@@ -969,10 +967,8 @@ gnome-base/gnome-keyring:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
-gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
-gnome-base/libgdu:0
 gnome-base/libglade:2.0
 gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
@@ -981,8 +977,6 @@ gnome-base/libgtop:2
 gnome-base/librsvg:2
 gnome-base/orbit:2
 gnome-extra/gnome-audio:0
-gnome-extra/libgda:4
-gnome-extra/libgda:5
 gnome-extra/libgsf:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
@@ -1033,8 +1027,6 @@ kde-base/ksudoku:4
 kde-base/ksysguard:4
 kde-base/ktimezoned:4
 kde-base/kubrick:4
-kde-base/libkcddb:4
-kde-base/libkcompactdisc:4
 kde-base/libkdegames:4
 kde-base/libkexiv2:4
 kde-base/libkonq:4
@@ -1047,7 +1039,6 @@ kde-base/nepomuk-core:4
 kde-base/nepomuk-widgets:4
 kde-base/okteta:4
 kde-base/okular:4
-kde-base/phonon-kde:4
 kde-base/plasma-runtime:4
 kde-base/plasma-workspace:4
 kde-base/print-manager:4
@@ -1138,7 +1129,6 @@ media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
-media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
@@ -1231,7 +1221,6 @@ media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
 media-libs/libmpeg2:0
-media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
@@ -1257,7 +1246,6 @@ media-libs/mediastreamer:0
 media-libs/mesa:0
 media-libs/mlt:0
 media-libs/musicbrainz:4
-media-libs/musicbrainz:5
 media-libs/netpbm:0
 media-libs/openal:0
 media-libs/opencv:0
@@ -1279,7 +1267,6 @@ media-libs/sk1libs:0
 media-libs/smpeg:0
 media-libs/speex:0
 media-libs/t1lib:5
-media-libs/taglib-extras:0
 media-libs/taglib:0
 media-libs/tiff:0
 media-libs/urt:0
@@ -1315,7 +1302,6 @@ media-plugins/gst-plugins-neon:0.10
 media-plugins/gst-plugins-ofa:0.10
 media-plugins/gst-plugins-ogg:0.10
 media-plugins/gst-plugins-resindvd:0.10
-media-plugins/gst-plugins-soup:0.10
 media-plugins/gst-plugins-speex:0.10
 media-plugins/gst-plugins-taglib:0.10
 media-plugins/gst-plugins-theora:0.10
@@ -1329,13 +1315,11 @@ media-plugins/gst-plugins-x264:0.10
 media-plugins/gst-plugins-x:0.10
 media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-x264:0
-media-sound/amarok:4
 media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/boodler:0
 media-sound/cdparanoia:0
-media-sound/clementine:0
 media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
@@ -1414,18 +1398,13 @@ net-libs/libnfsidmap:0
 net-libs/libpcap:0
 net-libs/libproxy:0
 net-libs/librpcsecgss:0
-net-libs/libsoup-gnome:2.4
-net-libs/libsoup:2.4
 net-libs/libssh2:0
 net-libs/libssh:0
 net-libs/libtirpc:0
 net-libs/libtorrent:0
 net-libs/libvncserver:0
-net-libs/loudmouth:0
 net-libs/openslp:0
 net-libs/ortp:0
-net-libs/webkit-gtk:2
-net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/axel:0
 net-misc/dhcp:0
@@ -1433,7 +1412,6 @@ net-misc/iputils:0
 net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
-net-misc/networkmanager:0
 net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
@@ -1837,7 +1815,6 @@ x11-libs/libxklavier:0
 x11-libs/motif:0
 x11-libs/pixman:0
 x11-libs/qscintilla:0
-x11-libs/qtscriptgenerator:0
 x11-libs/qwt:5
 x11-libs/qwt:6
 x11-libs/startup-notification:0
