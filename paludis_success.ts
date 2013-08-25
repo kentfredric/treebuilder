@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 00:20:59.275941557 357199:471946 661564:5440 ** ~success  install : net-libs/neon-0.30.0:0::gentoo
++2013, 08 August, 26 Monday, 00:41:52.760917048 357199:597294 769475:20653 ** ~success  install : dev-vcs/git-1.8.3.2:0::gentoo

@@ -34,6 +34,7 @@ app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
+app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/advancecomp:0
 app-arch/cabextract:0
@@ -53,7 +54,6 @@ app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
-app-crypt/gnupg:0
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -64,9 +64,11 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
+app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
+app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -869,6 +871,7 @@ dev-perl/tie-encryptedhash:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/Babel:0
+dev-python/PyQt4:0
 dev-python/argparse:0
 dev-python/beautifulsoup:4
 dev-python/coverage:0
@@ -887,6 +890,8 @@ dev-python/ply:0
 dev-python/py:0
 dev-python/pycairo:0
 dev-python/pycrypto:0
+dev-python/pycups:0
+dev-python/pycurl:0
 dev-python/pygments:0
 dev-python/pygobject:2
 dev-python/pygobject:3
@@ -898,6 +903,7 @@ dev-python/pyxattr:0
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-python/setuptools:0
+dev-python/sip:0/10
 dev-python/unittest2:0
 dev-python/urwid:0
 dev-qt/qt3support:4
@@ -928,6 +934,7 @@ dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
+dev-util/boost-build:0
 dev-util/catalyst:0
 dev-util/cmake:0
 dev-util/cmockery:0
@@ -956,7 +963,6 @@ dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
@@ -1190,6 +1196,7 @@ kde-misc/kdesudo:4
 kde-misc/kdiff3:4
 kde-misc/krcstat:4
 kde-misc/kshutdown:4
+kde-misc/ksplasher:4
 kde-misc/ktrafficanalyzer:4
 kde-misc/kwebkitpart:4
 kde-misc/smooth-tasks:4
@@ -1285,6 +1292,7 @@ media-gfx/sane-backends:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
 media-libs/aalib:0
+media-libs/alsa-lib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0/1
 media-libs/babl:0
@@ -1562,7 +1570,6 @@ net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
-net-misc/ntp:0
 net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
@@ -1660,7 +1667,6 @@ sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
-sys-apps/kmod:0
 sys-apps/less:0
 sys-apps/lm_sensors:0
 sys-apps/lomoco:0
@@ -1758,6 +1764,7 @@ sys-fs/xfsprogs:0
 sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
+sys-libs/cracklib:0
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -1774,6 +1781,8 @@ sys-libs/libraw1394:0
 sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
+sys-libs/talloc:0
+sys-libs/tdb:0
 sys-libs/timezone-data:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0

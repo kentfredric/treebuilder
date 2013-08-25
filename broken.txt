@@ -54,7 +54,7 @@ app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
-app-crypt/gnupg:0
+app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -621,6 +621,7 @@ dev-perl/Getopt-Usaginator:0
 dev-perl/Git-CPAN-Patch:0
 dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository:0
+dev-perl/Git-Wrapper:0
 dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
 dev-perl/GraphViz:0
@@ -659,6 +660,7 @@ dev-perl/Module-Install-AuthorTests:0
 dev-perl/Module-Install-ProvidesClass:0
 dev-perl/Module-Install:0
 dev-perl/Module-Refresh:0
+dev-perl/Module-Signature:0
 dev-perl/MojoMojo:0
 dev-perl/Mojolicious-Plugin-Authentication:0
 dev-perl/Moose-Autobox:0
@@ -845,6 +847,7 @@ dev-perl/TryCatch:0
 dev-perl/UNIVERSAL-moniker:0
 dev-perl/Unicode-MapUTF8:0
 dev-perl/VCI:0
+dev-perl/WWW-Curl:0
 dev-perl/WWW-Mechanize-TreeBuilder:0
 dev-perl/Web-Scraper:0
 dev-perl/Wx-Scintilla:0
@@ -964,7 +967,6 @@ dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
@@ -1572,7 +1574,6 @@ net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
-net-misc/ntp:0
 net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
@@ -1670,7 +1671,6 @@ sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
-sys-apps/kmod:0
 sys-apps/less:0
 sys-apps/lm_sensors:0
 sys-apps/lomoco:0
