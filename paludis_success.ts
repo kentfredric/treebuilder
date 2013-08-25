@@ -1,1 +1,1 @@
-+2013, 08 August, 25 Sunday, 03:28:04.490537630 172397:144884 ** ~success true task : 
++2013, 08 August, 25 Sunday, 23:30:07.210411091 357199:166739 491076:1509 ** ~success  install : virtual/libusb-1-r1:1::gentoo
