@@ -1,1 +1,1 @@
-+2013, 08 August, 25 Sunday, 23:30:07.210411091 357199:166739 491076:1509 ** ~success  install : virtual/libusb-1-r1:1::gentoo
++2013, 08 August, 26 Monday, 00:20:59.275941557 357199:471946 661564:5440 ** ~success  install : net-libs/neon-0.30.0:0::gentoo
