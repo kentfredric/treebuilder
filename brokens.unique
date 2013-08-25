@@ -79,7 +79,6 @@ app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
-app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/ibus:0
 app-i18n/scim:0
@@ -121,7 +120,6 @@ app-shells/gentoo-bashcomp:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/ansifilter:0
-app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/build-docbook-catalog:0
@@ -144,8 +142,7 @@ app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/docbook-xsl-stylesheets:0
 app-text/docbook2X:0
-app-text/dvipng:0
-app-text/dvipsk:0
+app-text/dvipdfmx:0
 app-text/ebook-tools:0
 app-text/enchant:0
 app-text/enscript:0
@@ -164,17 +161,13 @@ app-text/libwpd:0.9
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
-app-text/poppler:0/37
-app-text/ps2pkm:0
 app-text/qpdf:0/10
 app-text/rarian:0
 app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
-app-text/texlive-core:0
 app-text/wgetpaste:0
-app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
 app-vim/closetag:0
@@ -345,6 +338,7 @@ dev-libs/iniparser:0
 dev-libs/json-glib:0
 dev-libs/judy:0
 dev-libs/klibc:0
+dev-libs/kpathsea:0
 dev-libs/libIDL:0
 dev-libs/libcdio:0
 dev-libs/libconfig:0
@@ -897,7 +891,6 @@ dev-python/pycairo:0
 dev-python/pycrypto:0
 dev-python/pycups:0
 dev-python/pycurl:0
-dev-python/pygments:0
 dev-python/pygobject:2
 dev-python/pygobject:3
 dev-python/pygtk:2
@@ -925,17 +918,7 @@ dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-scheme/guile:12
 dev-tcltk/expect:0
-dev-tex/luatex:0
-dev-texlive/texlive-basic:0
-dev-texlive/texlive-fontsextra:0
-dev-texlive/texlive-fontsrecommended:0
-dev-texlive/texlive-fontutils:0
-dev-texlive/texlive-genericrecommended:0
-dev-texlive/texlive-langenglish:0
-dev-texlive/texlive-latex:0
-dev-texlive/texlive-latexrecommended:0
-dev-texlive/texlive-metapost:0
-dev-texlive/texlive-texinfo:0
+dev-tex/bibtexu:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/boost-build:0
@@ -1174,7 +1157,6 @@ kde-base/nepomuk-widgets:4
 kde-base/nepomuk:4
 kde-base/nsplugins:4
 kde-base/okteta:4
-kde-base/okular:4
 kde-base/phonon-kde:4
 kde-base/plasma-apps:4
 kde-base/plasma-runtime:4
@@ -1277,13 +1259,11 @@ media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
-media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.1
-media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
@@ -1482,7 +1462,6 @@ media-sound/japa:0
 media-sound/lame:0
 media-sound/lash:0
 media-sound/lastfmplayer:0
-media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
 media-sound/mpd:0
@@ -1590,7 +1569,6 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
-net-print/cups-filters:0
 net-print/cups:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
@@ -1654,7 +1632,6 @@ sci-libs/libqalculate:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
-sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
@@ -1818,7 +1795,6 @@ virtual/glu:0
 virtual/init:0
 virtual/jdk:1.7
 virtual/krb5:0
-virtual/latex-base:0
 virtual/libc:0
 virtual/libintl:0
 virtual/libusb:0
@@ -1852,7 +1828,6 @@ virtual/python-argparse:0
 virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
-virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/yacc:0
 www-client/dillo:0
@@ -1928,7 +1903,6 @@ x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
 x11-libs/cairo:0
-x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0

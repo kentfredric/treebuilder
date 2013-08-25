@@ -164,7 +164,6 @@ app-text/libwpd:0.9
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
-app-text/poppler:0/37
 app-text/ps2pkm:0
 app-text/qpdf:0/10
 app-text/rarian:0
@@ -172,7 +171,6 @@ app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
-app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
@@ -925,16 +923,8 @@ dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-scheme/guile:12
 dev-tcltk/expect:0
-dev-tex/luatex:0
-dev-texlive/texlive-basic:0
 dev-texlive/texlive-fontsextra:0
-dev-texlive/texlive-fontsrecommended:0
-dev-texlive/texlive-fontutils:0
-dev-texlive/texlive-genericrecommended:0
 dev-texlive/texlive-langenglish:0
-dev-texlive/texlive-latex:0
-dev-texlive/texlive-latexrecommended:0
-dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
