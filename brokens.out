@@ -37,6 +37,7 @@ app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/advancecomp:0
+app-arch/bzip2:0
 app-arch/cabextract:0
 app-arch/dpkg:0
 app-arch/libarchive:0/13
@@ -143,7 +144,6 @@ app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/docbook-xsl-stylesheets:0
 app-text/docbook2X:0
-app-text/dvipdfmx:0
 app-text/dvipng:0
 app-text/dvipsk:0
 app-text/ebook-tools:0
@@ -328,6 +328,7 @@ dev-libs/cloog-ppl:0
 dev-libs/confuse:0
 dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
+dev-libs/expat:0
 dev-libs/fcgi:0
 dev-libs/fribidi:0
 dev-libs/gdl:1
@@ -351,6 +352,7 @@ dev-libs/libcroco:0.6
 dev-libs/libdbusmenu-qt:0
 dev-libs/libedit:0
 dev-libs/libev:0
+dev-libs/libffi:0
 dev-libs/libgcrypt:0
 dev-libs/libgee:0.8
 dev-libs/libical:0
@@ -367,6 +369,7 @@ dev-libs/libsigc++:2
 dev-libs/libtasn1:0
 dev-libs/libunique:1
 dev-libs/libusb:0
+dev-libs/libusb:1
 dev-libs/libverto:0
 dev-libs/libxml2:2
 dev-libs/libxslt:0
@@ -923,7 +926,6 @@ dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/luatex:0
 dev-texlive/texlive-basic:0
-dev-texlive/texlive-documentation-base:0
 dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-fontsrecommended:0
 dev-texlive/texlive-fontutils:0
@@ -1307,7 +1309,6 @@ media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
 media-libs/flac:0
-media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/freetype:2
 media-libs/ftgl:0
@@ -1326,10 +1327,10 @@ media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/gstreamer:1.0
-media-libs/harfbuzz:0
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
+media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
@@ -1359,6 +1360,7 @@ media-libs/libgii:0
 media-libs/libgphoto2:0/6
 media-libs/libgpod:0
 media-libs/libid3tag:0
+media-libs/libjpeg-turbo:0
 media-libs/liblastfm:0
 media-libs/libmad:0
 media-libs/libmikmod:0
@@ -1371,6 +1373,8 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
+media-libs/libpng:0/16
+media-libs/libpng:1.2
 media-libs/libprojectm-qt:0
 media-libs/libprojectm:0
 media-libs/libquicktime:0
@@ -1383,6 +1387,7 @@ media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
 media-libs/libtheora:0
+media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
@@ -1415,6 +1420,7 @@ media-libs/speex:0
 media-libs/t1lib:5
 media-libs/taglib-extras:0
 media-libs/taglib:0
+media-libs/tiff:0
 media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
@@ -1483,7 +1489,6 @@ media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/pavucontrol:0
 media-sound/projectm-jack:0
-media-sound/pulseaudio:0
 media-sound/qjackctl:0
 media-sound/qmpdclient:0
 media-sound/scmpc:0
@@ -1652,6 +1657,7 @@ sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
+sys-apps/attr:0
 sys-apps/biosdevname:0
 sys-apps/coreutils:0
 sys-apps/dbus:0
@@ -1668,6 +1674,7 @@ sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
+sys-apps/kmod:0
 sys-apps/less:0
 sys-apps/lm_sensors:0
 sys-apps/lomoco:0
@@ -1698,6 +1705,7 @@ sys-apps/xinetd:0
 sys-auth/consolekit:0
 sys-auth/nss-mdns:0
 sys-auth/pam_ssh:0
+sys-auth/pambase:0
 sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/polkit:0
@@ -1745,6 +1753,7 @@ sys-fs/jfsutils:0
 sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
+sys-fs/multipath-tools:0
 sys-fs/ncdu:0
 sys-fs/nilfs-utils:0
 sys-fs/ntfs3g:0
@@ -1753,8 +1762,6 @@ sys-fs/shake:0
 sys-fs/squashfs-tools:0
 sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
-sys-fs/udiskie:0
-sys-fs/udisks-glue:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs:0
@@ -1774,12 +1781,14 @@ sys-libs/libcap-ng:0
 sys-libs/libcap:0
 sys-libs/libieee1284:0
 sys-libs/libraw1394:0
+sys-libs/ncurses:5
 sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/talloc:0
 sys-libs/tdb:0
 sys-libs/timezone-data:0
+sys-libs/zlib:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0
 sys-power/iasl:0
@@ -1839,6 +1848,7 @@ virtual/perl-libnet:0
 virtual/perl-podlators:0
 virtual/pkgconfig:0
 virtual/python-argparse:0
+virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
@@ -1934,20 +1944,25 @@ x11-libs/libXau:0
 x11-libs/libXaw3d:0
 x11-libs/libXaw:0
 x11-libs/libXcomposite:0
+x11-libs/libXcursor:0
 x11-libs/libXdamage:0
 x11-libs/libXdmcp:0
 x11-libs/libXext:0
 x11-libs/libXfixes:0
 x11-libs/libXfont:0
 x11-libs/libXft:0
+x11-libs/libXi:0
 x11-libs/libXinerama:0
 x11-libs/libXmu:0
 x11-libs/libXp:0
 x11-libs/libXpm:0
 x11-libs/libXrandr:0
+x11-libs/libXrender:0
 x11-libs/libXres:0
 x11-libs/libXt:0
 x11-libs/libXtst:0
+x11-libs/libXv:0
+x11-libs/libXvMC:0
 x11-libs/libXxf86dga:0
 x11-libs/libXxf86misc:0
 x11-libs/libXxf86vm:0
@@ -1958,13 +1973,10 @@ x11-libs/libnotify:0
 x11-libs/libpciaccess:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
-x11-libs/libvdpau:0
 x11-libs/libwnck:1
-x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
-x11-libs/pango:0
 x11-libs/pixman:0
 x11-libs/qscintilla:0
 x11-libs/qtscriptgenerator:0
@@ -2042,8 +2054,6 @@ x11-proto/xf86vidmodeproto:0
 x11-proto/xineramaproto:0
 x11-proto/xproto:0
 x11-terms/rxvt-unicode:0
-x11-terms/xterm:0
-x11-themes/gnome-icon-theme-symbolic:0
 x11-themes/gnome-icon-theme:0
 x11-themes/gnome-themes:0
 x11-themes/gtk-engines-candido:0

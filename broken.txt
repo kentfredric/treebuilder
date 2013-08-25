@@ -144,7 +144,6 @@ app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/docbook-xsl-stylesheets:0
 app-text/docbook2X:0
-app-text/dvipdfmx:0
 app-text/dvipng:0
 app-text/dvipsk:0
 app-text/ebook-tools:0
@@ -756,6 +755,7 @@ dev-perl/PPIx-EditorTools:0
 dev-perl/Package-Stash:0
 dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/Paludis-UseCleaner:0
+dev-perl/Pango:0
 dev-perl/Parallel-Runner:0
 dev-perl/Params-Validate:0
 dev-perl/Parse-BACKPAN-Packages:0
@@ -927,7 +927,6 @@ dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/luatex:0
 dev-texlive/texlive-basic:0
-dev-texlive/texlive-documentation-base:0
 dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-fontsrecommended:0
 dev-texlive/texlive-fontutils:0
@@ -1311,7 +1310,6 @@ media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
 media-libs/flac:0
-media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/freetype:2
 media-libs/ftgl:0
@@ -1330,7 +1328,6 @@ media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/gstreamer:1.0
-media-libs/harfbuzz:0
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
@@ -1493,7 +1490,6 @@ media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/pavucontrol:0
 media-sound/projectm-jack:0
-media-sound/pulseaudio:0
 media-sound/qjackctl:0
 media-sound/qmpdclient:0
 media-sound/scmpc:0
@@ -1767,8 +1763,6 @@ sys-fs/shake:0
 sys-fs/squashfs-tools:0
 sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
-sys-fs/udiskie:0
-sys-fs/udisks-glue:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs:0
@@ -1946,6 +1940,7 @@ x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
 x11-libs/libSM:0
+x11-libs/libX11:0
 x11-libs/libXScrnSaver:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
@@ -1980,13 +1975,10 @@ x11-libs/libnotify:0
 x11-libs/libpciaccess:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
-x11-libs/libvdpau:0
 x11-libs/libwnck:1
-x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
-x11-libs/pango:0
 x11-libs/pixman:0
 x11-libs/qscintilla:0
 x11-libs/qtscriptgenerator:0
@@ -2064,8 +2056,6 @@ x11-proto/xf86vidmodeproto:0
 x11-proto/xineramaproto:0
 x11-proto/xproto:0
 x11-terms/rxvt-unicode:0
-x11-terms/xterm:0
-x11-themes/gnome-icon-theme-symbolic:0
 x11-themes/gnome-icon-theme:0
 x11-themes/gnome-themes:0
 x11-themes/gtk-engines-candido:0
