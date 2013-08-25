@@ -755,6 +755,7 @@ dev-perl/PPIx-EditorTools:0
 dev-perl/Package-Stash:0
 dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/Paludis-UseCleaner:0
+dev-perl/Pango:0
 dev-perl/Parallel-Runner:0
 dev-perl/Params-Validate:0
 dev-perl/Parse-BACKPAN-Packages:0
@@ -1939,6 +1940,7 @@ x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
 x11-libs/libSM:0
+x11-libs/libX11:0
 x11-libs/libXScrnSaver:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
