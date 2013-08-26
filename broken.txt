@@ -70,6 +70,7 @@ app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
 app-editors/vim:0
+app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
@@ -79,6 +80,7 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox:0
+app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
@@ -360,7 +362,6 @@ dev-libs/libtasn1:0
 dev-libs/libunique:1
 dev-libs/libusb:1
 dev-libs/libverto:0
-dev-libs/libxml2:2
 dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/mpc:0
@@ -383,9 +384,7 @@ dev-libs/qoauth:0
 dev-libs/quazip:0
 dev-libs/rasqal:0
 dev-libs/redland:0
-dev-libs/soprano:0
 dev-libs/syck:0
-dev-libs/udis86:0
 dev-libs/vala-common:0
 dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
@@ -407,6 +406,7 @@ dev-perl/Authen-Passphrase:0
 dev-perl/B-Hooks-EndOfScope:0
 dev-perl/BackPAN-Index:0
 dev-perl/BerkeleyDB-Manager:0
+dev-perl/Bundle-CPAN:0
 dev-perl/CGI-Application-Dispatch:0
 dev-perl/CGI-Application-FastCGI:0
 dev-perl/CGI-Application-Plugin-Authentication:0
@@ -581,6 +581,7 @@ dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
+dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla:0
@@ -589,6 +590,8 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-MIME-Kit:0
 dev-perl/Email-Sender:0
 dev-perl/Error:0
+dev-perl/Event-ExecFlow:0
+dev-perl/Event-RPC:0
 dev-perl/Excel-Template-Plus:0
 dev-perl/ExtUtils-XSpp:0
 dev-perl/Fennec-Lite:0
@@ -626,6 +629,7 @@ dev-perl/Hash-StoredIterator:0
 dev-perl/IO-Async:0
 dev-perl/IO-CaptureOutput:0
 dev-perl/IO-Socket-IP:0
+dev-perl/IO-Socket-SSL:0
 dev-perl/IPC-Run-Fused:0
 dev-perl/Imager:0
 dev-perl/JavaScript-SpiderMonkey:0
@@ -738,7 +742,9 @@ dev-perl/Ogg-Vorbis-Decoder:0
 dev-perl/Olson-Abbreviations:0
 dev-perl/POE-Component-Client-DNS:0
 dev-perl/POE-Component-Client-Keepalive:0
+dev-perl/POE-Component-SSLify:0
 dev-perl/POE-Component-Syndicator:0
+dev-perl/POE:0
 dev-perl/PPI:0
 dev-perl/PPIx-EditorTools:0
 dev-perl/Package-Stash:0
@@ -806,6 +812,8 @@ dev-perl/Template-Plugin-UTF8Decode:0
 dev-perl/Template-Provider-Encoding:0
 dev-perl/Template-Timer:0
 dev-perl/Template-XML:0
+dev-perl/Term-ProgressBar:0
+dev-perl/Term-Prompt:0
 dev-perl/Test-Block:0
 dev-perl/Test-CheckDeps:0
 dev-perl/Test-Class-Most:0
@@ -844,10 +852,13 @@ dev-perl/Wx-Scintilla:0
 dev-perl/XML-Elemental:0
 dev-perl/XML-Feed:0
 dev-perl/XML-Filter-BufferText:0
+dev-perl/XML-LibXML:0
 dev-perl/XML-Parser:0
 dev-perl/XML-RSS-Parser:0
 dev-perl/XML-RSS:0
 dev-perl/XML-SAX-Base:0
+dev-perl/XML-SAX-Writer:0
+dev-perl/XML-SAX:0
 dev-perl/XML-Tidy:0
 dev-perl/XML-Twig:0
 dev-perl/constant-boolean:0
@@ -949,6 +960,7 @@ dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
+dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
@@ -963,6 +975,7 @@ gnome-base/gnome-keyring:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
+gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
@@ -1372,11 +1385,13 @@ net-libs/libnfsidmap:0
 net-libs/libpcap:0
 net-libs/libproxy:0
 net-libs/librpcsecgss:0
+net-libs/libsoup:2.4
 net-libs/libssh2:0
 net-libs/libssh:0
 net-libs/libtirpc:0
 net-libs/libtorrent:0
 net-libs/libvncserver:0
+net-libs/neon:0/27
 net-libs/openslp:0
 net-libs/ortp:0
 net-libs/webkit-gtk:2
@@ -1532,6 +1547,7 @@ sys-boot/grub:0
 sys-boot/syslinux:0
 sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
+sys-devel/autogen:0
 sys-devel/automake:1.10
 sys-devel/automake:1.11
 sys-devel/automake:1.12

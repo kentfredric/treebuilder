@@ -360,7 +360,6 @@ dev-libs/libtasn1:0
 dev-libs/libunique:1
 dev-libs/libusb:1
 dev-libs/libverto:0
-dev-libs/libxml2:2
 dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/mpc:0
@@ -383,9 +382,7 @@ dev-libs/qoauth:0
 dev-libs/quazip:0
 dev-libs/rasqal:0
 dev-libs/redland:0
-dev-libs/soprano:0
 dev-libs/syck:0
-dev-libs/udis86:0
 dev-libs/vala-common:0
 dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
@@ -628,6 +625,7 @@ dev-perl/IO-CaptureOutput:0
 dev-perl/IO-Socket-IP:0
 dev-perl/IPC-Run-Fused:0
 dev-perl/Imager:0
+dev-perl/JavaScript-SpiderMonkey:0
 dev-perl/Jemplate:0
 dev-perl/KinoSearch1:0
 dev-perl/KiokuDB:0
