@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 21:04:04.021642500 817254:640969 211630:2836 ** ~success  install : x11-apps/xhost-1.0.6:0::gentoo
++2013, 08 August, 26 Monday, 21:32:35.167219124 817254:812084 510965:5279 ** ~success  install : sys-power/upower-0.9.21:0::gentoo

@@ -161,6 +161,7 @@ app-text/libwpd:0.9
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
+app-text/poppler:0/37
 app-text/ps2pkm:0
 app-text/qpdf:0/10
 app-text/rarian:0
@@ -313,7 +314,6 @@ dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/apr-util:1
-dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/boost:0/1.52
 dev-libs/check:0
@@ -329,7 +329,6 @@ dev-libs/gdl:1
 dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
-dev-libs/glib:2
 dev-libs/gmp:0
 dev-libs/gobject-introspection-common:0
 dev-libs/gobject-introspection:0
@@ -366,6 +365,7 @@ dev-libs/libtasn1:0
 dev-libs/libunique:1
 dev-libs/libusb:1
 dev-libs/libverto:0
+dev-libs/libwacom:0
 dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/mpc:0
@@ -1635,6 +1635,7 @@ media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/gstreamer:1.0
+media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
@@ -1787,6 +1788,7 @@ media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/pavucontrol:0
 media-sound/projectm-jack:0
+media-sound/pulseaudio:0
 media-sound/qjackctl:0
 media-sound/qmpdclient:0
 media-sound/scmpc:0
@@ -2024,19 +2026,18 @@ sys-apps/sdparm:0
 sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
+sys-apps/systemd:0
 sys-apps/texinfo:0
 sys-apps/usbutils:0
 sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
-sys-auth/consolekit:0
 sys-auth/nss-mdns:0
 sys-auth/pam_ssh:0
 sys-auth/pambase:0
 sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
-sys-auth/polkit:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
 sys-block/gparted:0
@@ -2126,7 +2127,6 @@ sys-power/pm-utils:0
 sys-power/pmtools:0
 sys-power/powermgmt-base:0
 sys-power/powertop:0
-sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
 sys-process/iotop:0
@@ -2299,6 +2299,7 @@ x11-libs/libwnck:1
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
+x11-libs/pango:0
 x11-libs/pixman:0
 x11-libs/qscintilla:0
 x11-libs/qwt:6
