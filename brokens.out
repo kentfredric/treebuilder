@@ -168,6 +168,7 @@ app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
+app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
@@ -1375,7 +1376,6 @@ dev-python/pyxattr:0
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-python/sip:0/10
-dev-python/unittest2:0
 dev-python/urwid:0
 dev-qt/qt3support:4
 dev-qt/qtcore:4
@@ -1392,6 +1392,7 @@ dev-qt/qtxmlpatterns:4
 dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
+dev-tex/luatex:0
 dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-langenglish:0
 dev-texlive/texlive-texinfo:0
@@ -1694,7 +1695,6 @@ media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
-media-libs/mesa:0
 media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
@@ -1928,7 +1928,6 @@ perl-core/Pod-LaTeX:0
 perl-core/Pod-Perldoc:0
 perl-core/Pod-Plainer:0
 perl-core/Pod-Usage:0
-perl-core/PodParser:0
 perl-core/SelfLoader:0
 perl-core/Term-UI:0
 perl-core/Thread-Queue:0
@@ -1997,7 +1996,6 @@ sys-apps/gptfdisk:0
 sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/hwinfo:0
-sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
@@ -2240,9 +2238,9 @@ x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-ati:0
+x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2

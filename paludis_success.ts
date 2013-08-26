@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 23:40:19.174069275 817254:1578484 601856:2475 ** ~success  install : x11-misc/makedepend-1.0.5:0::gentoo
++2013, 08 August, 27 Tuesday, 06:34:29.361764050 812337:8882 ** ~success true task : 
