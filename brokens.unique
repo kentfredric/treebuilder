@@ -308,7 +308,6 @@ dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
-dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
@@ -629,6 +628,7 @@ dev-perl/IO-CaptureOutput:0
 dev-perl/IO-Socket-IP:0
 dev-perl/IPC-Run-Fused:0
 dev-perl/Imager:0
+dev-perl/JavaScript-SpiderMonkey:0
 dev-perl/Jemplate:0
 dev-perl/KinoSearch1:0
 dev-perl/KiokuDB:0
@@ -1206,7 +1206,6 @@ media-libs/libquicktime:0
 media-libs/libquvi-scripts:0
 media-libs/libraw:0/9
 media-libs/libreplaygain:0
-media-libs/libsdl:0
 media-libs/libshout:0
 media-libs/libsndfile:0
 media-libs/libsoundtouch:0
@@ -1246,7 +1245,6 @@ media-libs/tiff:0
 media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
-media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1322,7 +1320,6 @@ media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
-media-video/mplayer:0
 media-video/recordmydesktop:0
 media-video/rtmpdump:0
 media-video/smplayer:0
@@ -1370,7 +1367,6 @@ net-libs/libmediawiki:4
 net-libs/libnet:1.1
 net-libs/libnfsidmap:0
 net-libs/libpcap:0
-net-libs/libproxy:0
 net-libs/librpcsecgss:0
 net-libs/libssh2:0
 net-libs/libssh:0
@@ -1521,7 +1517,6 @@ sys-auth/pam_ssh:0
 sys-auth/pambase:0
 sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
-sys-auth/polkit:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
 sys-block/gparted:0
@@ -1600,7 +1595,6 @@ sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/talloc:0
 sys-libs/tdb:0
-sys-libs/timezone-data:0
 sys-libs/zlib:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0
@@ -1669,7 +1663,6 @@ virtual/texi2dvi:0
 virtual/yacc:0
 www-client/dillo:0
 www-client/firefox:0
-www-client/links:2
 www-client/lynx:0
 www-client/seamonkey:0
 www-client/w3m:0
@@ -1738,7 +1731,6 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2

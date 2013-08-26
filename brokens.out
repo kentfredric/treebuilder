@@ -308,7 +308,6 @@ dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
-dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
@@ -1600,7 +1599,6 @@ sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/talloc:0
 sys-libs/tdb:0
-sys-libs/timezone-data:0
 sys-libs/zlib:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0

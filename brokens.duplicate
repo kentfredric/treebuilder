@@ -1,0 +1,7 @@
+media-libs/libsdl:0
+media-libs/xine-lib:1
+media-video/mplayer:0
+net-libs/libproxy:0
+sys-auth/polkit:0
+www-client/links:2
+x11-libs/cairo:0
