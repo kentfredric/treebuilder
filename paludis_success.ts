@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 21:32:35.167219124 817254:812084 510965:5279 ** ~success  install : sys-power/upower-0.9.21:0::gentoo
++2013, 08 August, 26 Monday, 23:22:20.236560280 817254:1470591 553250:2303 ** ~success  install : x11-apps/xset-1.2.3:0::gentoo
