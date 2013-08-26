@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 23:22:20.236560280 817254:1470591 553250:2303 ** ~success  install : x11-apps/xset-1.2.3:0::gentoo
++2013, 08 August, 26 Monday, 23:40:19.174069275 817254:1578484 601856:2475 ** ~success  install : x11-misc/makedepend-1.0.5:0::gentoo
