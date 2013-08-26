@@ -1,1 +1,1 @@
-+2013, 08 August, 26 Monday, 12:30:11.691210197 764018:117490 ** ~success true task : 
++2013, 08 August, 26 Monday, 21:04:04.021642500 817254:640969 211630:2836 ** ~success  install : x11-apps/xhost-1.0.6:0::gentoo
