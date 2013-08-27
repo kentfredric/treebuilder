@@ -94,7 +94,6 @@ app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
-app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
@@ -155,7 +154,6 @@ app-text/opensp:0
 app-text/po4a:0
 app-text/poppler:0/37
 app-text/ps2pkm:0
-app-text/qpdf:0/10
 app-text/rarian:0
 app-text/recode:0
 app-text/scrollkeeper-dtd:1.0
@@ -1638,7 +1636,6 @@ media-libs/libmikmod:0
 media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
-media-libs/libmpeg2:0
 media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
@@ -1651,7 +1648,6 @@ media-libs/libquicktime:0
 media-libs/libquvi-scripts:0
 media-libs/libraw:0/9
 media-libs/libsamplerate:0
-media-libs/libsdl:0
 media-libs/libshout:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
