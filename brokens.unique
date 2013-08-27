@@ -13,6 +13,7 @@ app-admin/eselect-mesa:0
 app-admin/eselect-notify-send:0
 app-admin/eselect-oodict:0
 app-admin/eselect-opencl:0
+app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
 app-admin/eselect-php:0
 app-admin/eselect-python:0
@@ -66,18 +67,19 @@ app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
+app-editors/scite:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
 app-emulation/emul-linux-x86-medialibs:0
+app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
-app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
@@ -94,6 +96,7 @@ app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
+app-office/dia:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
@@ -149,12 +152,12 @@ app-text/gtkspell:3
 app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
-app-text/iso-codes:0
 app-text/libpaper:0
 app-text/libwpd:0.9
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
+app-text/poppler:0/37
 app-text/ps2pkm:0
 app-text/qpdf:0/10
 app-text/rarian:0
@@ -163,6 +166,7 @@ app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
+app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
@@ -185,6 +189,7 @@ app-vim/tt2-syntax:0
 app-vim/vim-spell-en:0
 app-vim/vimbuddy:0
 dev-cpp/atkmm:0
+dev-cpp/cairomm:0
 dev-cpp/clucene:1
 dev-cpp/ctemplate:0
 dev-cpp/eigen:2
@@ -198,6 +203,7 @@ dev-cpp/pangomm:1.4
 dev-db/hsqldb:0
 dev-db/libiodbc:0
 dev-db/mysql-init-scripts:0
+dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
@@ -242,8 +248,10 @@ dev-java/commons-net:0
 dev-java/commons-vfs:0
 dev-java/concurrent-util:0
 dev-java/dom4j:1
+dev-java/gnu-classpath:0.98
 dev-java/hamcrest-core:1.3
 dev-java/hamcrest-generator:1.3
+dev-java/icedtea-bin:7
 dev-java/itext:0
 dev-java/jakarta-oro:2.0
 dev-java/java-config:2
@@ -269,6 +277,9 @@ dev-java/relaxng-datatype:0
 dev-java/slf4j-api:0
 dev-java/sun-jaf:0
 dev-java/sun-javamail:0
+dev-java/swt:3.5
+dev-java/swt:3.7
+dev-java/swt:4.2
 dev-java/tomcat-servlet-api:2.5
 dev-java/trove:0
 dev-java/xalan-serializer:0
@@ -1349,6 +1360,7 @@ dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/ply:0
 dev-python/py:0
+dev-python/pycairo:0
 dev-python/pycrypto:0
 dev-python/pycups:0
 dev-python/pycurl:0
@@ -1365,6 +1377,7 @@ dev-python/pyxml:0
 dev-python/sip:0/10
 dev-python/urwid:0
 dev-qt/qt3support:4
+dev-qt/qtcore:4
 dev-qt/qtdbus:4
 dev-qt/qtdeclarative:4
 dev-qt/qtgui:4
@@ -1378,6 +1391,7 @@ dev-qt/qtxmlpatterns:4
 dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
+dev-tex/luatex:0
 dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-langenglish:0
 dev-texlive/texlive-texinfo:0
@@ -1435,10 +1449,9 @@ gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
 gnome-base/libgtop:2
+gnome-base/librsvg:2
 gnome-base/orbit:2
 gnome-extra/gnome-audio:0
-gnome-extra/libgda:4
-gnome-extra/libgda:5
 gnome-extra/libgsf:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
@@ -1446,7 +1459,6 @@ gnome-extra/zenity:0
 java-virtuals/jaf:0
 java-virtuals/javamail:0
 kde-base/dolphin-plugins:4
-kde-base/dolphin:4
 kde-base/kactivities:4
 kde-base/kate:4
 kde-base/katepart:4
@@ -1455,7 +1467,6 @@ kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kde-l10n:4
 kde-base/kdebase-kioslaves:4
-kde-base/kdepimlibs:4
 kde-base/kdesu:4
 kde-base/kdialog:4
 kde-base/keditbookmarks:4
@@ -1476,10 +1487,7 @@ kde-base/libkworkspace:4
 kde-base/libplasmaclock:4
 kde-base/libplasmagenericshell:4
 kde-base/libtaskmanager:4
-kde-base/nepomuk-core:4
-kde-base/nepomuk-widgets:4
 kde-base/plasma-runtime:4
-kde-base/plasma-workspace:4
 kde-base/print-manager:4
 kde-base/solid-runtime:4
 kde-base/solid:4
@@ -1567,9 +1575,11 @@ media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/feh:0
+media-gfx/fontforge:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
+media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.1
 media-gfx/inkscape:0
@@ -1591,6 +1601,8 @@ media-libs/babl:0
 media-libs/bio2jack:0
 media-libs/clutter-gst:2.0
 media-libs/clutter-gtk:1.0
+media-libs/clutter:1.0
+media-libs/cogl:1.0/11
 media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
@@ -1600,18 +1612,13 @@ media-libs/freetype:2
 media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gd:2
+media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
-media-libs/gst-plugins-bad:0.10
-media-libs/gst-plugins-bad:1.0
-media-libs/gst-plugins-base:0.10
-media-libs/gst-plugins-base:1.0
-media-libs/gst-plugins-good:0.10
-media-libs/gst-plugins-good:1.0
-media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/gstreamer:1.0
+media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
@@ -1657,6 +1664,7 @@ media-libs/libpano13:0
 media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libprojectm-qt:0
+media-libs/libprojectm:0
 media-libs/libquicktime:0
 media-libs/libquvi-scripts:0
 media-libs/libraw:0/9
@@ -1686,7 +1694,6 @@ media-libs/portaudio:0
 media-libs/prison:4
 media-libs/qimageblitz:0
 media-libs/raptor:2
-media-libs/schroedinger:0
 media-libs/sdl-image:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
@@ -1703,16 +1710,13 @@ media-libs/webrtc-audio-processing:0
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
-media-plugins/gst-plugins-a52dec:0.10
 media-plugins/gst-plugins-alsa:0.10
 media-plugins/gst-plugins-cdparanoia:0.10
-media-plugins/gst-plugins-dts:0.10
 media-plugins/gst-plugins-dv:0.10
 media-plugins/gst-plugins-dvdread:0.10
 media-plugins/gst-plugins-faac:0.10
 media-plugins/gst-plugins-faad:0.10
 media-plugins/gst-plugins-faad:1.0
-media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-flac:0.10
 media-plugins/gst-plugins-jack:0.10
 media-plugins/gst-plugins-jack:1.0
@@ -1762,7 +1766,6 @@ media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/pavucontrol:0
 media-sound/projectm-jack:0
-media-sound/pulseaudio:0
 media-sound/qjackctl:0
 media-sound/qmpdclient:0
 media-sound/scmpc:0
@@ -1796,6 +1799,7 @@ net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/ntop:0
 net-analyzer/portsentry:0
+net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/tleds:0
@@ -1837,6 +1841,8 @@ net-libs/libvncserver:0
 net-libs/neon:0/27
 net-libs/openslp:0
 net-libs/ortp:0
+net-libs/webkit-gtk:2
+net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/axel:0
 net-misc/dhcp:0
@@ -1849,6 +1855,7 @@ net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/rsync:0
+net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
@@ -1936,6 +1943,7 @@ perl-gcpanp/WWW-Pastebin-PhpfiCom-Retrieve:0
 perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
+sci-astronomy/celestia:0
 sci-calculators/units:0
 sci-geosciences/googleearth:0
 sci-libs/amd:0
@@ -1950,6 +1958,7 @@ sci-libs/libqalculate:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
+sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
@@ -2107,6 +2116,7 @@ virtual/editor:0
 virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
+virtual/glu:0
 virtual/init:0
 virtual/jdk:1.7
 virtual/krb5:0
@@ -2119,6 +2129,7 @@ virtual/logger:0
 virtual/mysql:0
 virtual/notification-daemon:0
 virtual/opencl:0
+virtual/opengl:0
 virtual/os-headers:0
 virtual/package-manager:0
 virtual/pager:0
@@ -2145,8 +2156,10 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/yacc:0
 www-client/dillo:0
+www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
@@ -2197,6 +2210,8 @@ x11-apps/xvinfo:0
 x11-apps/xwd:0
 x11-apps/xwininfo:0
 x11-apps/xwud:0
+x11-base/xorg-server:0/1.14.1
+x11-base/xorg-x11:0
 x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
@@ -2206,9 +2221,13 @@ x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
+x11-libs/fltk:1
+x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
 x11-libs/gnome-pty-helper:0
+x11-libs/gtk+:2
+x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
@@ -2250,8 +2269,8 @@ x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
 x11-libs/libwnck:1
 x11-libs/libxkbfile:0
-x11-libs/libxklavier:0
 x11-libs/motif:0
+x11-libs/pango:0
 x11-libs/qscintilla:0
 x11-libs/qwt:6
 x11-libs/startup-notification:0
@@ -2278,6 +2297,7 @@ x11-misc/notification-daemon:0
 x11-misc/obconf:0
 x11-misc/obmenu:0
 x11-misc/redshift:0
+x11-misc/rss-glx:0
 x11-misc/shared-mime-info:0
 x11-misc/synergy:0
 x11-misc/touchfreeze:0
@@ -2331,9 +2351,11 @@ x11-themes/gtk-engines-cleanice:2
 x11-themes/gtk-engines-dwerg:2
 x11-themes/gtk-engines-experience:2
 x11-themes/gtk-engines-flat:2
+x11-themes/gtk-engines-murrine:0
 x11-themes/gtk-engines-qtcurve:0
 x11-themes/gtk-engines-qtpixmap:0
 x11-themes/gtk-engines-rezlooks:0
+x11-themes/gtk-engines-unico:0
 x11-themes/gtk-engines-xfce:0
 x11-themes/gtk-engines-xfce:3
 x11-themes/gtk-engines:2

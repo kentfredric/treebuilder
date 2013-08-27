@@ -153,7 +153,6 @@ app-text/gtkspell:3
 app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
-app-text/iso-codes:0
 app-text/libpaper:0
 app-text/libwpd:0.9
 app-text/openjade:0
@@ -464,6 +463,7 @@ dev-perl/Cache-Memcached-Managed:0
 dev-perl/Cache-Ref:0
 dev-perl/Cache:0
 dev-perl/Cairo-GObject:0
+dev-perl/Cairo:0
 dev-perl/Captcha-reCAPTCHA:0
 dev-perl/Capture-Tiny:0
 dev-perl/Carp-Always:0
@@ -1492,7 +1492,6 @@ kde-base/libkworkspace:4
 kde-base/libplasmaclock:4
 kde-base/libplasmagenericshell:4
 kde-base/libtaskmanager:4
-kde-base/nepomuk-core:4
 kde-base/nepomuk-widgets:4
 kde-base/plasma-runtime:4
 kde-base/plasma-workspace:4
@@ -2284,6 +2283,7 @@ x11-libs/libdrm:0
 x11-libs/libfontenc:0
 x11-libs/libgksu:2
 x11-libs/libnotify:0
+x11-libs/libsvg-cairo:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
 x11-libs/libwnck:1

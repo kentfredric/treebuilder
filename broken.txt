@@ -153,7 +153,6 @@ app-text/gtkspell:3
 app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
-app-text/iso-codes:0
 app-text/libpaper:0
 app-text/libwpd:0.9
 app-text/openjade:0
@@ -1493,7 +1492,6 @@ kde-base/libkworkspace:4
 kde-base/libplasmaclock:4
 kde-base/libplasmagenericshell:4
 kde-base/libtaskmanager:4
-kde-base/nepomuk-core:4
 kde-base/nepomuk-widgets:4
 kde-base/plasma-runtime:4
 kde-base/plasma-workspace:4
