@@ -1,4 +1,3 @@
-app-admin/apache-tools:0
 app-admin/chrpath:0
 app-admin/eselect-blas:0
 app-admin/eselect-cblas:0
@@ -51,9 +50,7 @@ app-arch/zip:0
 app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
-app-crypt/gcr:0/1
 app-crypt/gnupg:0
-app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -73,11 +70,9 @@ app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
-app-emulation/emul-linux-x86-medialibs:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
-app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/ibus:0
@@ -110,7 +105,6 @@ app-portage/layman:0
 app-portage/metagen:0
 app-portage/perl-info:0
 app-portage/portage-utils:0
-app-shells/bash-completion:0
 app-shells/bash:0
 app-shells/dash:0
 app-shells/gentoo-bashcomp:0
@@ -153,7 +147,6 @@ app-text/gtkspell:3
 app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
-app-text/libpaper:0
 app-text/libwpd:0.9
 app-text/openjade:0
 app-text/opensp:0
@@ -179,7 +172,6 @@ app-vim/eselect-syntax:0
 app-vim/fugitive:0
 app-vim/gentoo-syntax:0
 app-vim/gitv:0
-app-vim/gtk-syntax:0
 app-vim/nerdtree:0
 app-vim/nginx-syntax:0
 app-vim/ntp-syntax:0
@@ -1343,7 +1335,6 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
-dev-python/Babel:0
 dev-python/PyQt4:0
 dev-python/argparse:0
 dev-python/beautifulsoup:4
@@ -1367,7 +1358,6 @@ dev-python/pycups:0
 dev-python/pycurl:0
 dev-python/pygments:0
 dev-python/pygobject:2
-dev-python/pygobject:3
 dev-python/pygtk:2
 dev-python/pyopenssl:0
 dev-python/pytest:0
@@ -1398,7 +1388,6 @@ dev-texlive/texlive-langenglish:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
-dev-util/boost-build:0
 dev-util/catalyst:0
 dev-util/cmake:0
 dev-util/cmockery:0
@@ -1441,7 +1430,6 @@ gnome-base/gconf:2
 gnome-base/gnome-keyring:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
-gnome-base/gsettings-desktop-schemas:0
 gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
@@ -1449,8 +1437,6 @@ gnome-base/libglade:2.0
 gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
-gnome-base/libgtop:2
-gnome-base/librsvg:2
 gnome-base/orbit:2
 gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
@@ -2037,7 +2023,6 @@ sys-auth/thinkfinger:0
 sys-block/gparted:0
 sys-block/nbd:0
 sys-block/parted:0
-sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
 sys-boot/syslinux:0
 sys-devel/autoconf:2.1
@@ -2074,7 +2059,6 @@ sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
-sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
 sys-fs/multipath-tools:0
@@ -2245,8 +2229,6 @@ x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
 x11-libs/gnome-pty-helper:0
-x11-libs/gtk+:2
-x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
@@ -2351,7 +2333,6 @@ x11-proto/renderproto:0
 x11-proto/resourceproto:0
 x11-proto/scrnsaverproto:0
 x11-proto/trapproto:0
-x11-proto/videoproto:0
 x11-proto/xcb-proto:0
 x11-proto/xcmiscproto:0
 x11-proto/xextproto:0
