@@ -1,12 +1,2 @@
-app-admin/eselect-wxwidgets:0
-app-arch/p7zip:0
-dev-db/pgadmin3:0
-dev-perl/Alien-wxWidgets:0
-dev-perl/Wx-Perl-ProcessStream:0
-kde-base/plasma-workspace:4
-kde-misc/smooth-tasks:4
-media-gfx/hugin:0
-media-sound/audacity:0
-media-video/mkvtoolnix:0
-net-p2p/ktorrent:4
-sci-visualization/gnuplot:0
+kde-misc/wacomtablet:4
+net-libs/libsoup:2.4

@@ -1284,6 +1284,7 @@ dev-perl/WWW-Shorten:0
 dev-perl/Weather-Com:0
 dev-perl/Web-Scraper:0
 dev-perl/WebService-MusicBrainz:0
+dev-perl/Wx-Perl-ProcessStream:0
 dev-perl/Wx-Scintilla:0
 dev-perl/XML-Atom:0
 dev-perl/XML-Elemental:0
@@ -1764,6 +1765,7 @@ media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
+media-video/mkvtoolnix:0
 media-video/mplayer:0
 media-video/recordmydesktop:0
 media-video/rtmpdump:0
@@ -1805,7 +1807,6 @@ net-im/psimedia:0
 net-im/qwit:0
 net-im/skype:0
 net-irc/irssi:0
-net-libs/glib-networking:0
 net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libktorrent:4
@@ -2195,7 +2196,6 @@ x11-base/xorg-x11:0
 x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-input-synaptics:0
-x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
