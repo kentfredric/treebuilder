@@ -50,6 +50,7 @@ app-arch/zip:0
 app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
+app-crypt/gcr:0/1
 app-crypt/gnupg:0
 app-crypt/libsecret:0
 app-crypt/mhash:0
@@ -70,9 +71,11 @@ app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
+app-emulation/emul-linux-x86-medialibs:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
+app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/ibus:0
@@ -351,6 +354,7 @@ dev-libs/libpwquality:0
 dev-libs/libsigc++:2
 dev-libs/libtasn1:0
 dev-libs/libunique:1
+dev-libs/libusb-compat:0
 dev-libs/libusb:1
 dev-libs/libverto:0
 dev-libs/libwacom:0
@@ -760,6 +764,7 @@ dev-perl/File-Type:0
 dev-perl/File-Which:0
 dev-perl/FindBin-libs:0
 dev-perl/FormValidator-Simple:0
+dev-perl/Fuse:0
 dev-perl/Future:0
 dev-perl/GD:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
@@ -1114,6 +1119,7 @@ dev-perl/Search-GIN-Extract-AttributeIndexes:0
 dev-perl/Search-GIN-Extract-ClassMap:0
 dev-perl/Search-GIN:0
 dev-perl/Search-Sitemap:0
+dev-perl/Server-Starter:0
 dev-perl/Smart-Comments:0
 dev-perl/Snowball-Norwegian:0
 dev-perl/Snowball-Swedish:0
@@ -1475,6 +1481,7 @@ kde-misc/kcm_touchpad:4
 kde-misc/kde-gtk-config:4
 kde-misc/kdesudo:4
 kde-misc/kdiff3:4
+kde-misc/kim4:4
 kde-misc/krcstat:4
 kde-misc/kshutdown:4
 kde-misc/ksplasher:4
@@ -1613,6 +1620,7 @@ media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
 media-libs/libass:0
+media-libs/libbs2b:0
 media-libs/libcanberra:0
 media-libs/libclalsadrv:0
 media-libs/libclxclient:0
@@ -1630,6 +1638,7 @@ media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
 media-libs/libmpeg2:0
+media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
@@ -1674,6 +1683,7 @@ media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
 media-libs/urt:0
+media-libs/vamp-plugin-sdk:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/xine-lib:1
@@ -1734,6 +1744,7 @@ media-sound/mac:0
 media-sound/moodbar:0
 media-sound/mpd:0
 media-sound/mpg123:0
+media-sound/ogmtools:0
 media-sound/pavucontrol:0
 media-sound/projectm-jack:0
 media-sound/pulseaudio:0
@@ -1743,6 +1754,7 @@ media-sound/scmpc:0
 media-sound/sox:0
 media-sound/timidity++:0
 media-sound/tuxguitar:0
+media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-sound/wavpack:0
@@ -1925,6 +1937,7 @@ sci-libs/gsl:0
 sci-libs/hdf5:0
 sci-libs/lapack-atlas:0
 sci-libs/libqalculate:0
+sci-libs/mkl:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
@@ -2035,6 +2048,7 @@ sys-fs/squashfs-tools:0
 sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
 sys-fs/udisks:2
+sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs:0
@@ -2069,6 +2083,7 @@ sys-power/pm-utils:0
 sys-power/pmtools:0
 sys-power/powermgmt-base:0
 sys-power/powertop:0
+sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
 sys-process/iotop:0
@@ -2238,7 +2253,6 @@ x11-libs/qwt:6
 x11-libs/startup-notification:0
 x11-libs/vte:0
 x11-libs/vte:2.90
-x11-libs/wxGTK:2.8
 x11-libs/wxGTK:2.9
 x11-libs/xcb-util-image:0
 x11-libs/xcb-util-keysyms:0

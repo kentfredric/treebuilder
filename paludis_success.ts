@@ -1,1 +1,1 @@
-+2013, 08 August, 28 Wednesday, 08:18:42.582379197 856320:1969679 709347:7294 ** ~success  install : kde-base/libtaskmanager-4.11.0:4::gentoo
++2013, 08 August, 28 Wednesday, 08:38:27.923382130 856320:2088213 ** ~success true task : 
