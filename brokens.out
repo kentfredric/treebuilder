@@ -58,7 +58,6 @@ app-crypt/mit-krb5:0
 app-crypt/pinentry:0
 app-crypt/qca-gnupg:2
 app-crypt/qca:2
-app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
@@ -109,7 +108,6 @@ app-portage/perl-info:0
 app-portage/portage-utils:0
 app-shells/bash:0
 app-shells/dash:0
-app-shells/gentoo-bashcomp:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/ansifilter:0
@@ -141,6 +139,7 @@ app-text/dvipng:0
 app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
+app-text/ghostscript-gpl:0
 app-text/gnome-doc-utils:0
 app-text/gocr:0
 app-text/gtkspell:2
@@ -310,7 +309,6 @@ dev-libs/boost:0/1.52
 dev-libs/check:0
 dev-libs/cloog-ppl:0
 dev-libs/confuse:0
-dev-libs/dbus-glib:0
 dev-libs/elfutils:0
 dev-libs/expat:0
 dev-libs/fcgi:0
@@ -1422,10 +1420,8 @@ dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
-dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
@@ -1435,7 +1431,6 @@ games-util/nml:0
 gnome-base/gconf:2
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
-gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
@@ -1730,7 +1725,6 @@ media-plugins/mediastreamer-x264:0
 media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
-media-sound/boodler:0
 media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
@@ -1825,14 +1819,12 @@ net-libs/openslp:0
 net-libs/ortp:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
-net-misc/aria2:0
 net-misc/axel:0
 net-misc/dhcp:0
 net-misc/iputils:0
 net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
-net-misc/networkmanager:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/rsync:0
@@ -1959,7 +1951,6 @@ sys-apps/hwinfo:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
-sys-apps/kmod:0
 sys-apps/less:0
 sys-apps/lomoco:0
 sys-apps/makedev:0
@@ -1969,7 +1960,6 @@ sys-apps/microcode-ctl:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
-sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
@@ -1980,10 +1970,8 @@ sys-apps/sdparm:0
 sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
-sys-apps/systemd:0
 sys-apps/texinfo:0
 sys-apps/usbutils:0
-sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
@@ -2044,12 +2032,9 @@ sys-fs/shake:0
 sys-fs/squashfs-tools:0
 sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
-sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
-sys-fs/zfs:0
-sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-libs/cracklib:0
 sys-libs/db:3
