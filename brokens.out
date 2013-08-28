@@ -303,6 +303,7 @@ dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
+dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/boehm-gc:0
 dev-libs/boost:0/1.52
@@ -1844,7 +1845,6 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
-net-print/cups-filters:0
 net-print/cups:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
@@ -2249,6 +2249,7 @@ x11-libs/qwt:6
 x11-libs/startup-notification:0
 x11-libs/vte:0
 x11-libs/vte:2.90
+x11-libs/wxGTK:2.8
 x11-libs/wxGTK:2.9
 x11-libs/xcb-util-image:0
 x11-libs/xcb-util-keysyms:0

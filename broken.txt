@@ -141,6 +141,7 @@ app-text/dvipng:0
 app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
+app-text/ghostscript-gpl:0
 app-text/gnome-doc-utils:0
 app-text/gocr:0
 app-text/gtkspell:2
@@ -1845,7 +1846,6 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
-net-print/cups-filters:0
 net-print/cups:0
 net-print/foomatic-filters:0
 net-proxy/dante:0

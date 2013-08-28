@@ -71,12 +71,14 @@ app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
+app-emulation/emul-linux-x86-medialibs:0
 app-emulation/emul-linux-x86-opengl:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
+app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
@@ -111,7 +113,6 @@ app-shells/gentoo-bashcomp:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/ansifilter:0
-app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/build-docbook-catalog:0
@@ -139,6 +140,7 @@ app-text/dvipng:0
 app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
+app-text/ghostscript-gpl:0
 app-text/gnome-doc-utils:0
 app-text/gocr:0
 app-text/gtkspell:2
@@ -382,6 +384,7 @@ dev-libs/vala-common:0
 dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-libs/zthread:0
+dev-libs/zziplib:0
 dev-perl/Acme-Damn:0
 dev-perl/Adam:0
 dev-perl/Algorithm-C3:0
@@ -1404,7 +1407,6 @@ dev-util/dialog:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtk-doc-am:0
-dev-util/gtk-doc:0
 dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
@@ -1455,6 +1457,7 @@ kde-base/kcachegrind:4
 kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kdebase-kioslaves:4
+kde-base/kdepimlibs:4
 kde-base/kdialog:4
 kde-base/keditbookmarks:4
 kde-base/kfind:4
@@ -1566,6 +1569,7 @@ media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/openexr_viewers:0
 media-gfx/optipng:0
+media-gfx/povray:0
 media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
@@ -1580,6 +1584,7 @@ media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
 media-libs/cogl:1.0/11
 media-libs/ctl:0
+media-libs/devil:0
 media-libs/exempi:2
 media-libs/faac:0
 media-libs/faad2:0
@@ -1589,6 +1594,7 @@ media-libs/freetype:2
 media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gd:2
+media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
@@ -1645,11 +1651,13 @@ media-libs/libsamplerate:0
 media-libs/libshout:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
+media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
+media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
@@ -1662,8 +1670,12 @@ media-libs/portaudio:0
 media-libs/prison:4
 media-libs/qimageblitz:0
 media-libs/raptor:2
+media-libs/sdl-image:0
+media-libs/sdl-net:0
+media-libs/sdl-sound:0
 media-libs/silgraphite:0
 media-libs/sk1libs:0
+media-libs/smpeg:0
 media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
@@ -1671,6 +1683,7 @@ media-libs/urt:0
 media-libs/vamp-plugin-sdk:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
+media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1691,7 +1704,7 @@ media-plugins/gst-plugins-jpeg:1.0
 media-plugins/gst-plugins-lame:0.10
 media-plugins/gst-plugins-libmms:0.10
 media-plugins/gst-plugins-mad:0.10
-media-plugins/gst-plugins-meta:0.10
+media-plugins/gst-plugins-mpeg2dec:0.10
 media-plugins/gst-plugins-mplex:0.10
 media-plugins/gst-plugins-musepack:0.10
 media-plugins/gst-plugins-neon:0.10
@@ -1726,6 +1739,7 @@ media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
 media-sound/mpd:0
+media-sound/mpg123:0
 media-sound/ogmtools:0
 media-sound/pavucontrol:0
 media-sound/projectm-jack:0
@@ -1743,12 +1757,16 @@ media-sound/wavpack:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
+media-video/ffmpeg:0
 media-video/lsdvd:0
+media-video/mjpegtools:1
 media-video/mkvtoolnix:0
+media-video/mplayer:0
 media-video/recordmydesktop:0
 media-video/rtmpdump:0
 media-video/smplayer:0
 media-video/subtitleripper:0
+media-video/transcode:0
 media-video/vcdimager:0
 media-video/xine-ui:0
 media-video/xvid4conf:0
@@ -1826,7 +1844,6 @@ net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
 net-print/cups:0
-net-print/foomatic-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
@@ -2230,6 +2247,7 @@ x11-libs/startup-notification:0
 x11-libs/vte:0
 x11-libs/vte:2.90
 x11-libs/wxGTK:2.8
+x11-libs/wxGTK:2.9
 x11-libs/xcb-util-image:0
 x11-libs/xcb-util-keysyms:0
 x11-libs/xcb-util-renderutil:0
