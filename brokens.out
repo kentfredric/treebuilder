@@ -160,7 +160,6 @@ app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
-app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
@@ -172,6 +171,7 @@ app-vim/eselect-syntax:0
 app-vim/fugitive:0
 app-vim/gentoo-syntax:0
 app-vim/gitv:0
+app-vim/gtk-syntax:0
 app-vim/nerdtree:0
 app-vim/nginx-syntax:0
 app-vim/ntp-syntax:0
@@ -212,6 +212,7 @@ dev-db/virtuoso-odbc:0
 dev-db/virtuoso-server:0
 dev-db/xbase:0
 dev-games/physfs:0
+dev-haskell/cabal:0
 dev-java/ant-contrib:0
 dev-java/ant-core:0
 dev-java/ant-eclipse-ecj:3.7
@@ -1561,6 +1562,7 @@ media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/feh:0
+media-gfx/fontforge:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
@@ -1761,7 +1763,6 @@ media-sound/wavpack:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
-media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
 media-video/mkvtoolnix:0
@@ -1798,6 +1799,7 @@ net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
 net-fs/nfs-utils:0
+net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
@@ -1846,6 +1848,7 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
+net-print/cups-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
@@ -2020,6 +2023,7 @@ sys-devel/gcc:4.7
 sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
+sys-devel/llvm:0/3.2
 sys-devel/m4:0
 sys-devel/make:0
 sys-devel/patch:0

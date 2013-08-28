@@ -62,6 +62,7 @@ app-crypt/mit-krb5:0
 app-crypt/pinentry:0
 app-crypt/qca-gnupg:2
 app-crypt/qca:2
+app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
@@ -160,7 +161,6 @@ app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
-app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
@@ -1392,8 +1392,15 @@ dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
 dev-tex/luatex:0
+dev-texlive/texlive-basic:0
 dev-texlive/texlive-fontsextra:0
+dev-texlive/texlive-fontsrecommended:0
+dev-texlive/texlive-fontutils:0
+dev-texlive/texlive-genericrecommended:0
 dev-texlive/texlive-langenglish:0
+dev-texlive/texlive-latex:0
+dev-texlive/texlive-latexrecommended:0
+dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
@@ -1764,7 +1771,6 @@ media-sound/wavpack:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
-media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
 media-video/mkvtoolnix:0
@@ -1972,6 +1978,7 @@ sys-apps/microcode-ctl:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
+sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
