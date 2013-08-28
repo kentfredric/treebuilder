@@ -1,1 +1,1 @@
-+2013, 08 August, 28 Wednesday, 17:07:08.972156199 857137:2426642 778803:1855 ** ~success  install : sys-kernel/dracut-031-r1:0::gentoo
++2013, 08 August, 29 Thursday, 03:48:54.526992584 97293:354370 ** ~success true task : 

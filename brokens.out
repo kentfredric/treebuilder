@@ -1,3 +1,5 @@
+app-accessibility/at-spi2-atk:2
+app-accessibility/at-spi2-core:2
 app-admin/chrpath:0
 app-admin/eselect-blas:0
 app-admin/eselect-cblas:0
@@ -15,8 +17,10 @@ app-admin/eselect-opencl:0
 app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
 app-admin/eselect-php:0
+app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
 app-admin/eselect-qtgraphicssystem:0
+app-admin/eselect-ruby:0
 app-admin/eselect-timidity:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
@@ -61,11 +65,9 @@ app-crypt/qca:2
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
-app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -77,7 +79,6 @@ app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/virtualbox:0
 app-emulation/wine:0
-app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
@@ -284,7 +285,6 @@ dev-java/xml-commons-resolver:0
 dev-java/xmldb:0
 dev-java/xpp2:0
 dev-java/xpp3:0
-dev-lang/ghc:0
 dev-lang/lua:0
 dev-lang/nasm:0
 dev-lang/nqp:0
@@ -304,6 +304,8 @@ dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
 dev-libs/apr-util:1
+dev-libs/apr:1
+dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/boost:0/1.52
 dev-libs/check:0
@@ -1361,6 +1363,7 @@ dev-python/pycups:0
 dev-python/pycurl:0
 dev-python/pygments:0
 dev-python/pygobject:2
+dev-python/pygobject:3
 dev-python/pygtk:2
 dev-python/pygtksourceview:2
 dev-python/pyopenssl:0
@@ -1429,13 +1432,17 @@ games-misc/openmsx:0
 games-util/grfcodec:0
 games-util/nml:0
 gnome-base/gconf:2
+gnome-base/gnome-keyring:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
+gnome-base/gsettings-desktop-schemas:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
+gnome-base/libgtop:2
+gnome-base/librsvg:2
 gnome-base/orbit:2
 gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
@@ -1453,7 +1460,7 @@ kde-base/kcachegrind:4
 kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kdebase-kioslaves:4
-kde-base/kdepimlibs:4
+kde-base/kdelibs:4
 kde-base/kdialog:4
 kde-base/keditbookmarks:4
 kde-base/kfind:4
@@ -1597,11 +1604,11 @@ media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
 media-libs/gst-plugins-base:0.10
-media-libs/gst-plugins-base:1.0
 media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
+media-libs/gstreamer:1.0
 media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
@@ -1629,6 +1636,7 @@ media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libjpeg-turbo:0
 media-libs/libmikmod:0
+media-libs/libmms:0
 media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
@@ -1798,6 +1806,7 @@ net-im/psimedia:0
 net-im/qwit:0
 net-im/skype:0
 net-irc/irssi:0
+net-libs/glib-networking:0
 net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libktorrent:4
@@ -1837,8 +1846,6 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
-net-print/cups:0
-net-print/foomatic-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
@@ -1964,7 +1971,6 @@ sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
 sys-apps/portage:0
-sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -1975,11 +1981,13 @@ sys-apps/usbutils:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
+sys-auth/consolekit:0
 sys-auth/nss-mdns:0
 sys-auth/pam_ssh:0
 sys-auth/pambase:0
 sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
+sys-auth/polkit:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
 sys-block/gparted:0
@@ -2010,6 +2018,7 @@ sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gdb:0
+sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/m4:0
 sys-devel/make:0
@@ -2021,6 +2030,7 @@ sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
+sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
 sys-fs/multipath-tools:0
@@ -2116,6 +2126,7 @@ virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
 virtual/texi2dvi:0
+virtual/udev:0
 virtual/yacc:0
 www-client/dillo:0
 www-client/firefox:0
@@ -2185,6 +2196,8 @@ x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
+x11-libs/gtk+:2
+x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
