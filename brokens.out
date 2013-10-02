@@ -62,6 +62,7 @@ app-crypt/mit-krb5:0
 app-crypt/pinentry:0
 app-crypt/qca-gnupg:2
 app-crypt/qca:2
+app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
@@ -84,7 +85,6 @@ app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
-app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
@@ -106,7 +106,6 @@ app-portage/gentoolkit:0
 app-portage/layman:0
 app-portage/metagen:0
 app-portage/perl-info:0
-app-portage/portage-utils:0
 app-shells/bash:0
 app-shells/dash:0
 app-shells/psh:0
@@ -195,14 +194,10 @@ dev-cpp/mm-common:0
 dev-cpp/pangomm:1.4
 dev-db/hsqldb:0
 dev-db/libiodbc:0
-dev-db/mysql-init-scripts:0
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
-dev-db/postgresql-base:9.1
-dev-db/postgresql-base:9.2
-dev-db/postgresql-base:9.3
 dev-db/postgresql-server:9.1
 dev-db/postgresql-server:9.2
 dev-db/sqlite:0
@@ -361,9 +356,7 @@ dev-libs/libwacom:0
 dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/mpc:0
-dev-libs/mpfr:0
 dev-libs/nettle:0/4
-dev-libs/nspr:0
 dev-libs/nss:0
 dev-libs/openobex:0
 dev-libs/openssl:0
@@ -597,7 +590,6 @@ dev-perl/DBIx-Class:0
 dev-perl/DBIx-Connector:0
 dev-perl/DBIx-ContextualFetch:0
 dev-perl/DBIx-Simple:0
-dev-perl/Dancer:0
 dev-perl/Dancer:2
 dev-perl/Data-Clone:0
 dev-perl/Data-Compare:0
@@ -1074,7 +1066,6 @@ dev-perl/Perl-Version:0
 dev-perl/Perl6-Caller:0
 dev-perl/PerlIO-via-dynamic:0
 dev-perl/Petal:0
-dev-perl/PlRPC:0
 dev-perl/Plack-Middleware-ForceEnv:0
 dev-perl/Plack-Middleware-ReverseProxy:0
 dev-perl/Plack:0
@@ -1391,8 +1382,15 @@ dev-scheme/guile:12
 dev-tcltk/expect:0
 dev-tex/bibtexu:0
 dev-tex/luatex:0
+dev-texlive/texlive-basic:0
 dev-texlive/texlive-fontsextra:0
+dev-texlive/texlive-fontsrecommended:0
+dev-texlive/texlive-fontutils:0
+dev-texlive/texlive-genericrecommended:0
 dev-texlive/texlive-langenglish:0
+dev-texlive/texlive-latex:0
+dev-texlive/texlive-latexrecommended:0
+dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
@@ -1970,6 +1968,7 @@ sys-apps/microcode-ctl:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
+sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
@@ -2024,7 +2023,6 @@ sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0/3.2
-sys-devel/m4:0
 sys-devel/make:0
 sys-devel/patch:0
 sys-devel/qconf:0
