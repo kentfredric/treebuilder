@@ -318,7 +318,6 @@ dev-libs/gdl:1
 dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
-dev-libs/gmp:0
 dev-libs/gobject-introspection-common:0
 dev-libs/gobject-introspection:0
 dev-libs/icu:0/51.1
@@ -1399,7 +1398,6 @@ dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/catalyst:0
-dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cppunit:0
 dev-util/cscope:0
@@ -1500,7 +1498,6 @@ mail-filter/bogofilter:0
 mail-mta/ssmtp:0
 media-fonts/cantarell:0
 media-fonts/corefonts:0
-media-fonts/dejavu:0
 media-fonts/droid:0
 media-fonts/encodings:0
 media-fonts/font-adobe-100dpi:0
