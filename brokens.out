@@ -162,6 +162,7 @@ app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
+app-text/texlive-core:0
 app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
@@ -1598,6 +1599,7 @@ media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
+media-gfx/imagemagick:0/6.8.6.8
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -1679,6 +1681,7 @@ media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
 media-libs/libpng:1.2
+media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
 media-libs/libprojectm:0
 media-libs/libquicktime:0
@@ -2253,6 +2256,7 @@ x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
+x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
