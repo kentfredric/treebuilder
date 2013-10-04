@@ -1,1 +1,1 @@
-+2013, 10 October, 04 Friday, 16:02:03.429984252 234386:575623 403522:4739 ** ~success  install : sys-apps/file-5.15:0::gentoo
++2013, 10 October, 04 Friday, 16:40:27.923683854 234386:806072 ** ~success true task : 

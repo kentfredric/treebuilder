@@ -25,6 +25,7 @@ app-admin/eselect-timidity:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
+app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
 app-admin/metalog:0
@@ -1889,6 +1890,7 @@ net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
 net-print/cups-filters:0
+net-print/cups:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
@@ -2018,7 +2020,6 @@ sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
-sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
