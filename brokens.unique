@@ -89,7 +89,6 @@ app-misc/note:0
 app-misc/pax-utils:0
 app-misc/screen:0
 app-misc/strigi:0
-app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
@@ -103,7 +102,6 @@ app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
-app-portage/layman:0
 app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
@@ -1273,7 +1271,6 @@ dev-perl/Unicode-MapUTF8:0
 dev-perl/Unicode-String:0
 dev-perl/Unicode-UTF8:0
 dev-perl/User:0
-dev-perl/VCI:0
 dev-perl/Variable-Magic:0
 dev-perl/Version-Next:0
 dev-perl/WWW-Curl:0
@@ -1404,7 +1401,6 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
-dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/catalyst:0
 dev-util/cmockery:0
@@ -1463,7 +1459,6 @@ gnome-extra/yelp:0
 gnome-extra/zenity:0
 java-virtuals/jaf:0
 java-virtuals/javamail:0
-kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
 kde-base/kate:4
@@ -1497,7 +1492,6 @@ kde-base/libplasmagenericshell:4
 kde-base/libtaskmanager:4
 kde-base/nepomuk-core:4
 kde-base/nepomuk-widgets:4
-kde-base/oxygen-icons:4
 kde-base/plasma-runtime:4
 kde-base/plasma-workspace:4
 kde-base/print-manager:4
@@ -1765,7 +1759,6 @@ media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/fluidsynth:0
-media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
 media-sound/lash:0
@@ -1834,9 +1827,7 @@ net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
-net-im/psi:0
 net-im/psimedia:0
-net-im/qwit:0
 net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
