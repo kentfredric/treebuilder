@@ -1847,7 +1847,6 @@ net-im/qwit:0
 net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
-net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libktorrent:4
 net-libs/liblockfile:0
@@ -1995,7 +1994,6 @@ sys-apps/busybox:0
 sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/diffutils:0
-sys-apps/file:0
 sys-apps/findutils:0
 sys-apps/flashrom:0
 sys-apps/gawk:0

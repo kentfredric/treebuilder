@@ -25,6 +25,7 @@ app-admin/eselect-timidity:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
+app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
 app-admin/metalog:0
@@ -1847,7 +1848,6 @@ net-im/qwit:0
 net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
-net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libktorrent:4
 net-libs/liblockfile:0
@@ -1890,6 +1890,7 @@ net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
 net-print/cups-filters:0
+net-print/cups:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
@@ -1995,7 +1996,6 @@ sys-apps/busybox:0
 sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/diffutils:0
-sys-apps/file:0
 sys-apps/findutils:0
 sys-apps/flashrom:0
 sys-apps/gawk:0

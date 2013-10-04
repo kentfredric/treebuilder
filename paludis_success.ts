@@ -1,1 +1,1 @@
-+2013, 10 October, 04 Friday, 15:41:08.512318220 234386:450131 335877:17472 ** ~success  install : media-libs/libpng-1.6.6:0::gentoo
++2013, 10 October, 04 Friday, 16:02:03.429984252 234386:575623 403522:4739 ** ~success  install : sys-apps/file-5.15:0::gentoo
