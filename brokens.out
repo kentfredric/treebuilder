@@ -28,15 +28,12 @@ app-admin/eselect-xvmc:0
 app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
-app-admin/metalog:0
 app-admin/openrc-settingsd:0
 app-admin/perl-cleaner:0
 app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
-app-admin/system-config-printer-common:0
-app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
@@ -56,7 +53,6 @@ app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
-app-crypt/gnupg:0
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -67,11 +63,9 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
-app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -88,6 +82,7 @@ app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
+app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
@@ -107,7 +102,6 @@ app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
-app-portage/layman:0
 app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
@@ -115,7 +109,6 @@ app-shells/dash:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/ansifilter:0
-app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/build-docbook-catalog:0
@@ -144,7 +137,6 @@ app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
 app-text/ghostscript-gpl:0
-app-text/gnome-doc-utils:0
 app-text/gocr:0
 app-text/gtkspell:2
 app-text/gtkspell:3
@@ -202,12 +194,6 @@ dev-db/libiodbc:0
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
-dev-db/postgresql-base:9.0
-dev-db/postgresql-base:9.1
-dev-db/postgresql-base:9.2
-dev-db/postgresql-base:9.3
-dev-db/postgresql-server:9.1
-dev-db/postgresql-server:9.2
 dev-db/sqlite:0
 dev-db/sqlite:3
 dev-db/unixODBC:0
@@ -224,7 +210,6 @@ dev-java/ant-ivy:2
 dev-java/ant-junit:0
 dev-java/ant-nodeps:0
 dev-java/ant-owanttask:0
-dev-java/antlr:0
 dev-java/apple-java-extensions-bin:0
 dev-java/apt-mirror:0
 dev-java/asm:1.4
@@ -252,9 +237,7 @@ dev-java/icedtea-bin:7
 dev-java/itext:0
 dev-java/jakarta-oro:2.0
 dev-java/java-config-wrapper:0
-dev-java/java-config:2
 dev-java/javacup:0
-dev-java/javatoolkit:0
 dev-java/jaxme:0
 dev-java/jdbc-mysql:0
 dev-java/jflex:0
@@ -299,6 +282,8 @@ dev-lang/parrot:0
 dev-lang/perl:0/5.16
 dev-lang/php:5.3
 dev-lang/php:5.4
+dev-lang/python:2.6
+dev-lang/python:2.7
 dev-lang/rakudo:0
 dev-lang/ruby:1.9
 dev-lang/ruby:2.0
@@ -313,7 +298,6 @@ dev-libs/apr-util:1
 dev-libs/apr:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
-dev-libs/boost:0/1.52
 dev-libs/check:0
 dev-libs/cloog-ppl:0
 dev-libs/confuse:0
@@ -326,7 +310,6 @@ dev-libs/gdl:1
 dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
-dev-libs/glib:2
 dev-libs/gobject-introspection-common:0
 dev-libs/gobject-introspection:0
 dev-libs/icu:0/51.1
@@ -357,7 +340,6 @@ dev-libs/liboil:0.3
 dev-libs/libpcre:3
 dev-libs/libpqxx:0
 dev-libs/libpthread-stubs:0
-dev-libs/libpwquality:0
 dev-libs/libsigc++:2
 dev-libs/libtasn1:0
 dev-libs/libunique:1
@@ -365,7 +347,6 @@ dev-libs/libusb-compat:0
 dev-libs/libusb:1
 dev-libs/libverto:0
 dev-libs/libwacom:0
-dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/mpc:0
 dev-libs/mpfr:0
@@ -377,7 +358,6 @@ dev-libs/openssl:0.9.8
 dev-libs/ossp-uuid:0
 dev-libs/popt:0
 dev-libs/ppl:0
-dev-libs/protobuf:0/8
 dev-libs/pslib:0
 dev-libs/pth:0
 dev-libs/pugixml:0
@@ -1350,40 +1330,17 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
-dev-python/PyQt4:0
 dev-python/argparse:0
-dev-python/beautifulsoup:4
-dev-python/coverage:0
-dev-python/dbus-python:0
 dev-python/docutils:0
 dev-python/imaging:0
 dev-python/jaxml:0
-dev-python/lxml:0
-dev-python/m2crypto:0
-dev-python/mock:0
-dev-python/nose:0
-dev-python/numpy:0
 dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/ply:0
-dev-python/py:0
-dev-python/pycairo:0
 dev-python/pycrypto:0
-dev-python/pycups:0
-dev-python/pycurl:0
-dev-python/pygments:0
-dev-python/pygobject:2
-dev-python/pygobject:3
 dev-python/pygtk:2
-dev-python/pygtksourceview:2
-dev-python/pyopenssl:0
-dev-python/pytest:0
-dev-python/pytz:0
-dev-python/pyxattr:0
 dev-python/pyxdg:0
 dev-python/pyxml:0
-dev-python/sip:0/10
-dev-python/urwid:0
 dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
@@ -1410,7 +1367,6 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
-dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/catalyst:0
 dev-util/cmockery:0
@@ -1474,7 +1430,6 @@ java-virtuals/javamail:0
 kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
-kde-base/kate:4
 kde-base/katepart:4
 kde-base/kcachegrind:4
 kde-base/kcharselect:4
@@ -1496,7 +1451,6 @@ kde-base/kompare:4
 kde-base/konqueror:4
 kde-base/konsole:4
 kde-base/krdc:4
-kde-base/krosspython:4
 kde-base/ksysguard:4
 kde-base/libkonq:4
 kde-base/libkworkspace:4
@@ -1598,10 +1552,8 @@ media-gfx/fontforge:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
-media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.8
-media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
@@ -1612,7 +1564,6 @@ media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
 media-gfx/uniconvertor:0
-media-libs/alsa-lib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0/1
 media-libs/babl:0
@@ -1652,7 +1603,6 @@ media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
-media-libs/lcms:0
 media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
@@ -1778,7 +1728,6 @@ media-sound/japa:0
 media-sound/lame:0
 media-sound/lash:0
 media-sound/lastfmplayer:0
-media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
 media-sound/mpd:0
@@ -1824,7 +1773,6 @@ net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/ntop:0
 net-analyzer/portsentry:0
-net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/tleds:0
@@ -1855,7 +1803,6 @@ net-libs/libmediawiki:4
 net-libs/libnet:1.1
 net-libs/libnfsidmap:0
 net-libs/libpcap:0
-net-libs/libproxy:0
 net-libs/librpcsecgss:0
 net-libs/libsoup:2.4
 net-libs/libssh2:0
@@ -1883,14 +1830,11 @@ net-misc/rsync:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
-net-misc/wicd:0
 net-misc/youtube-dl:0
-net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
 net-print/cups-filters:0
-net-print/cups:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
@@ -2025,8 +1969,6 @@ sys-apps/sdparm:0
 sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
-sys-apps/systemd:0
-sys-apps/texinfo:0
 sys-apps/usbutils:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
@@ -2075,7 +2017,6 @@ sys-devel/make:0
 sys-devel/patch:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
-sys-fs/cryptsetup:0
 sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
@@ -2115,8 +2056,6 @@ sys-libs/ncurses:5
 sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
-sys-libs/talloc:0
-sys-libs/tdb:0
 sys-libs/zlib:0
 sys-power/acpi-support:0
 sys-power/cpufreqd:0
@@ -2322,7 +2261,6 @@ x11-libs/xcb-util-keysyms:0
 x11-libs/xcb-util-renderutil:0
 x11-libs/xcb-util-wm:0
 x11-libs/xcb-util:0
-x11-libs/xpyb:0
 x11-libs/xtrans:0
 x11-misc/dclock:0
 x11-misc/denu:0
@@ -2372,7 +2310,6 @@ x11-proto/resourceproto:0
 x11-proto/scrnsaverproto:0
 x11-proto/trapproto:0
 x11-proto/videoproto:0
-x11-proto/xcb-proto:0
 x11-proto/xcmiscproto:0
 x11-proto/xextproto:0
 x11-proto/xf86bigfontproto:0

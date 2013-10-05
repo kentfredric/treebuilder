@@ -1,1 +1,1 @@
-+2013, 10 October, 04 Friday, 16:40:27.923683854 234386:806072 ** ~success true task : 
++2013, 10 October, 05 Saturday, 12:01:37.827413745 983244:92722 14856:13072 ** ~success  install : sys-apps/texinfo-5.2:0::gentoo
