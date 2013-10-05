@@ -1,1 +1,1 @@
-+2013, 10 October, 05 Saturday, 16:54:05.462085345 983244:1847485 561961:63353 ** ~success  install : app-misc/strigi-0.7.8:0::gentoo
++2013, 10 October, 05 Saturday, 18:02:18.403068646 983244:2256779 ** ~success true task : 

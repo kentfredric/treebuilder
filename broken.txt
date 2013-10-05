@@ -34,6 +34,8 @@ app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
+app-admin/system-config-printer-common:0
+app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
@@ -112,9 +114,9 @@ app-shells/dash:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/ansifilter:0
+app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
-app-text/build-docbook-catalog:0
 app-text/dictd:0
 app-text/djvu:0
 app-text/docbook-dsssl-stylesheets:0
@@ -132,7 +134,6 @@ app-text/docbook-xml-dtd:4.5
 app-text/docbook-xml-simple-dtd:0
 app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
-app-text/docbook-xsl-stylesheets:0
 app-text/docbook2X:0
 app-text/dvipdfmx:0
 app-text/dvipng:0
@@ -315,9 +316,7 @@ dev-libs/gdl:1
 dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
-dev-libs/glib:2
 dev-libs/gobject-introspection-common:0
-dev-libs/gobject-introspection:0
 dev-libs/icu:0/51.1
 dev-libs/ilbc-rfc3951:0
 dev-libs/iniparser:0
@@ -326,6 +325,7 @@ dev-libs/judy:0
 dev-libs/klibc:0
 dev-libs/kpathsea:0
 dev-libs/libIDL:0
+dev-libs/libatasmart:0
 dev-libs/libattica:0
 dev-libs/libcdio:0
 dev-libs/libconfig:0
@@ -1348,7 +1348,10 @@ dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/ply:0
 dev-python/pycrypto:0
+dev-python/pygobject:2
+dev-python/pygobject:3
 dev-python/pygtk:2
+dev-python/pygtksourceview:2
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-qt/qt3support:4
@@ -1377,6 +1380,7 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
+dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/boost-build:0
 dev-util/catalyst:0
@@ -1387,7 +1391,6 @@ dev-util/cscope:0
 dev-util/ctags:0
 dev-util/d-feet:0
 dev-util/dejagnu:0
-dev-util/desktop-file-utils:0
 dev-util/dialog:0
 dev-util/glade:3
 dev-util/glade:3.10
@@ -1446,6 +1449,7 @@ java-virtuals/javamail:0
 kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
+kde-base/kate:4
 kde-base/katepart:4
 kde-base/kcachegrind:4
 kde-base/kcharselect:4
@@ -1796,6 +1800,7 @@ net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/ntop:0
 net-analyzer/portsentry:0
+net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/tleds:0
@@ -1961,6 +1966,7 @@ sys-apps/attr:0
 sys-apps/biosdevname:0
 sys-apps/busybox:0
 sys-apps/coreutils:0
+sys-apps/dbus:0
 sys-apps/diffutils:0
 sys-apps/ed:0
 sys-apps/findutils:0
@@ -1970,6 +1976,7 @@ sys-apps/gnome-disk-utility:0
 sys-apps/gptfdisk:0
 sys-apps/grep:0
 sys-apps/groff:0
+sys-apps/hwids:0
 sys-apps/hwinfo:0
 sys-apps/hwloc:0
 sys-apps/iproute2:0
@@ -1993,7 +2000,6 @@ sys-apps/sdparm:0
 sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
-sys-apps/systemd:0
 sys-apps/usbutils:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
@@ -2041,6 +2047,7 @@ sys-devel/make:0
 sys-devel/patch:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
+sys-fs/cryptsetup:0
 sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
@@ -2061,6 +2068,7 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
+sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-libs/cracklib:0
@@ -2144,7 +2152,6 @@ virtual/ssh:0
 virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
-virtual/udev:0
 virtual/yacc:0
 www-client/dillo:0
 www-client/firefox:0
