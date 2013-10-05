@@ -34,6 +34,8 @@ app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
+app-admin/system-config-printer-common:0
+app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
@@ -112,6 +114,7 @@ app-shells/dash:0
 app-shells/psh:0
 app-shells/zsh:0
 app-text/ansifilter:0
+app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/dictd:0
@@ -322,6 +325,7 @@ dev-libs/judy:0
 dev-libs/klibc:0
 dev-libs/kpathsea:0
 dev-libs/libIDL:0
+dev-libs/libatasmart:0
 dev-libs/libattica:0
 dev-libs/libcdio:0
 dev-libs/libconfig:0
@@ -1344,7 +1348,10 @@ dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/ply:0
 dev-python/pycrypto:0
+dev-python/pygobject:2
+dev-python/pygobject:3
 dev-python/pygtk:2
+dev-python/pygtksourceview:2
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-qt/qt3support:4
@@ -1373,6 +1380,7 @@ dev-texlive/texlive-latex:0
 dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
+dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/boost-build:0
 dev-util/catalyst:0
@@ -1441,6 +1449,7 @@ java-virtuals/javamail:0
 kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
+kde-base/kate:4
 kde-base/katepart:4
 kde-base/kcachegrind:4
 kde-base/kcharselect:4
@@ -1599,7 +1608,6 @@ media-libs/gavl:0
 media-libs/gd:2
 media-libs/gegl:0
 media-libs/giblib:0
-media-libs/giflib:0
 media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
@@ -1610,7 +1618,6 @@ media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/gstreamer:1.0
-media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
@@ -1791,6 +1798,7 @@ net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/ntop:0
 net-analyzer/portsentry:0
+net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/tleds:0
@@ -1956,6 +1964,7 @@ sys-apps/attr:0
 sys-apps/biosdevname:0
 sys-apps/busybox:0
 sys-apps/coreutils:0
+sys-apps/dbus:0
 sys-apps/diffutils:0
 sys-apps/ed:0
 sys-apps/findutils:0
@@ -1998,7 +2007,6 @@ sys-auth/pam_ssh:0
 sys-auth/pambase:0
 sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
-sys-auth/polkit:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
 sys-block/gparted:0
@@ -2035,11 +2043,11 @@ sys-devel/make:0
 sys-devel/patch:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
+sys-fs/cryptsetup:0
 sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
-sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
 sys-fs/multipath-tools:0
@@ -2055,6 +2063,7 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
+sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-libs/cracklib:0
@@ -2177,7 +2186,6 @@ x11-apps/xev:0
 x11-apps/xf86dga:0
 x11-apps/xgamma:0
 x11-apps/xhost:0
-x11-apps/xinit:0
 x11-apps/xinput:0
 x11-apps/xkbcomp:0
 x11-apps/xkbevd:0
@@ -2216,17 +2224,13 @@ x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
-x11-libs/gtk+:2
-x11-libs/gtk+:3
 x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
-x11-libs/libSM:0
 x11-libs/libXScrnSaver:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
-x11-libs/libXaw:0
 x11-libs/libXcomposite:0
 x11-libs/libXcursor:0
 x11-libs/libXdamage:0
@@ -2237,10 +2241,7 @@ x11-libs/libXfont:0
 x11-libs/libXft:0
 x11-libs/libXi:0
 x11-libs/libXinerama:0
-x11-libs/libXmu:0
 x11-libs/libXp:0
-x11-libs/libXpm:0
-x11-libs/libXrandr:0
 x11-libs/libXrender:0
 x11-libs/libXres:0
 x11-libs/libXt:0
