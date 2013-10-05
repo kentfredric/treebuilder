@@ -1,1 +1,1 @@
-+2013, 10 October, 06 Sunday, 02:17:19.465066649 956626:310247 ** ~success true task : 
++2013, 10 October, 06 Sunday, 05:49:48.776908082 142409:1010340 382887:13556 ** ~success  install : gnome-base/librsvg-2.39.0:2::gentoo

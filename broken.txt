@@ -149,7 +149,6 @@ app-text/htmltidy:0
 app-text/hunspell:0
 app-text/libwpd:0.9
 app-text/libwps:0
-app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
 app-text/poppler:0/37
@@ -295,7 +294,6 @@ dev-lang/ruby:1.9
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/spidermonkey:17
-dev-lang/swig:0
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
@@ -822,6 +820,7 @@ dev-perl/HTTP-Tiny-Mech:0
 dev-perl/Handel:0
 dev-perl/Hash-FieldHash:0
 dev-perl/Hash-Merge-Simple:0
+dev-perl/Hash-Merge:0
 dev-perl/Hash-MoreUtils:0
 dev-perl/Hash-StoredIterator:0
 dev-perl/Hook-LexWrap:0
@@ -1339,18 +1338,18 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
+dev-python/PyQt4:0
 dev-python/argparse:0
-dev-python/dbus-python:0
 dev-python/docutils:0
 dev-python/imaging:0
 dev-python/jaxml:0
+dev-python/m2crypto:0
+dev-python/notify-python:0
+dev-python/numpy:0
 dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/ply:0
 dev-python/pycrypto:0
-dev-python/pygobject:2
-dev-python/pygobject:3
-dev-python/pygtk:2
 dev-python/pygtksourceview:2
 dev-python/pyxdg:0
 dev-python/pyxml:0
@@ -1435,7 +1434,6 @@ gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
 gnome-base/libgtop:2
-gnome-base/librsvg:2
 gnome-base/orbit:2
 gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
@@ -1456,7 +1454,6 @@ kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kde-l10n:4
 kde-base/kdebase-kioslaves:4
-kde-base/kdelibs:4
 kde-base/kdepimlibs:4
 kde-base/kdesu:4
 kde-base/kdialog:4
@@ -1471,6 +1468,7 @@ kde-base/kompare:4
 kde-base/konqueror:4
 kde-base/konsole:4
 kde-base/krdc:4
+kde-base/krosspython:4
 kde-base/ksysguard:4
 kde-base/libkonq:4
 kde-base/libkworkspace:4
@@ -1625,6 +1623,7 @@ media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
+media-libs/lcms:0
 media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
@@ -1822,6 +1821,7 @@ net-im/qwit:0
 net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
+net-libs/gnutls:0
 net-libs/libetpan:0
 net-libs/libktorrent:4
 net-libs/liblockfile:0
@@ -1858,6 +1858,7 @@ net-misc/rsync:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
+net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
@@ -1993,6 +1994,7 @@ sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
+sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -2248,7 +2250,6 @@ x11-libs/libXrender:0
 x11-libs/libXres:0
 x11-libs/libXt:0
 x11-libs/libXtst:0
-x11-libs/libXv:0
 x11-libs/libXvMC:0
 x11-libs/libXxf86dga:0
 x11-libs/libXxf86misc:0
@@ -2304,9 +2305,7 @@ x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
 x11-misc/xclip:0
 x11-misc/xcompmgr:0
-x11-misc/xdg-utils:0
 x11-misc/xkbd:0
-x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
 x11-misc/xscreensaver:0

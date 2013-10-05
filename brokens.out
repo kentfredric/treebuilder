@@ -149,7 +149,6 @@ app-text/htmltidy:0
 app-text/hunspell:0
 app-text/libwpd:0.9
 app-text/libwps:0
-app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
 app-text/poppler:0/37
@@ -295,7 +294,6 @@ dev-lang/ruby:1.9
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/spidermonkey:17
-dev-lang/swig:0
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
@@ -1340,7 +1338,6 @@ dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/argparse:0
-dev-python/dbus-python:0
 dev-python/docutils:0
 dev-python/imaging:0
 dev-python/jaxml:0
@@ -1348,9 +1345,6 @@ dev-python/paramiko:0
 dev-python/pexpect:0
 dev-python/ply:0
 dev-python/pycrypto:0
-dev-python/pygobject:2
-dev-python/pygobject:3
-dev-python/pygtk:2
 dev-python/pygtksourceview:2
 dev-python/pyxdg:0
 dev-python/pyxml:0
@@ -1435,7 +1429,6 @@ gnome-base/libgnome-keyring:0
 gnome-base/libgnome:0
 gnome-base/libgnomecanvas:0
 gnome-base/libgtop:2
-gnome-base/librsvg:2
 gnome-base/orbit:2
 gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
@@ -1456,7 +1449,6 @@ kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kde-l10n:4
 kde-base/kdebase-kioslaves:4
-kde-base/kdelibs:4
 kde-base/kdepimlibs:4
 kde-base/kdesu:4
 kde-base/kdialog:4
@@ -1649,6 +1641,7 @@ media-libs/libmms:0
 media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
+media-libs/libmpeg2:0
 media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
@@ -2036,6 +2029,7 @@ sys-devel/flex:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
+sys-devel/gcc:4.7
 sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0/3.2
@@ -2246,7 +2240,6 @@ x11-libs/libXrender:0
 x11-libs/libXres:0
 x11-libs/libXt:0
 x11-libs/libXtst:0
-x11-libs/libXv:0
 x11-libs/libXvMC:0
 x11-libs/libXxf86dga:0
 x11-libs/libXxf86misc:0
@@ -2302,9 +2295,7 @@ x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
 x11-misc/xclip:0
 x11-misc/xcompmgr:0
-x11-misc/xdg-utils:0
 x11-misc/xkbd:0
-x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
 x11-misc/xscreensaver:0
