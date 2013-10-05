@@ -53,6 +53,7 @@ app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
+app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
@@ -87,7 +88,6 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/screen:0
-app-misc/strigi:0
 app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
@@ -144,6 +144,7 @@ app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
 app-text/libwpd:0.9
+app-text/libwps:0
 app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
@@ -277,7 +278,6 @@ dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
 dev-lang/nqp:0
-dev-lang/ocaml:0/4.00.1
 dev-lang/parrot:0
 dev-lang/perl:0/5.16
 dev-lang/php:5.3
@@ -290,7 +290,6 @@ dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/spidermonkey:17
 dev-lang/swig:0
-dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
@@ -1368,7 +1367,9 @@ dev-texlive/texlive-latexrecommended:0
 dev-texlive/texlive-metapost:0
 dev-texlive/texlive-texinfo:0
 dev-util/automoc:0
+dev-util/boost-build:0
 dev-util/catalyst:0
+dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cppunit:0
 dev-util/cscope:0
@@ -1389,6 +1390,7 @@ dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/reswrap:0
 dev-util/scons:0
+dev-util/source-highlight:0
 dev-util/strace:0
 dev-util/valgrind:0
 dev-util/xdelta:3
@@ -1398,6 +1400,7 @@ dev-vcs/cvsps:0
 dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
+dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
@@ -1423,6 +1426,7 @@ gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
 gnome-extra/libgda:5
 gnome-extra/libgsf:0
+gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
 java-virtuals/jaf:0
@@ -1590,6 +1594,7 @@ media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
 media-libs/gst-plugins-base:0.10
+media-libs/gst-plugins-base:1.0
 media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
@@ -1786,7 +1791,6 @@ net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
 net-fs/nfs-utils:0
-net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
@@ -1824,6 +1828,7 @@ net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
+net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/rsync:0
@@ -1845,8 +1850,6 @@ net-wireless/wpa_supplicant:0
 perl-core/Archive-Extract:0
 perl-core/B-Debug:0
 perl-core/B-Lint:0
-perl-core/CPAN-Meta-Requirements:0
-perl-core/CPAN-Meta:0
 perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
@@ -1859,7 +1862,6 @@ perl-core/Dumpvalue:0
 perl-core/Env:0
 perl-core/Exporter:0
 perl-core/ExtUtils-CBuilder:0
-perl-core/ExtUtils-MakeMaker:0
 perl-core/File-Fetch:0
 perl-core/Filter-Simple:0
 perl-core/HTTP-Tiny:0
@@ -1869,7 +1871,6 @@ perl-core/Log-Message:0
 perl-core/Math-BigInt:0
 perl-core/Math-Complex:0
 perl-core/Module-Build:0
-perl-core/Module-Load-Conditional:0
 perl-core/Module-Metadata:0
 perl-core/Module-Pluggable:0
 perl-core/Object-Accessor:0
@@ -1938,8 +1939,8 @@ sys-apps/attr:0
 sys-apps/biosdevname:0
 sys-apps/busybox:0
 sys-apps/coreutils:0
-sys-apps/dbus:0
 sys-apps/diffutils:0
+sys-apps/ed:0
 sys-apps/findutils:0
 sys-apps/flashrom:0
 sys-apps/gawk:0
@@ -1948,6 +1949,7 @@ sys-apps/gptfdisk:0
 sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/hwinfo:0
+sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/keyutils:0
@@ -1985,6 +1987,7 @@ sys-auth/thinkfinger:0
 sys-block/gparted:0
 sys-block/nbd:0
 sys-block/parted:0
+sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
 sys-boot/syslinux:0
 sys-devel/autoconf:2.1
@@ -2008,8 +2011,6 @@ sys-devel/flex:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
-sys-devel/gcc:4.7
-sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0/3.2
@@ -2037,6 +2038,7 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
+sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-libs/cracklib:0
 sys-libs/db:3
@@ -2053,7 +2055,6 @@ sys-libs/libieee1284:0
 sys-libs/libraw1394:0
 sys-libs/mtdev:0
 sys-libs/ncurses:5
-sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/zlib:0
@@ -2101,18 +2102,15 @@ virtual/perl-Archive-Extract:0
 virtual/perl-B-Lint:0
 virtual/perl-CPAN:0
 virtual/perl-CPANPLUS:0
-virtual/perl-Encode:0
 virtual/perl-ExtUtils-CBuilder:0
 virtual/perl-File-Fetch:0
 virtual/perl-HTTP-Tiny:0
 virtual/perl-Log-Message:0
 virtual/perl-Object-Accessor:0
-virtual/perl-Scalar-List-Utils:0
 virtual/perl-Term-UI:0
 virtual/perl-Text-ParseWords:0
 virtual/perl-Thread-Queue:0
 virtual/perl-podlators:0
-virtual/perl-version:0
 virtual/pkgconfig:0
 virtual/python-argparse:0
 virtual/service-manager:0
@@ -2134,6 +2132,7 @@ www-misc/htdig:0
 www-plugins/adobe-flash:0
 www-plugins/mozplugger:0
 www-plugins/nspluginwrapper:0
+www-servers/apache:2
 www-servers/lighttpd:0
 www-servers/nginx:0
 x11-apps/appres:0
@@ -2206,7 +2205,6 @@ x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
 x11-libs/libSM:0
-x11-libs/libX11:0
 x11-libs/libXScrnSaver:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
@@ -2243,7 +2241,6 @@ x11-libs/libsvg-cairo:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
 x11-libs/libwnck:1
-x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
@@ -2280,7 +2277,6 @@ x11-misc/shared-mime-info:0
 x11-misc/synergy:0
 x11-misc/touchfreeze:0
 x11-misc/trayer:0
-x11-misc/util-macros:0
 x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
 x11-misc/xclip:0
@@ -2296,7 +2292,6 @@ x11-plugins/docker:0
 x11-proto/bigreqsproto:0
 x11-proto/compositeproto:0
 x11-proto/damageproto:0
-x11-proto/dri2proto:0
 x11-proto/fixesproto:0
 x11-proto/fontsproto:0
 x11-proto/glproto:0

@@ -1,1 +1,1 @@
-+2013, 10 October, 05 Saturday, 12:01:37.827413745 983244:92722 14856:13072 ** ~success  install : sys-apps/texinfo-5.2:0::gentoo
++2013, 10 October, 05 Saturday, 16:54:05.462085345 983244:1847485 561961:63353 ** ~success  install : app-misc/strigi-0.7.8:0::gentoo
