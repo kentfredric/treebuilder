@@ -1,1 +1,1 @@
-+2013, 10 October, 06 Sunday, 10:55:01.809057542 765576:39623 769159:20765 ** ~success  install : app-crypt/gnupg-2.0.21-r2:0::gentoo
++2013, 10 October, 06 Sunday, 11:59:51.958388918 765576:428638 ** ~success true task : 

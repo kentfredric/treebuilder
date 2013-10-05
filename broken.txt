@@ -55,6 +55,7 @@ app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
 app-crypt/gcr:0/1
+app-crypt/gnupg:0
 app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
@@ -105,7 +106,6 @@ app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
-app-portage/gentoolkit:0
 app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
@@ -139,6 +139,7 @@ app-text/dvipng:0
 app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
+app-text/ghostscript-gpl:0
 app-text/gocr:0
 app-text/gtkspell:2
 app-text/gtkspell:3
@@ -1584,6 +1585,7 @@ media-libs/exempi:2
 media-libs/faac:0
 media-libs/faad2:0
 media-libs/flac:0
+media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/ftgl:0
 media-libs/gavl:0
@@ -1599,6 +1601,7 @@ media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
+media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
@@ -1756,6 +1759,7 @@ media-sound/wavpack:0
 media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
+media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mkvtoolnix:0
 media-video/mplayer:0
@@ -2031,7 +2035,6 @@ sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
-sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
 sys-fs/multipath-tools:0
@@ -2125,7 +2128,6 @@ virtual/perl-Text-ParseWords:0
 virtual/perl-Thread-Queue:0
 virtual/perl-podlators:0
 virtual/pkgconfig:0
-virtual/python-argparse:0
 virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
