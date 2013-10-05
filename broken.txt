@@ -106,7 +106,6 @@ app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
-app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0

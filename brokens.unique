@@ -54,11 +54,14 @@ app-arch/zip:0
 app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
 app-cdr/cuecue:0
+app-crypt/gcr:0/1
 app-crypt/gnupg:0
+app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
 app-crypt/mit-krb5:0
 app-crypt/pinentry:0
+app-crypt/qca-gnupg:2
 app-crypt/qca:2
 app-crypt/shash:0
 app-crypt/stan:0
@@ -78,6 +81,7 @@ app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
 app-emulation/virtualbox:0
+app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
@@ -94,6 +98,7 @@ app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
+app-office/dia:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
@@ -101,7 +106,6 @@ app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
-app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
@@ -130,6 +134,7 @@ app-text/docbook-xml-simple-dtd:1.0
 app-text/docbook-xml-simple-dtd:4.1.2.5
 app-text/docbook2X:0
 app-text/dvipdfmx:0
+app-text/dvipng:0
 app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
@@ -144,14 +149,18 @@ app-text/libwpd:0.9
 app-text/libwps:0
 app-text/opensp:0
 app-text/po4a:0
+app-text/poppler:0/37
 app-text/ps2pkm:0
 app-text/qpdf:0/13
 app-text/rarian:0
 app-text/recode:0
 app-text/scrollkeeper-dtd:1.0
 app-text/sword:0
+app-text/t1utils:0
 app-text/teckit:0
+app-text/texlive-core:0
 app-text/wgetpaste:0
+app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
 app-vim/closetag:0
@@ -224,8 +233,10 @@ dev-java/commons-net:0
 dev-java/commons-vfs:0
 dev-java/concurrent-util:0
 dev-java/dom4j:1
+dev-java/gnu-classpath:0.98
 dev-java/hamcrest-core:1.3
 dev-java/hamcrest-generator:1.3
+dev-java/icedtea-bin:7
 dev-java/itext:0
 dev-java/jakarta-oro:2.0
 dev-java/java-config-wrapper:0
@@ -271,6 +282,8 @@ dev-lang/nasm:0
 dev-lang/nqp:0
 dev-lang/parrot:0
 dev-lang/perl:0/5.16
+dev-lang/php:5.3
+dev-lang/php:5.4
 dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.2
@@ -282,6 +295,7 @@ dev-lang/spidermonkey:0/mozjs185
 dev-lang/spidermonkey:17
 dev-lang/vala:0.20
 dev-lang/yasm:0
+dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/apr:1
 dev-libs/atk:0
@@ -744,6 +758,7 @@ dev-perl/FindBin-libs:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Fuse:0
 dev-perl/Future:0
+dev-perl/GD:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group-INI:0
@@ -893,6 +908,7 @@ dev-perl/Module-Install:0
 dev-perl/Module-Refresh:0
 dev-perl/Module-Runtime:0
 dev-perl/Module-ScanDeps:0
+dev-perl/Module-Signature:0
 dev-perl/Module-Starter:0
 dev-perl/Module-Util:0
 dev-perl/MojoMojo:0
@@ -1308,6 +1324,7 @@ dev-perl/namespace-autoclean:0
 dev-perl/namespace-clean:0
 dev-perl/net-server:0
 dev-perl/perl-ldap:0
+dev-perl/perl-tk:0
 dev-perl/perl5i:0
 dev-perl/pip:0
 dev-perl/prefork:0
@@ -1322,6 +1339,7 @@ dev-perl/wxperl:0
 dev-python/PyQt4:0
 dev-python/argparse:0
 dev-python/docutils:0
+dev-python/imaging:0
 dev-python/jaxml:0
 dev-python/m2crypto:0
 dev-python/notify-python:0
@@ -1338,6 +1356,7 @@ dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
 dev-qt/qtdeclarative:4
+dev-qt/qtgui:4
 dev-qt/qtopengl:4
 dev-qt/qtscript:4
 dev-qt/qtsql:4
@@ -1391,6 +1410,8 @@ dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
+dev-vcs/git:0
+dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
@@ -1431,9 +1452,11 @@ kde-base/kcachegrind:4
 kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kdebase-kioslaves:4
+kde-base/kdelibs:4
 kde-base/kdialog:4
 kde-base/keditbookmarks:4
 kde-base/kfind:4
+kde-base/kgpg:4
 kde-base/knotify:4
 kde-base/kompare:4
 kde-base/konqueror:4
@@ -1526,10 +1549,16 @@ media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
+media-gfx/fbida:0
 media-gfx/feh:0
+media-gfx/fontforge:0
+media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
+media-gfx/graphviz:0
 media-gfx/hugin:0
+media-gfx/imagemagick:0/6.8.6.8
+media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
@@ -1557,8 +1586,11 @@ media-libs/faad2:0
 media-libs/flac:0
 media-libs/fontconfig:1.0
 media-libs/freeglut:0
+media-libs/ftgl:0
 media-libs/gavl:0
+media-libs/gd:2
 media-libs/gegl:0
+media-libs/giblib:0
 media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
@@ -1571,15 +1603,19 @@ media-libs/gstreamer:0.10
 media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
+media-libs/imlib2:0
 media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
+media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
+media-libs/libass:0
 media-libs/libbs2b:0
 media-libs/libcanberra:0
 media-libs/libclalsadrv:0
+media-libs/libclxclient:0
 media-libs/libcue:0
 media-libs/libcuefile:0
 media-libs/libdc1394:2
@@ -1604,6 +1640,7 @@ media-libs/libpano13:0
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
+media-libs/libprojectm:0
 media-libs/libquicktime:0
 media-libs/libquvi-scripts:0
 media-libs/libraw:0/9
@@ -1617,6 +1654,7 @@ media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libvpx:0
+media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
 media-libs/mlt:0
@@ -1636,6 +1674,8 @@ media-libs/raptor:2
 media-libs/sdl-image:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
+media-libs/silgraphite:0
+media-libs/sk1libs:0
 media-libs/smpeg:0
 media-libs/t1lib:5
 media-libs/taglib:0
@@ -1644,6 +1684,7 @@ media-libs/urt:0
 media-libs/vamp-plugin-sdk:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
+media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1690,9 +1731,11 @@ media-sound/aumix:0
 media-sound/baudline:0
 media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
+media-sound/japa:0
 media-sound/lame:0
 media-sound/lash:0
 media-sound/lastfmplayer:0
+media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
 media-sound/mpd:0
@@ -1718,10 +1761,12 @@ media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mkvtoolnix:0
+media-video/mplayer:0
 media-video/recordmydesktop:0
 media-video/rtmpdump:0
 media-video/smplayer:0
 media-video/subtitleripper:0
+media-video/transcode:0
 media-video/vcdimager:0
 media-video/xine-ui:0
 media-video/xvid4conf:0
@@ -1748,6 +1793,7 @@ net-dns/bind-tools:0
 net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
+net-fs/nfs-utils:0
 net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
@@ -1755,6 +1801,7 @@ net-im/bitlbee:0
 net-im/psi:0
 net-im/psimedia:0
 net-im/qwit:0
+net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
@@ -1798,6 +1845,7 @@ net-misc/youtube-dl:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
+net-print/cups-filters:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
@@ -1811,6 +1859,7 @@ perl-core/B-Debug:0
 perl-core/B-Lint:0
 perl-core/CPAN:0
 perl-core/CPANPLUS-Dist-Build:0
+perl-core/CPANPLUS:0
 perl-core/Compress-Raw-Bzip2:0
 perl-core/Compress-Raw-Zlib:0
 perl-core/Devel-DProf:0
@@ -1875,6 +1924,7 @@ perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
 sci-astronomy/celestia:0
 sci-calculators/units:0
+sci-geosciences/googleearth:0
 sci-libs/amd:0
 sci-libs/blas-reference:0
 sci-libs/cln:1
@@ -1926,6 +1976,7 @@ sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
+sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -1943,7 +1994,9 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
+sys-block/gparted:0
 sys-block/nbd:0
+sys-block/parted:0
 sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
 sys-boot/syslinux:0
@@ -1976,11 +2029,14 @@ sys-devel/make:0
 sys-devel/patch:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
+sys-fs/cryptsetup:0
+sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
+sys-fs/multipath-tools:0
 sys-fs/ncdu:0
 sys-fs/nilfs-utils:0
 sys-fs/ntfs3g:0
@@ -1994,6 +2050,7 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs:0
+sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-libs/cracklib:0
 sys-libs/db:3
@@ -2081,6 +2138,7 @@ www-client/dillo:0
 www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
@@ -2097,6 +2155,7 @@ x11-apps/editres:0
 x11-apps/iceauth:0
 x11-apps/luit:0
 x11-apps/mkfontdir:0
+x11-apps/mkfontscale:0
 x11-apps/rgb:0
 x11-apps/sessreg:0
 x11-apps/setxkbmap:0
@@ -2133,6 +2192,7 @@ x11-apps/xvinfo:0
 x11-apps/xwd:0
 x11-apps/xwininfo:0
 x11-apps/xwud:0
+x11-base/xorg-server:0/1.14.1
 x11-base/xorg-x11:0
 x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
@@ -2142,7 +2202,9 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
+x11-libs/cairo:0
 x11-libs/fltk:1
+x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
 x11-libs/gtk+:2
@@ -2160,6 +2222,7 @@ x11-libs/libXdamage:0
 x11-libs/libXdmcp:0
 x11-libs/libXext:0
 x11-libs/libXfixes:0
+x11-libs/libXfont:0
 x11-libs/libXft:0
 x11-libs/libXi:0
 x11-libs/libXinerama:0
@@ -2184,6 +2247,7 @@ x11-libs/libwnck:1
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
+x11-libs/pango:0
 x11-libs/pixman:0
 x11-libs/qscintilla:0
 x11-libs/qwt:6
@@ -2221,6 +2285,7 @@ x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
 x11-misc/xclip:0
 x11-misc/xcompmgr:0
+x11-misc/xkbd:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
 x11-misc/xscreensaver:0
@@ -2276,6 +2341,7 @@ x11-themes/xcursor-neutral:0
 x11-themes/xcursor-themes:0
 x11-wm/awesome:0
 x11-wm/evilwm:0
+x11-wm/fluxbox:0
 x11-wm/i3:0
 x11-wm/metacity:0
 x11-wm/openbox:3
