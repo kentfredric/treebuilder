@@ -1,1 +1,1 @@
-+2013, 10 October, 06 Sunday, 05:49:48.776908082 142409:1010340 382887:13556 ** ~success  install : gnome-base/librsvg-2.39.0:2::gentoo
++2013, 10 October, 06 Sunday, 06:20:24.858017689 142409:1193948 431129:7674 ** ~success  install : kde-base/libplasmaclock-4.11.1:4::gentoo
