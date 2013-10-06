@@ -21,7 +21,6 @@ app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
 app-admin/eselect-qtgraphicssystem:0
 app-admin/eselect-ruby:0
-app-admin/eselect-timidity:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
@@ -219,9 +218,6 @@ dev-java/asm:1.5
 dev-java/asm:3.999
 dev-java/aspectwerkz:2
 dev-java/bcel:0
-dev-java/bcmail:0
-dev-java/bcpkix:0
-dev-java/bcprov:0
 dev-java/cglib:2
 dev-java/commons-cli:1
 dev-java/commons-codec:0
@@ -236,7 +232,6 @@ dev-java/gnu-classpath:0.98
 dev-java/hamcrest-core:1.3
 dev-java/hamcrest-generator:1.3
 dev-java/icedtea-bin:7
-dev-java/itext:0
 dev-java/jakarta-oro:2.0
 dev-java/java-config-wrapper:0
 dev-java/javacup:0
@@ -258,9 +253,6 @@ dev-java/qdox:1.12
 dev-java/qdox:1.6
 dev-java/relaxng-datatype:0
 dev-java/slf4j-api:0
-dev-java/sun-jaf:0
-dev-java/sun-javamail:0
-dev-java/swt:3.5
 dev-java/swt:3.7
 dev-java/swt:4.2
 dev-java/tomcat-servlet-api:2.5
@@ -342,6 +334,7 @@ dev-libs/liboil:0.3
 dev-libs/libpcre:3
 dev-libs/libpqxx:0
 dev-libs/libpthread-stubs:0
+dev-libs/libpwquality:0
 dev-libs/libsigc++:2
 dev-libs/libtasn1:0
 dev-libs/libunique:1
@@ -370,7 +363,6 @@ dev-libs/rasqal:0
 dev-libs/redland:0
 dev-libs/shared-desktop-ontologies:0
 dev-libs/soprano:0
-dev-libs/syck:0
 dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-libs/yajl:0
@@ -1336,7 +1328,6 @@ dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/PyQt4:0
-dev-python/argparse:0
 dev-python/docutils:0
 dev-python/imaging:0
 dev-python/jaxml:0
@@ -1442,8 +1433,6 @@ gnome-extra/libgsf:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
-java-virtuals/jaf:0
-java-virtuals/javamail:0
 kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kate:4
@@ -1605,7 +1594,6 @@ media-libs/id3lib:0
 media-libs/imlib2:0
 media-libs/jasper:0
 media-libs/jbig2dec:0
-media-libs/ladspa-cmt:0
 media-libs/ladspa-sdk:0
 media-libs/libafterimage:0
 media-libs/libao:0
@@ -1728,11 +1716,9 @@ media-plugins/mediastreamer-x264:0
 media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
-media-sound/fluidsynth:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
-media-sound/lash:0
 media-sound/lastfmplayer:0
 media-sound/lilypond:0
 media-sound/mac:0
@@ -1748,8 +1734,6 @@ media-sound/qjackctl:0
 media-sound/qmpdclient:0
 media-sound/scmpc:0
 media-sound/sox:0
-media-sound/timidity++:0
-media-sound/tuxguitar:0
 media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
@@ -1792,6 +1776,7 @@ net-dns/bind-tools:0
 net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
+net-fs/cifs-utils:0
 net-fs/nfs-utils:0
 net-fs/samba:0
 net-fs/smbnetfs:0
@@ -1982,6 +1967,7 @@ sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
 sys-apps/usbutils:0
+sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
@@ -2051,7 +2037,6 @@ sys-fs/xfsprogs:0
 sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
-sys-libs/cracklib:0
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -2061,7 +2046,6 @@ sys-libs/db:4.8
 sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
-sys-libs/libcap-ng:0
 sys-libs/libcap:0
 sys-libs/libieee1284:0
 sys-libs/libraw1394:0
