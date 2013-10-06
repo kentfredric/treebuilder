@@ -1330,7 +1330,7 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
-dev-python/pyxml:0
+dev-python/pycrypto:0
 dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
