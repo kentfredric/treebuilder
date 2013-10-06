@@ -306,6 +306,7 @@ dev-libs/gdl:1
 dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
+dev-libs/glib:2
 dev-libs/gobject-introspection-common:0
 dev-libs/icu:0/51.1
 dev-libs/ilbc-rfc3951:0

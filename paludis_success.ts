@@ -1,1 +1,1 @@
-+2013, 10 October, 07 Monday, 03:17:28.511285118 757189:3797 ** ~success  sync : sunrise
++2013, 10 October, 07 Monday, 04:05:50.620087628 108431:37601 ** ~success true task : 
