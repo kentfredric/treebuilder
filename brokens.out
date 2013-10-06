@@ -1329,15 +1329,11 @@ dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/PyQt4:0
 dev-python/docutils:0
-dev-python/imaging:0
 dev-python/jaxml:0
 dev-python/m2crypto:0
 dev-python/notify-python:0
 dev-python/numpy:0
-dev-python/paramiko:0
-dev-python/pexpect:0
 dev-python/ply:0
-dev-python/pycrypto:0
 dev-python/pycups:0
 dev-python/pygtksourceview:2
 dev-python/pyxdg:0
@@ -1392,7 +1388,6 @@ dev-util/kbuild:0
 dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/reswrap:0
-dev-util/scons:0
 dev-util/source-highlight:0
 dev-util/strace:0
 dev-util/valgrind:0
@@ -1401,7 +1396,6 @@ dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
 dev-vcs/git:0
-dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
@@ -1556,7 +1550,6 @@ media-gfx/povray:0
 media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
-media-gfx/uniconvertor:0
 media-libs/aalib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0/1
@@ -1662,7 +1655,6 @@ media-libs/sdl-image:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
-media-libs/sk1libs:0
 media-libs/smpeg:0
 media-libs/t1lib:5
 media-libs/taglib:0

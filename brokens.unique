@@ -104,6 +104,7 @@ app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
+app-portage/layman:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
@@ -192,7 +193,6 @@ dev-cpp/mm-common:0
 dev-cpp/pangomm:1.4
 dev-db/hsqldb:0
 dev-db/libiodbc:0
-dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/sqlite:0
@@ -1256,7 +1256,6 @@ dev-perl/Unicode-MapUTF8:0
 dev-perl/Unicode-String:0
 dev-perl/Unicode-UTF8:0
 dev-perl/User:0
-dev-perl/VCI:0
 dev-perl/Variable-Magic:0
 dev-perl/Version-Next:0
 dev-perl/WWW-Curl:0
@@ -1329,15 +1328,11 @@ dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/PyQt4:0
 dev-python/docutils:0
-dev-python/imaging:0
 dev-python/jaxml:0
 dev-python/m2crypto:0
 dev-python/notify-python:0
 dev-python/numpy:0
-dev-python/paramiko:0
-dev-python/pexpect:0
 dev-python/ply:0
-dev-python/pycrypto:0
 dev-python/pycups:0
 dev-python/pygtksourceview:2
 dev-python/pyxdg:0
@@ -1392,7 +1387,6 @@ dev-util/kbuild:0
 dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/reswrap:0
-dev-util/scons:0
 dev-util/source-highlight:0
 dev-util/strace:0
 dev-util/valgrind:0
@@ -1401,7 +1395,6 @@ dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
 dev-vcs/git:0
-dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
@@ -1409,7 +1402,6 @@ games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
 games-misc/openmsx:0
 games-util/grfcodec:0
-games-util/nml:0
 gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gnome-keyring:0
@@ -1433,7 +1425,6 @@ gnome-extra/libgsf:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
-kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kate:4
 kde-base/kcachegrind:4
@@ -1465,7 +1456,6 @@ kde-misc/kdiff3:4
 kde-misc/kim4:4
 kde-misc/krcstat:4
 kde-misc/kshutdown:4
-kde-misc/ksplasher:4
 kde-misc/ktrafficanalyzer:4
 kde-misc/smooth-tasks:4
 kde-misc/wacomtablet:4
@@ -1546,7 +1536,6 @@ media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.8
-media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
@@ -1556,7 +1545,6 @@ media-gfx/povray:0
 media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
-media-gfx/uniconvertor:0
 media-libs/aalib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0/1
@@ -1662,7 +1650,6 @@ media-libs/sdl-image:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
-media-libs/sk1libs:0
 media-libs/smpeg:0
 media-libs/t1lib:5
 media-libs/taglib:0
@@ -1716,7 +1703,6 @@ media-plugins/mediastreamer-x264:0
 media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
-media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
 media-sound/lastfmplayer:0
