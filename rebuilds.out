@@ -1,10 +1,1 @@
-app-admin/system-config-printer-common:0
-app-admin/system-config-printer-gnome:0
-app-portage/metagen:0
-dev-vcs/git:0
-kde-base/plasma-workspace:4
-kde-misc/ksplasher:4
-media-libs/opencv:0
-media-sound/boodler:0
-net-wireless/crda:0
-sci-libs/flann:0
+dev-libs/glib:2

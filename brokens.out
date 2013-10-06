@@ -105,6 +105,7 @@ app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
 app-portage/layman:0
+app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
@@ -1701,6 +1702,7 @@ media-plugins/mediastreamer-x264:0
 media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
+media-sound/boodler:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
