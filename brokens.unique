@@ -1412,6 +1412,7 @@ games-util/grfcodec:0
 games-util/nml:0
 gnome-base/dconf:0
 gnome-base/gconf:2
+gnome-base/gnome-keyring:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
@@ -1943,6 +1944,7 @@ sys-apps/groff:0
 sys-apps/hwinfo:0
 sys-apps/hwloc:0
 sys-apps/iproute2:0
+sys-apps/irqbalance:0
 sys-apps/keyutils:0
 sys-apps/kmod:0
 sys-apps/less:0
@@ -1962,6 +1964,8 @@ sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
+sys-apps/shadow:0
+sys-apps/smartmontools:0
 sys-apps/usbutils:0
 sys-apps/util-linux:0
 sys-apps/vbetool:0
@@ -2047,6 +2051,7 @@ sys-libs/libieee1284:0
 sys-libs/libraw1394:0
 sys-libs/mtdev:0
 sys-libs/ncurses:5
+sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
 sys-libs/tevent:0

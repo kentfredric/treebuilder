@@ -1,8 +1,0 @@
-dev-libs/libpwquality:0
-gnome-base/gnome-keyring:0
-net-fs/cifs-utils:0
-sys-apps/irqbalance:0
-sys-apps/shadow:0
-sys-apps/smartmontools:0
-sys-apps/util-linux:0
-sys-libs/pam:0

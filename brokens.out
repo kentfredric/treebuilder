@@ -334,6 +334,7 @@ dev-libs/liboil:0.3
 dev-libs/libpcre:3
 dev-libs/libpqxx:0
 dev-libs/libpthread-stubs:0
+dev-libs/libpwquality:0
 dev-libs/libsigc++:2
 dev-libs/libtasn1:0
 dev-libs/libunique:1
@@ -1775,6 +1776,7 @@ net-dns/bind-tools:0
 net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
+net-fs/cifs-utils:0
 net-fs/nfs-utils:0
 net-fs/samba:0
 net-fs/smbnetfs:0
@@ -1965,6 +1967,7 @@ sys-apps/sed:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
 sys-apps/usbutils:0
+sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
