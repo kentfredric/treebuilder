@@ -104,6 +104,7 @@ app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
+app-portage/layman:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
@@ -1327,15 +1328,8 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
-dev-python/PyQt4:0
 dev-python/docutils:0
-dev-python/jaxml:0
-dev-python/m2crypto:0
-dev-python/notify-python:0
-dev-python/numpy:0
 dev-python/ply:0
-dev-python/pycups:0
-dev-python/pygtksourceview:2
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-qt/qt3support:4
@@ -1423,7 +1417,6 @@ gnome-base/orbit:2
 gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
 gnome-extra/libgda:5
-gnome-extra/libgsf:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
@@ -2060,7 +2053,6 @@ sys-power/powertop:0
 sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
-sys-process/iotop:0
 sys-process/latencytop:0
 sys-process/procps:0
 sys-process/psmisc:0

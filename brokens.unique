@@ -32,8 +32,6 @@ app-admin/perl-cleaner:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
-app-admin/system-config-printer-common:0
-app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
@@ -105,6 +103,7 @@ app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/gentoolkit-dev:0
 app-portage/layman:0
+app-portage/metagen:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
@@ -193,6 +192,7 @@ dev-cpp/mm-common:0
 dev-cpp/pangomm:1.4
 dev-db/hsqldb:0
 dev-db/libiodbc:0
+dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/sqlite:0
@@ -1256,6 +1256,7 @@ dev-perl/Unicode-MapUTF8:0
 dev-perl/Unicode-String:0
 dev-perl/Unicode-UTF8:0
 dev-perl/User:0
+dev-perl/VCI:0
 dev-perl/Variable-Magic:0
 dev-perl/Version-Next:0
 dev-perl/WWW-Curl:0
@@ -1326,15 +1327,8 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
-dev-python/PyQt4:0
 dev-python/docutils:0
-dev-python/jaxml:0
-dev-python/m2crypto:0
-dev-python/notify-python:0
-dev-python/numpy:0
 dev-python/ply:0
-dev-python/pycups:0
-dev-python/pygtksourceview:2
 dev-python/pyxdg:0
 dev-python/pyxml:0
 dev-qt/qt3support:4
@@ -1394,7 +1388,6 @@ dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
@@ -1402,6 +1395,7 @@ games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
 games-misc/openmsx:0
 games-util/grfcodec:0
+games-util/nml:0
 gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gnome-keyring:0
@@ -1421,10 +1415,10 @@ gnome-base/orbit:2
 gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
 gnome-extra/libgda:5
-gnome-extra/libgsf:0
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
+kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kate:4
 kde-base/kcachegrind:4
@@ -1443,7 +1437,6 @@ kde-base/konsole:4
 kde-base/krdc:4
 kde-base/krosspython:4
 kde-base/libkonq:4
-kde-base/plasma-workspace:4
 kde-base/print-manager:4
 kde-base/solid:4
 kde-base/svgpart:4
@@ -1536,6 +1529,7 @@ media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.8
+media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
@@ -1636,7 +1630,6 @@ media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
-media-libs/opencv:0
 media-libs/openexr_ctl:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
@@ -1703,6 +1696,8 @@ media-plugins/mediastreamer-x264:0
 media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
+media-sound/boodler:0
+media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
 media-sound/lastfmplayer:0
@@ -1819,7 +1814,6 @@ net-print/cups-filters:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
-net-wireless/crda:0
 net-wireless/iw:0
 net-wireless/rtl8192su-firmware:0
 net-wireless/wireless-tools:0
@@ -1900,7 +1894,6 @@ sci-libs/blas-reference:0
 sci-libs/cln:1
 sci-libs/colamd:0
 sci-libs/fftw:3.0
-sci-libs/flann:0
 sci-libs/gsl:0
 sci-libs/hdf5:0
 sci-libs/lapack-atlas:0
@@ -2054,7 +2047,6 @@ sys-power/powertop:0
 sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
-sys-process/iotop:0
 sys-process/latencytop:0
 sys-process/procps:0
 sys-process/psmisc:0
