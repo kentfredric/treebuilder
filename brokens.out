@@ -34,7 +34,6 @@ app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
-app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
 app-arch/dpkg:0
@@ -42,7 +41,6 @@ app-arch/libarchive:0/13
 app-arch/p7zip:0
 app-arch/pax:0
 app-arch/pbzip2:0
-app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
 app-arch/tar:0
@@ -1330,6 +1328,7 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
+dev-python/paramiko:0
 dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
@@ -1935,6 +1934,7 @@ sys-apps/lomoco:0
 sys-apps/makedev:0
 sys-apps/man-pages-posix:0
 sys-apps/man:0
+sys-apps/microcode-data:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
@@ -1990,7 +1990,6 @@ sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gettext:0
-sys-devel/libtool:2
 sys-devel/llvm:0/3.2
 sys-devel/make:0
 sys-devel/patch:0

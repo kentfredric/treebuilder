@@ -1,5 +1,6 @@
 app-accessibility/at-spi2-atk:2
 app-accessibility/at-spi2-core:2
+app-admin/apache-tools:0
 app-admin/chrpath:0
 app-admin/eselect-blas:0
 app-admin/eselect-cblas:0
@@ -34,7 +35,6 @@ app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
-app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
 app-arch/dpkg:0
@@ -42,7 +42,6 @@ app-arch/libarchive:0/13
 app-arch/p7zip:0
 app-arch/pax:0
 app-arch/pbzip2:0
-app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
 app-arch/tar:0
@@ -63,6 +62,7 @@ app-crypt/qca-gnupg:2
 app-crypt/qca:2
 app-crypt/shash:0
 app-crypt/stan:0
+app-dicts/myspell-en:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/nano:0
@@ -145,8 +145,10 @@ app-text/gtkspell:3
 app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
+app-text/libpaper:0
 app-text/libwpd:0.9
 app-text/libwps:0
+app-text/openjade:0
 app-text/opensp:0
 app-text/po4a:0
 app-text/poppler:0/37
@@ -197,6 +199,13 @@ dev-db/libiodbc:0
 dev-db/mysql-workbench:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
+dev-db/postgresql-base:9.0
+dev-db/postgresql-base:9.1
+dev-db/postgresql-base:9.2
+dev-db/postgresql-base:9.3
+dev-db/postgresql-server:9.1
+dev-db/postgresql-server:9.2
+dev-db/postgresql-server:9.3
 dev-db/sqlite:0
 dev-db/sqlite:3
 dev-db/unixODBC:0
@@ -208,11 +217,13 @@ dev-haskell/cabal:0
 dev-java/ant-contrib:0
 dev-java/ant-core:0
 dev-java/ant-eclipse-ecj:3.7
+dev-java/ant-eclipse-ecj:4.2
 dev-java/ant-ivy:0
 dev-java/ant-ivy:2
 dev-java/ant-junit:0
 dev-java/ant-nodeps:0
 dev-java/ant-owanttask:0
+dev-java/antlr:0
 dev-java/apple-java-extensions-bin:0
 dev-java/apt-mirror:0
 dev-java/asm:1.4
@@ -230,6 +241,8 @@ dev-java/commons-net:0
 dev-java/commons-vfs:0
 dev-java/concurrent-util:0
 dev-java/dom4j:1
+dev-java/eclipse-ecj:3.7
+dev-java/eclipse-ecj:4.2
 dev-java/gnu-classpath:0.98
 dev-java/hamcrest-core:1.3
 dev-java/hamcrest-generator:1.3
@@ -242,6 +255,7 @@ dev-java/jdbc-mysql:0
 dev-java/jflex:0
 dev-java/jinput:0
 dev-java/jmock:1.0
+dev-java/jrexx:0
 dev-java/jsch:0
 dev-java/junit:0
 dev-java/junit:4
@@ -269,6 +283,7 @@ dev-java/xml-commons-resolver:0
 dev-java/xmldb:0
 dev-java/xpp2:0
 dev-java/xpp3:0
+dev-java/xsdlib:0
 dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
@@ -286,6 +301,8 @@ dev-lang/ruby:1.9
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/spidermonkey:17
+dev-lang/tcl:0/8.6
+dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
@@ -324,6 +341,7 @@ dev-libs/libcroco:0.6
 dev-libs/libdbusmenu-qt:0
 dev-libs/libedit:0
 dev-libs/libev:0
+dev-libs/libf2c:0
 dev-libs/libffi:0
 dev-libs/libgcrypt:0
 dev-libs/libgee:0.8
@@ -345,10 +363,13 @@ dev-libs/libusb-compat:0
 dev-libs/libusb:1
 dev-libs/libverto:0
 dev-libs/libwacom:0
+dev-libs/libxml2:2
+dev-libs/libxslt:0
 dev-libs/libzip:0
 dev-libs/mpc:0
 dev-libs/mpfr:0
 dev-libs/nettle:0/4
+dev-libs/nspr:0
 dev-libs/nss:0
 dev-libs/openobex:0
 dev-libs/openssl:0
@@ -356,6 +377,7 @@ dev-libs/openssl:0.9.8
 dev-libs/ossp-uuid:0
 dev-libs/popt:0
 dev-libs/ppl:0
+dev-libs/protobuf:0/8
 dev-libs/pslib:0
 dev-libs/pth:0
 dev-libs/pugixml:0
@@ -366,6 +388,7 @@ dev-libs/rasqal:0
 dev-libs/redland:0
 dev-libs/shared-desktop-ontologies:0
 dev-libs/soprano:0
+dev-libs/udis86:0
 dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-libs/yajl:0
@@ -1330,7 +1353,11 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
+dev-python/numpy:0
 dev-python/paramiko:0
+dev-python/pygobject:2
+dev-python/pygobject:3
+dev-python/pygtk:2
 dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
@@ -1380,6 +1407,7 @@ dev-util/itstool:0
 dev-util/kbuild:0
 dev-util/ltrace:0
 dev-util/pkgconfig:0
+dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
 dev-util/strace:0
@@ -1389,6 +1417,7 @@ dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
 dev-vcs/cvsps:0
 dev-vcs/git:0
+dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
@@ -1542,8 +1571,11 @@ media-gfx/povray:0
 media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
+media-libs/a52dec:0
 media-libs/aalib:0
+media-libs/alsa-lib:0
 media-libs/alsa-oss:0
+media-libs/asio-sdk:0
 media-libs/audiofile:0/1
 media-libs/babl:0
 media-libs/bio2jack:0
@@ -1564,6 +1596,7 @@ media-libs/gavl:0
 media-libs/gd:2
 media-libs/gegl:0
 media-libs/giblib:0
+media-libs/giflib:0
 media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
@@ -1580,6 +1613,8 @@ media-libs/imlib2:0
 media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-sdk:0
+media-libs/lcms:0
+media-libs/libaacplus:0
 media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
@@ -1591,14 +1626,19 @@ media-libs/libclxclient:0
 media-libs/libcue:0
 media-libs/libcuefile:0
 media-libs/libdc1394:2
+media-libs/libdca:0
+media-libs/libdvdnav:0
+media-libs/libdvdread:0
 media-libs/libemf:0
 media-libs/libexif:0
 media-libs/libggi:0
 media-libs/libggiwmh:0
 media-libs/libgii:0
+media-libs/libgphoto2:0/6
 media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libjpeg-turbo:0
+media-libs/libmad:0
 media-libs/libmikmod:0
 media-libs/libmms:0
 media-libs/libmng:0
@@ -1620,6 +1660,7 @@ media-libs/libreplaygain:0
 media-libs/libsamplerate:0
 media-libs/libsdl:0
 media-libs/libshout:0
+media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
 media-libs/libtheora:0
@@ -1643,11 +1684,13 @@ media-libs/portaudio:0
 media-libs/prison:4
 media-libs/qimageblitz:0
 media-libs/raptor:2
+media-libs/schroedinger:0
 media-libs/sdl-image:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
 media-libs/smpeg:0
+media-libs/speex:0
 media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
@@ -1701,6 +1744,7 @@ media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/boodler:0
+media-sound/cdparanoia:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
@@ -1754,6 +1798,7 @@ net-analyzer/tcpdump:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
 net-analyzer/upnpscan:0
+net-analyzer/wireshark:0/1.10.2
 net-dialup/ppp:0
 net-dns/avahi:0
 net-dns/bind-tools:0
@@ -1810,10 +1855,12 @@ net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
 net-misc/youtube-dl:0
+net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
 net-print/cups-filters:0
+net-print/cups:0
 net-print/foomatic-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
@@ -1894,6 +1941,7 @@ sci-astronomy/celestia:0
 sci-calculators/units:0
 sci-geosciences/googleearth:0
 sci-libs/amd:0
+sci-libs/blas-atlas:0
 sci-libs/blas-reference:0
 sci-libs/cln:1
 sci-libs/colamd:0
@@ -1929,6 +1977,7 @@ sys-apps/hwinfo:0
 sys-apps/hwloc:0
 sys-apps/iproute2:0
 sys-apps/irqbalance:0
+sys-apps/kbd:0
 sys-apps/keyutils:0
 sys-apps/kmod:0
 sys-apps/less:0
@@ -1948,6 +1997,7 @@ sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
+sys-apps/sg3_utils:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
 sys-apps/usbutils:0
@@ -1992,10 +2042,10 @@ sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gettext:0
-sys-devel/libtool:2
 sys-devel/llvm:0/3.2
 sys-devel/make:0
 sys-devel/patch:0
+sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
@@ -2003,6 +2053,7 @@ sys-fs/dmraid:0
 sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
+sys-fs/lvm2:0
 sys-fs/mdadm:0
 sys-fs/mtools:0
 sys-fs/multipath-tools:0
@@ -2018,9 +2069,11 @@ sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
+sys-fs/zfs-kmod:0
 sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
+sys-kernel/spl:0
 sys-libs/db:3
 sys-libs/db:4.4
 sys-libs/db:4.5
@@ -2030,6 +2083,7 @@ sys-libs/db:4.8
 sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
+sys-libs/libcap-ng:0
 sys-libs/libcap:0
 sys-libs/libieee1284:0
 sys-libs/libraw1394:0
@@ -2129,6 +2183,7 @@ x11-apps/smproxy:0
 x11-apps/x11perf:0
 x11-apps/xauth:0
 x11-apps/xbacklight:0
+x11-apps/xclock:0
 x11-apps/xcmsdb:0
 x11-apps/xcursorgen:0
 x11-apps/xdpyinfo:0
@@ -2137,6 +2192,7 @@ x11-apps/xev:0
 x11-apps/xf86dga:0
 x11-apps/xgamma:0
 x11-apps/xhost:0
+x11-apps/xinit:0
 x11-apps/xinput:0
 x11-apps/xkbcomp:0
 x11-apps/xkbevd:0
@@ -2149,6 +2205,7 @@ x11-apps/xmodmap:0
 x11-apps/xpr:0
 x11-apps/xprop:0
 x11-apps/xrandr:0
+x11-apps/xrdb:0
 x11-apps/xrefresh:0
 x11-apps/xset:0
 x11-apps/xsetroot:0
@@ -2168,6 +2225,7 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
+x11-drivers/xf86-video-vesa:0
 x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fox:1.7
@@ -2179,9 +2237,12 @@ x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
+x11-libs/libSM:0
+x11-libs/libX11:0
 x11-libs/libXScrnSaver:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
+x11-libs/libXaw:0
 x11-libs/libXcomposite:0
 x11-libs/libXcursor:0
 x11-libs/libXdamage:0
@@ -2192,11 +2253,15 @@ x11-libs/libXfont:0
 x11-libs/libXft:0
 x11-libs/libXi:0
 x11-libs/libXinerama:0
+x11-libs/libXmu:0
 x11-libs/libXp:0
+x11-libs/libXpm:0
+x11-libs/libXrandr:0
 x11-libs/libXrender:0
 x11-libs/libXres:0
 x11-libs/libXt:0
 x11-libs/libXtst:0
+x11-libs/libXv:0
 x11-libs/libXvMC:0
 x11-libs/libXxf86dga:0
 x11-libs/libXxf86misc:0
@@ -2204,12 +2269,14 @@ x11-libs/libXxf86vm:0
 x11-libs/libdrm:0
 x11-libs/libfontenc:0
 x11-libs/libgksu:2
+x11-libs/libnotify:0
 x11-libs/libpciaccess:0
 x11-libs/libsvg-cairo:0
 x11-libs/libva-vdpau-driver:0
 x11-libs/libva:0
 x11-libs/libvdpau:0
 x11-libs/libwnck:1
+x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
@@ -2247,11 +2314,13 @@ x11-misc/shared-mime-info:0
 x11-misc/synergy:0
 x11-misc/touchfreeze:0
 x11-misc/trayer:0
+x11-misc/util-macros:0
 x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
 x11-misc/xclip:0
 x11-misc/xcompmgr:0
 x11-misc/xkbd:0
+x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
 x11-misc/xscreensaver:0
@@ -2260,6 +2329,7 @@ x11-plugins/docker:0
 x11-proto/bigreqsproto:0
 x11-proto/compositeproto:0
 x11-proto/damageproto:0
+x11-proto/dri2proto:0
 x11-proto/fixesproto:0
 x11-proto/fontsproto:0
 x11-proto/glproto:0
@@ -2273,6 +2343,7 @@ x11-proto/resourceproto:0
 x11-proto/scrnsaverproto:0
 x11-proto/trapproto:0
 x11-proto/videoproto:0
+x11-proto/xcb-proto:0
 x11-proto/xcmiscproto:0
 x11-proto/xextproto:0
 x11-proto/xf86bigfontproto:0
@@ -2311,6 +2382,7 @@ x11-wm/fluxbox:0
 x11-wm/i3:0
 x11-wm/metacity:0
 x11-wm/openbox:3
+x11-wm/twm:0
 xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
 xfce-extra/transd:0
