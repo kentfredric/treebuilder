@@ -1978,7 +1978,6 @@ sys-apps/microcode-data:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
-sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
@@ -1988,6 +1987,7 @@ sys-apps/sed:0
 sys-apps/sg3_utils:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
+sys-apps/systemd:0/1
 sys-apps/usbutils:0
 sys-apps/util-linux:0
 sys-apps/vbetool:0
