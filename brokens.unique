@@ -17,7 +17,6 @@ app-admin/eselect-oodict:0
 app-admin/eselect-opencl:0
 app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
-app-admin/eselect-php:0
 app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
 app-admin/eselect-qtgraphicssystem:0
@@ -26,18 +25,20 @@ app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
 app-admin/eselect:0
+app-admin/haskell-updater:0
 app-admin/hddtemp:0
 app-admin/openrc-settingsd:0
 app-admin/perl-cleaner:0
+app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
+app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
 app-arch/dpkg:0
-app-arch/libarchive:0/13
 app-arch/p7zip:0
 app-arch/pax:0
 app-arch/pbzip2:0
@@ -55,7 +56,6 @@ app-crypt/gnupg:0
 app-crypt/gpgme:1/11
 app-crypt/libsecret:0
 app-crypt/mhash:0
-app-crypt/mit-krb5:0
 app-crypt/pinentry:0
 app-crypt/qca-gnupg:2
 app-crypt/qca:2
@@ -66,8 +66,6 @@ app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/nano:0
 app-editors/padre:0
-app-editors/scite:0
-app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
 app-emulation/emul-linux-x86-gtklibs:0
@@ -89,7 +87,6 @@ app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
-app-misc/screen:0
 app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
@@ -104,6 +101,7 @@ app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
 app-portage/layman:0
 app-portage/perl-info:0
+app-shells/bash:0
 app-shells/dash:0
 app-shells/zsh:0
 app-text/ansifilter:0
@@ -179,7 +177,6 @@ app-vim/vimbuddy:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
 dev-cpp/clucene:1
-dev-cpp/ctemplate:0
 dev-cpp/eigen:2
 dev-cpp/eigen:3
 dev-cpp/glibmm:2
@@ -190,7 +187,7 @@ dev-cpp/mm-common:0
 dev-cpp/pangomm:1.4
 dev-db/hsqldb:0
 dev-db/libiodbc:0
-dev-db/mysql-workbench:0
+dev-db/mysql:0
 dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
@@ -239,6 +236,7 @@ dev-java/eclipse-ecj:4.2
 dev-java/gnu-classpath:0.98
 dev-java/hamcrest-core:1.3
 dev-java/hamcrest-generator:1.3
+dev-java/icedtea-bin:7
 dev-java/jakarta-oro:2.0
 dev-java/java-config-wrapper:0
 dev-java/javacup:0
@@ -276,12 +274,11 @@ dev-java/xmldb:0
 dev-java/xpp2:0
 dev-java/xpp3:0
 dev-java/xsdlib:0
+dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
 dev-lang/nqp:0
 dev-lang/perl:0/5.16
-dev-lang/php:5.3
-dev-lang/php:5.4
 dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.2
@@ -355,7 +352,6 @@ dev-libs/libverto:0
 dev-libs/libwacom:0
 dev-libs/libxml2:2
 dev-libs/libxslt:0
-dev-libs/libzip:0
 dev-libs/mpc:0
 dev-libs/mpfr:0
 dev-libs/nettle:0/4
@@ -537,6 +533,7 @@ dev-perl/CatalystX-LeakChecker:0
 dev-perl/CatalystX-Profile:0
 dev-perl/CatalystX-REPL:0
 dev-perl/CatalystX-SimpleLogin:0
+dev-perl/Cave-Wrapper:0
 dev-perl/Cgi-Simple:0
 dev-perl/Child:0
 dev-perl/Class-Accessor-Chained:0
@@ -1346,7 +1343,6 @@ dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/numpy:0
-dev-python/paramiko:0
 dev-python/pygobject:2
 dev-python/pygobject:3
 dev-python/pygtk:2
@@ -1474,9 +1470,7 @@ kde-misc/ksplasher:4
 kde-misc/ktrafficanalyzer:4
 kde-misc/smooth-tasks:4
 kde-misc/wacomtablet:4
-mail-client/claws-mail:0
 mail-client/mailx:0
-mail-filter/bogofilter:0
 mail-mta/ssmtp:0
 media-fonts/cantarell:0
 media-fonts/corefonts:0
@@ -1684,7 +1678,6 @@ media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
 media-libs/urt:0
-media-libs/vamp-plugin-sdk:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/xine-lib:1
@@ -1698,11 +1691,9 @@ media-plugins/gst-plugins-dv:0.10
 media-plugins/gst-plugins-dvdread:0.10
 media-plugins/gst-plugins-faac:0.10
 media-plugins/gst-plugins-faad:0.10
-media-plugins/gst-plugins-faad:1.0
 media-plugins/gst-plugins-ffmpeg:0.10
 media-plugins/gst-plugins-flac:0.10
 media-plugins/gst-plugins-jack:0.10
-media-plugins/gst-plugins-jack:1.0
 media-plugins/gst-plugins-jpeg:0.10
 media-plugins/gst-plugins-jpeg:1.0
 media-plugins/gst-plugins-lame:0.10
@@ -1729,7 +1720,6 @@ media-plugins/gst-plugins-x264:0.10
 media-plugins/gst-plugins-x:0.10
 media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-x264:0
-media-sound/audacity:0
 media-sound/aumix:0
 media-sound/baudline:0
 media-sound/cdparanoia:0
@@ -1759,8 +1749,8 @@ media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
+media-video/mkvtoolnix:0
 media-video/mplayer:0
-media-video/recordmydesktop:0
 media-video/rtmpdump:0
 media-video/smplayer:0
 media-video/subtitleripper:0
@@ -1791,8 +1781,6 @@ net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
 net-fs/cifs-utils:0
-net-fs/nfs-utils:0
-net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
@@ -1802,7 +1790,6 @@ net-im/qwit:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
-net-libs/libetpan:0
 net-libs/libktorrent:4
 net-libs/liblockfile:0
 net-libs/libmediawiki:4
@@ -1981,7 +1968,6 @@ sys-apps/shadow:0
 sys-apps/smartmontools:0
 sys-apps/systemd:0/1
 sys-apps/usbutils:0
-sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/x86info:0
 sys-apps/xinetd:0
@@ -1993,9 +1979,7 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
-sys-block/gparted:0
 sys-block/nbd:0
-sys-block/parted:0
 sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
 sys-boot/syslinux:0
@@ -2022,14 +2006,12 @@ sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gettext:0
+sys-devel/llvm:0/3.2
 sys-devel/make:0
 sys-devel/patch:0
 sys-devel/prelink:0
 sys-devel/qconf:0
-sys-fs/btrfs-progs:0
-sys-fs/cryptsetup:0
 sys-fs/dmraid:0
-sys-fs/e2fsprogs:0
 sys-fs/hfsutils:0
 sys-fs/jfsutils:0
 sys-fs/lvm2:0
@@ -2037,7 +2019,6 @@ sys-fs/mdadm:0
 sys-fs/mtools:0
 sys-fs/multipath-tools:0
 sys-fs/ncdu:0
-sys-fs/nilfs-utils:0
 sys-fs/ntfs3g:0
 sys-fs/reiser4progs:0
 sys-fs/shake:0
@@ -2046,7 +2027,6 @@ sys-fs/sshfs-fuse:0
 sys-fs/udev-init-scripts:0
 sys-fs/udisks:2
 sys-fs/unionfs-fuse:0
-sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
 sys-fs/zfs:0
@@ -2059,6 +2039,7 @@ sys-libs/db:4.5
 sys-libs/db:4.6
 sys-libs/db:4.7
 sys-libs/db:4.8
+sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
 sys-libs/libcap-ng:0
@@ -2107,6 +2088,7 @@ virtual/mysql:0
 virtual/notification-daemon:0
 virtual/opengl:0
 virtual/os-headers:0
+virtual/package-manager:0
 virtual/pager:0
 virtual/pam:0
 virtual/perl-Archive-Extract:0
@@ -2130,7 +2112,7 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
 virtual/yacc:0
-www-client/dillo:0
+www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
 www-client/seamonkey:0
@@ -2140,7 +2122,6 @@ www-misc/htdig:0
 www-plugins/adobe-flash:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
-www-servers/lighttpd:0
 www-servers/nginx:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0
