@@ -1,1 +1,1 @@
-+2013, 10 October, 09 Wednesday, 09:35:00.570834107 439035:732596 ** ~success true task : 
++2013, 10 October, 09 Wednesday, 20:57:45.734466261 720291:381516 840955:2265 ** ~success  install : net-wireless/broadcom-sta-6.30.223.30-r2:0::gentoo

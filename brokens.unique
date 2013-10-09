@@ -79,7 +79,6 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
@@ -310,6 +309,7 @@ dev-libs/nss:0
 dev-libs/openobex:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
+dev-libs/ossp-uuid:0
 dev-libs/popt:0
 dev-libs/ppl:0
 dev-libs/protobuf:0/8
@@ -432,7 +432,6 @@ dev-perl/Catalyst-Model-KiokuDB:0
 dev-perl/Catalyst-Model-LDAP:0
 dev-perl/Catalyst-Plugin-Authentication:0
 dev-perl/Catalyst-Plugin-AutoRestart:0
-dev-perl/Catalyst-Plugin-C3:0
 dev-perl/Catalyst-Plugin-Cache:0
 dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
@@ -489,9 +488,7 @@ dev-perl/Class-Accessor-Chained:0
 dev-perl/Class-Adapter:0
 dev-perl/Class-Autouse:0
 dev-perl/Class-C3-Adopt-NEXT:0
-dev-perl/Class-C3-Componentised:0
 dev-perl/Class-C3-XS:0
-dev-perl/Class-C3:0
 dev-perl/Class-Container:0
 dev-perl/Class-DBI-Plugin-DeepAbstractSearch:0
 dev-perl/Class-DBI:0
@@ -664,10 +661,8 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-ContentType:0
 dev-perl/Email-MIME-Encodings:0
 dev-perl/Email-MIME-Kit:0
-dev-perl/Email-MIME:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
@@ -1342,13 +1337,11 @@ dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
 dev-util/kbuild:0
-dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
 dev-util/strace:0
-dev-util/valgrind:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvsps:0
@@ -1598,6 +1591,7 @@ media-libs/libsvg:0
 media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libvorbis:0
+media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
@@ -1720,7 +1714,6 @@ net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
-net-analyzer/upnpscan:0
 net-analyzer/wireshark:0/1.10.2
 net-dialup/ppp:0
 net-dns/avahi:0
@@ -1857,7 +1850,6 @@ perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
 sci-astronomy/celestia:0
-sci-calculators/units:0
 sci-libs/amd:0
 sci-libs/blas-atlas:0
 sci-libs/blas-reference:0
@@ -1909,7 +1901,6 @@ sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
-sys-apps/pmount:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -1930,7 +1921,6 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
-sys-block/gparted:0
 sys-block/nbd:0
 sys-block/parted:0
 sys-block/thin-provisioning-tools:0
@@ -1964,7 +1954,6 @@ sys-devel/make:0
 sys-devel/patch:0
 sys-devel/prelink:0
 sys-devel/qconf:0
-sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dmraid:0
 sys-fs/hfsutils:0
@@ -1987,7 +1976,6 @@ sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
 sys-fs/zfs:0
-sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3

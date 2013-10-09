@@ -17,6 +17,7 @@ app-admin/eselect-oodict:0
 app-admin/eselect-opencl:0
 app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
+app-admin/eselect-php:0
 app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
 app-admin/eselect-qtgraphicssystem:0
@@ -491,7 +492,6 @@ dev-perl/Class-Autouse:0
 dev-perl/Class-C3-Adopt-NEXT:0
 dev-perl/Class-C3-Componentised:0
 dev-perl/Class-C3-XS:0
-dev-perl/Class-C3:0
 dev-perl/Class-Container:0
 dev-perl/Class-DBI-Plugin-DeepAbstractSearch:0
 dev-perl/Class-DBI:0
@@ -664,7 +664,6 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-ContentType:0
 dev-perl/Email-MIME-Encodings:0
 dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MIME:0
@@ -1342,13 +1341,11 @@ dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
 dev-util/kbuild:0
-dev-util/ltrace:0
 dev-util/pkgconfig:0
 dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
 dev-util/strace:0
-dev-util/valgrind:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvsps:0
@@ -1721,7 +1718,6 @@ net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
-net-analyzer/upnpscan:0
 net-analyzer/wireshark:0/1.10.2
 net-dialup/ppp:0
 net-dns/avahi:0
@@ -1858,7 +1854,6 @@ perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
 sci-astronomy/celestia:0
-sci-calculators/units:0
 sci-libs/amd:0
 sci-libs/blas-atlas:0
 sci-libs/blas-reference:0
@@ -1910,7 +1905,6 @@ sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
-sys-apps/pmount:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -1965,7 +1959,6 @@ sys-devel/make:0
 sys-devel/patch:0
 sys-devel/prelink:0
 sys-devel/qconf:0
-sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dmraid:0
 sys-fs/hfsutils:0

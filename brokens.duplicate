@@ -1,2 +1,6 @@
-dev-libs/ossp-uuid:0
-media-libs/libvpx:0
+app-emulation/virtualbox:0
+dev-perl/Catalyst-Plugin-C3:0
+dev-perl/Class-C3-Componentised:0
+dev-perl/Email-MIME:0
+sys-block/gparted:0
+sys-kernel/dracut:0
