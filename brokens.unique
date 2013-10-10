@@ -68,6 +68,7 @@ app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/nano:0
 app-editors/padre:0
+app-emulation/emul-linux-x86-opengl:0
 app-emulation/virtualbox:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
@@ -495,7 +496,6 @@ dev-perl/Config-INI:0
 dev-perl/Config-IniFiles:0
 dev-perl/Config-JFDI:0
 dev-perl/Config-JSON:0
-dev-perl/Config-MVP-Reader-INI:0
 dev-perl/Config-MVP:0
 dev-perl/Config-Pit:0
 dev-perl/Crypt-Eksblowfish:0
@@ -614,7 +614,6 @@ dev-perl/Dist-Zilla-Plugin-Git:0
 dev-perl/Dist-Zilla-Plugin-GithubMeta:0
 dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:0
-dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Package:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides:0
 dev-perl/Dist-Zilla-Plugin-MinimumPerl:0
@@ -632,13 +631,11 @@ dev-perl/Dist-Zilla-Plugin-Test-Compile:0
 dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
-dev-perl/Dist-Zilla-Plugin-Twitter:0
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla-Util-Test-KENTNL:0
-dev-perl/Dist-Zilla:0
 dev-perl/EVDB-API:0
 dev-perl/ElasticSearch-SearchBuilder:0
 dev-perl/ElasticSearch:0
@@ -1491,7 +1488,6 @@ media-libs/bio2jack:0
 media-libs/clutter-gst:2.0
 media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
-media-libs/cogl:1.0/11
 media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
@@ -1581,7 +1577,6 @@ media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
-media-libs/mesa:0
 media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
@@ -2109,7 +2104,6 @@ x11-apps/xvinfo:0
 x11-apps/xwd:0
 x11-apps/xwininfo:0
 x11-apps/xwud:0
-x11-base/xorg-server:0/1.14.1
 x11-base/xorg-x11:0
 x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
@@ -2225,7 +2219,6 @@ x11-proto/damageproto:0
 x11-proto/dri2proto:0
 x11-proto/fixesproto:0
 x11-proto/fontsproto:0
-x11-proto/glproto:0
 x11-proto/inputproto:0
 x11-proto/kbproto:0
 x11-proto/printproto:0

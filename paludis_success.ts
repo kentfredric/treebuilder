@@ -1,1 +1,1 @@
-+2013, 10 October, 11 Friday, 06:44:20.014694741 683965:11294 ** ~success true task : 
++2013, 10 October, 11 Friday, 06:47:33.400567961 684464:16525 690962:3748 ** ~success  install : app-admin/eselect-opengl-1.2.7:0::gentoo

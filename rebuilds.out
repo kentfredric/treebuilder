@@ -1,0 +1,9 @@
+app-emulation/emul-linux-x86-opengl:0
+dev-perl/Config-MVP-Reader-INI:0
+dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
+dev-perl/Dist-Zilla-Plugin-Twitter:0
+dev-perl/Dist-Zilla:0
+media-libs/cogl:1.0/11
+media-libs/mesa:0
+x11-base/xorg-server:0/1.14.1
+x11-proto/glproto:0
