@@ -1526,6 +1526,7 @@ media-libs/jasper:0
 media-libs/jbig2dec:0
 media-libs/ladspa-sdk:0
 media-libs/lcms:0
+media-libs/lcms:2
 media-libs/libaacplus:0
 media-libs/libafterimage:0
 media-libs/libao:0
@@ -1539,6 +1540,7 @@ media-libs/libcue:0
 media-libs/libcuefile:0
 media-libs/libdc1394:2
 media-libs/libdca:0
+media-libs/libdv:0
 media-libs/libdvdnav:0
 media-libs/libdvdread:0
 media-libs/libemf:0
@@ -1561,6 +1563,7 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
 media-libs/libpano13:0
+media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
@@ -1609,6 +1612,7 @@ media-libs/tiff:0
 media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
+media-libs/x264:0/138
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
@@ -1715,6 +1719,7 @@ net-im/bitlbee:0
 net-im/psi:0
 net-im/psimedia:0
 net-im/qwit:0
+net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
@@ -1934,6 +1939,7 @@ sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
+sys-devel/gcc:4.8
 sys-devel/gettext:0
 sys-devel/llvm:0/3.2
 sys-devel/make:0
@@ -1971,6 +1977,7 @@ sys-libs/db:4.5
 sys-libs/db:4.6
 sys-libs/db:4.7
 sys-libs/db:4.8
+sys-libs/e2fsprogs-libs:0
 sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0

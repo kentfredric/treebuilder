@@ -1,1 +1,1 @@
-+2013, 10 October, 10 Thursday, 19:55:36.949256197 137426:1179741 ** ~success true task : 
++2013, 10 October, 10 Thursday, 21:46:22.503997326 365517:56904 369231:7891 ** ~success  install : dev-texlive/texlive-bibtexextra-2013:0::gentoo
