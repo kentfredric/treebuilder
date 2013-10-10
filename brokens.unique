@@ -586,7 +586,6 @@ dev-perl/DateTimeX-Easy:0
 dev-perl/Debug-ShowStuff:0
 dev-perl/Devel-Autoflush:0
 dev-perl/Devel-CheckOS:0
-dev-perl/Devel-Cover:0
 dev-perl/Devel-Declare:0
 dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-Hide:0
@@ -602,7 +601,6 @@ dev-perl/Digest-Whirlpool:0
 dev-perl/Directory-Scratch-Structured:0
 dev-perl/Directory-Scratch:0
 dev-perl/Dist-Metadata:0
-dev-perl/Dist-Zilla-App-Command-cover:0
 dev-perl/Dist-Zilla-App-Command-dumpphases:0
 dev-perl/Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective:0
 dev-perl/Dist-Zilla-Plugin-Authority:0
@@ -1089,7 +1087,6 @@ dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-OOP:0
 dev-perl/Task-Kensho-Scalability:0
-dev-perl/Task-Kensho-Testing:0
 dev-perl/Task-Kensho-Toolchain:0
 dev-perl/Task-Kensho-WebCrawling:0
 dev-perl/Task-Kensho-WebDev:0
@@ -1153,7 +1150,6 @@ dev-perl/Test-Refcount:0
 dev-perl/Test-Regression:0
 dev-perl/Test-SharedFork:0
 dev-perl/Test-Spec:0
-dev-perl/Test-Strict:0
 dev-perl/Test-Taint:0
 dev-perl/Test-TempDir:0
 dev-perl/Test-TinyMocker:0

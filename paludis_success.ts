@@ -1,1 +1,1 @@
-+2013, 10 October, 10 Thursday, 22:09:49.774935889 365517:197630 394711:6154 ** ~success  install : dev-tex/leaflet-20041222:0::gentoo
++2013, 10 October, 10 Thursday, 22:31:43.571744986 411689:53644 ** ~success true task : 

@@ -586,7 +586,6 @@ dev-perl/DateTimeX-Easy:0
 dev-perl/Debug-ShowStuff:0
 dev-perl/Devel-Autoflush:0
 dev-perl/Devel-CheckOS:0
-dev-perl/Devel-Cover:0
 dev-perl/Devel-Declare:0
 dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-Hide:0
