@@ -69,18 +69,7 @@ app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/nano:0
 app-editors/padre:0
-app-emulation/emul-linux-x86-baselibs:0
-app-emulation/emul-linux-x86-db:0
-app-emulation/emul-linux-x86-gstplugins:0
-app-emulation/emul-linux-x86-gtklibs:0
-app-emulation/emul-linux-x86-medialibs:0
-app-emulation/emul-linux-x86-opengl:0
-app-emulation/emul-linux-x86-qtlibs:0
-app-emulation/emul-linux-x86-sdl:0
-app-emulation/emul-linux-x86-soundlibs:0
-app-emulation/emul-linux-x86-xlibs:0
 app-emulation/virtualbox:0
-app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/laptop-mode-tools:0
@@ -101,7 +90,6 @@ app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
-app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
 app-portage/layman:0
 app-portage/perl-info:0
@@ -1667,7 +1655,6 @@ media-sound/cdparanoia:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
 media-sound/lame:0
-media-sound/lastfmplayer:0
 media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
@@ -1690,7 +1677,6 @@ media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
-media-video/mkvtoolnix:0
 media-video/mplayer:0
 media-video/rtmpdump:0
 media-video/smplayer:0
