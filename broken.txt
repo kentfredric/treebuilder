@@ -2116,7 +2116,6 @@ x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
-x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0

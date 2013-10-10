@@ -94,6 +94,7 @@ app-portage/layman:0
 app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
+app-shells/gentoo-bashcomp:0
 app-shells/zsh:0
 app-text/ansifilter:0
 app-text/asciidoc:0
@@ -1291,6 +1292,7 @@ dev-tcltk/expect:0
 dev-tex/bibtexu:0
 dev-tex/luatex:0
 dev-texlive/texlive-basic:0
+dev-texlive/texlive-bibtexextra:0
 dev-texlive/texlive-fontsextra:0
 dev-texlive/texlive-fontsrecommended:0
 dev-texlive/texlive-fontutils:0
@@ -1884,8 +1886,10 @@ sys-apps/microcode-data:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
+sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
+sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -2112,7 +2116,6 @@ x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
 x11-drivers/xf86-input-synaptics:0
 x11-drivers/xf86-input-wacom:0
-x11-drivers/xf86-video-ati:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
