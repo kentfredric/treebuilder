@@ -25,7 +25,6 @@ app-admin/eselect-ruby:0
 app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
-app-admin/eselect:0
 app-admin/haskell-updater:0
 app-admin/hddtemp:0
 app-admin/openrc-settingsd:0
@@ -350,7 +349,6 @@ dev-perl/Authen-Passphrase:0
 dev-perl/B-Hooks-EndOfScope:0
 dev-perl/B-Hooks-OP-Annotation:0
 dev-perl/B-Hooks-OP-Check-EntersubForCV:0
-dev-perl/B-RecDeparse:0
 dev-perl/BZ-Client:0
 dev-perl/BackPAN-Index:0
 dev-perl/Beanstalk-Client:0
@@ -377,7 +375,6 @@ dev-perl/CPAN-Checksums:0
 dev-perl/CPAN-Inject:0
 dev-perl/CPAN-Meta-Check:0
 dev-perl/CPAN-ParseDistribution:0
-dev-perl/CPAN-Perl-Releases:0
 dev-perl/CPAN-Reporter:0
 dev-perl/CPAN-Uploader:0
 dev-perl/CPANPLUS-Dist-Gentoo:0
@@ -457,7 +454,6 @@ dev-perl/Catalyst-Plugin-UploadProgress:0
 dev-perl/Catalyst-Plugin-XMLRPC:0
 dev-perl/Catalyst-Runtime:0
 dev-perl/Catalyst-View-Component-SubInclude:0
-dev-perl/Catalyst-View-Download:0
 dev-perl/Catalyst-View-Email:0
 dev-perl/Catalyst-View-Excel-Template-Plus:0
 dev-perl/Catalyst-View-Mason:0
