@@ -216,7 +216,6 @@ dev-java/apt-mirror:0
 dev-java/asm:3.999
 dev-java/eclipse-ecj:3.7
 dev-java/eclipse-ecj:4.2
-dev-java/icedtea-bin:7
 dev-java/java-config-wrapper:0
 dev-java/jinput:0
 dev-java/jutils:0
@@ -487,7 +486,6 @@ dev-perl/Cave-Wrapper:0
 dev-perl/Cgi-Simple:0
 dev-perl/Child:0
 dev-perl/Class-Accessor-Chained:0
-dev-perl/Class-Adapter:0
 dev-perl/Class-Autouse:0
 dev-perl/Class-C3-Adopt-NEXT:0
 dev-perl/Class-C3-Componentised:0
@@ -605,7 +603,6 @@ dev-perl/Devel-Declare:0
 dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-Hide:0
 dev-perl/Devel-Leak-Object:0
-dev-perl/Devel-NYTProf:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-PatchPerl:0
 dev-perl/Devel-Pragma:0
@@ -664,7 +661,6 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-Encodings:0
 dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MIME:0
 dev-perl/Email-MessageID:0
@@ -1340,7 +1336,6 @@ dev-util/gtk-doc:0
 dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
-dev-util/kbuild:0
 dev-util/pkgconfig:0
 dev-util/ragel:0
 dev-util/reswrap:0

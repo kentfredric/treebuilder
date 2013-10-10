@@ -17,7 +17,6 @@ app-admin/eselect-oodict:0
 app-admin/eselect-opencl:0
 app-admin/eselect-opengl:0
 app-admin/eselect-package-manager:0
-app-admin/eselect-php:0
 app-admin/eselect-postgresql:0
 app-admin/eselect-python:0
 app-admin/eselect-qtgraphicssystem:0
@@ -68,7 +67,6 @@ app-dicts/myspell-en:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/nano:0
-app-editors/padre:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
 app-emulation/emul-linux-x86-gstplugins:0
@@ -215,7 +213,6 @@ dev-java/apt-mirror:0
 dev-java/asm:3.999
 dev-java/eclipse-ecj:3.7
 dev-java/eclipse-ecj:4.2
-dev-java/icedtea-bin:7
 dev-java/java-config-wrapper:0
 dev-java/jinput:0
 dev-java/jutils:0
@@ -309,7 +306,6 @@ dev-libs/nss:0
 dev-libs/openobex:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
-dev-libs/ossp-uuid:0
 dev-libs/popt:0
 dev-libs/ppl:0
 dev-libs/protobuf:0/8
@@ -432,6 +428,7 @@ dev-perl/Catalyst-Model-KiokuDB:0
 dev-perl/Catalyst-Model-LDAP:0
 dev-perl/Catalyst-Plugin-Authentication:0
 dev-perl/Catalyst-Plugin-AutoRestart:0
+dev-perl/Catalyst-Plugin-C3:0
 dev-perl/Catalyst-Plugin-Cache:0
 dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
@@ -478,16 +475,15 @@ dev-perl/Catalyst-View-vCard:0
 dev-perl/CatalystX-Component-Traits:0
 dev-perl/CatalystX-InjectComponent:0
 dev-perl/CatalystX-LeakChecker:0
-dev-perl/CatalystX-Profile:0
 dev-perl/CatalystX-REPL:0
 dev-perl/CatalystX-SimpleLogin:0
 dev-perl/Cave-Wrapper:0
 dev-perl/Cgi-Simple:0
 dev-perl/Child:0
 dev-perl/Class-Accessor-Chained:0
-dev-perl/Class-Adapter:0
 dev-perl/Class-Autouse:0
 dev-perl/Class-C3-Adopt-NEXT:0
+dev-perl/Class-C3-Componentised:0
 dev-perl/Class-C3-XS:0
 dev-perl/Class-Container:0
 dev-perl/Class-DBI-Plugin-DeepAbstractSearch:0
@@ -602,7 +598,6 @@ dev-perl/Devel-Declare:0
 dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-Hide:0
 dev-perl/Devel-Leak-Object:0
-dev-perl/Devel-NYTProf:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-PatchPerl:0
 dev-perl/Devel-Pragma:0
@@ -661,7 +656,6 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-Encodings:0
 dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
@@ -1098,7 +1092,6 @@ dev-perl/Task-Kensho-Dates:0
 dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
-dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-OOP:0
 dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-Testing:0
@@ -1336,7 +1329,6 @@ dev-util/gtk-doc:0
 dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
-dev-util/kbuild:0
 dev-util/pkgconfig:0
 dev-util/ragel:0
 dev-util/reswrap:0
@@ -1591,7 +1583,6 @@ media-libs/libsvg:0
 media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libvorbis:0
-media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
 media-libs/mesa:0
@@ -1921,6 +1912,7 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit-qt:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
+sys-block/gparted:0
 sys-block/nbd:0
 sys-block/parted:0
 sys-block/thin-provisioning-tools:0
@@ -1976,6 +1968,7 @@ sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
 sys-fs/zfs:0
+sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3
@@ -2022,7 +2015,6 @@ virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
 virtual/glu:0
-virtual/jdk:1.7
 virtual/krb5:0
 virtual/latex-base:0
 virtual/libc:0
