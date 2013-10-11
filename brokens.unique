@@ -40,7 +40,6 @@ app-arch/bzip2:0
 app-arch/cabextract:0
 app-arch/dpkg:0
 app-arch/libarchive:0/13
-app-arch/p7zip:0
 app-arch/pax:0
 app-arch/pbzip2:0
 app-arch/rar:0
@@ -49,6 +48,7 @@ app-arch/sharutils:0
 app-arch/tar:0
 app-arch/unshield:0
 app-arch/unzip:0
+app-arch/xz-utils:0
 app-arch/zip:0
 app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
@@ -66,7 +66,6 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/myspell-en:0
 app-dicts/wordnet:0
-app-doc/podbrowser:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
@@ -183,7 +182,6 @@ dev-cpp/mm-common:0
 dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql:0
-dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
 dev-db/postgresql-base:9.2
@@ -609,7 +607,6 @@ dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed:0
 dev-perl/Dist-Zilla-Plugin-DistManifestTests:0
 dev-perl/Dist-Zilla-Plugin-EOLTests:0
 dev-perl/Dist-Zilla-Plugin-Git:0
-dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Package:0
@@ -630,7 +627,6 @@ dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
-dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
@@ -1360,11 +1356,9 @@ kde-base/kde-l10n:4
 kde-base/kdebase-kioslaves:4
 kde-base/kdepimlibs:4
 kde-base/kdialog:4
-kde-base/keditbookmarks:4
 kde-base/kephal:4
 kde-base/kgpg:4
 kde-base/knotify:4
-kde-base/konqueror:4
 kde-base/konsole:4
 kde-base/krdc:4
 kde-base/krosspython:4
@@ -1384,7 +1378,6 @@ kde-misc/kcm_touchpad:4
 kde-misc/kde-gtk-config:4
 kde-misc/kdesudo:4
 kde-misc/kdiff3:4
-kde-misc/kim4:4
 kde-misc/krcstat:4
 kde-misc/kshutdown:4
 kde-misc/ksplasher:4
@@ -1520,7 +1513,6 @@ media-libs/ladspa-sdk:0
 media-libs/lcms:0
 media-libs/lcms:2
 media-libs/libaacplus:0
-media-libs/libafterimage:0
 media-libs/libao:0
 media-libs/libart_lgpl:0
 media-libs/libass:0
@@ -1657,7 +1649,6 @@ media-sound/mpd:0
 media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
-media-sound/pavucontrol:0
 media-sound/projectm-jack:0
 media-sound/pulseaudio:0
 media-sound/qmpdclient:0
@@ -1714,7 +1705,6 @@ net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
-net-libs/libktorrent:4
 net-libs/liblockfile:0
 net-libs/libmediawiki:4
 net-libs/libnet:1.1
@@ -1751,7 +1741,6 @@ net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
 net-nds/rpcbind:0
-net-p2p/ktorrent:4
 net-p2p/rtorrent:0
 net-print/cups-filters:0
 net-print/cups:0
@@ -1979,7 +1968,6 @@ sys-libs/libcap:0
 sys-libs/libieee1284:0
 sys-libs/libraw1394:0
 sys-libs/mtdev:0
-sys-libs/ncurses:5
 sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
@@ -2016,7 +2004,6 @@ virtual/libintl:0
 virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
-virtual/notification-daemon:0
 virtual/os-headers:0
 virtual/package-manager:0
 virtual/pager:0
@@ -2103,7 +2090,6 @@ x11-apps/xwd:0
 x11-apps/xwininfo:0
 x11-apps/xwud:0
 x11-base/xorg-server:0/1.14.1
-x11-base/xorg-x11:0
 x11-drivers/xf86-input-evdev:0
 x11-drivers/xf86-input-keyboard:0
 x11-drivers/xf86-input-mouse:0
@@ -2182,20 +2168,14 @@ x11-libs/xpyb:0
 x11-libs/xtrans:0
 x11-misc/dclock:0
 x11-misc/denu:0
-x11-misc/dmenu:0
-x11-misc/dzen:2
 x11-misc/gccmakedep:0
 x11-misc/icon-naming-utils:0
 x11-misc/imake:0
-x11-misc/kapow:0
 x11-misc/makedepend:0
 x11-misc/notification-daemon:0
-x11-misc/obconf:0
 x11-misc/obmenu:0
-x11-misc/redshift:0
 x11-misc/rss-glx:0
 x11-misc/shared-mime-info:0
-x11-misc/synergy:0
 x11-misc/touchfreeze:0
 x11-misc/trayer:0
 x11-misc/util-macros:0
@@ -2237,7 +2217,6 @@ x11-proto/xf86rushproto:0
 x11-proto/xf86vidmodeproto:0
 x11-proto/xineramaproto:0
 x11-proto/xproto:0
-x11-terms/rxvt-unicode:0
 x11-themes/gnome-icon-theme:0
 x11-themes/gnome-themes:0
 x11-themes/gtk-engines-candido:0
@@ -2246,7 +2225,6 @@ x11-themes/gtk-engines-dwerg:2
 x11-themes/gtk-engines-experience:2
 x11-themes/gtk-engines-flat:2
 x11-themes/gtk-engines-murrine:0
-x11-themes/gtk-engines-qtcurve:0
 x11-themes/gtk-engines-qtpixmap:0
 x11-themes/gtk-engines-rezlooks:0
 x11-themes/gtk-engines-unico:0
@@ -2259,12 +2237,8 @@ x11-themes/oxygen-molecule:4
 x11-themes/sound-theme-freedesktop:0
 x11-themes/xcursor-neutral:0
 x11-themes/xcursor-themes:0
-x11-wm/awesome:0
 x11-wm/evilwm:0
-x11-wm/fluxbox:0
-x11-wm/i3:0
 x11-wm/metacity:0
-x11-wm/openbox:3
 x11-wm/twm:0
 xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
