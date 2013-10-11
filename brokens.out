@@ -68,10 +68,10 @@ app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/nano:0
 app-editors/padre:0
+app-emulation/emul-linux-x86-opengl:0
 app-emulation/virtualbox:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
-app-laptop/laptop-mode-tools:0
 app-laptop/radeontool:0
 app-laptop/toshset:0
 app-laptop/tp_smapi:0
@@ -293,7 +293,6 @@ dev-libs/mpc:0
 dev-libs/mpfr:0
 dev-libs/nettle:0/4
 dev-libs/nspr:0
-dev-libs/nss:0
 dev-libs/openobex:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
@@ -496,7 +495,6 @@ dev-perl/Config-IniFiles:0
 dev-perl/Config-JFDI:0
 dev-perl/Config-JSON:0
 dev-perl/Config-MVP-Reader-INI:0
-dev-perl/Config-MVP:0
 dev-perl/Config-Pit:0
 dev-perl/Crypt-Eksblowfish:0
 dev-perl/Crypt-MySQL:0
@@ -536,7 +534,6 @@ dev-perl/Data-Entropy:0
 dev-perl/Data-Float:0
 dev-perl/Data-FormValidator-Constraints-DateTime:0
 dev-perl/Data-FormValidator:0
-dev-perl/Data-GUID:0
 dev-perl/Data-Handle:0
 dev-perl/Data-ICal-DateTime:0
 dev-perl/Data-ICal:0
@@ -544,8 +541,6 @@ dev-perl/Data-Integer:0
 dev-perl/Data-OptList:0
 dev-perl/Data-Page:0
 dev-perl/Data-Pond:0
-dev-perl/Data-Rx:0
-dev-perl/Data-Section:0
 dev-perl/Data-Serializer:0
 dev-perl/Data-Stream-Bulk:0
 dev-perl/Data-Taxi:0
@@ -588,7 +583,6 @@ dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-Hide:0
 dev-perl/Devel-Leak-Object:0
 dev-perl/Devel-PartialDump:0
-dev-perl/Devel-PatchPerl:0
 dev-perl/Devel-Pragma:0
 dev-perl/Devel-SimpleTrace:0
 dev-perl/Devel-StackTrace:0
@@ -599,7 +593,6 @@ dev-perl/Directory-Scratch-Structured:0
 dev-perl/Directory-Scratch:0
 dev-perl/Dist-Metadata:0
 dev-perl/Dist-Zilla-App-Command-cover:0
-dev-perl/Dist-Zilla-App-Command-dumpphases:0
 dev-perl/Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective:0
 dev-perl/Dist-Zilla-Plugin-Authority:0
 dev-perl/Dist-Zilla-Plugin-AutoVersion-Relative:0
@@ -611,7 +604,6 @@ dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed:0
 dev-perl/Dist-Zilla-Plugin-DistManifestTests:0
 dev-perl/Dist-Zilla-Plugin-EOLTests:0
 dev-perl/Dist-Zilla-Plugin-Git:0
-dev-perl/Dist-Zilla-Plugin-GithubMeta:0
 dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:0
 dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
@@ -638,7 +630,6 @@ dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla-Util-Test-KENTNL:0
-dev-perl/Dist-Zilla:0
 dev-perl/EVDB-API:0
 dev-perl/ElasticSearch-SearchBuilder:0
 dev-perl/ElasticSearch:0
@@ -997,7 +988,6 @@ dev-perl/Path-Tiny:0
 dev-perl/Perl-Critic-Moose:0
 dev-perl/Perl-Critic:0
 dev-perl/Perl-MinimumVersion:0
-dev-perl/Perl-PrereqScanner:0
 dev-perl/Perl-Tags:0
 dev-perl/Perl-Version:0
 dev-perl/Perl6-Caller:0
@@ -1334,7 +1324,6 @@ dev-vcs/mercurial:0
 dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
-games-misc/bsd-games:0
 games-misc/openmsx:0
 games-util/grfcodec:0
 games-util/nml:0
@@ -1360,29 +1349,20 @@ gnome-extra/libgda:5
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
-kde-base/dolphin-plugins:4
-kde-base/dolphin:4
-kde-base/kate:4
 kde-base/kcachegrind:4
-kde-base/kcharselect:4
 kde-base/kcmshell:4
 kde-base/kdebase-kioslaves:4
-kde-base/kdelibs:4
 kde-base/kdialog:4
 kde-base/keditbookmarks:4
-kde-base/kfind:4
 kde-base/kgpg:4
 kde-base/knotify:4
-kde-base/kompare:4
 kde-base/konqueror:4
 kde-base/konsole:4
 kde-base/krdc:4
 kde-base/krosspython:4
-kde-base/libkonq:4
 kde-base/plasma-workspace:4
 kde-base/print-manager:4
 kde-base/solid:4
-kde-base/svgpart:4
 kde-misc/adjustableclock:4
 kde-misc/fancytasks:4
 kde-misc/kcm_touchpad:4
@@ -1581,7 +1561,6 @@ media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
-media-libs/mesa:0
 media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
@@ -1940,7 +1919,6 @@ sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gcc:4.8
 sys-devel/gettext:0
-sys-devel/llvm:0/3.2
 sys-devel/make:0
 sys-devel/patch:0
 sys-devel/prelink:0
@@ -2014,7 +1992,6 @@ virtual/editor:0
 virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
-virtual/glu:0
 virtual/jdk:1.7
 virtual/krb5:0
 virtual/latex-base:0
@@ -2024,7 +2001,6 @@ virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
 virtual/notification-daemon:0
-virtual/opengl:0
 virtual/os-headers:0
 virtual/package-manager:0
 virtual/pager:0
@@ -2119,7 +2095,6 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
@@ -2159,7 +2134,6 @@ x11-libs/libXvMC:0
 x11-libs/libXxf86dga:0
 x11-libs/libXxf86misc:0
 x11-libs/libXxf86vm:0
-x11-libs/libdrm:0
 x11-libs/libfontenc:0
 x11-libs/libgksu:2
 x11-libs/libnotify:0
@@ -2241,7 +2215,6 @@ x11-proto/xcmiscproto:0
 x11-proto/xextproto:0
 x11-proto/xf86bigfontproto:0
 x11-proto/xf86dgaproto:0
-x11-proto/xf86driproto:0
 x11-proto/xf86miscproto:0
 x11-proto/xf86rushproto:0
 x11-proto/xf86vidmodeproto:0
