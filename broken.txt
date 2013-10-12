@@ -1484,7 +1484,7 @@ media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
-media-gfx/gimp:2
+media-gfx/gimp-texturize-plugin:0
 media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
@@ -1629,6 +1629,7 @@ media-libs/x264:0/138
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
+media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
 media-plugins/gst-plugins-alsa:0.10
 media-plugins/gst-plugins-cdparanoia:0.10

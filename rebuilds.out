@@ -1,8 +1,2 @@
-app-pda/gtkpod:0
-dev-java/swt:3.7
-dev-java/swt:4.2
-gnome-extra/yelp:0
-gnome-extra/zenity:0
-media-gfx/gimp:2
-net-libs/libproxy:0
-x11-libs/wxGTK:2.9
+media-gfx/gimp-texturize-plugin:0
+media-plugins/gimp-resynthesizer:0

@@ -97,6 +97,7 @@ app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-office/dia:0
+app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -220,6 +221,8 @@ dev-java/jinput:0
 dev-java/jutils:0
 dev-java/lwjgl:2.8
 dev-java/oracle-jdk-bin:1.7
+dev-java/swt:3.7
+dev-java/swt:4.2
 dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
@@ -1356,6 +1359,8 @@ gnome-extra/gnome-audio:0
 gnome-extra/libgda:4
 gnome-extra/libgda:5
 gnome-extra/yelp-xsl:0
+gnome-extra/yelp:0
+gnome-extra/zenity:0
 kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
@@ -1479,6 +1484,7 @@ media-gfx/exiv2:0
 media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
+media-gfx/gimp-texturize-plugin:0
 media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
@@ -1623,6 +1629,7 @@ media-libs/x264:0/138
 media-libs/xine-lib:1
 media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
+media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
 media-plugins/gst-plugins-alsa:0.10
 media-plugins/gst-plugins-cdparanoia:0.10
@@ -1735,6 +1742,7 @@ net-libs/libmediawiki:4
 net-libs/libnet:1.1
 net-libs/libnfsidmap:0
 net-libs/libpcap:0
+net-libs/libproxy:0
 net-libs/librpcsecgss:0
 net-libs/libssh2:0
 net-libs/libssh:0
@@ -2175,6 +2183,7 @@ x11-libs/startup-notification:0
 x11-libs/vte:0
 x11-libs/vte:2.90
 x11-libs/wxGTK:2.8
+x11-libs/wxGTK:2.9
 x11-libs/xcb-util-image:0
 x11-libs/xcb-util-keysyms:0
 x11-libs/xcb-util-renderutil:0
