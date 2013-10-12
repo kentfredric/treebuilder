@@ -1751,7 +1751,6 @@ net-libs/libvncserver:0
 net-libs/neon:0/27
 net-libs/openslp:0
 net-libs/ortp:0
-net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/curl:0
