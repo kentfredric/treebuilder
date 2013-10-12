@@ -32,6 +32,7 @@ app-admin/perl-cleaner:0
 app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
+app-admin/sysstat:0
 app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
@@ -1852,6 +1853,7 @@ sci-libs/flann:0
 sci-libs/gsl:0
 sci-libs/hdf5:0
 sci-libs/lapack-atlas:0
+sci-libs/libqalculate:0
 sci-libs/mkl:0
 sci-libs/proj:0
 sci-libs/umfpack:0
@@ -2044,6 +2046,7 @@ virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
 virtual/texi2dvi:0
+virtual/ttf-fonts:0
 virtual/yacc:0
 www-client/w3m:0
 www-misc/fcgiwrap:0

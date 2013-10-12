@@ -1517,6 +1517,7 @@ media-libs/freeglut:0
 media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gd:2
+media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
