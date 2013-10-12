@@ -627,6 +627,7 @@ dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
+dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
@@ -1378,6 +1379,7 @@ kde-misc/kcm_touchpad:4
 kde-misc/kde-gtk-config:4
 kde-misc/kdesudo:4
 kde-misc/kdiff3:4
+kde-misc/kim4:4
 kde-misc/krcstat:4
 kde-misc/kshutdown:4
 kde-misc/ksplasher:4
@@ -1968,6 +1970,7 @@ sys-libs/libcap:0
 sys-libs/libieee1284:0
 sys-libs/libraw1394:0
 sys-libs/mtdev:0
+sys-libs/ncurses:5
 sys-libs/pam:0
 sys-libs/readline:0
 sys-libs/slang:0
@@ -2004,6 +2007,7 @@ virtual/libintl:0
 virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
+virtual/notification-daemon:0
 virtual/os-headers:0
 virtual/package-manager:0
 virtual/pager:0
@@ -2029,10 +2033,8 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
 virtual/yacc:0
-www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
-www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
@@ -2225,6 +2227,7 @@ x11-themes/gtk-engines-dwerg:2
 x11-themes/gtk-engines-experience:2
 x11-themes/gtk-engines-flat:2
 x11-themes/gtk-engines-murrine:0
+x11-themes/gtk-engines-qtcurve:0
 x11-themes/gtk-engines-qtpixmap:0
 x11-themes/gtk-engines-rezlooks:0
 x11-themes/gtk-engines-unico:0

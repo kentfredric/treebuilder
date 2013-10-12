@@ -2033,10 +2033,8 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
 virtual/yacc:0
-www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
-www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
@@ -2229,6 +2227,7 @@ x11-themes/gtk-engines-dwerg:2
 x11-themes/gtk-engines-experience:2
 x11-themes/gtk-engines-flat:2
 x11-themes/gtk-engines-murrine:0
+x11-themes/gtk-engines-qtcurve:0
 x11-themes/gtk-engines-qtpixmap:0
 x11-themes/gtk-engines-rezlooks:0
 x11-themes/gtk-engines-unico:0

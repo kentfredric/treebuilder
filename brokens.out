@@ -48,6 +48,7 @@ app-arch/sharutils:0
 app-arch/tar:0
 app-arch/unshield:0
 app-arch/unzip:0
+app-arch/xz-utils:0
 app-arch/zip:0
 app-benchmarks/cpuburn:0
 app-cdr/cdrkit:0
@@ -2032,10 +2033,8 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
 virtual/yacc:0
-www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
-www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0

@@ -1,5 +1,1 @@
-app-arch/xz-utils:0
-dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
-kde-misc/kim4:4
-sys-libs/ncurses:5
-virtual/notification-daemon:0
+x11-themes/gtk-engines-qtcurve:0
