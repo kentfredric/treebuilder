@@ -1,1 +1,1 @@
-+2013, 10 October, 13 Sunday, 01:49:37.528738506 997570:8112 ** ~success true task : 
++2013, 10 October, 13 Sunday, 02:13:04.208120883 997649:137532 55232:26501 ** ~success  install : media-video/transcode-1.1.7-r3:0::gentoo

@@ -317,7 +317,6 @@ dev-libs/pth:0
 dev-libs/pugixml:0
 dev-libs/qjson:0
 dev-libs/qoauth:0
-dev-libs/quazip:0
 dev-libs/rasqal:0
 dev-libs/redland:0
 dev-libs/shared-desktop-ontologies:0
@@ -1417,7 +1416,6 @@ kde-misc/smooth-tasks:4
 kde-misc/wacomtablet:4
 mail-client/mailx:0
 mail-mta/ssmtp:0
-media-fonts/cantarell:0
 media-fonts/corefonts:0
 media-fonts/droid:0
 media-fonts/encodings:0
@@ -1458,12 +1456,10 @@ media-fonts/font-sun-misc:0
 media-fonts/font-util:0
 media-fonts/font-winitzki-cyrillic:0
 media-fonts/font-xfree86-type1:0
-media-fonts/freefont:0
 media-fonts/freefonts:0
 media-fonts/inconsolata:0
 media-fonts/lfpfonts-fix:0
 media-fonts/lfpfonts-var:0
-media-fonts/liberation-fonts:0
 media-fonts/libertine-ttf:0
 media-fonts/oldstandard:0
 media-fonts/proggy-fonts:0
@@ -1471,7 +1467,6 @@ media-fonts/sgi-fonts:0
 media-fonts/sil-gentium:0
 media-fonts/stix-fonts:0
 media-fonts/tengwar-fonts:0
-media-fonts/terminus-font:0
 media-fonts/ttf-bitstream-vera:0
 media-fonts/unifont:0
 media-fonts/urw-fonts:0
@@ -1522,6 +1517,7 @@ media-libs/freeglut:0
 media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gd:2
+media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
@@ -1668,7 +1664,6 @@ media-plugins/gst-plugins-x:0.10
 media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-x264:0
 media-sound/aumix:0
-media-sound/baudline:0
 media-sound/cdparanoia:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
@@ -1694,11 +1689,8 @@ media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
-media-video/mplayer:0
 media-video/rtmpdump:0
-media-video/smplayer:0
 media-video/subtitleripper:0
-media-video/transcode:0
 media-video/vcdimager:0
 media-video/xine-ui:0
 media-video/xvid4conf:0
@@ -1867,7 +1859,6 @@ sci-libs/mkl:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
-sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
@@ -2061,7 +2052,6 @@ virtual/yacc:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
-www-plugins/adobe-flash:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
 www-servers/lighttpd:0

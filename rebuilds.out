@@ -1,2 +1,5 @@
-media-gfx/gimp-texturize-plugin:0
-media-plugins/gimp-resynthesizer:0
+app-admin/sysstat:0
+media-libs/gegl:0
+media-video/dvdrip:0
+sci-libs/libqalculate:0
+virtual/ttf-fonts:0
