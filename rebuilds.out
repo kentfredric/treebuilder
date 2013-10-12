@@ -1,1 +1,8 @@
-media-video/dvdrip:0
+dev-perl/Catalyst-Plugin-Email:0
+dev-perl/Catalyst-View-Email:0
+dev-perl/Email-Abstract:0
+dev-perl/Email-MIME-Kit:0
+dev-perl/Email-Send:0
+dev-perl/Email-Sender:0
+dev-perl/Task-Kensho-Email:0
+virtual/linux-sources:0

@@ -647,11 +647,9 @@ dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
 dev-perl/Email-MIME-Kit:0
-dev-perl/Email-MIME:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
-dev-perl/Email-Simple:0
 dev-perl/Email-Valid:0
 dev-perl/Encode-Base32-Crockford:0
 dev-perl/Encode-ZapCP1252:0

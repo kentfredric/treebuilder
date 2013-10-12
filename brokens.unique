@@ -432,7 +432,6 @@ dev-perl/Catalyst-Plugin-C3:0
 dev-perl/Catalyst-Plugin-Cache:0
 dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
-dev-perl/Catalyst-Plugin-Email:0
 dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FillInForm:0
 dev-perl/Catalyst-Plugin-FormValidator-Simple:0
@@ -465,7 +464,6 @@ dev-perl/Catalyst-Plugin-UploadProgress:0
 dev-perl/Catalyst-Plugin-XMLRPC:0
 dev-perl/Catalyst-Runtime:0
 dev-perl/Catalyst-View-Component-SubInclude:0
-dev-perl/Catalyst-View-Email:0
 dev-perl/Catalyst-View-Excel-Template-Plus:0
 dev-perl/Catalyst-View-Mason:0
 dev-perl/Catalyst-View-TT:0
@@ -643,15 +641,9 @@ dev-perl/Dist-Zilla-Util-Test-KENTNL:0
 dev-perl/EVDB-API:0
 dev-perl/ElasticSearch-SearchBuilder:0
 dev-perl/ElasticSearch:0
-dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-Kit:0
-dev-perl/Email-MIME:0
 dev-perl/Email-MessageID:0
-dev-perl/Email-Send:0
-dev-perl/Email-Sender:0
-dev-perl/Email-Simple:0
 dev-perl/Email-Valid:0
 dev-perl/Encode-Base32-Crockford:0
 dev-perl/Encode-ZapCP1252:0
@@ -1079,7 +1071,6 @@ dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
-dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-ModuleDev:0
@@ -1686,6 +1677,7 @@ media-sound/vorbis-tools:0
 media-sound/wavpack:0
 media-video/clive:0
 media-video/dirac:0
+media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/rtmpdump:0
@@ -2019,7 +2011,6 @@ virtual/krb5:0
 virtual/latex-base:0
 virtual/libc:0
 virtual/libintl:0
-virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
 virtual/notification-daemon:0
