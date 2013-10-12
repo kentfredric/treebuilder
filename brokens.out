@@ -1476,7 +1476,6 @@ media-libs/alsa-lib:0
 media-libs/alsa-oss:0
 media-libs/asio-sdk:0
 media-libs/audiofile:0/1
-media-libs/babl:0
 media-libs/bio2jack:0
 media-libs/clutter-gst:2.0
 media-libs/clutter-gtk:1.0
@@ -1493,7 +1492,6 @@ media-libs/freeglut:0
 media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gd:2
-media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
 media-libs/glew:0
@@ -1736,7 +1734,6 @@ net-misc/networkmanager:0
 net-misc/openssh:0
 net-misc/rdesktop:0
 net-misc/remmina:0
-net-misc/rsync:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/wicd:0
@@ -1849,7 +1846,6 @@ sys-apps/coreutils:0
 sys-apps/dbus:0
 sys-apps/diffutils:0
 sys-apps/ed:0
-sys-apps/findutils:0
 sys-apps/flashrom:0
 sys-apps/gawk:0
 sys-apps/gnome-disk-utility:0
@@ -1977,22 +1973,18 @@ sys-libs/slang:0
 sys-libs/tevent:0
 sys-libs/zlib:0
 sys-power/acpi-support:0
-sys-power/cpufreqd:0
 sys-power/iasl:0
 sys-power/nvclock:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
 sys-power/pmtools:0
 sys-power/powermgmt-base:0
-sys-power/powertop:0
 sys-power/upower:0
 sys-process/acct:0
-sys-process/at:0
 sys-process/latencytop:0
 sys-process/procps:0
 sys-process/psmisc:0
 sys-process/time:0
-sys-process/vixie-cron:0
 virtual/awk:0
 virtual/dev-manager:0
 virtual/editor:0
@@ -2033,8 +2025,6 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
 virtual/yacc:0
-www-client/links:2
-www-client/lynx:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
@@ -2227,6 +2217,7 @@ x11-themes/gtk-engines-dwerg:2
 x11-themes/gtk-engines-experience:2
 x11-themes/gtk-engines-flat:2
 x11-themes/gtk-engines-murrine:0
+x11-themes/gtk-engines-qtcurve:0
 x11-themes/gtk-engines-qtpixmap:0
 x11-themes/gtk-engines-rezlooks:0
 x11-themes/gtk-engines-unico:0

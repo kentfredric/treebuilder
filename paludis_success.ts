@@ -1,1 +1,1 @@
-+2013, 10 October, 12 Saturday, 16:39:24.273330530 562941:36198 ** ~success true task : 
++2013, 10 October, 12 Saturday, 18:40:45.968300833 651753:94984 713036:32392 ** ~success  install : media-libs/gegl-0.2.0-r2:0::gentoo
