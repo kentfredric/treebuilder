@@ -467,6 +467,7 @@ dev-perl/Catalyst-View-TT:0
 dev-perl/Catalyst-View-Wkhtmltopdf:0
 dev-perl/Catalyst-View-vCard:0
 dev-perl/CatalystX-Component-Traits:0
+dev-perl/CatalystX-Declare:0
 dev-perl/CatalystX-InjectComponent:0
 dev-perl/CatalystX-LeakChecker:0
 dev-perl/CatalystX-Profile:0
@@ -589,6 +590,7 @@ dev-perl/Devel-Hide:0
 dev-perl/Devel-Leak-Object:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-Pragma:0
+dev-perl/Devel-REPL:0
 dev-perl/Devel-SimpleTrace:0
 dev-perl/Devel-StackTrace:0
 dev-perl/Digest-CRC:0
@@ -644,6 +646,7 @@ dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
+dev-perl/Email-Valid-Loose:0
 dev-perl/Encode-Base32-Crockford:0
 dev-perl/Encode-ZapCP1252:0
 dev-perl/Env-Path:0
@@ -1052,6 +1055,7 @@ dev-perl/String-MkPasswd:0
 dev-perl/String-Random:0
 dev-perl/String-ToIdentifier-EN:0
 dev-perl/String-Util:0
+dev-perl/Sub-Curried:0
 dev-perl/Sub-Exporter-GlobExporter:0
 dev-perl/Sub-Exporter-Progressive:0
 dev-perl/Sub-Identify:0
@@ -1063,6 +1067,7 @@ dev-perl/System-Command:0
 dev-perl/TAP-SimpleOutput:0
 dev-perl/Taint-Util:0
 dev-perl/Task-Catalyst:0
+dev-perl/Task-Kensho-Async:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
@@ -1078,6 +1083,7 @@ dev-perl/Task-Kensho-WebCrawling:0
 dev-perl/Task-Kensho-WebDev:0
 dev-perl/Task-Kensho-XML:0
 dev-perl/Task-Kensho:0
+dev-perl/Task-Moose:0
 dev-perl/Task-Spark-Form:0
 dev-perl/Template-Alloy:0
 dev-perl/Template-DBI:0
@@ -1673,6 +1679,7 @@ media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/rtmpdump:0
 media-video/subtitleripper:0
+media-video/transcode:0
 media-video/vcdimager:0
 media-video/xine-ui:0
 media-video/xvid4conf:0

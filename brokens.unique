@@ -88,7 +88,9 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
+app-misc/vifm:0
 app-misc/zisofs-tools:0
+app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
@@ -102,6 +104,7 @@ app-shells/dash:0
 app-shells/gentoo-bashcomp:0
 app-shells/zsh:0
 app-text/ansifilter:0
+app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/dictd:0
@@ -153,6 +156,23 @@ app-text/texlive-core:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
+app-vim/closetag:0
+app-vim/colorschemes:0
+app-vim/dhcpd-syntax:0
+app-vim/eselect-syntax:0
+app-vim/fugitive:0
+app-vim/gentoo-syntax:0
+app-vim/gitv:0
+app-vim/gtk-syntax:0
+app-vim/nerdtree:0
+app-vim/nginx-syntax:0
+app-vim/ntp-syntax:0
+app-vim/pam-syntax:0
+app-vim/perl-support:0
+app-vim/taglist:0
+app-vim/tt2-syntax:0
+app-vim/vim-spell-en:0
+app-vim/vimbuddy:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
 dev-cpp/clucene:1
@@ -303,6 +323,7 @@ dev-libs/yajl:0
 dev-libs/zthread:0
 dev-libs/zziplib:0
 dev-perl/Acme-Damn:0
+dev-perl/Adam:0
 dev-perl/Algorithm-C3:0
 dev-perl/Algorithm-FloodControl:0
 dev-perl/Alien-wxWidgets:0
@@ -406,6 +427,7 @@ dev-perl/Catalyst-Plugin-C3:0
 dev-perl/Catalyst-Plugin-Cache:0
 dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
+dev-perl/Catalyst-Plugin-Email:0
 dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FillInForm:0
 dev-perl/Catalyst-Plugin-FormValidator-Simple:0
@@ -436,8 +458,11 @@ dev-perl/Catalyst-Plugin-SubRequest:0
 dev-perl/Catalyst-Plugin-Unicode:0
 dev-perl/Catalyst-Plugin-UploadProgress:0
 dev-perl/Catalyst-Plugin-XMLRPC:0
+dev-perl/Catalyst-Runtime:0
 dev-perl/Catalyst-View-Component-SubInclude:0
+dev-perl/Catalyst-View-Email:0
 dev-perl/Catalyst-View-Excel-Template-Plus:0
+dev-perl/Catalyst-View-Mason:0
 dev-perl/Catalyst-View-TT:0
 dev-perl/Catalyst-View-Wkhtmltopdf:0
 dev-perl/Catalyst-View-vCard:0
@@ -515,6 +540,7 @@ dev-perl/Data-Dumper-Names:0
 dev-perl/Data-Entropy:0
 dev-perl/Data-Float:0
 dev-perl/Data-FormValidator-Constraints-DateTime:0
+dev-perl/Data-FormValidator:0
 dev-perl/Data-Handle:0
 dev-perl/Data-ICal-DateTime:0
 dev-perl/Data-ICal:0
@@ -616,6 +642,7 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
+dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
@@ -655,6 +682,7 @@ dev-perl/File-Type-WebImages:0
 dev-perl/File-Type:0
 dev-perl/File-Which:0
 dev-perl/FindBin-libs:0
+dev-perl/FormValidator-Simple:0
 dev-perl/Fuse:0
 dev-perl/Future:0
 dev-perl/GD:0
@@ -687,6 +715,8 @@ dev-perl/Gtk3:0
 dev-perl/HTML-FillInForm:0
 dev-perl/HTML-Form:0
 dev-perl/HTML-FormFu-Model-DBIC:0
+dev-perl/HTML-FormFu:0
+dev-perl/HTML-FormHandler:0
 dev-perl/HTML-GenToc:0
 dev-perl/HTML-LinkList:0
 dev-perl/HTML-Packer:0
@@ -785,6 +815,8 @@ dev-perl/Math-Factor-XS:0
 dev-perl/MemHandle:0
 dev-perl/Meta-Builder:0
 dev-perl/MetaCPAN-API:0
+dev-perl/Method-Signatures-Simple:0
+dev-perl/Method-Signatures:0
 dev-perl/Mixin-ExtraFields:0
 dev-perl/Mock-Quick:0
 dev-perl/Modern-Perl:0
@@ -812,6 +844,7 @@ dev-perl/Mojolicious:0
 dev-perl/Moose-Autobox:0
 dev-perl/Moose:0
 dev-perl/MooseX-Aliases:0
+dev-perl/MooseX-App-Cmd:0
 dev-perl/MooseX-App:0
 dev-perl/MooseX-Attribute-Chained:0
 dev-perl/MooseX-AttributeHelpers:0
@@ -823,6 +856,8 @@ dev-perl/MooseX-ClassAttribute:0
 dev-perl/MooseX-Clone:0
 dev-perl/MooseX-CoercePerAttribute:0
 dev-perl/MooseX-ConfigFromFile:0
+dev-perl/MooseX-Daemonize:0
+dev-perl/MooseX-Declare:0
 dev-perl/MooseX-Emulate-Class-Accessor-Fast:0
 dev-perl/MooseX-GlobRef:0
 dev-perl/MooseX-Has-Options:0
@@ -837,12 +872,14 @@ dev-perl/MooseX-Log-Log4perl:0
 dev-perl/MooseX-LogDispatch:0
 dev-perl/MooseX-MarkAsMethods:0
 dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion:0
+dev-perl/MooseX-Method-Signatures:0
 dev-perl/MooseX-Method:0
 dev-perl/MooseX-MethodAttributes:0
 dev-perl/MooseX-MultiInitArg:0
 dev-perl/MooseX-NonMoose:0
 dev-perl/MooseX-Object-Pluggable:0
 dev-perl/MooseX-OneArgNew:0
+dev-perl/MooseX-POE:0
 dev-perl/MooseX-Param:0
 dev-perl/MooseX-Params-Validate:0
 dev-perl/MooseX-RelatedClassRoles:0
@@ -877,6 +914,7 @@ dev-perl/MooseX-Types-Stringlike:0
 dev-perl/MooseX-Types-Structured:0
 dev-perl/MooseX-Types-URI:0
 dev-perl/MooseX-Types:0
+dev-perl/MooseX-Workers:0
 dev-perl/MooseX-YAML:0
 dev-perl/Mouse:0
 dev-perl/Net-API-RPX:0
@@ -907,6 +945,13 @@ dev-perl/Object-Signature:0
 dev-perl/Ogg-Vorbis-Decoder:0
 dev-perl/Olson-Abbreviations:0
 dev-perl/PAR-Dist:0
+dev-perl/POE-Component-Client-DNS:0
+dev-perl/POE-Component-Client-Keepalive:0
+dev-perl/POE-Component-IRC:0
+dev-perl/POE-Component-Resolver:0
+dev-perl/POE-Component-SSLify:0
+dev-perl/POE-Component-Syndicator:0
+dev-perl/POE-Filter-IRCD:0
 dev-perl/PPI-XS:0
 dev-perl/PPI:0
 dev-perl/PPIx-EditorTools:0
@@ -1026,6 +1071,7 @@ dev-perl/Task-Kensho-Async:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
+dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-ModuleDev:0
@@ -1052,6 +1098,7 @@ dev-perl/Tenjin:0
 dev-perl/Term-ProgressBar:0
 dev-perl/Term-Prompt:0
 dev-perl/Term-Size:0
+dev-perl/Test-Assert:0
 dev-perl/Test-Assertions:0
 dev-perl/Test-Block:0
 dev-perl/Test-CPAN-Meta:0
@@ -1130,6 +1177,7 @@ dev-perl/Travel-Routing-DE-VRR:0
 dev-perl/Tree-DAG_Node:0
 dev-perl/Tree-Simple:0
 dev-perl/Tree-Trie:0
+dev-perl/TryCatch:0
 dev-perl/UNIVERSAL-can:0
 dev-perl/UNIVERSAL-isa:0
 dev-perl/UNIVERSAL-moniker:0
@@ -1204,6 +1252,7 @@ dev-perl/namespace-clean:0
 dev-perl/net-server:0
 dev-perl/perl-ldap:0
 dev-perl/perl-tk:0
+dev-perl/perl5i:0
 dev-perl/pip:0
 dev-perl/prefork:0
 dev-perl/signatures:0
@@ -1251,6 +1300,7 @@ dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/boost-build:0
 dev-util/catalyst:0
+dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cppunit:0
 dev-util/cscope:0
@@ -1261,6 +1311,7 @@ dev-util/dialog:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtk-doc-am:0
+dev-util/gtk-doc:0
 dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
@@ -1326,6 +1377,7 @@ kde-base/knotify:4
 kde-base/kompare:4
 kde-base/konqueror:4
 kde-base/konsole:4
+kde-base/krdc:4
 kde-base/krosspython:4
 kde-base/ksysguard:4
 kde-base/libkonq:4
@@ -1346,7 +1398,9 @@ kde-misc/adjustableclock:4
 kde-misc/fancytasks:4
 kde-misc/kcm_touchpad:4
 kde-misc/kde-gtk-config:4
+kde-misc/kdesudo:4
 kde-misc/kdiff3:4
+kde-misc/kim4:4
 kde-misc/krcstat:4
 kde-misc/kshutdown:4
 kde-misc/ksplasher:4
@@ -1415,6 +1469,7 @@ media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
+media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
@@ -1422,12 +1477,14 @@ media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
+media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/openexr_viewers:0
 media-gfx/optipng:0
 media-gfx/povray:0
+media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
 media-libs/a52dec:0
@@ -1557,6 +1614,7 @@ media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
+media-libs/xine-lib:1
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1616,6 +1674,7 @@ media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-sound/wavpack:0
 media-video/dirac:0
+media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/rtmpdump:0
@@ -1655,6 +1714,7 @@ net-libs/libktorrent:4
 net-libs/liblockfile:0
 net-libs/libmediawiki:4
 net-libs/libnet:1.1
+net-libs/libnfsidmap:0
 net-libs/libpcap:0
 net-libs/libproxy:0
 net-libs/librpcsecgss:0
@@ -1673,9 +1733,11 @@ net-misc/memcached:0
 net-misc/modemmanager:0
 net-misc/netifrc:0
 net-misc/netkit-telnetd:0
+net-misc/networkmanager:0
 net-misc/openssh:0
 net-misc/tightvnc:0
 net-misc/wget:0
+net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
 net-p2p/ktorrent:4
@@ -1804,6 +1866,7 @@ sys-apps/microcode-data:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
+sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/portage:0
@@ -1881,6 +1944,7 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
+sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3
@@ -1920,6 +1984,7 @@ sys-process/time:0
 virtual/awk:0
 virtual/cron:0
 virtual/dev-manager:0
+virtual/editor:0
 virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
@@ -2061,6 +2126,7 @@ x11-libs/libXxf86dga:0
 x11-libs/libXxf86misc:0
 x11-libs/libXxf86vm:0
 x11-libs/libfontenc:0
+x11-libs/libgksu:2
 x11-libs/libnotify:0
 x11-libs/libpciaccess:0
 x11-libs/libsvg-cairo:0
@@ -2096,6 +2162,7 @@ x11-misc/imake:0
 x11-misc/makedepend:0
 x11-misc/notification-daemon:0
 x11-misc/obmenu:0
+x11-misc/rss-glx:0
 x11-misc/shared-mime-info:0
 x11-misc/synergy:0
 x11-misc/touchfreeze:0
