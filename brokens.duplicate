@@ -1,6 +1,10 @@
+dev-db/pgadmin3:0
 dev-db/postgresql-server:9.1
 dev-db/postgresql-server:9.2
 dev-db/postgresql-server:9.3
+dev-lang/php:5.3
+dev-lang/php:5.4
+dev-lang/php:5.5
 dev-libs/apr-util:1
 dev-libs/cyrus-sasl:2
 dev-libs/libpqxx:0

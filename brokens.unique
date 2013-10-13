@@ -186,7 +186,6 @@ dev-cpp/mm-common:0
 dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql:0
-dev-db/pgadmin3:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
 dev-db/postgresql-base:9.2
@@ -220,9 +219,6 @@ dev-lang/lua:0
 dev-lang/nasm:0
 dev-lang/nqp:0
 dev-lang/perl:0/5.16
-dev-lang/php:5.3
-dev-lang/php:5.4
-dev-lang/php:5.5
 dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.2
