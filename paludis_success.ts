@@ -1,1 +1,1 @@
-+2013, 10 October, 13 Sunday, 19:23:39.817328978 568680:165210 590368:102740 ** ~success  install : app-portage/eix-0.29.6:0::gentoo
++2013, 10 October, 13 Sunday, 20:24:11.472165801 568680:528375 655281:6649 ** ~success  install : dev-util/catalyst-2.0.14:0::gentoo

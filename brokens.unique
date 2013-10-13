@@ -614,10 +614,6 @@ dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed:0
 dev-perl/Dist-Zilla-Plugin-DistManifestTests:0
 dev-perl/Dist-Zilla-Plugin-EOLTests:0
 dev-perl/Dist-Zilla-Plugin-Git:0
-dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:0
-dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
-dev-perl/Dist-Zilla-Plugin-MetaProvides-Package:0
-dev-perl/Dist-Zilla-Plugin-MetaProvides:0
 dev-perl/Dist-Zilla-Plugin-MinimumPerl:0
 dev-perl/Dist-Zilla-Plugin-ModuleInstall:0
 dev-perl/Dist-Zilla-Plugin-PerlTidy:0
@@ -634,7 +630,6 @@ dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
-dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
@@ -1302,7 +1297,6 @@ dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/boost-build:0
-dev-util/catalyst:0
 dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cppunit:0
