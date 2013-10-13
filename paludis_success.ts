@@ -1,1 +1,1 @@
-+2013, 10 October, 13 Sunday, 20:24:11.472165801 568680:528375 655281:6649 ** ~success  install : dev-util/catalyst-2.0.14:0::gentoo
++2013, 10 October, 13 Sunday, 20:43:33.099056257 693972:35736 ** ~success true task : 

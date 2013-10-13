@@ -614,6 +614,8 @@ dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed:0
 dev-perl/Dist-Zilla-Plugin-DistManifestTests:0
 dev-perl/Dist-Zilla-Plugin-EOLTests:0
 dev-perl/Dist-Zilla-Plugin-Git:0
+dev-perl/Dist-Zilla-Plugin-MetaProvides-Class:0
+dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile:0
 dev-perl/Dist-Zilla-Plugin-MinimumPerl:0
 dev-perl/Dist-Zilla-Plugin-ModuleInstall:0
 dev-perl/Dist-Zilla-Plugin-PerlTidy:0
