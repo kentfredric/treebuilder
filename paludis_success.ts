@@ -1,1 +1,1 @@
-+2013, 10 October, 13 Sunday, 03:53:45.744250860 193784:93625 209106:5860 ** ~success  install : dev-perl/Email-MIME-1.924.0:0::gentoo
++2013, 10 October, 13 Sunday, 05:50:32.980115729 193784:794349 ** ~success true task : 

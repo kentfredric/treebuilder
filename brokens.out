@@ -26,11 +26,9 @@ app-admin/eselect-vi:0
 app-admin/eselect-wxwidgets:0
 app-admin/eselect-xvmc:0
 app-admin/haskell-updater:0
-app-admin/hddtemp:0
 app-admin/openrc-settingsd:0
 app-admin/perl-cleaner:0
 app-admin/python-updater:0
-app-admin/sudo:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
@@ -38,7 +36,6 @@ app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/bzip2:0
 app-arch/cabextract:0
-app-arch/dpkg:0
 app-arch/libarchive:0/13
 app-arch/pax:0
 app-arch/pbzip2:0
@@ -91,12 +88,10 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
-app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
-app-office/dia:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
@@ -589,7 +584,6 @@ dev-perl/DateTimeX-Easy:0
 dev-perl/Debug-ShowStuff:0
 dev-perl/Devel-Autoflush:0
 dev-perl/Devel-CheckOS:0
-dev-perl/Devel-Declare:0
 dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-Hide:0
 dev-perl/Devel-Leak-Object:0
@@ -650,7 +644,6 @@ dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
-dev-perl/Email-Valid:0
 dev-perl/Encode-Base32-Crockford:0
 dev-perl/Encode-ZapCP1252:0
 dev-perl/Env-Path:0
@@ -660,7 +653,6 @@ dev-perl/Event-ExecFlow:0
 dev-perl/Event-RPC:0
 dev-perl/Excel-Template-Plus:0
 dev-perl/Excel-Template:0
-dev-perl/Exception-Base:0
 dev-perl/Exception-Class-TryCatch:0
 dev-perl/Exception-Class:0
 dev-perl/Exporter-Declare:0
@@ -724,7 +716,6 @@ dev-perl/HTML-FormFu:0
 dev-perl/HTML-FormHandler:0
 dev-perl/HTML-GenToc:0
 dev-perl/HTML-LinkList:0
-dev-perl/HTML-Mason:0
 dev-perl/HTML-Packer:0
 dev-perl/HTML-Scrubber:0
 dev-perl/HTML-Selector-XPath:0
@@ -865,7 +856,6 @@ dev-perl/MooseX-ConfigFromFile:0
 dev-perl/MooseX-Daemonize:0
 dev-perl/MooseX-Declare:0
 dev-perl/MooseX-Emulate-Class-Accessor-Fast:0
-dev-perl/MooseX-Getopt:0
 dev-perl/MooseX-GlobRef:0
 dev-perl/MooseX-Has-Options:0
 dev-perl/MooseX-Has-Sugar:0
@@ -959,7 +949,6 @@ dev-perl/POE-Component-Resolver:0
 dev-perl/POE-Component-SSLify:0
 dev-perl/POE-Component-Syndicator:0
 dev-perl/POE-Filter-IRCD:0
-dev-perl/POE:0
 dev-perl/PPI-XS:0
 dev-perl/PPI:0
 dev-perl/PPIx-EditorTools:0
@@ -1482,7 +1471,6 @@ media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
-media-gfx/imagemagick:0/6.8.6.8
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -1621,7 +1609,6 @@ media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
 media-libs/xine-lib:1
-media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1661,7 +1648,6 @@ media-plugins/gst-plugins-x264:0.10
 media-plugins/gst-plugins-x:0.10
 media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-x264:0
-media-sound/aumix:0
 media-sound/cdparanoia:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
@@ -1675,14 +1661,12 @@ media-sound/musepack-tools:0
 media-sound/ogmtools:0
 media-sound/projectm-jack:0
 media-sound/pulseaudio:0
-media-sound/qmpdclient:0
 media-sound/scmpc:0
 media-sound/sox:0
 media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-sound/wavpack:0
-media-video/clive:0
 media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
@@ -1693,9 +1677,7 @@ media-video/vcdimager:0
 media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
-net-analyzer/ettercap:0
 net-analyzer/iptraf-ng:0
-net-analyzer/mtr:0
 net-analyzer/munin:0
 net-analyzer/netcat:0
 net-analyzer/nettop:0
@@ -1703,7 +1685,6 @@ net-analyzer/ntop:0
 net-analyzer/portsentry:0
 net-analyzer/rrdtool:0
 net-analyzer/slurm:0
-net-analyzer/tcpdump:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
 net-analyzer/wireshark:0/1.10.2
@@ -1714,11 +1695,7 @@ net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
 net-fs/cifs-utils:0
-net-fs/nfs-utils:0
 net-fs/samba:0
-net-fs/smbnetfs:0
-net-ftp/lftp:0
-net-im/bitlbee:0
 net-im/psi:0
 net-im/psimedia:0
 net-im/qwit:0
@@ -1737,7 +1714,6 @@ net-libs/librpcsecgss:0
 net-libs/libssh2:0
 net-libs/libssh:0
 net-libs/libtirpc:0
-net-libs/libtorrent:0
 net-libs/libvncserver:0
 net-libs/neon:0/27
 net-libs/openslp:0
@@ -1745,7 +1721,6 @@ net-libs/ortp:0
 net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/curl:0
-net-misc/dhcp:0
 net-misc/iputils:0
 net-misc/memcached:0
 net-misc/modemmanager:0
@@ -1753,16 +1728,12 @@ net-misc/netifrc:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
 net-misc/openssh:0
-net-misc/rdesktop:0
-net-misc/remmina:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
-net-nds/rpcbind:0
 net-p2p/ktorrent:4
-net-p2p/rtorrent:0
 net-print/cups-filters:0
 net-print/cups:0
 net-print/foomatic-filters:0
@@ -1875,7 +1846,6 @@ sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/hwinfo:0
 sys-apps/hwloc:0
-sys-apps/iproute2:0
 sys-apps/irqbalance:0
 sys-apps/kbd:0
 sys-apps/keyutils:0
@@ -1898,7 +1868,6 @@ sys-apps/sdparm:0
 sys-apps/sed:0
 sys-apps/sg3_utils:0
 sys-apps/shadow:0
-sys-apps/smartmontools:0
 sys-apps/systemd:0/1
 sys-apps/usbutils:0
 sys-apps/util-linux:0
@@ -1968,7 +1937,6 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
-sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
