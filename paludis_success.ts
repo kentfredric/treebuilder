@@ -1,1 +1,1 @@
-+2013, 10 October, 13 Sunday, 16:39:37.238555107 565414:32857 ** ~success true task : 
++2013, 10 October, 13 Sunday, 19:03:56.394837950 568680:46867 569402:14229 ** ~success  install : dev-db/postgresql-base-9.3.1:9.3::gentoo

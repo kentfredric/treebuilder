@@ -189,7 +189,6 @@ dev-db/mysql:0
 dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
 dev-db/postgresql-base:9.2
-dev-db/postgresql-base:9.3
 dev-db/postgresql-server:9.1
 dev-db/postgresql-server:9.2
 dev-db/postgresql-server:9.3
