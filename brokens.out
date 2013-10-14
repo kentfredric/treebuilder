@@ -92,7 +92,6 @@ app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
-app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -1476,7 +1475,6 @@ media-gfx/optipng:0
 media-gfx/povray:0
 media-gfx/pstoedit:0
 media-gfx/qrencode:0
-media-gfx/sane-backends:0
 media-libs/a52dec:0
 media-libs/aalib:0
 media-libs/alsa-lib:0
@@ -1554,7 +1552,6 @@ media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
-media-libs/libprojectm:0
 media-libs/libquicktime:0
 media-libs/libquvi-scripts:0
 media-libs/libraw:0/9
@@ -1575,7 +1572,6 @@ media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
-media-libs/opencv:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
 media-libs/phonon:0
@@ -1648,7 +1644,6 @@ media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
 media-sound/projectm-jack:0
-media-sound/pulseaudio:0
 media-sound/scmpc:0
 media-sound/sox:0
 media-sound/twolame:0
@@ -1703,7 +1698,6 @@ net-libs/librpcsecgss:0
 net-libs/libssh2:0
 net-libs/libssh:0
 net-libs/libtirpc:0
-net-libs/libvncserver:0
 net-libs/neon:0/27
 net-libs/openslp:0
 net-libs/ortp:0
@@ -2061,7 +2055,6 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
 x11-libs/gtk+:2
@@ -2111,7 +2104,6 @@ x11-libs/libwnck:1
 x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
-x11-libs/motif:0
 x11-libs/pango:0
 x11-libs/pixman:0
 x11-libs/qscintilla:0
