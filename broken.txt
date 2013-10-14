@@ -623,7 +623,6 @@ dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod:0
 dev-perl/Dist-Zilla-Plugin-ReadmeFromPod:0
 dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny:0
 dev-perl/Dist-Zilla-Plugin-Repository:0
-dev-perl/Dist-Zilla-Plugin-TaskWeaver:0
 dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes:0
 dev-perl/Dist-Zilla-Plugin-Test-Compile:0
 dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
@@ -631,7 +630,6 @@ dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
-dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla-Util-Test-KENTNL:0
@@ -641,7 +639,6 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
@@ -673,18 +670,16 @@ dev-perl/File-Find-Rule-Perl:0
 dev-perl/File-Flat:0
 dev-perl/File-HomeDir:0
 dev-perl/File-Next:0
-dev-perl/File-Path-Tiny:0
 dev-perl/File-ShareDir-Install:0
 dev-perl/File-ShareDir-PathClass:0
 dev-perl/File-Spec-Native:0
 dev-perl/File-Type-WebImages:0
 dev-perl/File-Type:0
 dev-perl/File-Which:0
-dev-perl/FindBin-libs:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Fuse:0
-dev-perl/Future:0
 dev-perl/GD:0
+dev-perl/GDGraph:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group-INI:0
@@ -1468,10 +1463,10 @@ media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
+media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
-media-gfx/hugin:0
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -1503,7 +1498,6 @@ media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/ftgl:0
 media-libs/gavl:0
-media-libs/gd:2
 media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
@@ -1552,14 +1546,12 @@ media-libs/libjpeg-turbo:0
 media-libs/libmad:0
 media-libs/libmikmod:0
 media-libs/libmms:0
-media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
 media-libs/libmpeg2:0
 media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
-media-libs/libpano13:0
 media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
@@ -1609,7 +1601,6 @@ media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
-media-libs/xine-lib:1
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1672,6 +1663,7 @@ media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
+media-video/mplayer:0
 media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
@@ -1829,6 +1821,7 @@ sci-libs/mkl:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
+sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
@@ -2151,7 +2144,6 @@ x11-misc/imake:0
 x11-misc/makedepend:0
 x11-misc/notification-daemon:0
 x11-misc/obmenu:0
-x11-misc/rss-glx:0
 x11-misc/shared-mime-info:0
 x11-misc/synergy:0
 x11-misc/touchfreeze:0
@@ -2165,7 +2157,6 @@ x11-misc/xkbd:0
 x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
-x11-misc/xscreensaver:0
 x11-misc/xsel:0
 x11-plugins/docker:0
 x11-proto/bigreqsproto:0

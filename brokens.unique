@@ -91,6 +91,7 @@ app-misc/strigi:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
+app-office/akonadi-server:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
@@ -236,7 +237,6 @@ dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
-dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/apr:1
 dev-libs/atk:0
@@ -384,7 +384,6 @@ dev-perl/CPAN-ParseDistribution:0
 dev-perl/CPAN-Reporter:0
 dev-perl/CPAN-Uploader:0
 dev-perl/CPANPLUS-Dist-Gentoo:0
-dev-perl/CPS:0
 dev-perl/CSS-Packer:0
 dev-perl/Cache-Cache:0
 dev-perl/Cache-FastMmap:0
@@ -428,7 +427,6 @@ dev-perl/Catalyst-Plugin-Cache:0
 dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
 dev-perl/Catalyst-Plugin-Email:0
-dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FillInForm:0
 dev-perl/Catalyst-Plugin-FormValidator-Simple:0
 dev-perl/Catalyst-Plugin-FormValidator:0
@@ -622,7 +620,6 @@ dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod:0
 dev-perl/Dist-Zilla-Plugin-ReadmeFromPod:0
 dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny:0
 dev-perl/Dist-Zilla-Plugin-Repository:0
-dev-perl/Dist-Zilla-Plugin-TaskWeaver:0
 dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes:0
 dev-perl/Dist-Zilla-Plugin-Test-Compile:0
 dev-perl/Dist-Zilla-Plugin-Test-Kwalitee:0
@@ -630,7 +627,6 @@ dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion:0
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
-dev-perl/Dist-Zilla-PluginBundle-RJBS:0
 dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla-Util-Test-KENTNL:0
@@ -640,7 +636,6 @@ dev-perl/ElasticSearch:0
 dev-perl/Email-Abstract:0
 dev-perl/Email-Address:0
 dev-perl/Email-Date-Format:0
-dev-perl/Email-MIME-Kit:0
 dev-perl/Email-MessageID:0
 dev-perl/Email-Send:0
 dev-perl/Email-Sender:0
@@ -672,18 +667,15 @@ dev-perl/File-Find-Rule-Perl:0
 dev-perl/File-Flat:0
 dev-perl/File-HomeDir:0
 dev-perl/File-Next:0
-dev-perl/File-Path-Tiny:0
 dev-perl/File-ShareDir-Install:0
 dev-perl/File-ShareDir-PathClass:0
 dev-perl/File-Spec-Native:0
 dev-perl/File-Type-WebImages:0
 dev-perl/File-Type:0
 dev-perl/File-Which:0
-dev-perl/FindBin-libs:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Fuse:0
-dev-perl/Future:0
-dev-perl/GD:0
+dev-perl/GDGraph:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group-INI:0
@@ -746,7 +738,6 @@ dev-perl/Hash-Merge:0
 dev-perl/Hash-MoreUtils:0
 dev-perl/Hash-StoredIterator:0
 dev-perl/Hook-LexWrap:0
-dev-perl/IO-Async:0
 dev-perl/IO-CaptureOutput:0
 dev-perl/IO-HTML:0
 dev-perl/IO-Interactive:0
@@ -1069,7 +1060,6 @@ dev-perl/Task-Kensho-Async:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
-dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-ModuleDev:0
@@ -1270,7 +1260,6 @@ dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
 dev-qt/qtdeclarative:4
-dev-qt/qtgui:4
 dev-qt/qtopengl:4
 dev-qt/qtscript:4
 dev-qt/qtsql:4
@@ -1383,6 +1372,7 @@ kde-base/nepomuk-core:4
 kde-base/nepomuk-widgets:4
 kde-base/oxygen-icons:4
 kde-base/plasma-runtime:4
+kde-base/plasma-workspace:4
 kde-base/print-manager:4
 kde-base/solid-runtime:4
 kde-base/solid:4
@@ -1458,7 +1448,6 @@ media-fonts/unifont:0
 media-fonts/urw-fonts:0
 media-fonts/webby-fonts:0
 media-gfx/arss:0
-media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
@@ -1466,10 +1455,9 @@ media-gfx/fbida:0
 media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
+media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
-media-gfx/graphviz:0
-media-gfx/hugin:0
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -1477,7 +1465,6 @@ media-gfx/nvidia-cg-toolkit:0
 media-gfx/openexr_viewers:0
 media-gfx/optipng:0
 media-gfx/povray:0
-media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
 media-libs/a52dec:0
@@ -1492,7 +1479,6 @@ media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
 media-libs/cogl:1.0/11
 media-libs/ctl:0
-media-libs/devil:0
 media-libs/exempi:2
 media-libs/faac:0
 media-libs/faad2:0
@@ -1501,7 +1487,6 @@ media-libs/fontconfig:1.0
 media-libs/freeglut:0
 media-libs/ftgl:0
 media-libs/gavl:0
-media-libs/gd:2
 media-libs/gegl:0
 media-libs/giblib:0
 media-libs/giflib:0
@@ -1543,21 +1528,18 @@ media-libs/libexif:0
 media-libs/libggi:0
 media-libs/libggiwmh:0
 media-libs/libgii:0
-media-libs/libgphoto2:0/6
 media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libjpeg-turbo:0
 media-libs/libmad:0
 media-libs/libmikmod:0
 media-libs/libmms:0
-media-libs/libmng:0
 media-libs/libmodplug:0
 media-libs/libmp4v2:0
 media-libs/libmpeg2:0
 media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0
-media-libs/libpano13:0
 media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
@@ -1579,11 +1561,9 @@ media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
-media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
-media-libs/opencv:0
 media-libs/openexr_ctl:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
@@ -1607,7 +1587,6 @@ media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
-media-libs/xine-lib:1
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1670,18 +1649,17 @@ media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
+media-video/mplayer:0
 media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
-media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/iptraf-ng:0
 net-analyzer/munin:0
 net-analyzer/netcat:0
 net-analyzer/nettop:0
-net-analyzer/ntop:0
 net-analyzer/portsentry:0
 net-analyzer/rrdtool:0
 net-analyzer/slurm:0
@@ -1733,6 +1711,7 @@ net-misc/wget:0
 net-misc/wicd:0
 net-misc/youtube-dl:0
 net-nds/openldap:0
+net-p2p/ktorrent:4
 net-print/cups-filters:0
 net-print/cups:0
 net-print/foomatic-filters:0
@@ -1826,6 +1805,7 @@ sci-libs/mkl:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
+sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
@@ -2148,7 +2128,6 @@ x11-misc/imake:0
 x11-misc/makedepend:0
 x11-misc/notification-daemon:0
 x11-misc/obmenu:0
-x11-misc/rss-glx:0
 x11-misc/shared-mime-info:0
 x11-misc/synergy:0
 x11-misc/touchfreeze:0
@@ -2162,7 +2141,6 @@ x11-misc/xkbd:0
 x11-misc/xkeyboard-config:0
 x11-misc/xorg-cf-files:0
 x11-misc/xrestop:0
-x11-misc/xscreensaver:0
 x11-misc/xsel:0
 x11-plugins/docker:0
 x11-proto/bigreqsproto:0
