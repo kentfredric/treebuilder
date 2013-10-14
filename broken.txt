@@ -108,7 +108,6 @@ app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/dictd:0
-app-text/djvu:0
 app-text/docbook-dsssl-stylesheets:0
 app-text/docbook-sgml-dtd:3.0
 app-text/docbook-sgml-dtd:3.1
@@ -1467,6 +1466,7 @@ media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
+media-gfx/imagemagick:0/6.8.6.8
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -1488,7 +1488,6 @@ media-libs/clutter-gst:2.0
 media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
 media-libs/cogl:1.0/11
-media-libs/ctl:0
 media-libs/devil:0
 media-libs/exempi:2
 media-libs/faac:0
@@ -1598,7 +1597,6 @@ media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
 media-libs/urt:0
-media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
 media-plugins/frei0r-plugins:0
@@ -1659,7 +1657,6 @@ media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-sound/wavpack:0
-media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
@@ -1805,7 +1802,6 @@ perl-gcpanp/WWW-Pastebin-PhpfiCom-Retrieve:0
 perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
-sci-astronomy/celestia:0
 sci-libs/amd:0
 sci-libs/blas-atlas:0
 sci-libs/blas-reference:0

@@ -108,7 +108,6 @@ app-text/asciidoc:0
 app-text/aspell:0
 app-text/bibletime:0
 app-text/dictd:0
-app-text/djvu:0
 app-text/docbook-dsssl-stylesheets:0
 app-text/docbook-sgml-dtd:3.0
 app-text/docbook-sgml-dtd:3.1
@@ -130,7 +129,6 @@ app-text/dvipng:0
 app-text/dvipsk:0
 app-text/enchant:0
 app-text/enscript:0
-app-text/ghostscript-gpl:0
 app-text/gocr:0
 app-text/gtkspell:2
 app-text/gtkspell:3
@@ -237,6 +235,7 @@ dev-lang/tcl:0/8.6
 dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
+dev-libs/DirectFB:0
 dev-libs/apr-util:1
 dev-libs/apr:1
 dev-libs/atk:0
@@ -384,6 +383,7 @@ dev-perl/CPAN-ParseDistribution:0
 dev-perl/CPAN-Reporter:0
 dev-perl/CPAN-Uploader:0
 dev-perl/CPANPLUS-Dist-Gentoo:0
+dev-perl/CPS:0
 dev-perl/CSS-Packer:0
 dev-perl/Cache-Cache:0
 dev-perl/Cache-FastMmap:0
@@ -427,6 +427,7 @@ dev-perl/Catalyst-Plugin-Cache:0
 dev-perl/Catalyst-Plugin-Compress-Zlib:0
 dev-perl/Catalyst-Plugin-ConfigLoader:0
 dev-perl/Catalyst-Plugin-Email:0
+dev-perl/Catalyst-Plugin-ErrorCatcher:0
 dev-perl/Catalyst-Plugin-FillInForm:0
 dev-perl/Catalyst-Plugin-FormValidator-Simple:0
 dev-perl/Catalyst-Plugin-FormValidator:0
@@ -675,6 +676,7 @@ dev-perl/File-Type:0
 dev-perl/File-Which:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Fuse:0
+dev-perl/GD:0
 dev-perl/GDGraph:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
@@ -738,6 +740,7 @@ dev-perl/Hash-Merge:0
 dev-perl/Hash-MoreUtils:0
 dev-perl/Hash-StoredIterator:0
 dev-perl/Hook-LexWrap:0
+dev-perl/IO-Async:0
 dev-perl/IO-CaptureOutput:0
 dev-perl/IO-HTML:0
 dev-perl/IO-Interactive:0
@@ -1060,6 +1063,7 @@ dev-perl/Task-Kensho-Async:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
+dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-ModuleDev:0
@@ -1260,6 +1264,7 @@ dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdbus:4
 dev-qt/qtdeclarative:4
+dev-qt/qtgui:4
 dev-qt/qtopengl:4
 dev-qt/qtscript:4
 dev-qt/qtsql:4
@@ -1448,6 +1453,7 @@ media-fonts/unifont:0
 media-fonts/urw-fonts:0
 media-fonts/webby-fonts:0
 media-gfx/arss:0
+media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
@@ -1458,13 +1464,15 @@ media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
 media-gfx/gliv:0
 media-gfx/graphite2:0
+media-gfx/graphviz:0
+media-gfx/imagemagick:0/6.8.6.8
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
-media-gfx/openexr_viewers:0
 media-gfx/optipng:0
 media-gfx/povray:0
+media-gfx/pstoedit:0
 media-gfx/qrencode:0
 media-gfx/sane-backends:0
 media-libs/a52dec:0
@@ -1478,7 +1486,7 @@ media-libs/clutter-gst:2.0
 media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
 media-libs/cogl:1.0/11
-media-libs/ctl:0
+media-libs/devil:0
 media-libs/exempi:2
 media-libs/faac:0
 media-libs/faad2:0
@@ -1528,6 +1536,7 @@ media-libs/libexif:0
 media-libs/libggi:0
 media-libs/libggiwmh:0
 media-libs/libgii:0
+media-libs/libgphoto2:0/6
 media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libjpeg-turbo:0
@@ -1561,10 +1570,11 @@ media-libs/libvorbis:0
 media-libs/libvpx:0
 media-libs/libwmf:0
 media-libs/mediastreamer:0
+media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
-media-libs/openexr_ctl:0
+media-libs/opencv:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
 media-libs/phonon:0
@@ -1584,7 +1594,6 @@ media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
 media-libs/urt:0
-media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
 media-plugins/frei0r-plugins:0
@@ -1645,7 +1654,6 @@ media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-sound/wavpack:0
-media-video/dirac:0
 media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
@@ -1654,12 +1662,14 @@ media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
+media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/iptraf-ng:0
 net-analyzer/munin:0
 net-analyzer/netcat:0
 net-analyzer/nettop:0
+net-analyzer/ntop:0
 net-analyzer/portsentry:0
 net-analyzer/rrdtool:0
 net-analyzer/slurm:0
@@ -1789,7 +1799,6 @@ perl-gcpanp/WWW-Pastebin-PhpfiCom-Retrieve:0
 perl-gcpanp/WWW-Pastebin-RafbNet-Retrieve:0
 perl-gcpanp/criticism:0
 perl-gcpanp/pQuery:0
-sci-astronomy/celestia:0
 sci-libs/amd:0
 sci-libs/blas-atlas:0
 sci-libs/blas-reference:0
