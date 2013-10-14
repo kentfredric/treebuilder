@@ -1499,7 +1499,6 @@ media-libs/ftgl:0
 media-libs/gavl:0
 media-libs/gegl:0
 media-libs/giblib:0
-media-libs/giflib:0
 media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
@@ -1577,7 +1576,6 @@ media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
 media-libs/opencv:0
-media-libs/openexr_ctl:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
 media-libs/phonon:0
@@ -1808,7 +1806,6 @@ sci-libs/blas-reference:0
 sci-libs/cln:1
 sci-libs/colamd:0
 sci-libs/fftw:3.0
-sci-libs/flann:0
 sci-libs/gsl:0
 sci-libs/hdf5:0
 sci-libs/lapack-atlas:0
@@ -2064,7 +2061,6 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0

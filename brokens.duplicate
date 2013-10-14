@@ -1,3 +1,12 @@
-app-text/ghostscript-gpl:0
+dev-java/icedtea-bin:7
+dev-libs/DirectFB:0
+dev-perl/GD:0
+kde-base/kdelibs:4
+media-gfx/fbida:0
+media-gfx/fontforge:0
 media-gfx/openexr_viewers:0
-media-libs/openexr_ctl:0
+media-libs/devil:0
+media-libs/imlib2:0
+media-libs/urt:0
+media-video/mplayer:0
+sci-mathematics/pari:0
