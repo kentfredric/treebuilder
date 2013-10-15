@@ -63,6 +63,7 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/myspell-en:0
 app-dicts/wordnet:0
+app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
@@ -76,8 +77,6 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/virtualbox:0
-app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/radeontool:0
@@ -1255,6 +1254,7 @@ dev-perl/tie-encryptedhash:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
+dev-python/imaging:0
 dev-python/numpy:0
 dev-python/pycairo:0
 dev-python/pygobject:2
@@ -1470,7 +1470,6 @@ media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
-media-gfx/openexr_viewers:0
 media-gfx/optipng:0
 media-gfx/povray:0
 media-gfx/pstoedit:0
@@ -1593,6 +1592,8 @@ media-libs/tiff:0
 media-libs/urt:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
+media-libs/xine-lib:1
+media-plugins/alsa-plugins:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-resynthesizer:0
 media-plugins/gst-plugins-a52dec:0.10
@@ -1632,6 +1633,7 @@ media-plugins/gst-plugins-x264:0.10
 media-plugins/gst-plugins-x:0.10
 media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-x264:0
+media-sound/boodler:0
 media-sound/cdparanoia:0
 media-sound/jack-audio-connection-kit:0
 media-sound/japa:0
@@ -1643,6 +1645,7 @@ media-sound/mpd:0
 media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
+media-sound/pavucontrol:0
 media-sound/projectm-jack:0
 media-sound/scmpc:0
 media-sound/sox:0
@@ -1658,7 +1661,6 @@ media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
-media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/iptraf-ng:0
@@ -1711,6 +1713,7 @@ net-misc/netifrc:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
 net-misc/openssh:0
+net-misc/remmina:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/wicd:0
@@ -1994,12 +1997,13 @@ virtual/tex-base:0
 virtual/texi2dvi:0
 virtual/ttf-fonts:0
 virtual/yacc:0
+www-client/firefox:0
+www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
-www-servers/nginx:0
 www-servers/spawn-fcgi:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0
