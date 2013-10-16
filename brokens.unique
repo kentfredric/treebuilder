@@ -75,7 +75,6 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/radeontool:0
@@ -90,7 +89,6 @@ app-misc/tmux:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
-app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -355,6 +353,7 @@ dev-perl/B-Hooks-EndOfScope:0
 dev-perl/B-Hooks-OP-Annotation:0
 dev-perl/B-Hooks-OP-Check-EntersubForCV:0
 dev-perl/BZ-Client:0
+dev-perl/BackPAN-Index:0
 dev-perl/Beanstalk-Client:0
 dev-perl/BerkeleyDB-Manager:0
 dev-perl/BerkeleyDB:0
@@ -402,6 +401,7 @@ dev-perl/Catalyst-Action-RenderView:0
 dev-perl/Catalyst-ActionRole-ACL:0
 dev-perl/Catalyst-Authentication-Credential-HTTP:0
 dev-perl/Catalyst-Authentication-Credential-RPX:0
+dev-perl/Catalyst-Authentication-Store-DBIx-Class:0
 dev-perl/Catalyst-Authentication-Store-LDAP:0
 dev-perl/Catalyst-Component-InstancePerContext:0
 dev-perl/Catalyst-Controller-ActionRole:0
@@ -414,6 +414,7 @@ dev-perl/Catalyst-Engine-HTTP-Prefork:0
 dev-perl/Catalyst-Log-Log4perl:0
 dev-perl/Catalyst-Manual:0
 dev-perl/Catalyst-Model-DBI:0
+dev-perl/Catalyst-Model-DBIC-Schema:0
 dev-perl/Catalyst-Model-File:0
 dev-perl/Catalyst-Model-KiokuDB:0
 dev-perl/Catalyst-Model-LDAP:0
@@ -440,6 +441,7 @@ dev-perl/Catalyst-Plugin-Session-State-URI:0
 dev-perl/Catalyst-Plugin-Session-Store-BerkeleyDB:0
 dev-perl/Catalyst-Plugin-Session-Store-Cache:0
 dev-perl/Catalyst-Plugin-Session-Store-DBI:0
+dev-perl/Catalyst-Plugin-Session-Store-DBIC:0
 dev-perl/Catalyst-Plugin-Session-Store-Delegate:0
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap:0
 dev-perl/Catalyst-Plugin-Session-Store-Memcached:0
@@ -509,8 +511,20 @@ dev-perl/DBD-CSV:0
 dev-perl/DBD-Pg:0
 dev-perl/DBD-mysql:0
 dev-perl/DBI:0
+dev-perl/DBICx-TestDatabase:0
+dev-perl/DBIx-Class-Cursor-Cached:0
+dev-perl/DBIx-Class-DateTime-Epoch:0
+dev-perl/DBIx-Class-DigestColumns:0
 dev-perl/DBIx-Class-DynamicDefault:0
+dev-perl/DBIx-Class-EncodedColumn:0
 dev-perl/DBIx-Class-IntrospectableM2M:0
+dev-perl/DBIx-Class-Loader:0
+dev-perl/DBIx-Class-QueryLog:0
+dev-perl/DBIx-Class-Schema-Loader:0
+dev-perl/DBIx-Class-TimeStamp:0
+dev-perl/DBIx-Class-Tree:0
+dev-perl/DBIx-Class-UUIDColumns:0
+dev-perl/DBIx-Class-Validation:0
 dev-perl/DBIx-Connector:0
 dev-perl/DBIx-ContextualFetch:0
 dev-perl/DBIx-Simple:0
@@ -691,6 +705,7 @@ dev-perl/Gtk2-Ex-PodViewer:0
 dev-perl/Gtk3:0
 dev-perl/HTML-FillInForm:0
 dev-perl/HTML-Form:0
+dev-perl/HTML-FormFu-Model-DBIC:0
 dev-perl/HTML-FormFu:0
 dev-perl/HTML-FormHandler:0
 dev-perl/HTML-GenToc:0
@@ -717,6 +732,7 @@ dev-perl/HTTP-Response-Encoding:0
 dev-perl/HTTP-Server-Simple-PSGI:0
 dev-perl/HTTP-Server-Simple:0
 dev-perl/HTTP-Tiny-Mech:0
+dev-perl/Handel:0
 dev-perl/Hash-FieldHash:0
 dev-perl/Hash-Merge-Simple:0
 dev-perl/Hash-Merge:0
@@ -750,6 +766,7 @@ dev-perl/Jcode:0
 dev-perl/Jemplate:0
 dev-perl/KinoSearch1:0
 dev-perl/KinoSearch:0
+dev-perl/KiokuDB-Backend-DBI:0
 dev-perl/KiokuDB:0
 dev-perl/KiokuX-User:0
 dev-perl/LWP-Authen-Wsse:0
@@ -811,6 +828,7 @@ dev-perl/Module-ScanDeps:0
 dev-perl/Module-Signature:0
 dev-perl/Module-Starter:0
 dev-perl/Module-Util:0
+dev-perl/MojoMojo:0
 dev-perl/Mojolicious-Plugin-Authentication:0
 dev-perl/Mojolicious-Plugin-Database:0
 dev-perl/Mojolicious:0
@@ -1040,6 +1058,8 @@ dev-perl/System-Command:0
 dev-perl/TAP-SimpleOutput:0
 dev-perl/Taint-Util:0
 dev-perl/Task-Kensho-Async:0
+dev-perl/Task-Kensho-CLI:0
+dev-perl/Task-Kensho-DBDev:0
 dev-perl/Task-Kensho-Dates:0
 dev-perl/Task-Kensho-Email:0
 dev-perl/Task-Kensho-Exceptions:0
@@ -1537,7 +1557,6 @@ media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
-media-libs/opencv:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
 media-libs/phonon:0
@@ -1575,7 +1594,6 @@ media-plugins/gst-plugins-jpeg:1.0
 media-plugins/gst-plugins-lame:0.10
 media-plugins/gst-plugins-libmms:0.10
 media-plugins/gst-plugins-mad:0.10
-media-plugins/gst-plugins-meta:0.10
 media-plugins/gst-plugins-mpeg2dec:0.10
 media-plugins/gst-plugins-mplex:0.10
 media-plugins/gst-plugins-musepack:0.10
@@ -1657,7 +1675,6 @@ net-libs/libtirpc:0
 net-libs/neon:0/27
 net-libs/openslp:0
 net-libs/ortp:0
-net-libs/webkit-gtk:2
 net-misc/aria2:0
 net-misc/curl:0
 net-misc/iputils:0

@@ -75,6 +75,7 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
+app-emulation/wine:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/radeontool:0
@@ -89,6 +90,7 @@ app-misc/tmux:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
+app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
@@ -515,7 +517,9 @@ dev-perl/DBICx-TestDatabase:0
 dev-perl/DBIx-Class-Cursor-Cached:0
 dev-perl/DBIx-Class-DateTime-Epoch:0
 dev-perl/DBIx-Class-DigestColumns:0
+dev-perl/DBIx-Class-DynamicDefault:0
 dev-perl/DBIx-Class-EncodedColumn:0
+dev-perl/DBIx-Class-IntrospectableM2M:0
 dev-perl/DBIx-Class-Loader:0
 dev-perl/DBIx-Class-QueryLog:0
 dev-perl/DBIx-Class-Schema-Loader:0
@@ -1563,6 +1567,7 @@ media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
 media-libs/openal:0
+media-libs/opencv:0
 media-libs/openjpeg:0
 media-libs/phonon-gstreamer:0
 media-libs/phonon:0
@@ -1604,6 +1609,7 @@ media-plugins/gst-plugins-jpeg:1.0
 media-plugins/gst-plugins-lame:0.10
 media-plugins/gst-plugins-libmms:0.10
 media-plugins/gst-plugins-mad:0.10
+media-plugins/gst-plugins-meta:0.10
 media-plugins/gst-plugins-mpeg2dec:0.10
 media-plugins/gst-plugins-mplex:0.10
 media-plugins/gst-plugins-musepack:0.10
@@ -1693,6 +1699,7 @@ net-libs/libtirpc:0
 net-libs/neon:0/27
 net-libs/openslp:0
 net-libs/ortp:0
+net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
 net-misc/aria2:0
 net-misc/curl:0
