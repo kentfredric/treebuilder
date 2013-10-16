@@ -42,7 +42,6 @@ app-arch/pbzip2:0
 app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
-app-arch/tar:0
 app-arch/unshield:0
 app-arch/unzip:0
 app-arch/xz-utils:0
@@ -63,7 +62,6 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/myspell-en:0
 app-dicts/wordnet:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
@@ -77,8 +75,6 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/virtualbox-additions:0
-app-emulation/virtualbox-modules:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/radeontool:0
@@ -89,20 +85,22 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
-app-misc/vifm:0
+app-misc/tmux:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
+app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
 app-portage/layman:0
+app-portage/metagen:0
 app-portage/perl-info:0
+app-shells/bash-completion:0
 app-shells/bash:0
 app-shells/dash:0
 app-shells/gentoo-bashcomp:0
-app-shells/zsh:0
 app-text/ansifilter:0
 app-text/asciidoc:0
 app-text/aspell:0
@@ -151,6 +149,7 @@ app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
 app-text/texlive-core:0
+app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
@@ -1315,8 +1314,8 @@ dev-util/strace:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
 dev-vcs/mercurial:0
+dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
@@ -1460,7 +1459,6 @@ media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
-media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
@@ -1663,6 +1661,7 @@ media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
+media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/iptraf-ng:0
@@ -1675,7 +1674,6 @@ net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
-net-analyzer/wireshark:0/1.10.2
 net-dialup/ppp:0
 net-dns/avahi:0
 net-dns/bind-tools:0
@@ -1898,7 +1896,6 @@ sys-devel/gcc:4.7
 sys-devel/gcc:4.8
 sys-devel/gettext:0
 sys-devel/make:0
-sys-devel/patch:0
 sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/cryptsetup:0
@@ -1922,6 +1919,7 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
+sys-fs/zfs:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3

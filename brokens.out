@@ -42,7 +42,6 @@ app-arch/pbzip2:0
 app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
-app-arch/tar:0
 app-arch/unshield:0
 app-arch/unzip:0
 app-arch/xz-utils:0
@@ -63,7 +62,6 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/myspell-en:0
 app-dicts/wordnet:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
@@ -87,7 +85,6 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
-app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
@@ -100,7 +97,6 @@ app-portage/perl-info:0
 app-shells/bash:0
 app-shells/dash:0
 app-shells/gentoo-bashcomp:0
-app-shells/zsh:0
 app-text/ansifilter:0
 app-text/asciidoc:0
 app-text/aspell:0
@@ -1313,7 +1309,6 @@ dev-util/strace:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/subversion:0
 games-emulation/dosbox:0
@@ -1458,7 +1453,6 @@ media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
-media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
@@ -1673,7 +1667,6 @@ net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
-net-analyzer/wireshark:0/1.10.2
 net-dialup/ppp:0
 net-dns/avahi:0
 net-dns/bind-tools:0
@@ -1896,7 +1889,6 @@ sys-devel/gcc:4.7
 sys-devel/gcc:4.8
 sys-devel/gettext:0
 sys-devel/make:0
-sys-devel/patch:0
 sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/cryptsetup:0

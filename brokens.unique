@@ -28,7 +28,6 @@ app-admin/eselect-xvmc:0
 app-admin/haskell-updater:0
 app-admin/openrc-settingsd:0
 app-admin/perl-cleaner:0
-app-admin/python-updater:0
 app-admin/syslog-ng:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
@@ -42,7 +41,6 @@ app-arch/pbzip2:0
 app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
-app-arch/tar:0
 app-arch/unshield:0
 app-arch/unzip:0
 app-arch/xz-utils:0
@@ -63,7 +61,6 @@ app-crypt/shash:0
 app-crypt/stan:0
 app-dicts/myspell-en:0
 app-dicts/wordnet:0
-app-editors/gvim:0
 app-editors/nano:0
 app-editors/padre:0
 app-editors/scite:0
@@ -77,8 +74,6 @@ app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-sdl:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/virtualbox-additions:0
-app-emulation/virtualbox-modules:0
 app-i18n/ibus:0
 app-laptop/i8kutils:0
 app-laptop/radeontool:0
@@ -89,20 +84,21 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
-app-misc/vifm:0
+app-misc/tmux:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
+app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
-app-portage/layman:0
+app-portage/metagen:0
 app-portage/perl-info:0
+app-shells/bash-completion:0
 app-shells/bash:0
 app-shells/dash:0
 app-shells/gentoo-bashcomp:0
-app-shells/zsh:0
 app-text/ansifilter:0
 app-text/asciidoc:0
 app-text/aspell:0
@@ -151,26 +147,10 @@ app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
 app-text/texlive-core:0
+app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
-app-vim/closetag:0
-app-vim/colorschemes:0
-app-vim/dhcpd-syntax:0
-app-vim/eselect-syntax:0
-app-vim/fugitive:0
-app-vim/gentoo-syntax:0
-app-vim/gitv:0
-app-vim/gtk-syntax:0
-app-vim/nerdtree:0
-app-vim/nginx-syntax:0
-app-vim/ntp-syntax:0
-app-vim/pam-syntax:0
-app-vim/perl-support:0
-app-vim/taglist:0
-app-vim/tt2-syntax:0
-app-vim/vim-spell-en:0
-app-vim/vimbuddy:0
 dev-cpp/atkmm:0
 dev-cpp/cairomm:0
 dev-cpp/clucene:1
@@ -695,7 +675,6 @@ dev-perl/Getopt-Usaginator:0
 dev-perl/Git-CPAN-Patch:0
 dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository:0
-dev-perl/Git-Wrapper:0
 dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
 dev-perl/Graph:0
@@ -1292,7 +1271,6 @@ dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/boost-build:0
-dev-util/cmake:0
 dev-util/cmockery:0
 dev-util/cppunit:0
 dev-util/cscope:0
@@ -1303,7 +1281,6 @@ dev-util/dialog:0
 dev-util/glade:3
 dev-util/glade:3.10
 dev-util/gtk-doc-am:0
-dev-util/gtk-doc:0
 dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
@@ -1315,8 +1292,7 @@ dev-util/strace:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvsps:0
-dev-vcs/git:0
-dev-vcs/mercurial:0
+dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
@@ -1345,7 +1321,6 @@ gnome-extra/libgda:5
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
-kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
 kde-base/kate:4
@@ -1460,7 +1435,6 @@ media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
-media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
@@ -1655,6 +1629,7 @@ media-sound/twolame:0
 media-sound/ventrilo-server-bin:0
 media-sound/vorbis-tools:0
 media-sound/wavpack:0
+media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mplayer:0
@@ -1662,6 +1637,7 @@ media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
+media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/iptraf-ng:0
@@ -1674,7 +1650,6 @@ net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
-net-analyzer/wireshark:0/1.10.2
 net-dialup/ppp:0
 net-dns/avahi:0
 net-dns/bind-tools:0
@@ -1683,7 +1658,6 @@ net-dns/idnkit:0
 net-dns/libidn:0
 net-fs/cifs-utils:0
 net-fs/samba:0
-net-im/psi:0
 net-im/psimedia:0
 net-im/qwit:0
 net-im/skype:0
@@ -1846,7 +1820,6 @@ sys-apps/net-tools:0
 sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
-sys-apps/portage:0
 sys-apps/sandbox:0
 sys-apps/sdparm:0
 sys-apps/sed:0
@@ -1895,9 +1868,7 @@ sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
 sys-devel/gcc:4.8
-sys-devel/gettext:0
 sys-devel/make:0
-sys-devel/patch:0
 sys-devel/prelink:0
 sys-devel/qconf:0
 sys-fs/cryptsetup:0
@@ -1921,6 +1892,7 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
+sys-fs/zfs:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3
@@ -1960,7 +1932,6 @@ sys-process/time:0
 virtual/awk:0
 virtual/cron:0
 virtual/dev-manager:0
-virtual/editor:0
 virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
@@ -1969,7 +1940,6 @@ virtual/krb5:0
 virtual/latex-base:0
 virtual/libc:0
 virtual/libintl:0
-virtual/linux-sources:0
 virtual/logger:0
 virtual/mysql:0
 virtual/notification-daemon:0
