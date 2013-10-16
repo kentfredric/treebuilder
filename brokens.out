@@ -85,15 +85,19 @@ app-misc/geoclue:0
 app-misc/note:0
 app-misc/pax-utils:0
 app-misc/strigi:0
+app-misc/tmux:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
 app-office/akonadi-server:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
+app-portage/gentoolkit-dev:0
 app-portage/gentoolkit:0
 app-portage/layman:0
+app-portage/metagen:0
 app-portage/perl-info:0
+app-shells/bash-completion:0
 app-shells/bash:0
 app-shells/dash:0
 app-shells/gentoo-bashcomp:0
@@ -145,6 +149,7 @@ app-text/sword:0
 app-text/t1utils:0
 app-text/teckit:0
 app-text/texlive-core:0
+app-text/wgetpaste:0
 app-text/xdvipdfmx:0
 app-text/xmlto:0
 app-text/yelp-tools:0
@@ -212,7 +217,6 @@ dev-java/swt:4.2
 dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
-dev-lang/nqp:0
 dev-lang/perl:0/5.16
 dev-lang/php:5.3
 dev-lang/php:5.4
@@ -221,7 +225,6 @@ dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.2
 dev-lang/python:3.3
-dev-lang/rakudo:0
 dev-lang/ruby:1.9
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
@@ -520,7 +523,6 @@ dev-perl/DBIx-Class-TimeStamp:0
 dev-perl/DBIx-Class-Tree:0
 dev-perl/DBIx-Class-UUIDColumns:0
 dev-perl/DBIx-Class-Validation:0
-dev-perl/DBIx-Class:0
 dev-perl/DBIx-Connector:0
 dev-perl/DBIx-ContextualFetch:0
 dev-perl/DBIx-Simple:0
@@ -1053,7 +1055,6 @@ dev-perl/Syntax-Keyword-Junction:0
 dev-perl/System-Command:0
 dev-perl/TAP-SimpleOutput:0
 dev-perl/Taint-Util:0
-dev-perl/Task-Catalyst:0
 dev-perl/Task-Kensho-Async:0
 dev-perl/Task-Kensho-CLI:0
 dev-perl/Task-Kensho-DBDev:0
@@ -1306,10 +1307,10 @@ dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
 dev-util/strace:0
-dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvsps:0
 dev-vcs/mercurial:0
+dev-vcs/qgit:2
 dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
@@ -1389,7 +1390,6 @@ kde-misc/kshutdown:4
 kde-misc/ksplasher:4
 kde-misc/ktrafficanalyzer:4
 kde-misc/smooth-tasks:4
-kde-misc/wacomtablet:4
 mail-client/mailx:0
 mail-mta/ssmtp:0
 media-fonts/corefonts:0
@@ -1462,7 +1462,6 @@ media-gfx/graphviz:0
 media-gfx/imagemagick:0/6.8.6.8
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
-media-gfx/luminance-hdr:0
 media-gfx/nvidia-cg-toolkit:0
 media-gfx/optipng:0
 media-gfx/povray:0
@@ -1494,7 +1493,6 @@ media-libs/glew:0
 media-libs/gst-plugins-bad:0.10
 media-libs/gst-plugins-bad:1.0
 media-libs/gst-plugins-base:0.10
-media-libs/gst-plugins-base:1.0
 media-libs/gst-plugins-good:0.10
 media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
@@ -1655,10 +1653,10 @@ media-video/rtmpdump:0
 media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
+media-video/xine-ui:0
 media-video/xvid4conf:0
 net-analyzer/arping:2
 net-analyzer/iptraf-ng:0
-net-analyzer/munin:0
 net-analyzer/netcat:0
 net-analyzer/nettop:0
 net-analyzer/ntop:0
@@ -1669,7 +1667,6 @@ net-analyzer/tleds:0
 net-analyzer/traceroute:0
 net-dialup/ppp:0
 net-dns/avahi:0
-net-dns/bind-tools:0
 net-dns/dnsmasq:0
 net-dns/idnkit:0
 net-dns/libidn:0
@@ -1710,7 +1707,6 @@ net-misc/remmina:0
 net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/wicd:0
-net-misc/youtube-dl:0
 net-nds/openldap:0
 net-p2p/ktorrent:4
 net-print/cups-filters:0
@@ -1806,7 +1802,6 @@ sci-libs/umfpack:0
 sci-mathematics/pari:0
 sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
-sys-apps/ack:0
 sys-apps/acl:0
 sys-apps/attr:0
 sys-apps/biosdevname:0
@@ -1833,7 +1828,6 @@ sys-apps/man-pages-posix:0
 sys-apps/man:0
 sys-apps/microcode-data:0
 sys-apps/miscfiles:0
-sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/paludis:0
 sys-apps/paxctl:0
@@ -1912,6 +1906,7 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
+sys-fs/zfs:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3

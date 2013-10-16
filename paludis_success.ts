@@ -1,1 +1,1 @@
-+2013, 10 October, 17 Thursday, 09:19:25.781385881 849559:763189 ** ~success true task : 
++2013, 10 October, 17 Thursday, 12:24:20.215612107 193688:269190 215599:37949 ** ~success  install : media-libs/gst-plugins-base-1.2.0:1.0::gentoo
