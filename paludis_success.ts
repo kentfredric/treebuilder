@@ -1,1 +1,1 @@
-+2013, 10 October, 18 Friday, 01:16:59.188267864 954328:311240 160335:2443 ** ~success  install : app-portage/gentoolkit-dev-9999:0::gentoo
++2013, 10 October, 18 Friday, 03:19:57.970834530 417973:11955 ** ~success  sync : gentoo
