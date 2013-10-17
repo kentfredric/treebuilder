@@ -1,1 +1,1 @@
-+2013, 10 October, 18 Friday, 00:01:36.432229588 950936:2271 ** ~success true task : 
++2013, 10 October, 18 Friday, 01:16:59.188267864 954328:311240 160335:2443 ** ~success  install : app-portage/gentoolkit-dev-9999:0::gentoo
