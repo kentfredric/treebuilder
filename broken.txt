@@ -1259,7 +1259,6 @@ dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/PyQt4:0
-dev-python/imaging:0
 dev-python/numpy:0
 dev-python/pycairo:0
 dev-python/pygobject:2
@@ -1326,7 +1325,6 @@ dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/openmsx:0
 games-util/grfcodec:0
-games-util/nml:0
 gnome-base/dconf:0
 gnome-base/gconf:2
 gnome-base/gnome-keyring:0
@@ -1394,7 +1392,6 @@ kde-misc/kdesudo:4
 kde-misc/kdiff3:4
 kde-misc/kim4:4
 kde-misc/kshutdown:4
-kde-misc/ksplasher:4
 kde-misc/ktrafficanalyzer:4
 kde-misc/smooth-tasks:4
 kde-misc/wacomtablet:4
