@@ -1733,7 +1733,6 @@ net-print/foomatic-filters:0
 net-proxy/dante:0
 net-wireless/bluez:0
 net-wireless/crda:0
-net-wireless/rtl8192su-firmware:0
 net-wireless/wireless-tools:0
 net-wireless/wpa_supplicant:0
 perl-core/Archive-Extract:0
