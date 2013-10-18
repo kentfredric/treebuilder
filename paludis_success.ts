@@ -1,1 +1,1 @@
-+2013, 10 October, 18 Friday, 03:19:57.970834530 417973:11955 ** ~success  sync : gentoo
++2013, 10 October, 19 Saturday, 03:18:53.204936545 118325:11133 ** ~success  sync : gentoo
