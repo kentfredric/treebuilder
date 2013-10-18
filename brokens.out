@@ -30,6 +30,7 @@ app-admin/hddtemp:0
 app-admin/openrc-settingsd:0
 app-admin/perl-cleaner:0
 app-admin/python-updater:0
+app-admin/sudo:0
 app-admin/sysstat:0
 app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
@@ -66,6 +67,7 @@ app-dicts/myspell-en:0
 app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/gvim:0
+app-editors/padre:0
 app-editors/scite:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
@@ -138,6 +140,7 @@ app-text/ghostscript-gpl:0
 app-text/gnome-doc-utils:0
 app-text/gocr:0
 app-text/gtkspell:3
+app-text/gv:0
 app-text/htmltidy:0
 app-text/hunspell:0
 app-text/iso-codes:0
@@ -188,6 +191,7 @@ dev-cpp/pangomm:1.4
 dev-db/libiodbc:0
 dev-db/mysql:0
 dev-db/pgadmin3:0
+dev-db/postgresql-base:9.0
 dev-db/postgresql-base:9.1
 dev-db/postgresql-base:9.2
 dev-db/postgresql-base:9.3
@@ -220,11 +224,11 @@ dev-java/swt:4.2
 dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
+dev-lang/orc:0
 dev-lang/parrot:0
 dev-lang/perl:0/5.16
 dev-lang/php:5.3
 dev-lang/php:5.4
-dev-lang/php:5.5
 dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.2
@@ -267,6 +271,8 @@ dev-libs/kpathsea:0
 dev-libs/libatasmart:0
 dev-libs/libattica:0
 dev-libs/libcdio:0
+dev-libs/libconfig:0
+dev-libs/libcroco:0.6
 dev-libs/libedit:0
 dev-libs/libev:0
 dev-libs/libf2c:0
@@ -320,6 +326,7 @@ dev-libs/zziplib:0
 dev-perl/Acme-Damn:0
 dev-perl/Adam:0
 dev-perl/Algorithm-C3:0
+dev-perl/Algorithm-FloodControl:0
 dev-perl/Alien-wxWidgets:0
 dev-perl/Amazon-S3:0
 dev-perl/Any-URI-Escape:0
@@ -346,10 +353,12 @@ dev-perl/B-Hooks-EndOfScope:0
 dev-perl/B-Hooks-OP-Annotation:0
 dev-perl/B-Hooks-OP-Check-EntersubForCV:0
 dev-perl/BZ-Client:0
+dev-perl/BackPAN-Index:0
 dev-perl/BerkeleyDB-Manager:0
 dev-perl/BerkeleyDB:0
 dev-perl/Best:0
 dev-perl/Bit-Vector:0
+dev-perl/Bundle-CPAN:0
 dev-perl/Business-CreditCard:0
 dev-perl/Business-Tax-VAT-Validation:0
 dev-perl/CGI-Application-Dispatch:0
@@ -382,6 +391,7 @@ dev-perl/Capture-Tiny:0
 dev-perl/Carp-Always:0
 dev-perl/Carp-Assert-More:0
 dev-perl/Carp-REPL:0
+dev-perl/Catalyst-Action-REST:0
 dev-perl/Catalyst-Authentication-Credential-HTTP:0
 dev-perl/Catalyst-Authentication-Credential-RPX:0
 dev-perl/Catalyst-Authentication-Store-DBIx-Class:0
@@ -394,6 +404,7 @@ dev-perl/Catalyst-Devel:0
 dev-perl/Catalyst-DispatchType-Regex:0
 dev-perl/Catalyst-Engine-Apache:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
+dev-perl/Catalyst-Engine-PSGI:0
 dev-perl/Catalyst-Log-Log4perl:0
 dev-perl/Catalyst-Manual:0
 dev-perl/Catalyst-Model-DBI:0
@@ -513,6 +524,7 @@ dev-perl/Dancer:2
 dev-perl/Data-Clone:0
 dev-perl/Data-Compare:0
 dev-perl/Data-Couplet:0
+dev-perl/Data-Currency:0
 dev-perl/Data-Dump-Streamer:0
 dev-perl/Data-Dumper-Names:0
 dev-perl/Data-Entropy:0
@@ -539,17 +551,20 @@ dev-perl/DateTime-Event-Recurrence:0
 dev-perl/DateTime-Format-Builder:0
 dev-perl/DateTime-Format-DateManip:0
 dev-perl/DateTime-Format-DateParse:0
+dev-perl/DateTime-Format-Duration:0
 dev-perl/DateTime-Format-Epoch:0
 dev-perl/DateTime-Format-Excel:0
 dev-perl/DateTime-Format-Flexible:0
 dev-perl/DateTime-Format-HTTP:0
 dev-perl/DateTime-Format-ICal:0
 dev-perl/DateTime-Format-ISO8601:0
+dev-perl/DateTime-Format-Mail:0
 dev-perl/DateTime-Format-MySQL:0
 dev-perl/DateTime-Format-Natural:0
 dev-perl/DateTime-Format-Pg:0
 dev-perl/DateTime-Format-Strptime:0
 dev-perl/DateTime-Locale:0
+dev-perl/DateTime-Set:0
 dev-perl/DateTime-TimeZone-Tzfile:0
 dev-perl/DateTime-TimeZone:0
 dev-perl/DateTime:0
@@ -560,6 +575,7 @@ dev-perl/Devel-Cover:0
 dev-perl/Devel-Dumpvar:0
 dev-perl/Devel-GlobalDestruction:0
 dev-perl/Devel-Leak-Object:0
+dev-perl/Devel-NYTProf:0
 dev-perl/Devel-PartialDump:0
 dev-perl/Devel-Pragma:0
 dev-perl/Devel-REPL:0
@@ -604,6 +620,7 @@ dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic:0
 dev-perl/Dist-Zilla-Plugin-Twitter:0
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
 dev-perl/Dist-Zilla-PluginBundle-RJBS:0
+dev-perl/Dist-Zilla-Role-Tempdir:0
 dev-perl/Dist-Zilla-Util-EmulatePhase:0
 dev-perl/Dist-Zilla-Util-Test-KENTNL:0
 dev-perl/Dist-Zilla:0
@@ -640,8 +657,11 @@ dev-perl/Fennec:0
 dev-perl/File-ChangeNotify:0
 dev-perl/File-DesktopEntry:0
 dev-perl/File-Find-Rule-Perl:0
+dev-perl/File-Find-Rule:0
 dev-perl/File-Flat:0
 dev-perl/File-HomeDir:0
+dev-perl/File-Listing:0
+dev-perl/File-MimeInfo:0
 dev-perl/File-Next:0
 dev-perl/File-ShareDir-Install:0
 dev-perl/File-ShareDir-PathClass:0
@@ -652,7 +672,11 @@ dev-perl/File-Which:0
 dev-perl/Finance-Currency-Convert-WebserviceX:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Fuse:0
+dev-perl/GD-Barcode:0
 dev-perl/GD-Graph3d:0
+dev-perl/GD-SVG:0
+dev-perl/GDGraph:0
+dev-perl/GDTextUtil:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
 dev-perl/Gentoo-Overlay-Group-INI:0
@@ -668,6 +692,7 @@ dev-perl/Git-CPAN-Patch:0
 dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository:0
 dev-perl/Git-Wrapper:0
+dev-perl/Gitalist:0
 dev-perl/Glib-Object-Introspection:0
 dev-perl/Graph:0
 dev-perl/GraphViz:0
@@ -683,6 +708,7 @@ dev-perl/HTML-FormFu:0
 dev-perl/HTML-FormHandler:0
 dev-perl/HTML-GenToc:0
 dev-perl/HTML-LinkList:0
+dev-perl/HTML-Mason:0
 dev-perl/HTML-Scrubber:0
 dev-perl/HTML-Selector-XPath:0
 dev-perl/HTML-SimpleParse:0
@@ -726,6 +752,7 @@ dev-perl/IRC-Utils:0
 dev-perl/Ima-DBI:0
 dev-perl/Imager:0
 dev-perl/Inline:0
+dev-perl/JSON-Any:0
 dev-perl/JavaScript-Minifier-XS:0
 dev-perl/JavaScript-Packer:0
 dev-perl/JavaScript-SpiderMonkey:0
@@ -862,6 +889,7 @@ dev-perl/Net-Amazon-S3:0
 dev-perl/Net-Amazon:0
 dev-perl/Net-Delicious:0
 dev-perl/Net-Google-AuthSub:0
+dev-perl/Net-Google-DataAPI:0
 dev-perl/Net-IP-Minimal:0
 dev-perl/Net-LDAP-Server-Test:0
 dev-perl/Net-LDAP-Server:0
@@ -909,8 +937,10 @@ dev-perl/Parallel-ForkManager:0
 dev-perl/Parallel-Iterator:0
 dev-perl/Params-Classify:0
 dev-perl/Params-Util:0
+dev-perl/Parse-BACKPAN-Packages:0
 dev-perl/Parse-CPAN-Distributions:0
 dev-perl/Parse-CPAN-Packages:0
+dev-perl/Parse-ErrorString-Perl:0
 dev-perl/Parse-Method-Signatures:0
 dev-perl/Parse-RecDescent:0
 dev-perl/Path-Abstract:0
@@ -938,6 +968,7 @@ dev-perl/Pod-Elemental-Transformer-List:0
 dev-perl/Pod-Elemental-Transformer-WikiDoc:0
 dev-perl/Pod-Elemental:0
 dev-perl/Pod-Markdown:0
+dev-perl/Pod-POM:0
 dev-perl/Pod-ProjectDocs:0
 dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Spell:0
@@ -972,6 +1003,7 @@ dev-perl/Software-License:0
 dev-perl/Spark-Form:0
 dev-perl/Spreadsheet-ParseExcel:0
 dev-perl/Spreadsheet-WriteExcel:0
+dev-perl/Starman:0
 dev-perl/Statistics-Descriptive:0
 dev-perl/String-Diff:0
 dev-perl/String-Flogger:0
@@ -1010,10 +1042,12 @@ dev-perl/Task-Moose:0
 dev-perl/Task-Spark-Form:0
 dev-perl/Tee:0
 dev-perl/Template-Alloy:0
+dev-perl/Template-GD:0
 dev-perl/Template-Latex:0
 dev-perl/Template-Plugin-UTF8Decode:0
 dev-perl/Template-Provider-Encoding:0
 dev-perl/Template-Timer:0
+dev-perl/Template-Toolkit:0
 dev-perl/Template-XML:0
 dev-perl/Tenjin:0
 dev-perl/Term-ProgressBar:0
@@ -1100,6 +1134,7 @@ dev-perl/VCI:0
 dev-perl/Version-Next:0
 dev-perl/WWW-Curl:0
 dev-perl/WWW-Facebook-API:0
+dev-perl/WWW-Mechanize-Cached:0
 dev-perl/WWW-Mechanize:0
 dev-perl/WWW-Pastebin-PastebinCom-Create:0
 dev-perl/WWW-Search:0
@@ -1160,10 +1195,12 @@ dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
 dev-python/PyQt4:0
+dev-python/dbus-python:0
 dev-python/numpy:0
 dev-python/pycairo:0
 dev-python/pygobject:3
 dev-python/pygtk:2
+dev-python/pygtksourceview:2
 dev-qt/qt3support:4
 dev-qt/qtcore:4
 dev-qt/qtdeclarative:4
@@ -1172,6 +1209,7 @@ dev-qt/qtopengl:4
 dev-qt/qtsql:4
 dev-qt/qtsvg:4
 dev-qt/qttest:4
+dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-ruby/json:0
 dev-ruby/rdoc:0
@@ -1225,6 +1263,7 @@ games-misc/bsd-games:0
 games-misc/openmsx:0
 games-util/grfcodec:0
 gnome-base/dconf:0
+gnome-base/gconf:2
 gnome-base/gnome-keyring:0
 gnome-base/gnome-mime-data:0
 gnome-base/gnome-vfs:2
@@ -1244,6 +1283,7 @@ gnome-extra/libgsf:0/114
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
+kde-base/dolphin-plugins:4
 kde-base/dolphin:4
 kde-base/kactivities:4
 kde-base/kate:4
@@ -1265,6 +1305,7 @@ kde-base/khelpcenter:4
 kde-base/knotify:4
 kde-base/kompare:4
 kde-base/konqueror:4
+kde-base/konsole:4
 kde-base/krdc:4
 kde-base/krosspython:4
 kde-base/libkonq:4
@@ -1294,7 +1335,9 @@ kde-misc/smooth-tasks:4
 kde-misc/wacomtablet:4
 mail-client/mailx:0
 mail-mta/ssmtp:0
+media-fonts/cantarell:0
 media-fonts/corefonts:0
+media-fonts/dejavu:0
 media-fonts/encodings:0
 media-fonts/font-adobe-100dpi:0
 media-fonts/font-adobe-75dpi:0
@@ -1339,6 +1382,7 @@ media-gfx/ebdftopcf:0
 media-gfx/enblend:0
 media-gfx/exiv2:0
 media-gfx/fbida:0
+media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
@@ -1359,6 +1403,7 @@ media-libs/alsa-lib:0
 media-libs/asio-sdk:0
 media-libs/audiofile:0/1
 media-libs/babl:0
+media-libs/clutter-gst:2.0
 media-libs/clutter-gtk:1.0
 media-libs/clutter:1.0
 media-libs/cogl:1.0/11
@@ -1422,6 +1467,7 @@ media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libprojectm-qt:0
+media-libs/libprojectm:0
 media-libs/libquicktime:0
 media-libs/libquvi-scripts:0
 media-libs/libraw:0/9
@@ -1502,6 +1548,7 @@ media-plugins/gst-plugins-wavpack:0.10
 media-plugins/gst-plugins-x:0.10
 media-plugins/gst-plugins-xvideo:0.10
 media-plugins/mediastreamer-x264:0
+media-sound/baudline:0
 media-sound/boodler:0
 media-sound/cdparanoia:0
 media-sound/jack-audio-connection-kit:0
@@ -1532,6 +1579,7 @@ media-video/mjpegtools:1
 media-video/mkvtoolnix:0
 media-video/mplayer:0
 media-video/rtmpdump:0
+media-video/subtitleripper:0
 media-video/transcode:0
 media-video/vcdimager:0
 media-video/xine-ui:0
@@ -1546,6 +1594,7 @@ net-analyzer/nmap:0
 net-analyzer/ntop:0
 net-analyzer/portsentry:0
 net-analyzer/rrdtool:0
+net-analyzer/tcpdump:0
 net-analyzer/tleds:0
 net-analyzer/traceroute:0
 net-analyzer/upnpscan:0
@@ -1566,6 +1615,7 @@ net-im/skype:0
 net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
+net-libs/libktorrent:4
 net-libs/liblockfile:0
 net-libs/libmediawiki:4
 net-libs/libnet:1.1
@@ -1580,7 +1630,6 @@ net-libs/openslp:0
 net-libs/ortp:0
 net-libs/webkit-gtk:2
 net-libs/webkit-gtk:3
-net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
 net-misc/iputils:0
@@ -1681,6 +1730,7 @@ sci-libs/blas-reference:0
 sci-libs/cln:1
 sci-libs/colamd:0
 sci-libs/fftw:3.0
+sci-libs/flann:0
 sci-libs/gsl:0
 sci-libs/hdf5:0
 sci-libs/lapack-atlas:0
@@ -1752,7 +1802,6 @@ sys-block/nbd:0
 sys-block/parted:0
 sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
-sys-boot/grub:2
 sys-boot/syslinux:0
 sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
@@ -1768,6 +1817,7 @@ sys-devel/automake:1.8
 sys-devel/bc:0
 sys-devel/binutils-config:0
 sys-devel/binutils:0
+sys-devel/flex:0
 sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
@@ -1802,7 +1852,6 @@ sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
 sys-fs/zfs:0
-sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/db:3
@@ -1893,7 +1942,6 @@ www-plugins/adobe-flash:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
 www-servers/lighttpd:0
-www-servers/nginx:0
 x11-apps/appres:0
 x11-apps/bitmap:0
 x11-apps/editres:0
@@ -1952,6 +2000,7 @@ x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
 x11-libs/cairo:0
+x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
@@ -2032,6 +2081,7 @@ x11-misc/touchfreeze:0
 x11-misc/trayer:0
 x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
+x11-misc/xclip:0
 x11-misc/xcompmgr:0
 x11-misc/xdg-user-dirs:0
 x11-misc/xkbd:0
@@ -2096,6 +2146,7 @@ x11-wm/awesome:0
 x11-wm/evilwm:0
 x11-wm/fluxbox:0
 x11-wm/metacity:0
+x11-wm/openbox:3
 x11-wm/twm:0
 xfce-base/libxfce4util:0
 xfce-base/libxfcegui4:0
