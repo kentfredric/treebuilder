@@ -36,7 +36,6 @@ app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
 app-arch/cabextract:0
 app-arch/dpkg:0
-app-arch/libarchive:0/13
 app-arch/p7zip:0
 app-arch/pbzip2:0
 app-arch/rar:0
@@ -895,7 +894,6 @@ dev-perl/Net-OAuth:0
 dev-perl/Net-SMTP-SSL:0
 dev-perl/Net-SNMP:0
 dev-perl/Net-Server-SS-PreFork:0
-dev-perl/Net-Twitter:0
 dev-perl/Number-Bytes-Human:0
 dev-perl/Number-Tolerant:0
 dev-perl/OOTools:0
@@ -1682,7 +1680,6 @@ sys-apps/microcode-data:0
 sys-apps/miscfiles:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
-sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
@@ -1755,7 +1752,6 @@ sys-fs/unionfs-fuse:0
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
-sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.9.3
 sys-libs/db:3
