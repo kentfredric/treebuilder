@@ -1680,7 +1680,6 @@ sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.11.4
 sys-kernel/gentoo-sources:3.11.5
 sys-kernel/gentoo-sources:3.11.6
-sys-kernel/gentoo-sources:3.9.3
 sys-kernel/spl:0
 sys-libs/cracklib:0
 sys-libs/db:3
