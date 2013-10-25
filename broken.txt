@@ -460,7 +460,6 @@ dev-perl/DBIx-Connector:0
 dev-perl/DBIx-ContextualFetch:0
 dev-perl/DBIx-Simple:0
 dev-perl/Dancer:0
-dev-perl/Dancer:2
 dev-perl/Data-Clone:0
 dev-perl/Data-Compare:0
 dev-perl/Data-Couplet:0
