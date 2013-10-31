@@ -1,1 +1,1 @@
-+2013, 10 October, 30 Wednesday, 19:55:51.324439704 526989:539033 ** ~success true task : 
++2013, 10 October, 31 Thursday, 03:28:35.314406247 794162:28416 ** ~success  sync : gentoo
