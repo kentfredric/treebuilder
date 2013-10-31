@@ -1247,7 +1247,6 @@ media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
-media-gfx/gliv:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
 media-gfx/hugin:0
@@ -1648,7 +1647,6 @@ sys-block/gparted:0
 sys-block/parted:0
 sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
-sys-boot/grub:2
 sys-boot/syslinux:0
 sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
@@ -1846,7 +1844,6 @@ x11-libs/gdk-pixbuf:2
 x11-libs/gksu:0
 x11-libs/gtk+:2
 x11-libs/gtk+:3
-x11-libs/gtkglext:0
 x11-libs/gtksourceview:2.0
 x11-libs/gtksourceview:3.0
 x11-libs/libICE:0
