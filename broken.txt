@@ -40,7 +40,6 @@ app-arch/pbzip2:0
 app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
-app-arch/tar:0
 app-arch/unshield:0
 app-arch/xz-utils:0
 app-arch/zip:0
@@ -301,6 +300,7 @@ dev-libs/pslib:0
 dev-libs/pth:0
 dev-libs/qjson:0
 dev-libs/qoauth:0
+dev-libs/rasqal:0
 dev-libs/redland:0
 dev-libs/shared-desktop-ontologies:0
 dev-libs/soprano:0
@@ -1593,7 +1593,6 @@ sys-apps/flashrom:0
 sys-apps/gentoo-systemd-integration:0
 sys-apps/gnome-disk-utility:0
 sys-apps/gptfdisk:0
-sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/hwids:0
 sys-apps/hwinfo:0
@@ -1609,7 +1608,7 @@ sys-apps/man-pages-posix:0
 sys-apps/man:0
 sys-apps/microcode-data:0
 sys-apps/mlocate:0
-sys-apps/openrc:0
+sys-apps/net-tools:0
 sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pmount:0
@@ -1623,7 +1622,6 @@ sys-apps/systemd:0/1
 sys-apps/sysvinit:0
 sys-apps/texinfo:0
 sys-apps/usbutils:0
-sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/xinetd:0
 sys-auth/consolekit:0
@@ -1667,9 +1665,12 @@ sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dd-rescue:0
 sys-fs/dmraid:0
+sys-fs/e2fsprogs:0
 sys-fs/jfsutils:0
 sys-fs/lvm2:0
 sys-fs/mdadm:0
+sys-fs/nilfs-utils:0
+sys-fs/ntfs3g:0
 sys-fs/udisks:2
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
@@ -1700,6 +1701,7 @@ sys-power/nvclock:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
 sys-power/pmtools:0
+sys-power/powermgmt-base:0
 sys-power/powertop:0
 sys-power/upower:0
 sys-process/acct:0
@@ -1710,6 +1712,7 @@ sys-process/time:0
 sys-process/vixie-cron:0
 virtual/awk:0
 virtual/blas:0
+virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
 virtual/glu:0
@@ -1744,6 +1747,7 @@ virtual/perl-Unicode-Collate:0
 virtual/pkgconfig:0
 virtual/python-argparse:0
 virtual/python-unittest2:0
+virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
@@ -1826,6 +1830,7 @@ x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtksourceview:2.0
 x11-libs/libICE:0
+x11-libs/libSM:0
 x11-libs/libX11:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
