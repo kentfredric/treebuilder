@@ -37,7 +37,6 @@ app-arch/dpkg:0
 app-arch/libarchive:0/13
 app-arch/pax:0
 app-arch/pbzip2:0
-app-arch/rar:0
 app-arch/rpm2targz:0
 app-arch/sharutils:0
 app-arch/unshield:0
@@ -60,8 +59,6 @@ app-dicts/wordnet:0
 app-doc/podbrowser:0
 app-editors/gvim:0
 app-editors/nano:0
-app-editors/padre:0
-app-editors/scite:0
 app-editors/vim:0
 app-emulation/emul-linux-x86-baselibs:0
 app-emulation/emul-linux-x86-db:0
@@ -70,10 +67,6 @@ app-emulation/emul-linux-x86-medialibs:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/virtualbox-additions:0
-app-emulation/virtualbox-extpack-oracle:0
-app-emulation/virtualbox-modules:0
-app-emulation/virtualbox:0
 app-emulation/wine:0
 app-i18n/enca:0
 app-i18n/ibus:0
@@ -300,6 +293,7 @@ dev-libs/pslib:0
 dev-libs/pth:0
 dev-libs/qjson:0
 dev-libs/qoauth:0
+dev-libs/rasqal:0
 dev-libs/redland:0
 dev-libs/shared-desktop-ontologies:0
 dev-libs/soprano:0
@@ -586,7 +580,6 @@ dev-perl/File-Type-WebImages:0
 dev-perl/Filesys-Notify-Simple:0
 dev-perl/Finance-Currency-Convert-WebserviceX:0
 dev-perl/FormValidator-Simple:0
-dev-perl/Fuse:0
 dev-perl/Future:0
 dev-perl/GD-Barcode:0
 dev-perl/GD-Graph3d:0
@@ -1110,10 +1103,8 @@ dev-util/ltrace:0
 dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/source-highlight:0
-dev-util/valgrind:0
 dev-util/xdelta:3
 dev-vcs/cvs:0
-dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
@@ -1252,7 +1243,6 @@ media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/graphite2:0
 media-gfx/graphviz:0
-media-gfx/hugin:0
 media-gfx/imagemagick:0/6.8.6.8
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
@@ -1440,7 +1430,6 @@ media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
-media-video/mkvtoolnix:0
 media-video/mplayer:0
 media-video/smplayer:0
 media-video/subtitleripper:0
@@ -1448,7 +1437,6 @@ media-video/transcode:0
 media-video/vcdimager:0
 media-video/xine-ui:0
 net-analyzer/arping:2
-net-analyzer/ettercap:0
 net-analyzer/mtr:0
 net-analyzer/munin:0
 net-analyzer/nettop:0
@@ -1459,7 +1447,6 @@ net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/traceroute:0
 net-analyzer/upnpscan:0
-net-analyzer/wireshark:0/1.11.0
 net-dialup/ppp:0
 net-dns/avahi:0
 net-dns/bind-tools:0
@@ -1508,7 +1495,6 @@ net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
-net-misc/youtube-dl:0
 net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
@@ -1607,6 +1593,7 @@ sys-apps/man-pages-posix:0
 sys-apps/man:0
 sys-apps/microcode-data:0
 sys-apps/mlocate:0
+sys-apps/net-tools:0
 sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pmount:0
@@ -1631,7 +1618,6 @@ sys-auth/polkit-kde-agent:4
 sys-auth/polkit:0
 sys-auth/rtkit:0
 sys-auth/thinkfinger:0
-sys-block/gparted:0
 sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
 sys-boot/grub:2
@@ -1663,9 +1649,12 @@ sys-fs/btrfs-progs:0
 sys-fs/cryptsetup:0
 sys-fs/dd-rescue:0
 sys-fs/dmraid:0
+sys-fs/e2fsprogs:0
 sys-fs/jfsutils:0
 sys-fs/lvm2:0
 sys-fs/mdadm:0
+sys-fs/nilfs-utils:0
+sys-fs/ntfs3g:0
 sys-fs/udisks:2
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
@@ -1696,6 +1685,7 @@ sys-power/nvclock:0
 sys-power/phc-intel:0
 sys-power/pm-utils:0
 sys-power/pmtools:0
+sys-power/powermgmt-base:0
 sys-power/powertop:0
 sys-power/upower:0
 sys-process/acct:0
@@ -1706,6 +1696,7 @@ sys-process/time:0
 sys-process/vixie-cron:0
 virtual/awk:0
 virtual/blas:0
+virtual/eject:0
 virtual/ffmpeg:0
 virtual/freedesktop-icon-theme:0
 virtual/glu:0
@@ -1740,15 +1731,14 @@ virtual/perl-Unicode-Collate:0
 virtual/pkgconfig:0
 virtual/python-argparse:0
 virtual/python-unittest2:0
+virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
 virtual/udev:0
 virtual/yacc:0
-www-client/firefox:0
 www-client/links:2
 www-client/lynx:0
-www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
@@ -1822,6 +1812,7 @@ x11-libs/gtk+:2
 x11-libs/gtk+:3
 x11-libs/gtksourceview:2.0
 x11-libs/libICE:0
+x11-libs/libSM:0
 x11-libs/libX11:0
 x11-libs/libXau:0
 x11-libs/libXaw3d:0
@@ -1888,7 +1879,6 @@ x11-misc/obmenu:0
 x11-misc/redshift:0
 x11-misc/rss-glx:0
 x11-misc/shared-mime-info:0
-x11-misc/synergy:0
 x11-misc/touchfreeze:0
 x11-misc/x2vnc:0
 x11-misc/xbitmaps:0
@@ -1949,7 +1939,6 @@ x11-themes/hicolor-icon-theme:0
 x11-themes/oxygen-molecule:4
 x11-themes/xcursor-neutral:0
 x11-themes/xcursor-themes:0
-x11-wm/awesome:0
 x11-wm/evilwm:0
 x11-wm/fluxbox:0
 x11-wm/i3:0
