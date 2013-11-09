@@ -25,6 +25,7 @@ app-admin/perl-cleaner:0
 app-admin/python-updater:0
 app-admin/sudo:0
 app-admin/syslog-ng:0
+app-admin/sysstat:0
 app-admin/system-config-printer-common:0
 app-admin/system-config-printer-gnome:0
 app-admin/testdisk:0
@@ -1804,7 +1805,6 @@ net-dns/idnkit:0
 net-dns/openresolv:0
 net-firewall/iptables:0
 net-fs/cifs-utils:0
-net-fs/nfs-utils:0
 net-fs/samba:0
 net-fs/smbnetfs:0
 net-ftp/lftp:0
@@ -1963,7 +1963,6 @@ sci-libs/libqalculate:0
 sci-libs/proj:0
 sci-libs/umfpack:0
 sci-mathematics/pari:0
-sci-visualization/gnuplot:0
 sci-visualization/spectromatic:0
 sys-apps/ack:0
 sys-apps/acl:0
@@ -2098,7 +2097,6 @@ sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
 sys-process/atop:0
-sys-process/htop:0
 sys-process/iotop:0
 sys-process/psmisc:0
 sys-process/time:0
@@ -2367,7 +2365,6 @@ x11-proto/xf86rushproto:0
 x11-proto/xf86vidmodeproto:0
 x11-proto/xineramaproto:0
 x11-proto/xproto:0
-x11-terms/rxvt-unicode:0
 x11-terms/xterm:0
 x11-themes/gnome-icon-theme-symbolic:0
 x11-themes/gnome-icon-theme:0
