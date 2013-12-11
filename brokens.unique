@@ -65,7 +65,6 @@ app-emulation/emul-linux-x86-medialibs:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
-app-emulation/wine:0
 app-i18n/enca:0
 app-i18n/ibus:0
 app-laptop/laptop-mode-tools:0
@@ -80,6 +79,7 @@ app-misc/tmux:0
 app-misc/vifm:0
 app-misc/zisofs-tools:0
 app-mobilephone/obex-data-server:0
+app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
@@ -210,10 +210,15 @@ dev-lang/ghc:0/7.6.3
 dev-lang/lua:0
 dev-lang/nasm:0
 dev-lang/orc:0
+dev-lang/php:5.3
+dev-lang/php:5.4
 dev-lang/php:5.5
 dev-lang/python-exec:0
 dev-lang/python-exec:2
+dev-lang/python:2.6
+dev-lang/python:2.7
 dev-lang/python:3.2
+dev-lang/python:3.3
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
 dev-lang/spidermonkey:17
@@ -222,6 +227,7 @@ dev-lang/tk:0/8.6
 dev-lang/vala:0.20
 dev-lang/yasm:0
 dev-libs/DirectFB:0
+dev-libs/apr-util:1
 dev-libs/atk:0
 dev-libs/boehm-gc:0
 dev-libs/boost:0/1.52
@@ -230,6 +236,7 @@ dev-libs/cloog-ppl:0
 dev-libs/cloog:0
 dev-libs/confuse:0
 dev-libs/crypto++:0
+dev-libs/cyrus-sasl:2
 dev-libs/dbus-glib:0
 dev-libs/elfutils:0
 dev-libs/expat:0
@@ -238,7 +245,6 @@ dev-libs/fribidi:0
 dev-libs/gdl:1
 dev-libs/gdome2:0
 dev-libs/geoip:0
-dev-libs/glib:2
 dev-libs/gobject-introspection-common:0
 dev-libs/gobject-introspection:0
 dev-libs/hyphen:0
@@ -294,6 +300,7 @@ dev-libs/pugixml:0
 dev-libs/qjson:0
 dev-libs/qoauth:0
 dev-libs/rasqal:0
+dev-libs/redland:0
 dev-libs/shared-desktop-ontologies:0
 dev-libs/soprano:0
 dev-libs/syck:0
@@ -516,6 +523,7 @@ dev-perl/Crypt-Skip32:0
 dev-perl/Curses:0
 dev-perl/DBD-CSV:0
 dev-perl/DBD-Pg:0
+dev-perl/DBD-SQLite:0
 dev-perl/DBD-mysql:0
 dev-perl/DBI:0
 dev-perl/DBICx-TestDatabase:0
@@ -1401,8 +1409,10 @@ dev-qt/qt3support:4
 dev-qt/qtdbus:4
 dev-qt/qtgui:4
 dev-qt/qtopengl:4
+dev-qt/qtsql:4
 dev-qt/qtsvg:4
 dev-qt/qttest:4
+dev-qt/qtwebkit:4
 dev-qt/qtxmlpatterns:4
 dev-ruby/json:0
 dev-ruby/racc:0
@@ -1456,6 +1466,7 @@ dev-util/valgrind:0
 dev-util/xdelta:3
 dev-vcs/cvs:0
 dev-vcs/qgit:2
+dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
@@ -1464,9 +1475,7 @@ games-util/grfcodec:0
 gnome-base/gconf:2
 gnome-base/gnome-common:3
 gnome-base/gnome-keyring:0
-gnome-base/gnome-vfs:2
 gnome-base/gsettings-desktop-schemas:0
-gnome-base/gvfs:0
 gnome-base/libbonobo:0
 gnome-base/libbonoboui:0
 gnome-base/libglade:2.0
@@ -1476,13 +1485,14 @@ gnome-base/libgnomecanvas:0
 gnome-base/libgtop:2
 gnome-base/librsvg:2
 gnome-base/orbit:2
+gnome-extra/libgda:4
+gnome-extra/libgda:5/4
 gnome-extra/libgsf:0/114
 gnome-extra/yelp-xsl:0
+gnome-extra/yelp:0
 gnome-extra/zenity:0
-kde-base/dolphin-plugins:4
 kde-base/kcmshell:4
 kde-base/kde-l10n:4
-kde-base/kdebase-kioslaves:4
 kde-base/kdialog:4
 kde-base/kephal:4
 kde-base/knotify:4
@@ -1645,6 +1655,7 @@ media-libs/libggi:0
 media-libs/libggiwmh:0
 media-libs/libgii:0
 media-libs/libgphoto2:0/6
+media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libmad:0
 media-libs/libmikmod:0
@@ -1665,6 +1676,7 @@ media-libs/libreplaygain:0
 media-libs/libsamplerate:0
 media-libs/libsdl:0
 media-libs/libshout:0
+media-libs/libsndfile:0
 media-libs/libsoundtouch:0
 media-libs/libsvg:0
 media-libs/libtheora:0
@@ -1704,7 +1716,6 @@ media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
-media-libs/xine-lib:1
 media-libs/xvid:0
 media-plugins/frei0r-plugins:0
 media-plugins/gimp-resynthesizer:0
@@ -1746,6 +1757,7 @@ media-sound/lastfmplayer:0
 media-sound/lilypond:0
 media-sound/mac:0
 media-sound/moodbar:0
+media-sound/mpd:0
 media-sound/mpg123:0
 media-sound/musepack-tools:0
 media-sound/ogmtools:0
@@ -1761,7 +1773,6 @@ media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/lsdvd:0
 media-video/mjpegtools:1
-media-video/mplayer:0
 media-video/rtmpdump:0
 media-video/smplayer:0
 media-video/subtitleripper:0
@@ -1787,8 +1798,7 @@ net-dns/bind-tools:0
 net-dns/idnkit:0
 net-dns/openresolv:0
 net-firewall/iptables:0
-net-fs/cifs-utils:0
-net-fs/smbnetfs:0
+net-fs/nfs-utils:0
 net-im/bitlbee:0
 net-im/psi:0
 net-im/psimedia:0
@@ -1804,12 +1814,16 @@ net-libs/libnfsidmap:0
 net-libs/libpcap:0
 net-libs/libproxy:0
 net-libs/librpcsecgss:0
+net-libs/libsoup-gnome:2.4
 net-libs/libssh:0
 net-libs/libtirpc:0
 net-libs/libtorrent:0
 net-libs/libvncserver:0
 net-libs/neon:0/27
 net-libs/openslp:0
+net-libs/webkit-gtk:2
+net-libs/webkit-gtk:3
+net-misc/aria2:0
 net-misc/axel:0
 net-misc/curl:0
 net-misc/dhcp:0
@@ -1968,6 +1982,7 @@ sys-apps/microcode-ctl:0
 sys-apps/mlocate:0
 sys-apps/net-tools:0
 sys-apps/openrc:0
+sys-apps/paludis:0
 sys-apps/paxctl:0
 sys-apps/pmount:0
 sys-apps/portage:0
@@ -2013,7 +2028,6 @@ sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
-sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0/3.3
@@ -2047,7 +2061,6 @@ sys-libs/db:4.8
 sys-libs/e2fsprogs-libs:0
 sys-libs/glibc:2.2
 sys-libs/gpm:0
-sys-libs/ldb:0
 sys-libs/libcap-ng:0
 sys-libs/libcap:0
 sys-libs/libieee1284:0
@@ -2087,7 +2100,6 @@ virtual/latex-base:0
 virtual/libc:0
 virtual/libffi:0
 virtual/libusb:1
-virtual/linux-sources:0
 virtual/opencl:0
 virtual/opengl:0
 virtual/pager:0
@@ -2156,6 +2168,7 @@ www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
 www-plugins/nspluginwrapper:0
+www-servers/lighttpd:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0
 x11-apps/bitmap:0

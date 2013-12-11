@@ -86,6 +86,7 @@ app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
 app-pda/libplist:0
 app-pda/usbmuxd:0
+app-portage/eix:0
 app-portage/g-cpan:0
 app-portage/genlop:0
 app-portage/gentoolkit-dev:0
@@ -212,10 +213,12 @@ dev-lang/nasm:0
 dev-lang/orc:0
 dev-lang/php:5.3
 dev-lang/php:5.4
+dev-lang/php:5.5
 dev-lang/python-exec:0
 dev-lang/python-exec:2
 dev-lang/python:2.6
 dev-lang/python:2.7
+dev-lang/python:3.2
 dev-lang/python:3.3
 dev-lang/ruby:2.0
 dev-lang/spidermonkey:0/mozjs185
@@ -285,6 +288,7 @@ dev-libs/libxslt:0
 dev-libs/mpc:0
 dev-libs/mpfr:0
 dev-libs/nettle:0/4
+dev-libs/nss:0
 dev-libs/openobex:0
 dev-libs/openssl:0
 dev-libs/openssl:0.9.8
@@ -1491,7 +1495,6 @@ gnome-extra/libgsf:0/114
 gnome-extra/yelp-xsl:0
 gnome-extra/yelp:0
 gnome-extra/zenity:0
-kde-base/dolphin-plugins:4
 kde-base/kcmshell:4
 kde-base/kde-l10n:4
 kde-base/kdebase-kioslaves:4
@@ -2035,7 +2038,6 @@ sys-devel/gcc:4.4
 sys-devel/gcc:4.5
 sys-devel/gcc:4.6
 sys-devel/gcc:4.7
-sys-devel/gdb:0
 sys-devel/gettext:0
 sys-devel/libtool:2
 sys-devel/llvm:0/3.3
@@ -2171,7 +2173,9 @@ virtual/ssh:0
 virtual/tex-base:0
 virtual/udev:0
 virtual/yacc:0
+www-client/firefox:0
 www-client/links:2
+www-client/seamonkey:0
 www-client/w3m:0
 www-misc/fcgiwrap:0
 www-misc/htdig:0
