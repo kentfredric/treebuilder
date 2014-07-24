@@ -1,1 +1,1 @@
-+2014, 07 July, 25 Friday, 03:14:52.821297725 709525:8779 ** ~success  sync : gentoo
++2014, 07 July, 25 Friday, 11:22:47.548648493 889036:2958 ** ~success true task : 
