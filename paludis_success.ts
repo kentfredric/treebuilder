@@ -1,1 +1,1 @@
-+2014, 07 July, 24 Thursday, 18:10:32.285743986 464890:4320 465065:1609 ** ~success  install : app-admin/eselect-ctags-1.16:0::gentoo
++2014, 07 July, 24 Thursday, 18:16:22.129043895 488223:2283 ** --[start]--
