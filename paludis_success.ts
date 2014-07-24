@@ -1,1 +1,1 @@
-+2014, 07 July, 24 Thursday, 18:16:22.129043895 488223:2283 ** --[start]--
++2014, 07 July, 24 Thursday, 18:35:35.948437870 488223:117664 544814:3060 ** ~success  install : sys-apps/gentoo-functions-0.7:0::gentoo
