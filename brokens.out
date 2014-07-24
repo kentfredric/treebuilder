@@ -40,6 +40,7 @@ app-arch/unzip:0
 app-arch/xz-utils:0
 app-arch/zip:0
 app-cdr/cdrkit:0
+app-cdr/cuecue:0
 app-crypt/gcr:0/1
 app-crypt/gnupg:0
 app-crypt/gpgme:1/11
@@ -223,6 +224,7 @@ dev-lang/python:2.6
 dev-lang/python:2.7
 dev-lang/python:3.2
 dev-lang/python:3.3
+dev-lang/python:3.4
 dev-lang/rakudo:0
 dev-lang/ruby:1.9
 dev-lang/ruby:2.0
@@ -392,6 +394,7 @@ dev-perl/MooseX-Types-DateTime-MoreCoercions:0
 dev-perl/MooseX-Types-DateTimeX:0
 dev-perl/Net-Amazon-S3:0
 dev-perl/Net-Server-SS-PreFork:0
+dev-perl/Ogg-Vorbis-Decoder:0
 dev-perl/Padre-Plugin-Autoformat:0
 dev-perl/Padre-Plugin-PerlTidy:0
 dev-perl/Parse-CPAN-Distributions:0
@@ -420,6 +423,8 @@ dev-perl/Test-MinimumVersion:0
 dev-perl/Test-Perl-Critic:0
 dev-perl/Test-Regression:0
 dev-perl/WWW-Search:0
+dev-perl/XML-Parser:0
+dev-perl/XML-Twig:0
 dev-perl/crypt-dsa:0
 dev-perl/gtk2-fu:0
 dev-perl/net-server:0
@@ -520,6 +525,7 @@ dev-util/valgrind:0
 dev-util/xdelta:3
 dev-util/xfce4-dev-tools:0
 dev-vcs/cvs:0
+dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
@@ -657,7 +663,9 @@ media-gfx/feh:0
 media-gfx/fontforge:0
 media-gfx/gimp-texturize-plugin:0
 media-gfx/gimp:2
+media-gfx/graphviz:0
 media-gfx/hugin:0
+media-gfx/imagemagick:0/6.8.8.10
 media-gfx/inkscape:0
 media-gfx/kpovmodeler:4
 media-gfx/luminance-hdr:0
@@ -964,6 +972,7 @@ sys-apps/acl:0
 sys-apps/attr:0
 sys-apps/biosdevname:0
 sys-apps/biosdisk:0
+sys-apps/dbus:0
 sys-apps/dmapi:0
 sys-apps/findutils:0
 sys-apps/flashrom:0
@@ -1152,6 +1161,7 @@ www-plugins/adobe-flash:0
 www-plugins/nspluginwrapper:0
 www-servers/apache:2
 www-servers/lighttpd:0
+www-servers/nginx:0
 x11-apps/appres:0
 x11-apps/bdftopcf:0
 x11-apps/bitmap:0
