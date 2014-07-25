@@ -1691,7 +1691,16 @@ net-wireless/broadcom-sta:0
 net-wireless/crda:0
 net-wireless/iw:0
 net-wireless/wpa_supplicant:0
+perl-core/Archive-Extract:0
 perl-core/CPAN-Meta:0
+perl-core/CPANPLUS-Dist-Build:0
+perl-core/CPANPLUS:0
+perl-core/File-Fetch:0
+perl-core/IPC-Cmd:0
+perl-core/Log-Message:0
+perl-core/Module-Load-Conditional:0
+perl-core/Object-Accessor:0
+perl-core/Term-UI:0
 sci-calculators/units:0
 sci-libs/amd:0
 sci-libs/blas-reference:0
@@ -1889,7 +1898,6 @@ virtual/opengl:0
 virtual/package-manager:0
 virtual/pager:0
 virtual/perl-Archive-Extract:0
-virtual/perl-Archive-Tar:0
 virtual/perl-CGI:0
 virtual/perl-CPAN-Meta:0
 virtual/perl-CPANPLUS:0
