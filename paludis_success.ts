@@ -1,1 +1,1 @@
-+2014, 07 July, 25 Friday, 17:20:27.878750023 592113:7080 ** ~success true task : 
++2014, 07 July, 25 Friday, 20:21:20.538088183 603173:7615 608936:2474 ** ~success  install : perl-core/Digest-SHA-5.850.0:0::gentoo
