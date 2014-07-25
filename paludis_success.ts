@@ -1,1 +1,1 @@
-+2014, 07 July, 25 Friday, 20:21:20.538088183 603173:7615 608936:2474 ** ~success  install : perl-core/Digest-SHA-5.850.0:0::gentoo
++2014, 07 July, 25 Friday, 20:22:03.172406981 603173:11879 617798:1315 ** ~success  install : virtual/perl-Archive-Extract-0.680.0:0::perl-experimental

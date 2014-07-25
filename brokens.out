@@ -1691,6 +1691,7 @@ net-wireless/broadcom-sta:0
 net-wireless/crda:0
 net-wireless/iw:0
 net-wireless/wpa_supplicant:0
+perl-core/CPAN-Meta:0
 sci-calculators/units:0
 sci-libs/amd:0
 sci-libs/blas-reference:0
@@ -1892,6 +1893,7 @@ virtual/perl-Archive-Tar:0
 virtual/perl-CGI:0
 virtual/perl-CPAN-Meta:0
 virtual/perl-CPANPLUS:0
+virtual/perl-Digest-SHA:0
 virtual/perl-ExtUtils-MakeMaker:0
 virtual/perl-ExtUtils-ParseXS:0
 virtual/perl-File-Fetch:0
