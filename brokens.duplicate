@@ -1,11 +1,1 @@
-app-editors/padre:0
-dev-perl/Bundle-CPAN:0
-dev-perl/Class-InsideOut:0
-dev-perl/Data-Entropy:0
-dev-perl/Email-Sender:0
-dev-perl/Handel:0
-dev-perl/MIME-tools:0
-dev-perl/Net-SNMP:0
-dev-perl/SOAP-Lite:0
-dev-perl/WWW-Search:0
-dev-perl/libwww-perl:0
+dev-perl/ExtUtils-Helpers:0
