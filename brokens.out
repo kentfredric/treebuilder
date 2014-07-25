@@ -1899,7 +1899,6 @@ virtual/opengl:0
 virtual/package-manager:0
 virtual/pager:0
 virtual/perl-Archive-Extract:0
-virtual/perl-CPAN-Meta:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
 virtual/perl-ExtUtils-MakeMaker:0

@@ -342,8 +342,9 @@ dev-perl/App-Cache:0
 dev-perl/App-Cmd:0
 dev-perl/App-cpanminus:0
 dev-perl/App-cpanoutdated:0
-dev-perl/App-mymeta_requires:0
 dev-perl/App-perlbrew:0
+dev-perl/Archive-Any:0
+dev-perl/Archive-Peek:0
 dev-perl/Archive-Zip:0
 dev-perl/Array-Compare:0
 dev-perl/Array-Diff:0
@@ -366,6 +367,7 @@ dev-perl/BackPAN-Index:0
 dev-perl/Beanstalk-Client:0
 dev-perl/Best:0
 dev-perl/Bit-Vector:0
+dev-perl/Bundle-CPAN:0
 dev-perl/Business-CreditCard:0
 dev-perl/CGI-Application-Dispatch:0
 dev-perl/CGI-Application-Plugin-JSON:0
@@ -376,9 +378,10 @@ dev-perl/CLASS:0
 dev-perl/CPAN-Changes:0
 dev-perl/CPAN-Checksums:0
 dev-perl/CPAN-Inject:0
-dev-perl/CPAN-Meta-Check:0
 dev-perl/CPAN-Mini:0
+dev-perl/CPAN-ParseDistribution:0
 dev-perl/CPAN-Perl-Releases:0
+dev-perl/CPAN-Reporter:0
 dev-perl/CPAN-Uploader:0
 dev-perl/CPANPLUS-Dist-Gentoo:0
 dev-perl/CPS:0
@@ -659,7 +662,6 @@ dev-perl/Gentoo-Perl-Distmap:0
 dev-perl/Gentoo-PerlMod-Version:0
 dev-perl/Getopt-Euclid:0
 dev-perl/Getopt-Lucid:0
-dev-perl/Git-CPAN-Patch:0
 dev-perl/Git-PurePerl:0
 dev-perl/Git-Repository-Plugin-AUTOLOAD:0
 dev-perl/Git-Repository:0
@@ -678,7 +680,6 @@ dev-perl/HTML-Selector-XPath:0
 dev-perl/HTML-TagCloud:0
 dev-perl/HTML-Template-Pro:0
 dev-perl/HTML-TokeParser-Simple:0
-dev-perl/HTML-TreeBuilder-LibXML:0
 dev-perl/HTML-Zoom:0
 dev-perl/HTTP-Body:0
 dev-perl/HTTP-Cookies:0
@@ -691,7 +692,6 @@ dev-perl/HTTP-Response-Encoding:0
 dev-perl/HTTP-Server-Simple:0
 dev-perl/HTTP-Tiny-Mech:0
 dev-perl/Handel:0
-dev-perl/Hash-FieldHash:0
 dev-perl/Hash-Merge-Simple:0
 dev-perl/Hash-MoreUtils:0
 dev-perl/Hash-StoredIterator:0
@@ -757,7 +757,7 @@ dev-perl/Mixin-ExtraFields:0
 dev-perl/Mixin-Linewise:0
 dev-perl/Mock-Quick:0
 dev-perl/Modern-Perl:0
-dev-perl/Module-Build-Tiny:0
+dev-perl/Module-CPANTS-Analyse:0
 dev-perl/Module-Data:0
 dev-perl/Module-Extract-Namespaces:0
 dev-perl/Module-Extract-VERSION:0
@@ -766,6 +766,7 @@ dev-perl/Module-Find:0
 dev-perl/Module-Implementation:0
 dev-perl/Module-Install-ProvidesClass:0
 dev-perl/Module-Install-ReadmeFromPod:0
+dev-perl/Module-Install:0
 dev-perl/Module-Manifest:0
 dev-perl/Module-Path:0
 dev-perl/Module-Runtime:0
@@ -1010,12 +1011,10 @@ dev-perl/Test-Base:0
 dev-perl/Test-Block:0
 dev-perl/Test-CPAN-Meta-YAML:0
 dev-perl/Test-CPAN-Meta:0
-dev-perl/Test-CheckDeps:0
 dev-perl/Test-Class:0
 dev-perl/Test-ClassAPI:0
 dev-perl/Test-Command:0
 dev-perl/Test-Corpus-Audio-MPD:0
-dev-perl/Test-Deep-JSON:0
 dev-perl/Test-Differences:0
 dev-perl/Test-Distribution:0
 dev-perl/Test-EOL:0
@@ -1143,6 +1142,7 @@ dev-perl/namespace-clean:0
 dev-perl/net-server:0
 dev-perl/perl-ldap:0
 dev-perl/perl5i:0
+dev-perl/pip:0
 dev-perl/prefork:0
 dev-perl/syntax:0
 dev-perl/text-autoformat:0
@@ -1675,6 +1675,7 @@ net-wireless/wpa_supplicant:0
 perl-core/Archive-Extract:0
 perl-core/CPAN-Meta:0
 perl-core/CPANPLUS-Dist-Build:0
+perl-core/CPANPLUS:0
 perl-core/File-Fetch:0
 perl-core/IPC-Cmd:0
 perl-core/Log-Message:0
@@ -1878,7 +1879,6 @@ virtual/opengl:0
 virtual/package-manager:0
 virtual/pager:0
 virtual/perl-Archive-Extract:0
-virtual/perl-CPAN-Meta:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
 virtual/perl-ExtUtils-MakeMaker:0
