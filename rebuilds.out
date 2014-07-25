@@ -22,7 +22,6 @@ dev-perl/Business-Tax-VAT-Validation:0
 dev-perl/CGI-Struct:0
 dev-perl/CPAN-Changes:0
 dev-perl/CPAN-Inject:0
-dev-perl/CPAN-Meta-Check:0
 dev-perl/CPAN-ParseDistribution:0
 dev-perl/CPAN-Perl-Releases:0
 dev-perl/CPAN-Reporter:0
@@ -151,6 +150,7 @@ dev-perl/Exception-Class:0
 dev-perl/ExtUtils-Config:0
 dev-perl/ExtUtils-Helpers:0
 dev-perl/ExtUtils-InstallPaths:0
+dev-perl/ExtUtils-XSpp:0
 dev-perl/File-Find-Rule-Perl:0
 dev-perl/File-Path-Tiny:0
 dev-perl/File-Pid:0
@@ -159,7 +159,6 @@ dev-perl/File-Spec-Native:0
 dev-perl/FormValidator-Simple:0
 dev-perl/Getopt-Euclid:0
 dev-perl/Getopt-Lucid:0
-dev-perl/Git-CPAN-Patch:0
 dev-perl/Git-Repository-Plugin-AUTOLOAD:0
 dev-perl/Git-Repository:0
 dev-perl/Git-Wrapper:0
@@ -172,7 +171,6 @@ dev-perl/HTML-FormHandler:0
 dev-perl/HTML-Packer:0
 dev-perl/HTML-Selector-XPath:0
 dev-perl/HTML-Template-Pro:0
-dev-perl/HTML-TreeBuilder-LibXML:0
 dev-perl/HTML-TreeBuilder-XPath:0
 dev-perl/HTML-Zoom:0
 dev-perl/HTTP-Exception:0
@@ -191,6 +189,8 @@ dev-perl/Imager:0
 dev-perl/JSON-MaybeXS:0
 dev-perl/JavaScript-Packer:0
 dev-perl/Jemplate:0
+dev-perl/KinoSearch1:0
+dev-perl/KinoSearch:0
 dev-perl/KiokuDB-Backend-DBI:0
 dev-perl/LWP-Online:0
 dev-perl/LWP-Protocol-https:0
@@ -198,6 +198,7 @@ dev-perl/Lingua-EN-Inflect-Phrase:0
 dev-perl/Lingua-EN-Number-IsOrdinal:0
 dev-perl/Lingua-EN-Tagger:0
 dev-perl/Lingua-EN-Words2Nums:0
+dev-perl/Lingua-Stem-Snowball:0
 dev-perl/List-Pairwise:0
 dev-perl/Log-Any-Adapter:0
 dev-perl/Log-Contextual:0
@@ -257,6 +258,7 @@ dev-perl/MooseX-Types-Stringlike:0
 dev-perl/MooseX-Types-Structured:0
 dev-perl/MooseX-Types-URI:0
 dev-perl/MooseX-Workers:0
+dev-perl/Mouse:0
 dev-perl/Net-Google-DataAPI:0
 dev-perl/Net-IP-Minimal:0
 dev-perl/Net-LDAP-Server-Test:0
@@ -334,7 +336,6 @@ dev-perl/Task-Kensho-WebDev:0
 dev-perl/Task-Kensho:0
 dev-perl/Template-Alloy:0
 dev-perl/Tenjin:0
-dev-perl/Test-CheckDeps:0
 dev-perl/Test-Deep-JSON:0
 dev-perl/Test-EOL:0
 dev-perl/Test-FailWarnings:0
@@ -383,6 +384,7 @@ dev-perl/namespace-clean:0
 dev-perl/signatures:0
 dev-perl/syntax:0
 dev-perl/true:0
+dev-perl/wxperl:0
 perl-core/Archive-Extract:0
 perl-core/B-Lint:0
 perl-core/CPAN-Meta:0

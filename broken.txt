@@ -661,6 +661,7 @@ dev-perl/ExtUtils-CChecker:0
 dev-perl/ExtUtils-Config:0
 dev-perl/ExtUtils-Helpers:0
 dev-perl/ExtUtils-InstallPaths:0
+dev-perl/ExtUtils-XSpp:0
 dev-perl/Fennec-Lite:0
 dev-perl/Fennec:0
 dev-perl/File-BaseDir:0
@@ -1970,7 +1971,6 @@ virtual/pager:0
 virtual/perl-Archive-Extract:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
-virtual/perl-ExtUtils-ParseXS:0
 virtual/perl-File-Fetch:0
 virtual/perl-Getopt-Long:0
 virtual/perl-HTTP-Tiny:0
