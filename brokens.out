@@ -1698,6 +1698,7 @@ perl-core/CPANPLUS:0
 perl-core/File-Fetch:0
 perl-core/IPC-Cmd:0
 perl-core/Log-Message:0
+perl-core/Module-Build:0
 perl-core/Module-Load-Conditional:0
 perl-core/Object-Accessor:0
 perl-core/Term-UI:0
@@ -1898,7 +1899,6 @@ virtual/opengl:0
 virtual/package-manager:0
 virtual/pager:0
 virtual/perl-Archive-Extract:0
-virtual/perl-CGI:0
 virtual/perl-CPAN-Meta:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
