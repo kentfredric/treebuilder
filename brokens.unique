@@ -76,7 +76,6 @@ app-laptop/tp_smapi:0
 app-misc/ca-certificates:0
 app-misc/geoclue:0
 app-misc/media-player-info:0
-app-misc/pax-utils:0
 app-misc/strigi:0
 app-misc/tmux:0
 app-misc/vifm:0
@@ -1383,6 +1382,7 @@ dev-util/glade:3
 dev-util/glade:3.10/4
 dev-util/gtk-doc-am:0
 dev-util/gtk-doc:0
+dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
 dev-util/ltrace:0
@@ -1644,6 +1644,7 @@ media-libs/libv4l:0
 media-libs/libvorbis:0
 media-libs/libwmf:0
 media-libs/libxmi:0
+media-libs/mesa:0
 media-libs/mlt:0
 media-libs/musicbrainz:4
 media-libs/netpbm:0
@@ -1894,8 +1895,8 @@ sys-apps/openrc:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
+sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
-sys-apps/sandbox:0
 sys-apps/sed:0
 sys-apps/sg3_utils:0
 sys-apps/shadow:0
@@ -1921,7 +1922,6 @@ sys-block/nbd:0
 sys-block/parted:0
 sys-block/thin-provisioning-tools:0
 sys-boot/grub:0
-sys-boot/grub:2
 sys-boot/syslinux:0
 sys-devel/autoconf:2.1
 sys-devel/autoconf:2.5
@@ -1971,7 +1971,6 @@ sys-fs/udisks:2
 sys-fs/xfsdump:0
 sys-fs/xfsprogs:0
 sys-fs/zfs-kmod:0
-sys-fs/zfs:0
 sys-kernel/dracut:0
 sys-kernel/gentoo-sources:3.11.4
 sys-kernel/gentoo-sources:3.11.5
@@ -1988,7 +1987,6 @@ sys-libs/db:4.5
 sys-libs/db:4.6
 sys-libs/db:4.7
 sys-libs/db:4.8
-sys-libs/glibc:2.2
 sys-libs/gpm:0
 sys-libs/ldb:0
 sys-libs/libcap-ng:0
@@ -2037,6 +2035,7 @@ virtual/libc:0
 virtual/libffi:0
 virtual/libusb:1
 virtual/linux-sources:0
+virtual/opencl:0
 virtual/opengl:0
 virtual/package-manager:0
 virtual/pager:0
