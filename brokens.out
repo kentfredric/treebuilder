@@ -1901,7 +1901,6 @@ virtual/pager:0
 virtual/perl-Archive-Extract:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
-virtual/perl-ExtUtils-MakeMaker:0
 virtual/perl-ExtUtils-ParseXS:0
 virtual/perl-File-Fetch:0
 virtual/perl-Getopt-Long:0
