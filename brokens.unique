@@ -327,6 +327,7 @@ dev-perl/Audio-Extract-PCM:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/B-Hooks-OP-Check-EntersubForCV:0
 dev-perl/Bit-Vector:0
+dev-perl/CGI-Application-Plugin-Authentication:0
 dev-perl/CPAN-Reporter:0
 dev-perl/Catalyst-Controller-HTML-FormFu:0
 dev-perl/Catalyst-Engine-HTTP-Prefork:0
