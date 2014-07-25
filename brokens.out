@@ -1895,13 +1895,13 @@ sys-apps/openrc:0
 sys-apps/paxctl:0
 sys-apps/pciutils:0
 sys-apps/pmount:0
+sys-apps/portage:0
 sys-apps/rescan-scsi-bus:0
 sys-apps/sandbox:0
 sys-apps/sed:0
 sys-apps/sg3_utils:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
-sys-apps/systemd:0/1
 sys-apps/texinfo:0
 sys-apps/usbutils:0
 sys-apps/vbetool:0
@@ -2057,7 +2057,6 @@ virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
-virtual/udev:0
 virtual/yacc:0
 www-client/firefox:0
 www-client/links:2

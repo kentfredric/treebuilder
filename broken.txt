@@ -67,6 +67,7 @@ app-emulation/emul-linux-x86-medialibs:0
 app-emulation/emul-linux-x86-qtlibs:0
 app-emulation/emul-linux-x86-soundlibs:0
 app-emulation/emul-linux-x86-xlibs:0
+app-emulation/virtualbox:0
 app-i18n/enca:0
 app-i18n/ibus:0
 app-laptop/laptop-mode-tools:0
@@ -1902,9 +1903,9 @@ sys-apps/sed:0
 sys-apps/sg3_utils:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
-sys-apps/systemd:0/1
 sys-apps/texinfo:0
 sys-apps/usbutils:0
+sys-apps/util-linux:0
 sys-apps/vbetool:0
 sys-apps/xinetd:0
 sys-auth/consolekit:0
@@ -2020,12 +2021,14 @@ sys-process/at:0
 sys-process/atop:0
 sys-process/iotop:0
 sys-process/latencytop:0
+sys-process/procps:0
 sys-process/psmisc:0
 sys-process/time:0
 sys-process/vixie-cron:0
 virtual/awk:0
 virtual/blas:0
 virtual/cron:0
+virtual/dev-manager:0
 virtual/editor:0
 virtual/eject:0
 virtual/ffmpeg:0
@@ -2039,6 +2042,7 @@ virtual/libc:0
 virtual/libffi:0
 virtual/libusb:1
 virtual/linux-sources:0
+virtual/logger:0
 virtual/opencl:0
 virtual/opengl:0
 virtual/package-manager:0
@@ -2058,7 +2062,6 @@ virtual/service-manager:0
 virtual/shadow:0
 virtual/ssh:0
 virtual/tex-base:0
-virtual/udev:0
 virtual/yacc:0
 www-client/firefox:0
 www-client/links:2
