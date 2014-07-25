@@ -607,6 +607,7 @@ dev-perl/Expect-Simple:0
 dev-perl/Exporter-Declare:0
 dev-perl/ExtUtils-CChecker:0
 dev-perl/ExtUtils-Config:0
+dev-perl/ExtUtils-Helpers:0
 dev-perl/ExtUtils-InstallPaths:0
 dev-perl/Fennec-Lite:0
 dev-perl/Fennec:0
