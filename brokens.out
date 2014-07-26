@@ -261,6 +261,7 @@ dev-libs/gdl:3/5
 dev-libs/gdome2:0
 dev-libs/geoip:0
 dev-libs/gmp:0
+dev-libs/gobject-introspection-common:0
 dev-libs/hyphen:0
 dev-libs/icu:0/51.1
 dev-libs/iniparser:0
@@ -297,6 +298,7 @@ dev-libs/libtasn1:0
 dev-libs/libunique:1
 dev-libs/libusb-compat:0
 dev-libs/libusb:1
+dev-libs/libverto:0
 dev-libs/libwacom:0
 dev-libs/libxml2:2
 dev-libs/libxslt:0
@@ -1276,6 +1278,7 @@ dev-perl/crypt-cbc:0
 dev-perl/crypt-dsa:0
 dev-perl/crypt-rsa:0
 dev-perl/experimental:0
+dev-perl/glib-perl:0
 dev-perl/gtk2-fu:0
 dev-perl/indirect:0
 dev-perl/libwww-perl:0
@@ -1382,6 +1385,7 @@ dev-util/intel-ocl-sdk:0
 dev-util/intltool:0
 dev-util/itstool:0
 dev-util/ltrace:0
+dev-util/pkgconfig:0
 dev-util/ragel:0
 dev-util/reswrap:0
 dev-util/scons:0
@@ -1753,6 +1757,7 @@ net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/ntop:0
 net-analyzer/portsentry:0
+net-analyzer/rrdtool:0
 net-analyzer/slurm:0
 net-analyzer/tcpdump:0
 net-analyzer/upnpscan:0
@@ -1772,6 +1777,7 @@ net-fs/smbnetfs:0
 net-ftp/lftp:0
 net-im/bitlbee:0
 net-im/skype:0
+net-irc/irssi:0
 net-libs/glib-networking:0
 net-libs/gnutls:0
 net-libs/libktorrent:4
@@ -1780,6 +1786,7 @@ net-libs/libmediawiki:4
 net-libs/libnet:1.1
 net-libs/libnfsidmap:0
 net-libs/libpcap:0
+net-libs/libproxy:0
 net-libs/librpcsecgss:0
 net-libs/libsoup:2.4
 net-libs/libssh:0
@@ -1896,6 +1903,7 @@ sys-apps/sed:0
 sys-apps/sg3_utils:0
 sys-apps/shadow:0
 sys-apps/smartmontools:0
+sys-apps/systemd:0/2
 sys-apps/texinfo:0
 sys-apps/usbutils:0
 sys-apps/util-linux:0
@@ -2275,6 +2283,7 @@ x11-themes/gtk-engines:2
 x11-themes/gtk-theme-switch:0
 x11-themes/hicolor-icon-theme:0
 x11-themes/oxygen-molecule:4
+x11-themes/sound-theme-freedesktop:0
 x11-themes/xcursor-neutral:0
 x11-themes/xcursor-themes:0
 x11-wm/awesome:0
