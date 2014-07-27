@@ -86,7 +86,6 @@ app-office/akonadi-server:0
 app-office/dia:0
 app-pda/gtkpod:0
 app-pda/libimobiledevice:0/4
-app-pda/libplist:0
 app-pda/usbmuxd:0
 app-portage/eix:0
 app-portage/genlop:0
@@ -1613,7 +1612,6 @@ media-libs/libggi:0
 media-libs/libggiwmh:0
 media-libs/libgii:0
 media-libs/libgphoto2:0/6
-media-libs/libgpod:0
 media-libs/libid3tag:0
 media-libs/libjpeg-turbo:0
 media-libs/libmad:0
@@ -2016,7 +2014,6 @@ sys-power/pm-utils:0
 sys-power/pmtools:0
 sys-power/powermgmt-base:0
 sys-power/powertop:0
-sys-power/upower:0
 sys-process/acct:0
 sys-process/at:0
 sys-process/atop:0
