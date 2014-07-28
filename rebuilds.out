@@ -1,7 +1,1 @@
-app-pda/gtkpod:0
-app-pda/libimobiledevice:0/4
-app-pda/usbmuxd:0
-kde-base/kdelibs:4
-media-gfx/gimp:2
-media-sound/lastfmplayer:0
-net-misc/networkmanager:0
+virtual/perl-ExtUtils-Command:0

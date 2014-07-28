@@ -2048,6 +2048,7 @@ virtual/pager:0
 virtual/perl-Archive-Extract:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
+virtual/perl-ExtUtils-Command:0
 virtual/perl-Getopt-Long:0
 virtual/perl-Params-Check:0
 virtual/perl-Version-Requirements:0
