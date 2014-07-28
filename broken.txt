@@ -1829,6 +1829,7 @@ perl-core/B-Lint:0
 perl-core/CPAN-Meta:0
 perl-core/CPANPLUS-Dist-Build:0
 perl-core/CPANPLUS:0
+perl-core/ExtUtils-MakeMaker:0
 perl-core/File-Fetch:0
 perl-core/HTTP-Tiny:0
 perl-core/IPC-Cmd:0
@@ -2048,7 +2049,6 @@ virtual/pager:0
 virtual/perl-Archive-Extract:0
 virtual/perl-CPANPLUS:0
 virtual/perl-Digest-SHA:0
-virtual/perl-ExtUtils-Command:0
 virtual/perl-Getopt-Long:0
 virtual/perl-Params-Check:0
 virtual/perl-Version-Requirements:0
