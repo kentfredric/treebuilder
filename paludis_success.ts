@@ -1,1 +1,1 @@
-+2014, 10 October, 09 Thursday, 23:14:17.351641191 636910:126323 714603:7690 ** ~success  install : media-fonts/font-winitzki-cyrillic-1.0.3:0::gentoo
++2014, 10 October, 10 Friday, 00:25:13.653347173 636910:551953 ** ~success true task : 

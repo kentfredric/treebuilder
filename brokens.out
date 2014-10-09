@@ -1357,7 +1357,6 @@ dev-texlive/texlive-texinfo:0
 dev-util/anjuta:0
 dev-util/automoc:0
 dev-util/catalyst:0
-dev-util/cmake:0
 dev-util/cscope:0
 dev-util/ctags:0
 dev-util/d-feet:0
