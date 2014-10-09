@@ -398,6 +398,7 @@ dev-perl/CSS-Packer:0
 dev-perl/CSS-Tiny:0
 dev-perl/Cache-Cache:0
 dev-perl/Cache-FastMmap:0
+dev-perl/Cache-Memcached-Managed:0
 dev-perl/Cache-Ref:0
 dev-perl/Cache:0
 dev-perl/Cairo-GObject:0
@@ -1732,6 +1733,7 @@ net-analyzer/arping:2
 net-analyzer/ettercap:0
 net-analyzer/iptraf-ng:0
 net-analyzer/mtr:0
+net-analyzer/munin:0
 net-analyzer/nettop:0
 net-analyzer/nmap:0
 net-analyzer/ntop:0
@@ -1752,6 +1754,7 @@ net-fs/cifs-utils:0
 net-fs/nfs-utils:0
 net-fs/samba:0
 net-fs/smbnetfs:0
+net-ftp/lftp:0
 net-im/bitlbee:0
 net-im/skype:0
 net-irc/irssi:0
@@ -1778,6 +1781,7 @@ net-misc/curl:0
 net-misc/dhcp:0
 net-misc/dhcpcd:0
 net-misc/iputils:0
+net-misc/memcached:0
 net-misc/netifrc:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
