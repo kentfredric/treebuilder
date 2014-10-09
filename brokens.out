@@ -399,7 +399,6 @@ dev-perl/CSS-Tiny:0
 dev-perl/Cache-Cache:0
 dev-perl/Cache-FastMmap:0
 dev-perl/Cache-Memcached-Managed:0
-dev-perl/Cache-Memcached:0
 dev-perl/Cache-Ref:0
 dev-perl/Cache:0
 dev-perl/Cairo-GObject:0
@@ -1280,7 +1279,6 @@ dev-perl/prefork:0
 dev-perl/regexp-common:0
 dev-perl/set-scalar:0
 dev-perl/signatures:0
-dev-perl/string-crc32:0
 dev-perl/true:0
 dev-perl/utf8-all:0
 dev-perl/wxperl:0
@@ -1389,7 +1387,6 @@ dev-vcs/subversion:0
 games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
-games-misc/openmsx:0
 games-util/grfcodec:0
 gnome-base/dconf:0
 gnome-base/gconf:2

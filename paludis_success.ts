@@ -1,1 +1,1 @@
-+2014, 10 October, 10 Friday, 00:25:13.653347173 636910:551953 ** ~success true task : 
++2014, 10 October, 10 Friday, 01:20:21.162023755 812967:31423 824805:5310 ** ~success  install : games-misc/openmsx-0.3.1:0::gentoo
