@@ -1,1 +1,1 @@
-+2014, 10 October, 11 Saturday, 04:22:12.782845853 567294:1039852 51873:6691 ** ~success  install : dev-perl/Lingua-EN-Inflect-1.895.0-r1:0::gentoo
++2014, 10 October, 11 Saturday, 06:08:25.075418350 567294:1677081 373328:5109 ** ~success  clean : dev-perl/MooseX-Types-Path-Tiny-0.2.0:0::installed
