@@ -190,6 +190,7 @@ dev-db/postgresql-base:9.3
 dev-db/postgresql-server:9.1
 dev-db/postgresql-server:9.2
 dev-db/postgresql-server:9.3
+dev-db/postgresql-server:9.4
 dev-db/sqlite:0
 dev-db/sqlite:3
 dev-db/unixODBC:0
@@ -257,7 +258,6 @@ dev-libs/glib:2
 dev-libs/gobject-introspection-common:0
 dev-libs/gobject-introspection:0
 dev-libs/hyphen:0
-dev-libs/icu:0/51.1
 dev-libs/iniparser:0
 dev-libs/isl:0
 dev-libs/json-glib:0
@@ -292,7 +292,6 @@ dev-libs/libunique:1
 dev-libs/libusb-compat:0
 dev-libs/libverto:0
 dev-libs/libwacom:0
-dev-libs/libxml2:2
 dev-libs/libxslt:0
 dev-libs/nspr:0
 dev-libs/nss:0
@@ -316,7 +315,6 @@ dev-libs/xmlrpc-c:0
 dev-libs/xmlrpc-epi:0
 dev-libs/yajl:0
 dev-libs/zthread:0
-dev-libs/zziplib:0
 dev-lua/lgi:0
 dev-perl/Acme-Damn:0
 dev-perl/Acme-LAUTER-DEUTSCHER:0
@@ -711,6 +709,7 @@ dev-perl/FreezeThaw:0
 dev-perl/Fuse:0
 dev-perl/GD-Barcode:0
 dev-perl/GD-SVG:0
+dev-perl/GD:0
 dev-perl/GSSAPI:0
 dev-perl/Gentoo-MetaEbuild-Spec-Base:0
 dev-perl/Gentoo-MirrorList:0
@@ -1242,10 +1241,12 @@ dev-perl/XML-Feed:0
 dev-perl/XML-Filter-BufferText:0
 dev-perl/XML-Generator-PerlData:0
 dev-perl/XML-Handler-YAWriter:0
+dev-perl/XML-LibXML:0
 dev-perl/XML-LibXSLT:0
 dev-perl/XML-RSS-LibXML:0
 dev-perl/XML-RSS-Parser:0
 dev-perl/XML-SAX-Writer:0
+dev-perl/XML-SAX:0
 dev-perl/XML-Tidy:0
 dev-perl/XML-Twig:0
 dev-perl/XML-XPathEngine:0
@@ -1384,7 +1385,6 @@ dev-vcs/git:0
 dev-vcs/mercurial:0
 dev-vcs/qgit:2
 dev-vcs/subversion:0
-games-emulation/dosbox:0
 games-misc/bsd-games-non-free:0
 games-misc/bsd-games:0
 games-util/grfcodec:0
@@ -1506,7 +1506,6 @@ media-fonts/sil-gentium:0
 media-fonts/tengwar-fonts:0
 media-fonts/terminus-font:0
 media-fonts/webby-fonts:0
-media-gfx/arss:0
 media-gfx/autopano-sift-C:0
 media-gfx/ebdftopcf:0
 media-gfx/enblend:0
@@ -1530,7 +1529,6 @@ media-gfx/qrencode:0
 media-gfx/sane-backends:0
 media-gfx/uniconvertor:0
 media-libs/a52dec:0
-media-libs/aalib:0
 media-libs/alsa-lib:0
 media-libs/alsa-oss:0
 media-libs/audiofile:0/1
@@ -1564,7 +1562,6 @@ media-libs/gst-plugins-good:1.0
 media-libs/gst-plugins-ugly:0.10
 media-libs/gstreamer:0.10
 media-libs/gstreamer:1.0
-media-libs/harfbuzz:0/0.9.18
 media-libs/herqq:0
 media-libs/id3lib:0
 media-libs/imlib2:0
@@ -1575,7 +1572,6 @@ media-libs/lcms:2
 media-libs/lensfun:0
 media-libs/libaacplus:0
 media-libs/libao:0
-media-libs/libart_lgpl:0
 media-libs/libass:0
 media-libs/libbs2b:0
 media-libs/libcanberra:0
@@ -1607,7 +1603,6 @@ media-libs/libmtp:0
 media-libs/libofa:0
 media-libs/libopenraw:0/7
 media-libs/libpano13:0
-media-libs/libpng:0/16
 media-libs/libpng:1.2
 media-libs/libpng:1.5
 media-libs/libquicktime:0
@@ -1616,13 +1611,13 @@ media-libs/libquvi:0
 media-libs/libraw:0/9
 media-libs/libreplaygain:0
 media-libs/libsamplerate:0
-media-libs/libsdl:0
 media-libs/libshout:0
 media-libs/libsndfile:0
 media-libs/libsvg:0
 media-libs/libtheora:0
 media-libs/libv4l:0
 media-libs/libvorbis:0
+media-libs/libwebp:0/5
 media-libs/libwmf:0
 media-libs/libxmi:0
 media-libs/mesa:0
@@ -1641,9 +1636,7 @@ media-libs/plotutils:0
 media-libs/portaudio:0
 media-libs/prison:4
 media-libs/quvi:0
-media-libs/raptor:2
 media-libs/schroedinger:0
-media-libs/sdl-image:0
 media-libs/sdl-net:0
 media-libs/sdl-sound:0
 media-libs/silgraphite:0
@@ -1653,7 +1646,6 @@ media-libs/speex:0
 media-libs/t1lib:5
 media-libs/taglib:0
 media-libs/tiff:0
-media-libs/urt:0
 media-libs/vigra:0
 media-libs/webrtc-audio-processing:0
 media-libs/x264:0/138
@@ -1700,12 +1692,9 @@ media-sound/baudline:0
 media-sound/boodler:0
 media-sound/cdparanoia:0
 media-sound/id3v2:0
-media-sound/jack-audio-connection-kit:0
 media-sound/lame:0
 media-sound/lastfmplayer:0
 media-sound/lilypond:0
-media-sound/mac:0
-media-sound/moodbar:0
 media-sound/mpd:0
 media-sound/mpg123:0
 media-sound/musepack-tools:0
@@ -1722,7 +1711,7 @@ media-video/dvdrip:0
 media-video/ffmpeg:0
 media-video/mjpegtools:1
 media-video/mkvtoolnix:0
-media-video/rtmpdump:0
+media-video/mplayer:0
 media-video/smplayer:0
 media-video/subtitleripper:0
 media-video/transcode:0
@@ -1781,7 +1770,6 @@ net-misc/curl:0
 net-misc/dhcp:0
 net-misc/dhcpcd:0
 net-misc/iputils:0
-net-misc/memcached:0
 net-misc/netifrc:0
 net-misc/netkit-telnetd:0
 net-misc/networkmanager:0
@@ -1789,7 +1777,6 @@ net-misc/ntp:0
 net-misc/rdesktop:0
 net-misc/remmina:0
 net-misc/rsync:0
-net-misc/tightvnc:0
 net-misc/wget:0
 net-misc/whois:0
 net-misc/wicd:0
@@ -1798,6 +1785,7 @@ net-nds/openldap:0
 net-nds/rpcbind:0
 net-p2p/ktorrent:4
 net-p2p/rtorrent:0
+net-print/cups-filters:0
 net-print/cups:0
 net-proxy/dante:0
 net-wireless/bluez:0
@@ -1813,8 +1801,6 @@ sci-libs/cln:1
 sci-libs/colamd:0
 sci-libs/fftw:3.0
 sci-libs/flann:0
-sci-libs/gsl:0
-sci-libs/hdf5:0
 sci-libs/libqalculate:0
 sci-libs/proj:0
 sci-libs/umfpack:0
@@ -1826,12 +1812,10 @@ sys-apps/acl:0
 sys-apps/attr:0
 sys-apps/biosdevname:0
 sys-apps/diffutils:0
-sys-apps/dmapi:0
 sys-apps/ethtool:0
 sys-apps/file:0
 sys-apps/flashrom:0
 sys-apps/gnome-disk-utility:0
-sys-apps/gptfdisk:0
 sys-apps/grep:0
 sys-apps/groff:0
 sys-apps/help2man:0
@@ -2076,7 +2060,6 @@ x11-drivers/xf86-input-wacom:0
 x11-drivers/xf86-video-modesetting:0
 x11-drivers/xf86-video-nv:0
 x11-drivers/xf86-video-vesa:0
-x11-libs/cairo:0
 x11-libs/fltk:1
 x11-libs/fox:1.7
 x11-libs/gdk-pixbuf:2
@@ -2123,7 +2106,6 @@ x11-libs/libnotify:0
 x11-libs/libpciaccess:0
 x11-libs/libsvg-cairo:0
 x11-libs/libva-vdpau-driver:0
-x11-libs/libva:0
 x11-libs/libvdpau:0
 x11-libs/libwnck:1
 x11-libs/libwnck:3
@@ -2131,8 +2113,6 @@ x11-libs/libxcb:0
 x11-libs/libxkbfile:0
 x11-libs/libxklavier:0
 x11-libs/motif:0
-x11-libs/pango:0
-x11-libs/pixman:0
 x11-libs/qscintilla:0
 x11-libs/qwt:6
 x11-libs/startup-notification:0
