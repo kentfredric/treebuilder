@@ -1,1 +1,1 @@
-+2014, 10 October, 11 Saturday, 06:08:25.075418350 567294:1677081 373328:5109 ** ~success  clean : dev-perl/MooseX-Types-Path-Tiny-0.2.0:0::installed
++2014, 10 October, 11 Saturday, 06:17:41.225682562 567294:1732696 400887:3841 ** ~success  clean : dev-perl/Regexp-RegGrp-1.2.1:0::installed

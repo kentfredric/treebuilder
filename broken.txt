@@ -837,6 +837,7 @@ dev-perl/Net-OAuth2:0
 dev-perl/Net-SMTP-SSL:0
 dev-perl/Net-SNMP:0
 dev-perl/Net-Server-SS-PreFork:0
+dev-perl/Net-Twitter:0
 dev-perl/NetAddr-IP:0
 dev-perl/Number-Bytes-Human:0
 dev-perl/Number-Tolerant:0
@@ -895,7 +896,6 @@ dev-perl/Plack-Test-ExternalServer:0
 dev-perl/Plack:0
 dev-perl/Pod-Abstract:0
 dev-perl/Pod-Constants:0
-dev-perl/Pod-Coverage-Moose:0
 dev-perl/Pod-Coverage-TrustPod:0
 dev-perl/Pod-Elemental-PerlMunger:0
 dev-perl/Pod-Elemental-Transformer-List:0
@@ -906,7 +906,6 @@ dev-perl/Pod-Plainer:0
 dev-perl/Pod-ProjectDocs:0
 dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Readme:0
-dev-perl/Pod-Strip:0
 dev-perl/Pod-Weaver-Plugin-Encoding:0
 dev-perl/Pod-Weaver:0
 dev-perl/Pod-WikiDoc:0
@@ -918,7 +917,6 @@ dev-perl/RPC-XML:0
 dev-perl/RRD-Simple:0
 dev-perl/Regexp-Grammars-Common-String:0
 dev-perl/Regexp-Grammars:0
-dev-perl/Regexp-RegGrp:0
 dev-perl/Return-MultiLevel:0
 dev-perl/Return-Value:0
 dev-perl/Role-HasPayload:0

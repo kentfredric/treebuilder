@@ -445,6 +445,8 @@ dev-perl/Catalyst-Plugin-Session-Store-DBI:0
 dev-perl/Catalyst-Plugin-Session-Store-DBIC:0
 dev-perl/Catalyst-Plugin-Session-Store-Delegate:0
 dev-perl/Catalyst-Plugin-Session-Store-FastMmap:0
+dev-perl/Catalyst-Plugin-Session-Store-File:0
+dev-perl/Catalyst-Plugin-Session-Store-Memcached:0
 dev-perl/Catalyst-Plugin-Session:0
 dev-perl/Catalyst-Plugin-Setenv:0
 dev-perl/Catalyst-Plugin-Spark-Form:0
@@ -475,6 +477,7 @@ dev-perl/Class-Adapter:0
 dev-perl/Class-Base:0
 dev-perl/Class-C3-XS:0
 dev-perl/Class-Container:0
+dev-perl/Class-DBI-FromForm:0
 dev-perl/Class-DBI-Loader:0
 dev-perl/Class-DBI-Plugin-DeepAbstractSearch:0
 dev-perl/Class-DBI-Plugin:0
@@ -561,6 +564,7 @@ dev-perl/DateTime-Format-Epoch:0
 dev-perl/DateTime-Format-Excel:0
 dev-perl/DateTime-Format-Flexible:0
 dev-perl/DateTime-Format-ISO8601:0
+dev-perl/DateTime-Format-Natural:0
 dev-perl/DateTime-Format-Pg:0
 dev-perl/DateTime-TimeZone-SystemV:0
 dev-perl/DateTime-TimeZone-Tzfile:0
@@ -629,6 +633,9 @@ dev-perl/EVDB-API:0
 dev-perl/ElasticSearch-SearchBuilder:0
 dev-perl/Email-MIME-Kit:0
 dev-perl/Email-Send:0
+dev-perl/Email-Sender:0
+dev-perl/Email-Stuffer:0
+dev-perl/Emailesque:0
 dev-perl/Encode-Base32-Crockford:0
 dev-perl/Event-ExecFlow:0
 dev-perl/Event-RPC:0
@@ -888,7 +895,6 @@ dev-perl/Plack-Test-ExternalServer:0
 dev-perl/Plack:0
 dev-perl/Pod-Abstract:0
 dev-perl/Pod-Constants:0
-dev-perl/Pod-Coverage-Moose:0
 dev-perl/Pod-Coverage-TrustPod:0
 dev-perl/Pod-Elemental-PerlMunger:0
 dev-perl/Pod-Elemental-Transformer-List:0
@@ -899,7 +905,6 @@ dev-perl/Pod-Plainer:0
 dev-perl/Pod-ProjectDocs:0
 dev-perl/Pod-PseudoPod:0
 dev-perl/Pod-Readme:0
-dev-perl/Pod-Strip:0
 dev-perl/Pod-Weaver-Plugin-Encoding:0
 dev-perl/Pod-Weaver:0
 dev-perl/Pod-WikiDoc:0
@@ -907,10 +912,10 @@ dev-perl/PortageXS:0
 dev-perl/Proc-Daemon:0
 dev-perl/Proc-ProcessTable:0
 dev-perl/Proc-Wait3:0
+dev-perl/RPC-XML:0
 dev-perl/RRD-Simple:0
 dev-perl/Regexp-Grammars-Common-String:0
 dev-perl/Regexp-Grammars:0
-dev-perl/Regexp-RegGrp:0
 dev-perl/Return-MultiLevel:0
 dev-perl/Return-Value:0
 dev-perl/Role-HasPayload:0
@@ -1623,6 +1628,7 @@ net-wireless/broadcom-sta:0
 net-wireless/crda:0
 net-wireless/iw:0
 net-wireless/wpa_supplicant:0
+perl-core/libnet:0
 sci-calculators/units:0
 sci-libs/amd:0
 sci-libs/blas-reference:0
