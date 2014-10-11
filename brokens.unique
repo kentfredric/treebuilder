@@ -341,7 +341,6 @@ dev-perl/Array-Compare:0
 dev-perl/Async-MergePoint:0
 dev-perl/Audio-Extract-PCM:0
 dev-perl/Audio-MPD-Common:0
-dev-perl/Audio-MPD:0
 dev-perl/Audio-Musepack:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/Audio-Ofa:0
@@ -552,6 +551,7 @@ dev-perl/Devel-GlobalDestruction-XS:0
 dev-perl/Devel-Hide:0
 dev-perl/Devel-Leak-Object:0
 dev-perl/Devel-NYTProf:0
+dev-perl/Devel-Pragma:0
 dev-perl/Devel-REPL:0
 dev-perl/Devel-Refactor:0
 dev-perl/Devel-SimpleTrace:0
@@ -681,8 +681,8 @@ dev-perl/HTTP-Response-Encoding:0
 dev-perl/HTTP-Server-Simple-PSGI:0
 dev-perl/HTTP-Tiny-Mech:0
 dev-perl/Handel:0
+dev-perl/Hash-StoredIterator:0
 dev-perl/Heap:0
-dev-perl/IO-Socket-IP:0
 dev-perl/IO-Util:0
 dev-perl/IPTables-ChainMgr:0
 dev-perl/IPTables-Parse:0
@@ -714,6 +714,7 @@ dev-perl/Locale-gettext:0
 dev-perl/Log-Agent:0
 dev-perl/Log-Any-Adapter-Dispatch:0
 dev-perl/Log-Any-Adapter:0
+dev-perl/Log-Contextual:0
 dev-perl/MIME-Lite:0
 dev-perl/MIME-tools:0
 dev-perl/MP3-Info:0
@@ -725,6 +726,7 @@ dev-perl/Math-Random-ISAAC-XS:0
 dev-perl/Math-Random-ISAAC:0
 dev-perl/Math-Round:0
 dev-perl/MemHandle:0
+dev-perl/Method-Signatures:0
 dev-perl/Mixin-ExtraFields-Param:0
 dev-perl/Mixin-ExtraFields:0
 dev-perl/Module-Data:0
@@ -894,6 +896,7 @@ dev-perl/Task-Kensho-ExcelCSV:0
 dev-perl/Task-Kensho-Exceptions:0
 dev-perl/Task-Kensho-Hackery:0
 dev-perl/Task-Kensho-Logging:0
+dev-perl/Task-Kensho-ModuleDev:0
 dev-perl/Task-Kensho-OOP:0
 dev-perl/Task-Kensho-Scalability:0
 dev-perl/Task-Kensho-Testing:0
@@ -1008,6 +1011,7 @@ dev-perl/gtk2-fu:0
 dev-perl/gtk2-gladexml:0
 dev-perl/mocked:0
 dev-perl/perl-ldap:0
+dev-perl/perl5i:0
 dev-perl/pip:0
 dev-perl/signatures:0
 dev-perl/wxperl:0

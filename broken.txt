@@ -341,7 +341,6 @@ dev-perl/Array-Compare:0
 dev-perl/Async-MergePoint:0
 dev-perl/Audio-Extract-PCM:0
 dev-perl/Audio-MPD-Common:0
-dev-perl/Audio-MPD:0
 dev-perl/Audio-Musepack:0
 dev-perl/Audio-Ofa-Util:0
 dev-perl/Audio-Ofa:0
@@ -684,7 +683,6 @@ dev-perl/HTTP-Tiny-Mech:0
 dev-perl/Handel:0
 dev-perl/Hash-StoredIterator:0
 dev-perl/Heap:0
-dev-perl/IO-Socket-IP:0
 dev-perl/IO-Util:0
 dev-perl/IPTables-ChainMgr:0
 dev-perl/IPTables-Parse:0
