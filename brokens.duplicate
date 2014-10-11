@@ -1,0 +1,13 @@
+app-vim/perl-support:0
+dev-perl/Catalyst-ActionRole-ACL:0
+dev-perl/CatalystX-Declare:0
+dev-perl/CatalystX-SimpleLogin:0
+dev-perl/Dist-Zilla-Plugin-MinimumPerl:0
+dev-perl/Dist-Zilla-Plugin-Test-Compile:0
+dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL:0
+dev-perl/Gitalist:0
+dev-perl/Task-Catalyst:0
+dev-perl/Task-Kensho-ModuleDev:0
+dev-perl/Test-Perl-Critic:0
+dev-perl/perl5i:0
+media-video/clive:0
